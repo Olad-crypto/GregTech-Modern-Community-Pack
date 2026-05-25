@@ -17,15 +17,15 @@
 	quests: [
 		{
 			description: [
-				"Эта сборка задумана как руководство по &b&lGregtech: Community Edition Unofficial Modern&r&r (также известному как &aGTCEu Modern&r or &aCEu Modern&r), продолжение &aGTCE&r - которая в свою очередь основана на Gregtech."
+				"Эта сборка задумана как руководство по &b&lGregtech: Community Edition Unofficial Modern&r&r (также известному как &aGTCEu Modern&r or &aCEu Modern&r). Это продолжение &aGTCE&r - которая в свою очередь основана на Gregtech."
 				""
-				"New content has been added to every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of new &dQuality of Life&r."
+				"Новый контент был добавлен на каждый уровень прогрессии, вплоть до &3Ultimate Voltage,&r, а также в сборке появилось немало новых &dУлучшений качества жизни&r."
 				""
-				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r. You can open the questbook with the default keybind &6F4&r, but feel free to change it if it isn't to your tastes."
+				"&aCEu Modern&r обновляет мод под &eсовременные верси&r of Minecraft &o(на момент написания)&r. По умолчанию квестбук открывается клавишей &6F4&r, но ты можешь изменить её, если тебе так удобнее."
 				"{@pagebreak}"
-				"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
+				"Пока что это &2чисто &lТехническая&r&2 сборка&r, сосредоточенная на GregTech и его прогрессии. Ты не найдёшь &6места лучше&r, чтобы изучить этот мод и все возможности, которые он добавляет!"
 				""
-				"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost.  We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
+				"TКвестбук, который ты сейчас читаешь, &eнаполнен информацией&r которая поможет тебе пройти сборку, так что заглядывай сюда, если запутаешься. Мы писали его как для &dветеранов старой школы&r, так и для &bновичков&r."
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
