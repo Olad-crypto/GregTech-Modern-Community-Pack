@@ -39,13 +39,13 @@
 			}]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "We hope you enjoy your stay"
+			subtitle: "Надеемся, тебе здесь понравится"
 			tasks: [{
 				id: "6C1F570DB9013DE7"
 				title: "Welcome!"
 				type: "checkmark"
 			}]
-			title: "Welcome to GregTech CEu!"
+			title: "Добро пожаловать в GregTech CEu!"
 			x: -0.75d
 			y: -1.5d
 		}
