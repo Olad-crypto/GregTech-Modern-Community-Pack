@@ -17,7 +17,7 @@
 	quests: [
 		{
 			description: [
-				"This modpack is intended as a guide on &b&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech."
+				"Эта сборка задумана как руководство по &b&lGregtech: Community Edition Unofficial Modern&r&r (также известному как &aGTCEu Modern&r or &aCEu Modern&r), продолжение &aGTCE&r - которая в свою очередь являеться основана на Gregtech."
 				""
 				"New content has been added to every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of new &dQuality of Life&r."
 				""
