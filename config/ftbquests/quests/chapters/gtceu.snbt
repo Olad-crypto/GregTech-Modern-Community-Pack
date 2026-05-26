@@ -42,7 +42,7 @@
 			subtitle: "Надеемся, тебе здесь понравится"
 			tasks: [{
 				id: "6C1F570DB9013DE7"
-				title: "Welcome!"
+				title: "Добро пожаловать!"
 				type: "checkmark"
 			}]
 			title: "Добро пожаловать в GregTech CEu!"
