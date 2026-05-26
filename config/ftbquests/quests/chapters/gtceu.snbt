@@ -60,7 +60,7 @@
 			id: "0EAF2C5B5EB755C5"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Begin your playthrough as before"
+			subtitle: "Начни прохождение как обычно"
 			tasks: [
 				{
 					count: 6L
@@ -82,7 +82,7 @@
 					type: "item"
 				}
 			]
-			title: "The Beginning of it All"
+			title: "Начало всего"
 			x: -0.75d
 			y: -3.0d
 		}
