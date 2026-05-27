@@ -17,15 +17,15 @@
 	quests: [
 		{
 			description: [
-				"Эта сборка задумана как руководство по &b&lGregtech: Community Edition Unofficial Modern&r&r (также известному как &aGTCEu Modern&r or &aCEu Modern&r). Это продолжение &aGTCE&r - которая в свою очередь основана на Gregtech."
+				"Эта сборка задумана как руководство по &b&lGregTech: Community Edition Unofficial Modern&r&r, также известному как &aGTCEu Modern&r или &aCEu Modern&r. Это развитие &aGTCE&r — проекта, который, в свою очередь, является форком GregTech."
 				""
-				"Новый контент был добавлен на каждый уровень прогрессии, вплоть до &3Ultimate Voltage,&r, а также в сборке появилось немало новых &dУлучшений качества жизни&r."
+				"Новый контент был добавлен на каждый уровень прогрессии, вплоть до &3Ultimate Voltage&r. Также в сборке появилось немало новых &dулучшений качества жизни&r."
 				""
-				"&aCEu Modern&r обновляет мод под &eсовременные верси&r of Minecraft &o(на момент написания)&r. По умолчанию квестбук открывается клавишей &6F4&r, но ты можешь изменить её, если тебе так удобнее."
+				"&aCEu Modern&r адаптирует мод под &eсовременные версии&r Minecraft &o(на момент написания)&r. По умолчанию квестбук открывается клавишей &6F4&r, но ты можешь изменить её, если тебе так удобнее."
 				"{@pagebreak}"
-				"Пока что это &2чисто &lТехническая&r&2 сборка&r, сосредоточенная на GregTech и его прогрессии. Ты не найдёшь &6места лучше&r, чтобы изучить этот мод и все возможности, которые он добавляет!"
+				"Это &2чисто &lтехническая&r&2 сборка&r, сосредоточенная на GregTech и его прогрессии. Ты не найдёшь &6места лучше&r, чтобы изучить этот мод и все возможности, которые он добавляет!"
 				""
-				"Квестбук, который ты сейчас читаешь, &eнаполнен информацией&r которая поможет тебе пройти сборку, так что заглядывай сюда, если запутаешься. Мы писали его как для &dветеранов старой школы&r, так и для &bновичков&r."
+				"Квестбук, который ты сейчас читаешь, &eполон полезной информации&r, которая поможет тебе пройти сборку. Заглядывай сюда, если запутаешься. Мы писали его как для &dветеранов старой школы&r, так и для &bновичков&r."
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
@@ -34,7 +34,7 @@
 				icon: "minecraft:cooked_beef"
 				id: "6FD85EC9BD99C866"
 				item: "gtceu:sus_record"
-				title: "Steak"
+				title: "Стейк"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -42,7 +42,7 @@
 			subtitle: "Надеемся, тебе здесь понравится"
 			tasks: [{
 				id: "6C1F570DB9013DE7"
-				title: "Wellcome!"
+				title: "Добро пожаловать!"
 				type: "checkmark"
 			}]
 			title: "Добро пожаловать в GregTech CEu!"
@@ -91,7 +91,7 @@
 			description: [
 				"Вот &6полезный&r список ресурсов, которые понадобятся тебе в больших количествах в ранней игре. Собери больше, чем требуется в этом квесте — они закончатся быстрее, чем ты успеешь заметить, а в &aGregTech&r всегда полезно собирать больше, чем нужно."
 				""
-				"На самом деле мы советуем &eсначала выполнить этот квест&r, чтобы получить его &bнаграду&r." Так ты сможешь немного продвинуться по основной прогрессии &4&lДО ТОГО&r, как тебе придётся идти копаться в шахте."
+				"На самом деле мы советуем &eсначала выполнить этот квест&r, чтобы получить его &bнаграду&r. Так ты сможешь немного продвинуться по основной прогрессии &4&lДО ТОГО&r, как тебе придётся идти копать."
 				""
 				"Если ты новичок в &aGregTech&r, восемь печей могут показаться &cперебором&r, но поверь нам... печей много не бывает."
 			]
@@ -145,7 +145,7 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Генерация руд в &2GregTech&r сильно отличается от ванильного и обычного модифицированного Minecraft. Все руды генерируются в &6огромных жилах&r, которые могут содержать &dсотни&o&r блоков руды."
+				"Генерация руд в &2GregTech&r сильно отличается от ванильной и от обычной генерации в модифицированном Minecraft. Все руды появляются в &6огромных жилах&r, которые могут содержать &d&oсотни&r блоков руды."
 				""
 				"В GTCEu теперь встроена функция &dвизуальной разведки&r, которая отмечает найденные рудные жилы на карте. Нажми &9ПКМ&r по блоку руды в жиле или по камешку на поверхности, чтобы добавить жилу на карту. Отображение рудных жил можно включить или выключить в левом нижнем углу полноэкранной карты."
 				"{@pagebreak}"
@@ -172,7 +172,7 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Ты знал, что в &aGregTech&r есть собственные инструменты. Если нет, то тебя может это приятно удивить, они &6&lлучше&r своих ванильных аналогов."
+				"Знал ли ты, что в &aGregTech&r есть собственные инструменты? Если нет, то тебя может приятно удивить, что они &6&lпревосходят&r свои ванильные аналоги."
 				""
 				"Возьмём топор GregTech в качестве примера. Если срубить им бревно в дереве, он повалит для тебя &2всё дерево&r целиком. Берегись!"
 				""
@@ -813,13 +813,13 @@
 				""
 				"Тебе стоит пойти и собрать побольше железа, потому что совсем скоро оно понадобится тебе &9в больших количествах&r. Если не получается его найти, во вкладке квестов &a«Генерация руд»&r есть много информации о &eрудных жилах&r. Также стоит заглянуть во вкладки «Информация о появлении руд» и «Список побочных продуктов руд» в &2EMI&r."
 				""
-				"Любое сырьё, которые мы просим в этом квесте, можно напрямую переплавить в железо. Итого есть &dчетыре разные жилы&r, из которых можно получить железо."
+				"Любую из сырых руд, которые мы просим в этом квесте, можно напрямую переплавить в железо. Итого есть &dчетыре разные жилы&r, из которых можно получить железо."
 				""
-				"И напоследок: удача, &cк сожалению&r, &7не работает&r на рудах GregTech."
+				"И напоследок: удача &cне работает&r на рудах GregTech, &7к сожалению&r."
 				"{@pagebreak}"
 				"В &bмодифицированном Minecraft&r многие привыкли копить руду до тех пор, пока не откроют какое-нибудь &aумножение руды&r, но пока не переживай о переработке. Прямая переплавка ещё очень, &oочень&r долго остаётся самым эффективным способом, ведь за один &eпоход в шахту&r здесь легко набрать много руды."
 				""
-				"Собери &l&cлюбое&r &dсырьё&r, чтобы выполнить этот квест!"
+				"Чтобы выполнить этот квест, собери &l&cлюбую&r из указанных &dсырых руд&r!"
 			]
 			icon: "minecraft:iron_ingot"
 			id: "1ECBA1CBFFB9F625"
@@ -883,15 +883,15 @@
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"More GregTech tools are required for progression - here are the ones to lay eyes on."
+				"Для прогрессии понадобятся и другие инструменты GregTech — вот те, на которые стоит обратить внимание."
 				""
-				"&9&lWrench:&r A crafting tool, but also the correct tool for GregTech machines... perfect if you think using pickaxes is unethical. It can also double as a &6wrench for other mods&r. Right-click allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
+				"&9&lГаечный ключ&f:&r Инструмент для крафта, а также правильный инструмент для машин GregTech... идеально, если ты считаешь использование кирок неэтичным. Он также может работать как &6ключ для других модов&r. ПКМ позволяет задать сторону выхода у машин GregTech, а Shift + ПКМ поворачивает машины."
 				""
-				"&9&lFile:&r A crafting tool... and that's it. Yay!"
+				"&9&lНапильник&f:&r Инструмент для крафта... и всё. Ура!"
 				""
-				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That being said, you can still use it to get &a6 Planks per Log&r, if you wish."
+				"&9&lПила&f:&r Ещё один инструмент для крафта. Будь мы чуть злее, мы бы заставили использовать её, чтобы получать 4 доски и 4 палки из соответствующих рецептов. Тем не менее, при желании с её помощью можно получать &a6 досок с одного бревна&r."
 				"{@pagebreak}"
-				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
+				"&eПримечание:&r Любой квест с инструментами GregTech можно выполнить инструментом из любого материала — не только из того, который показан."
 			]
 			icon: {
 				Count: 1
@@ -914,7 +914,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "Any Wrench!"
+					title: "Любой гаечный ключ!"
 					type: "item"
 				}
 				{
@@ -926,7 +926,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "Any File!"
+					title: "Любой напильник!"
 					type: "item"
 				}
 				{
@@ -938,38 +938,38 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "Any Saw!"
+					title: "Любая пила!"
 					type: "item"
 				}
 			]
-			title: "Important Tools"
+			title: "Важные инструменты"
 			x: 3.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More tools - they're not critically important right now, but you'll need to make these at some point."
+				"Ещё инструменты — сейчас они не критически важны, но рано или поздно тебе придётся их сделать."
 				""
-				"&9&lScrewdriver:&r A crafting tool. It's used for special configuration of machines and covers."
+				"&9&lОтвёртка&f:&r Инструмент для крафта. Используется для особой настройки машин и крышек."
 				""
-				"&9&lWire Cutter:&r A crafting tool. You'll need it if you want to configure wire connections. Right-clicking on wires will enable or disable connection to other blocks."
+				"&9&lКусачки&f:&r Инструмент для крафта. Они понадобятся, если ты захочешь настраивать соединения проводов. ПКМ по проводам включает или отключает соединение с другими блоками."
 				""
-				"&9&lMortar:&r A crafting tool, used to grind various things down into dust form."
+				"&9&lСтупка&f:&r Инструмент для крафта, используемый для измельчения разных вещей в пыль."
 				""
-				"&9&lKnife:&r A pretty mediocre weapon, better suited as - &oyou guessed it&r - a crafting tool!"
+				"&9&lНож&f:&r Довольно посредственное оружие, больше подходящее как — &oты угадал&r — инструмент для крафта!"
 				""
-				"&9&lSoft Mallet:&r A tool to toggle machine operation with a simple right-click."
+				"&9&lМягкий молоток&f:&r Инструмент для включения и выключения работы машин простым нажатием ПКМ."
 				"{@pagebreak}"
-				"There are a couple of other tools that are quite niche, but deserve a mention."
+				"Есть ещё пара довольно нишевых инструментов, но они заслуживают упоминания."
 				""
-				"&9&lCrowbar:&r A helpful tool that can remove covers from &aGregTech&r machines by right-clicking the side."
+				"&9&lМонтировка&f:&r Полезный инструмент, который позволяет снимать крышки с машин &aGregTech&r нажатием ПКМ по стороне блока."
 				""
-				"&9&lScythe:&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!"
+				"&9&lКоса&f:&r Мощный фермерский инструмент, который автоматически пересаживает урожай на большой площади. А ещё это неожиданно хорошее оружие!"
 				""
-				"&9&lPlunger:&r A tool to clear stuck fluids from GregTech&a machines."
+				"&9&lВантуз&f:&r Инструмент для удаления застрявших жидкостей из машин &aGregTech&r."
 				"{@pagebreak}"
-				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
+				"&e&lПримечание:&r Награда за этот квест — &3дамасская сталь&r, редкий материал, который можно найти только как добычу в Верхнем мире. Он намного превосходит материалы, которые у тебя есть сейчас, так что обязательно используй его."
 			]
 			icon: {
 				Count: 1
@@ -999,7 +999,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "Any Screwdriver!"
+					title: "Любая отвёртка!"
 					type: "item"
 				}
 				{
@@ -1011,7 +1011,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "Any Wire Cutter!"
+					title: "Любые кусачки!"
 					type: "item"
 				}
 				{
@@ -1023,7 +1023,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "Any Mortar!"
+					title: "Любая ступка!"
 					type: "item"
 				}
 				{
@@ -1035,7 +1035,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "Any Knife!"
+					title: "Любой нож!"
 					type: "item"
 				}
 				{
@@ -1047,32 +1047,32 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "Any Soft Mallet!"
+					title: "Любой мягкий молоток!"
 					type: "item"
 				}
 			]
-			title: "More Tools"
+			title: "Ещё инструменты"
 			x: 5.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"The &e&lCoke Oven&r will likely be your first &aGregTech&r multiblock. Congratulations!"
+				"&e&lКоксовая печь&r, скорее всего, станет твоим первым мультиблоком &aGregTech&r. Поздравляем!"
 				""
-				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
+				"Она используется для получения &aкокса&r из &eугля&r или &aдревесного угля&r из &eдерева&r, а также даёт &dжидкий креозот&r в качестве &3бонусного&r выхода."
 				""
-				"Take a look at the &6Multiblock Preview&r tab in EMI (press &dU&r over the controller block of any Multiblock!) to see the structure pattern."
+				"Загляни во вкладку &6предпросмотра мультиблока&r в EMI (наведи на контроллер любого мультиблока и нажми &dU&r!), чтобы увидеть схему конструкции."
 				"{@pagebreak}"
-				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
+				"&9Примечание:&r &lЛюбой&r кирпичный блок можно заменить на &3люк коксовой печи&r. Их может быть до пяти."
 				""
-				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
+				"Люк позволяет автоматизировать печь — он будет &dавтоматически выводить&r и жидкости, и предметы! Он также работает на ввод в коксовую печь (можно использовать воронки)."
 				""
-				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				"Если коксовая печь полностью заполнится &eкреозотом&r, который ты не используешь, сломай и поставь блок коксовой печи заново. &3Автоматическое удаление жидкостей&r станет доступно позже в игре."
 				""
-				"&lTip:&r A bucket of Creosote fuels a furnace for &c32&r items! Take full advantage of this to stop burning planks."
+				"&lСовет:&r Ведро креозота топит печь на &c32&r предмета! Используй это по полной, чтобы перестать жечь доски."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
+				"&l&3Лор:&r&o Концепция мультиблоков — классика модифицированного Minecraft. Вспомни ядерный реактор IC2 или коксовую печь Railcraft — в своё время это было по-настоящему революционно!&r"
 			]
 			icon: "gtceu:coke_oven"
 			id: "4946FC5BCA4CCA88"
@@ -1085,24 +1085,24 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Your first big project... hopefully"
+			subtitle: "Твой первый большой проект... надеемся"
 			tasks: [{
 				id: "3545479A7C09CDFC"
 				item: "gtceu:coke_oven"
 				type: "item"
 			}]
-			title: "Coke Oven"
+			title: "Коксовая печь"
 			x: 5.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More resources are always nice. You're getting close to entering the &6age of Steam&r - Copper and Tin are required in many &6Steam Age&r machines, so check the ore tab to find out what veins they can be found in, and get mining!"
+				"Больше ресурсов — всегда хорошо. Ты приближаешься к &6Паровой эпохе&r: медь и олово требуются во многих машинах &6Паровой эпохи&r, так что проверь вкладку руд, узнай, в каких жилах они встречаются, и отправляйся копать!"
 				""
-				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r."
+				"Если разные названия руд тебя &bпутают&r, по &dмолекулярной формуле&r в подсказке можно сразу понять, какие элементы содержит руда. Медь — это &oCu&r, олово — &oSn&r, железо — &oFe&r, а для остального можно свериться с &3периодической таблицей&r. Пора освежить химию — она понадобится тебе &lпозже&r."
 				""
-				"This quest can be completed with &9either metal&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &a&ocertain&r&a Copper-Tin alloy&r will be needed to get through the &6Steam Age&r."
+				"Этот квест можно выполнить с &9любым из этих металлов&r, поэтому в награду ты можешь выбрать тот металл, которого тебе не хватает. Постарайся вскоре найти источник обоих, ведь для прохождения &6Паровой эпохи&r понадобится &a&oодин&r&a сплав меди и олова&r."
 			]
 			icon: "minecraft:copper_ingot"
 			id: "45969FFBF88F4FBB"
@@ -1113,7 +1113,7 @@
 				type: "choice"
 			}]
 			size: 0.75d
-			subtitle: "Gather more resources!"
+			subtitle: "Собери больше ресурсов!"
 			tasks: [{
 				count: 32L
 				id: "616556ECE4DB6103"
@@ -1133,23 +1133,23 @@
 						]
 					}
 				}
-				title: "32 Copper or Tin"
+				title: "32 меди или олова"
 				type: "item"
 			}]
-			title: "Onwards to the Age of Bronze!"
+			title: "Вперёд к бронзовому веку!"
 			x: 3.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
+				"&6Бронза&r — это &2сплав&r меди и олова. Измельчи 3 части меди и 1 часть олова в пыль, затем объедини их и переплавь. Если непонятно, как это сделать, загляни в квест &o\"&dЕщё инструменты&r&o\"&r."
 				""
-				"Don't spend your entire supply of Copper and Tin on Bronze right now! You'll soon be able to get a better ratio for your Bronze."
+				"Не трать весь запас меди и олова на бронзу прямо сейчас! Скоро ты сможешь получать бронзу в более выгодном соотношении."
 				""
-				"&6&lThe progression now continues in the Steam Age chapter.&r"
+				"&6&lТеперь прогрессия продолжается в главе Паровой эпохи.&r"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &4not&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&f."
+				"&l&3Лор:&r&o В реальности бронза ближе к соотношению 7:1 между медью и оловом. Здесь (и в большинстве модифицированного Minecraft) это &4не&f так ради игрового баланса. Есть много подобных вещей, которые приходится подстраивать — &eникакого реализма&f."
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "315DBB3B23F95E0D"
@@ -1161,25 +1161,25 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Humanity's first alloy - and yours too!"
+			subtitle: "Первый сплав человечества — и твой тоже!"
 			tasks: [{
 				count: 24L
 				id: "39AEA2923971A2B5"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			title: "Bronze Age? No, &6Steam Age&r!"
+			title: "Бронзовый век? Нет, &6Паровая эпоха&r!"
 			x: 5.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"The bucket recipe has been &d&lchanged.&r It now requires plates - &owahoo&r."
+				"Рецепт ведра был &d&lизменён&r. Теперь для него нужны пластины — &oура&r."
 				""
-				"Plates are used absolutely &beverywhere&r in &aGregTech&r. Combining two ingots with your new &9hammer&r in a crafting table will make a plate. This ratio is kind of &cexpensive,&r but better recipes for plates will come later."
+				"Пластины используются буквально &bповсюду&r в &aGregTech&r. Соедини два слитка и свой новый &9молот&r в верстаке, чтобы получить пластину. Такое соотношение довольно &cдорогое&r, но позже появятся более выгодные рецепты пластин."
 				""
-				"Take this &6Wooden Barrel&r full of &bWater&r as a reward. Huh... isn't that an odd reward? We just wanted to show you that all &aGTCEu&r tanks are portable."
+				"Возьми в награду эту &6деревянную бочку&r, наполненную &bводой&r. Хм... странная награда, да? Мы просто хотели показать, что все резервуары &aGTCEu&r переносные."
 			]
 			icon: "minecraft:bucket"
 			id: "592BD683A48C2AA2"
@@ -1199,24 +1199,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "#realism"
+			subtitle: "#реализм"
 			tasks: [{
 				id: "5DD165E4EB34C022"
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			title: "Greg has struck"
+			title: "Грег нанёс удар"
 			x: 2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Okay, we were generous enough to leave Wood-to-Plank-ratios &cuntouched&r, but this is GregTech - charcoal smelting is &4&lnot possible&r in a Furnace. You'll need to make a &d&lCoke Oven&r to get your grubby hands on some &6charcoal&r."
+				"Ладно, мы были достаточно щедры, чтобы оставить соотношение дерева к доскам &cнетронутым&r, но это GregTech — переплавка брёвен в древесный уголь в печи &4&lневозможна&r. Тебе придётся сделать &d&lкоксовую печь&r, чтобы заполучить &6древесный уголь&r."
 				""
-				"Wooden planks are still pretty good as &6furnace fuel&r, especially since you get &l&3four&r from one log."
+				"Деревянные доски всё ещё довольно хороши как &6топливо для печи&r, особенно учитывая, что из одного бревна ты получаешь &l&3четыре&r."
 				""
-				"If this displeases you - normally you'd be able to &brevert this back&r to vanilla behaviour in the &aGTCEu&r configs, but the configuration option is bugged. To &erevert&r the nerf, you can delete the \"charcoal.js\" script in &bkubejs/server_scripts&r!"
+				"Если тебе это не нравится, обычно можно было бы &bвернуть&r ванильное поведение в конфигах &aGTCEu&r, но эта настройка сейчас сломана. Чтобы &eоткатить&r нерф, можно удалить скрипт \"charcoal.js\" в &bkubejs/server_scripts&r!"
 			]
 			icon: "minecraft:charcoal"
 			id: "36DD94945D5B4A80"
@@ -1228,7 +1228,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Not here!"
+			subtitle: "Не здесь!"
 			tasks: [{
 				count: 48L
 				id: "3DF01E4FACBB1D53"
@@ -1239,25 +1239,25 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "We demand more logs."
+				title: "Мы требуем больше брёвен."
 				type: "item"
 			}]
-			title: "Charcoal?"
+			title: "Древесный уголь?"
 			x: 0.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"In this &blightweight&r modpack, we've included enough QoL to &o(hopefully)&r fit your needs, and the pack is &aperfectly playable&r as is."
+				"В эту &bлёгкую&r сборку мы включили достаточно QoL-улучшений, чтобы &o(надеемся)&r закрыть твои потребности, и сборка &aполностью играбельна&r уже как есть."
 				""
-				"&dStorage Drawers&r and &dApplied Energistics 2&r make an appearance to help with &estorage&r and &6logistics&r. Their recipes have been modified to fit progression, but you hopefully won't need to play 50 hours to make your first &5Molecular Assembler&r. There are also a few other mods that you may wish to pursue for some &ahelpful QoL&r."
+				"&dStorage Drawers&r и &dApplied Energistics 2&r присутствуют, чтобы помочь с &eхранением&r и &6логистикой&r. Их рецепты изменены под прогрессию, но, надеемся, тебе не придётся играть 50 часов, чтобы сделать первый &5молекулярный сборщик&r. Также есть ещё несколько модов, которые можно изучить ради &aполезных QoL-улучшений&r."
 				"{@pagebreak}"
-				"But maybe you require... &osomething more&r?"
+				"Но, может быть, тебе нужно... &oчто-то большее&r?"
 				""
-				"If you're playing solo, feel free to &aadd mods&r to your instance. Some more &bQoL&r could be nice... more &3Tech&r could sate your cravings... maybe even some &5magic mods&r, as long as you don't add &eProjectE&r. Promise?"
+				"Если играешь один, можешь спокойно &aдобавлять моды&r в свой инстанс. Ещё немного &bQoL&r не помешает... больше &3техники&r может утолить твой голод... может, даже немного &5магии&r, пока ты не добавляешь &eProjectE&r. Обещаешь?"
 				""
-				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.20.1 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
+				"В версии &aGregTech: CEu&r для 1.12.2 было несколько аддонов &aGregTech&r, которые в будущем могут быть перенесены на 1.20.1. Будь уверен: эта сборка сделает всё &dвозможное&r, чтобы поддержать их, если они доберутся до этой версии!"
 			]
 			icon: "minecraft:structure_void"
 			id: "1283B4D7B5D82193"
@@ -1268,24 +1268,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Omw to install DecoCraft"
+			subtitle: "Уже бегу ставить DecoCraft"
 			tasks: [{
 				id: "70C69E5432F6C3BE"
-				title: "I accept responsibility for any mod conflicts ;)"
+				title: "Я принимаю ответственность за любые конфликты модов ;)"
 				type: "checkmark"
 			}]
-			title: "More mods?"
+			title: "Ещё моды?"
 			x: 2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Don't worry, these crafts are actually useful - you'll be required to make &ehundreds more&r of these components. It's good to start building the habit."
+				"Не переживай, эти крафты действительно полезны — тебе придётся сделать ещё &eсотни&r таких компонентов. Хорошо начать вырабатывать эту привычку заранее."
 				""
-				"It's generally wise to get familiar with the idea of &o\"&bbulk-crafting&r&o\"&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &dintermediates&r ready for future crafts. It might seem unreasonable to craft &astacks of rods&r or &ascrews&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future."
+				"В целом полезно привыкнуть к идее &o\"&bмассового крафта&r&o\"&r: если тебе нужна 1 пластина, попробуй сделать 8 и так далее. Так у тебя будет много &dпромежуточных компонентов&r для будущих крафтов. Может показаться странным делать &aстаки стержней&r или &aвинтов&r, особенно так рано, но они всё равно уйдут в дело и сэкономят тебе много микрокрафта в будущем."
 				""
-				"If you needed &6any more&r convincing, take a peek at the &drewards&r for this quest."
+				"Если тебе нужно &6ещё больше&r мотивации, взгляни на &dнаграды&r за этот квест."
 			]
 			icon: "minecraft:bone_meal"
 			id: "49A04E63F40D65C0"
@@ -1345,7 +1345,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Put your micro-crafting talent to the task!"
+			subtitle: "Пусти свой талант к микрокрафту в дело!"
 			tasks: [
 				{
 					count: 16L
@@ -1360,16 +1360,16 @@
 					type: "item"
 				}
 			]
-			title: "A Minor Test of Strength"
+			title: "Небольшая проверка силы"
 			x: 3.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Iron, Copper and Tin will only get you so far. &4Redstone&r and &bDiamond&r will occasionally be required during the &6Steam Age&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &asoon enough&r."
+				"Железо, медь и олово помогут тебе только до определённого момента. &4Редстоун&r и &bалмазы&r иногда понадобятся во время &6Паровой эпохи&r, а никель, свинец и серебро тоже хорошо иметь под рукой. Всё это &aдовольно скоро&r пригодится."
 				""
-				"&o&8Consult the ore tab if you're struggling to find these materials!&r"
+				"&o&8Загляни во вкладку руд, если не можешь найти эти материалы!&r"
 			]
 			icon: "gtceu:silver_ingot"
 			id: "62212F2B51AC779E"
@@ -1419,7 +1419,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Sometimes, you gotta be inefficient... to be efficient!"
+			subtitle: "Иногда нужно быть неэффективным... чтобы стать эффективным!"
 			tasks: [
 				{
 					count: 64L
@@ -1452,95 +1452,95 @@
 					type: "item"
 				}
 			]
-			title: "Early Investments"
+			title: "Ранние инвестиции"
 			x: 5.25d
 			y: 0.0d
 		}
 		{
 			description: [
-				"Be sure to &aproperly&r read &lthis&r quest - it has some &dimportant information&r that will remain relevant all throughout your playthrough."
+				"Обязательно &aвнимательно&r прочитай &lэтот&r квест — в нём есть &dважная информация&r, которая будет актуальна на протяжении всего прохождения."
 				""
-				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &b\"Guides + More\"&r quest tab if you feel like you're forgetting something."
+				"Информационные квесты вроде этого будут появляться в той главе, где они открываются. Также можно заглянуть во вкладку квестов &b\"Гайды и прочее\"&r, если кажется, что ты что-то забыл."
 				""
-				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing anything crucial."
+				"Структура квестов задумана так, чтобы провести тебя через все основные вехи прогрессии &aGregTech&r. Каждый квест должен быть &2полезен&r хотя бы в каком-то смысле. Если что-то полностью необязательно, мы об этом скажем, так что не переживай, что пропустишь что-то важное."
 				"{@pagebreak}"
-				"There are no drawbacks to playing this modpack in &dPeaceful&r - in fact, we highly urge you to do so, as there is little benefit from hostile mobs. Feel free to also to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit."
+				"У игры в эту сборку на &dМирной&r сложности нет никаких минусов — более того, мы настоятельно советуем так и играть, потому что пользы от враждебных мобов здесь немного. Также можешь спокойно использовать &o/keepInventory&r, &o/sethome&r и злоупотреблять телепортом миникарты, как тебе удобно."
 				""
-				"Although we won't force these settings onto you, we &4don't&r intend for this modpack to provide a punishing &eSurvival&r experience, but more so help you learn the ins and outs of &aGregTech CEu&r."
+				"Мы не будем навязывать тебе эти настройки, но эта сборка &4не&r задумана как суровое испытание на &eвыживание&r. Её цель — помочь тебе разобраться во всех тонкостях &aGregTech CEu&r."
 				"{@pagebreak}"
-				"Lastly, it's good to be &lsavvy&r with &eEMI.&r &aGregTech&r items will frequently have several recipes, so you should never assume the first recipe &eEMI&r displays is the most efficient. \"Professional\" &eEMI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust)."
+				"Наконец, полезно хорошо разбираться в &eEMI&r. У предметов &aGregTech&r часто есть несколько рецептов, поэтому не стоит считать, что первый рецепт, показанный &eEMI&r, самый эффективный. \"Профессиональное\" использование &eEMI&r включает &bпоиск закономерностей&r в автосгенерированных рецептах (например, все предметы, связанные с железом, &6дробятся&r в железную пыль)."
 				""
-				"When complex recipes arise - and we won't sugarcoat, &aGTCEu&r can be intimidating - we'll make sure to direct you towards the more &5efficient routes&r. However, we urge you to experiment on your own. It's no fun to follow the quest book by rote, right?"
+				"Когда появятся сложные рецепты — не будем приукрашивать, &aGTCEu&r может пугать — мы постараемся направить тебя к более &5эффективным путям&r. Но мы всё равно советуем экспериментировать самостоятельно. Неинтересно же просто механически следовать квестбуку, правда?"
 			]
 			icon: "ftbquests:book"
 			id: "13E9DF7E980CFC5B"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Read this, and read it again!"
+			subtitle: "Прочитай это, а потом прочитай ещё раз!"
 			tasks: [{
 				id: "04CC2E592A648F06"
-				title: "I have read this page multiple times"
+				title: "Я прочитал эту страницу несколько раз"
 				type: "checkmark"
 			}]
-			title: "Important Information"
+			title: "Важная информация"
 			x: -2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"Crafting can quickly get &etiresome&r. How about making use of your &2new saw&r to make this Crafting table?"
+				"Крафт может быстро стать &eутомительным&r. Как насчёт использовать свою &2новую пилу&r, чтобы сделать этот верстак?"
 				""
-				"It allows you to craft from adjacent inventories, making classic &aGregTech&r microcrafting so much less &4tedious&r."
+				"Он позволяет крафтить из соседних инвентарей, делая классический микрокрафт &aGregTech&r куда менее &4нудным&r."
 				""
-				"Saw the table again for a lower-profile Slab version."
+				"Распили верстак ещё раз, чтобы получить более низкую версию в виде плиты."
 			]
 			icon: "craftingstation:crafting_station"
 			id: "411AB552514EA14C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, Tinkers' is not in this modpack"
+			subtitle: "Нет, Tinkers' не входит в эту сборку"
 			tasks: [{
 				id: "30D40010C8E6E115"
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			title: "Crafting Station"
+			title: "Крафтовая станция"
 			x: 3.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"New to this updated pack is a &dGuides + More&r section. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
+				"В обновлённой версии сборки появился раздел &dГайды и прочее&r. Информацию в нём можно посмотреть в любой момент, но когда она станет актуальной, тебя &6направят туда&r для небольшого чтения."
 				""
-				"The information found inside may interest you if you would like &amore of an insight&r into some of &bGTCEu's mechanics&r - and in some cases, is absolutely indispensable."
+				"Информация внутри может заинтересовать тебя, если хочешь &aлучше разобраться&r в некоторых &bмеханиках GTCEu&r. А в некоторых случаях она просто незаменима."
 				""
-				"Quests that unlock a tutorial node will have an &6orange-ish descriptor&r at the bottom of the quest description."
+				"У квестов, которые открывают обучающий узел, внизу описания будет &6оранжеватая пометка&r."
 				""
-				"Get reading!"
+				"За чтение!"
 			]
 			icon: "minecraft:lectern"
 			id: "008ABF78E56209F7"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Tips and tricks to help you prosper"
+			subtitle: "Советы и хитрости, которые помогут тебе преуспеть"
 			tasks: [{
 				id: "382566FB9E8CFE29"
-				title: "Alright, I get it, I get it"
+				title: "Ладно, понял, понял"
 				type: "checkmark"
 			}]
-			title: "Tutorialised"
+			title: "Обучение"
 			x: -0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Rubber Trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
+				"Каучуковые деревья можно найти в биомах &aлеса&r, &2джунглей&r или &aболота&r."
 				""
-				"Breaking Rubber Logs will yield &6Sticky Resin&r, which will be important moving forwards."
+				"При разрушении каучуковых брёвен выпадает &6липкая смола&r, которая будет важна для дальнейшего продвижения."
 				""
-				"The logs also offer &duseful resources&r when processed in future."
+				"При будущей переработке эти брёвна также дадут &dполезные ресурсы&r."
 			]
 			id: "5193DD03C0742548"
 			rewards: [{
@@ -1551,52 +1551,52 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, this isn't IC2"
+			subtitle: "Нет, это не IC2"
 			tasks: [{
 				count: 8L
 				id: "76851CD51E99CA38"
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			title: "Gettin' Shaded under a Rubber Tree"
+			title: "В тени каучукового дерева"
 			x: 0.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Think this pack is &atoo easy&r? Wanting some unique experiences to sink your teeth into?"
+				"Думаешь, эта сборка &aслишком лёгкая&r? Хочется чего-то уникального, во что можно как следует вгрызться?"
 				""
-				"We've gathered some GTCEu Modern-flavored recommendations in this quest."
+				"В этом квесте мы собрали несколько рекомендаций в духе GTCEu Modern."
 				"{@pagebreak}"
 				"&lMonifactory&r"
-				"&dMonifactory&r is a 1.20.1 modpack based on &eNomifactory CEu&r (which was on 1.12.2!). It aims to streamline and simplify the earlier parts of GregTech, while interweaving other tech mods into GTCEu Modern's progression. It also features a &2Hard&r and an &aExpert&r mode for the challenge-minded!"
+				"&dMonifactory&r — сборка для 1.20.1, основанная на &eNomifactory CEu&r (которая была на 1.12.2!). Она стремится упростить и сгладить ранние этапы GregTech, вплетая другие технические моды в прогрессию GTCEu Modern. Также в ней есть режимы &2Hard&r и &aExpert&r для тех, кто любит испытания!"
 				""
-				"In its current state, the pack is on the cusp of a pack-changing update, 0.13. Any worlds at &cHigh Voltage&r or higher will likely need a fresh restart."
+				"В текущем состоянии сборка находится на пороге крупного обновления 0.13, которое серьёзно изменит пак. Мирам на уровне &cHigh Voltage&r и выше, скорее всего, понадобится новый старт."
 				"{@pagebreak}"
 				"&lCosmic Frontiers&r"
 				"- &7Ghostipedia et al."
 				""
-				"&dCosmic Frontiers&r is a 1.20.1 modpack with gameplay &ba little more difficult&r than this pack, and a focus on interactions between many mods and GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst tackling &eintricately woven&r progression that ties together the &7mechanical&r and the &5arcane&r."
+				"&dCosmic Frontiers&r — сборка для 1.20.1 с геймплеем &bнемного сложнее&r, чем в этой сборке, и с упором на взаимодействие множества модов с GTCEu Modern. Ты будешь исследовать звёзды над головой и спускаться в глубины, проходя &eтонко переплетённую&r прогрессию, связывающую &7механическое&r и &5магическое&r."
 				""
-				"In its current state, the pack is considered to be in &2early alpha&r. However, progress has been curated through &3LuV&r. It's an experience like no other!"
+				"В текущем состоянии сборка считается &2ранней альфой&r. Однако прогрессия уже проработана до &3LuV&r. Это опыт, не похожий ни на что другое!"
 				"{@pagebreak}"
 				"&lAll the Mods: Gravitas 2"
 				"- &7ATMTeam"
 				""
-				"Starting from &6primitive Stone Age technology&r, hand-knapping your tools and foraging for food, you'll need to progress through the ages covering many &bclassic and new&r mods. This is seamlessly complemented by mods such as TerraFirmaCraft, Create New Age, Stargate Journey and &8(obviously)&r GregTech."
+				"Начиная с &6примитивных технологий каменного века&r, ручного изготовления инструментов и собирательства, тебе предстоит пройти через эпохи, охватывающие множество &bклассических и новых&r модов. Всё это бесшовно дополняют TerraFirmaCraft, Create New Age, Stargate Journey и, &8разумеется&r, GregTech."
 				""
-				"You'll find yourself transitioning from a &2primitive beginning&r, smashing rocks together, to smashing atoms together, soon &dpowering your voyages&r to the stars and beyond!"
+				"Ты пройдёшь путь от &2примитивного начала&r, где камни бьются друг о друга, до столкновения атомов, а затем начнёшь &dпитать свои путешествия&r к звёздам и дальше!"
 				"{@pagebreak}"
 				"&lStar Technology"
 				"- &7trulyno"
 				""
-				"&6Star Technology&r is more of a laid-back GregTech &dskyblock modpack&r where you play as a scientist stranded in an &balternate dimension&r after a dimensional travel experiment &4catastrophically fails&r."
+				"&6Star Technology&r — это более расслабленная GregTech-&dскайблок-сборка&r, где ты играешь за учёного, застрявшего в &bальтернативном измерении&r после &4катастрофического провала&r эксперимента с межпространственным путешествием."
 				""
-				"Progression in this pack will take you above and beyond &3UHV&r, with numerous unique &aStargates&r to craft, and even a remixed &o\"Gregified\"&r Mystical Agriculture."
+				"Прогрессия в этой сборке заведёт тебя выше и дальше &3UHV&r: предстоит скрафтить множество уникальных &aзвёздных врат&r и даже увидеть переработанный, &o\"грегифицированный\"&r Mystical Agriculture."
 				""
-				"Once again, this pack features a Hard mode, and a Desert mod (called Abydos!)."
+				"И снова: в этой сборке есть режим Hard и пустынный мод (называется Abydos!)."
 				""
-				"Note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version Zeta!"
+				"Учти, что сборка всё ещё находится в &eактивной разработке&r, но начиная с версии Zeta ты уже должен смочь достичь &o\"Classic Stargate\"&r!"
 			]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "63DC162144871509"
@@ -1604,33 +1604,33 @@
 			size: 0.75d
 			tasks: [{
 				id: "3E3D67B53234AD1A"
-				title: "Whoah, these sound cool."
+				title: "Ого, звучит круто."
 				type: "checkmark"
 			}]
-			title: "What Else Can I Play?"
+			title: "Во что ещё можно поиграть?"
 			x: -2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C690272ED4FB1C3"]
 			description: [
-				"Whilst frolicking about on the surface, you may have spotted a couple of &dSurface rocks&r."
+				"Бродя по поверхности, ты мог заметить несколько &dповерхностных камешков&r."
 				""
-				"These little guys indicate the type of veins that are below them. Just right-click &7(or mine!)&r the surface rock to receive a corresponding pile of &aTiny Dust&r. This will also add the vein to your minimap."
+				"Эти малыши показывают тип жилы, которая находится под ними. Просто нажми ПКМ &7(или сломай!)&r по поверхностному камешку, чтобы получить соответствующую кучку &aкрошечной пыли&r. Это также добавит жилу на миникарту."
 				"{@pagebreak}"
-				"You can now use &2EMI&r to learn more about the vein beneath your feet. Just press &dU&r on the Tiny Dust you mined from the rock, find the corresponding Raw Ore, and press &dR&r. From there, navigate to the &6Ore Vein Diagram&r. This page contains details on what &btypes of ores&r generate with it, their &3generation patterns&r, their &espawning dimension&r and &dY-level range&r, and their &aspawning weight&r, which is the chance it spawns."
+				"Теперь можно использовать &2EMI&r, чтобы узнать больше о жиле под ногами. Нажми &dU&r по крошечной пыли, добытой из камешка, найди соответствующую сырую руду и нажми &dR&r. Затем перейди к &6диаграмме рудной жилы&r. На этой странице показано, какие &bтипы руд&r с ней генерируются, их &3схемы генерации&r, &eизмерение появления&r, &dдиапазон Y-уровней&r и &aвес появления&r — то есть шанс генерации."
 			]
 			icon: "gtceu:cobalt_indicator"
 			id: "3296B815876C3181"
 			shape: "circle"
 			size: 0.5d
-			subtitle: "Awakening your inner geologist"
+			subtitle: "Пробуждаем твоего внутреннего геолога"
 			tasks: [{
 				id: "3C54F075FEE53897"
-				title: "I love prospecting!"
+				title: "Обожаю разведку!"
 				type: "checkmark"
 			}]
-			title: "This Rocks!"
+			title: "Вот это камни!"
 			x: -2.25d
 			y: -2.25d
 		}
