@@ -73,7 +73,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any Logs"
+					title: "Брёвна"
 					type: "item"
 				}
 				{
@@ -89,11 +89,11 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Here's a &6nifty&r list of some resources that you'll need in bulk for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to gather more than you need in &aGregTech&r."
+				"Вот &6полезный&r список ресурсов, которые понадобятся тебе в больших количествах в ранней игре. Собери больше, чем требуется в этом квесте — они закончатся быстрее, чем ты успеешь заметить, а в &aGregTech&r всегда полезно собирать больше, чем нужно."
 				""
-				"We'd actually advise that you &etackle this quest first&r, so that you can claim its &breward&r. That way, you can do a little bit of main (read: &ointeresting&r) progression &4&lBEFORE&r you're forced to go mining."
+				"На самом деле мы советуем &eсначала выполнить этот квест&r, чтобы получить его &bнаграду&r." Так ты сможешь немного продвинуться по основной прогрессии &4&lДО ТОГО&r, как тебе придётся идти копаться в шахте."
 				""
-				"Eight furnaces might seem &cexcessive&r if you're new to &aGregTech,&r but trust us... you can never have too many."
+				"Если ты новичок в &aGregTech&r, восемь печей могут показаться &cперебором&r, но поверь нам... печей много не бывает."
 			]
 			icon: "minecraft:sugar_cane"
 			id: "0436F7B60BDEB091"
@@ -105,7 +105,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Gather some resources!"
+			subtitle: "Сбор ресурсов!"
 			tasks: [
 				{
 					count: 4L
