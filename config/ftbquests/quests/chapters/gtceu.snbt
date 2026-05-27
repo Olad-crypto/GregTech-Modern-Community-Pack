@@ -172,13 +172,13 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you may also be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
+				"Ты знал, что в &aGregTech&r есть собственные инструменты. Если нет, то тебя может это приятно удивить, они &6&lлучше&r своих ванильных аналогов."
 				""
-				"Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &2entire tree&r for you. Timber!"
+				"Возьмём топор GregTech в качестве примера. Если срубить им бревно в дереве, он повалит для тебя &2всё дерево&r целиком. Берегись!"
 				""
-				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe."
+				"Постоянная рубка деревьев будет съедать &9прочность&r твоего топора за считанные секунды, так что лучше сделать его из &eболее прочного материала&r, например из &bалмаза&r. Только смотри не сделай обычный ванильный алмазный топор."
 				""
-				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
+				"В награду возьми эти &2саженцы ели&r и используй их, чтобы вырастить большие деревья. В ближайшем будущем тебе придётся много переплавлять, а доски выручат тебя как &dэффективный&r источник топлива!"
 			]
 			icon: {
 				Count: 1
@@ -197,7 +197,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Who needs Veinminer?"
+			subtitle: "Кому нужен Veinminer?"
 			tasks: [{
 				id: "3880A08A72884627"
 				item: {
@@ -666,10 +666,10 @@
 						]
 					}
 				}
-				title: "Grab any Lumber Axe!"
+				title: "Возьми любой топор лесоруба!"
 				type: "item"
 			}]
-			title: "Lumbering On"
+			title: "Дрова пошли"
 			x: -2.25d
 			y: -4.5d
 		}
