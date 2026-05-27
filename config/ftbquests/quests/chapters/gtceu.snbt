@@ -760,15 +760,15 @@
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"This hammer isn't quite like the ones you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
+				"Этот молот не совсем похож на те, что ты будешь использовать для крафта. На самом деле он работает как &dкирка 3x3&r!"
 				""
-				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
+				"Если ты знаком с &a&lTinker's Construct&r, то принцип работы похож на молоты из этого мода."
 				""
-				"Shift-right-click with a mining hammer in your hand to adjust the area of effect."
+				"Возьми шахтёрский молот в руку и нажми Shift + ПКМ, чтобы изменить область его действия."
 				""
-				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
+				"Пользуйся этими молотами &bпо полной&r! Они помогут тебе вычистить целую жилу за &6рекордное время&r."
 				""
-				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+				"&eПримечание:&r Любой квест с инструментами GregTech можно выполнить инструментами из любого материала — не только из того, который показан."
 			]
 			icon: {
 				Count: 1
@@ -781,7 +781,7 @@
 			id: "4A365A7CC9E374F9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Mining just became efficient"
+			subtitle: "Копать стало куда эффективнее"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -799,10 +799,10 @@
 						value: "forge:tools/mining_hammers"
 					}
 				}
-				title: "Any Mining Hammer will do."
+				title: "Подойдёт любой шахтёрский молот."
 				type: "item"
 			}]
-			title: "Hammer down!"
+			title: "Сила молота!"
 			x: 2.25d
 			y: -4.5d
 		}
