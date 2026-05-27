@@ -1345,7 +1345,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Пусти свой талант к микрокрафту в дело!"
+			subtitle: "Пусти свой талант к Minecraft в дело!"
 			tasks: [
 				{
 					count: 16L
