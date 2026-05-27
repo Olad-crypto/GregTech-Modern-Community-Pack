@@ -809,17 +809,17 @@
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"In the real world, iron isn't &oonly&r found as pure Iron Ore. Instead, it's found in a &avariety&r of &eoxide forms&r or &eminerals&r."
+				"В реальном мире железо встречается &oне только&r в виде чистой железной руды. Вместо этого его находят в &aразличных&r &eоксидных формах&r или &eминералах&r."
 				""
-				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're struggling to find some, the &aOre Generation&r quest tab contains a lot of information on &eore veins&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &2EMI&r."
+				"Тебе стоит пойти и собрать побольше железа, потому что совсем скоро оно понадобится тебе &9в больших количествах&r. Если не получается его найти, во вкладке квестов &a«Генерация руд»&r есть много информации о &eрудных жилах&r. Также стоит заглянуть во вкладки «Информация о появлении руд» и «Список побочных продуктов руд» в &2EMI&r."
 				""
-				"Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron."
+				"Любое сырьё, которые мы просим в этом квесте, можно напрямую переплавить в железо. Итого есть &dчетыре разные жилы&r, из которых можно получить железо."
 				""
-				"Lastly, Fortune &cdoes not&r work on GregTech ores, &7unfortunately&r."
+				"И напоследок: удача, &cк сожалению&r, &7не работает&r на рудах GregTech."
 				"{@pagebreak}"
-				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
+				"В &bмодифицированном Minecraft&r многие привыкли копить руду до тех пор, пока не откроют какое-нибудь &aумножение руды&r, но пока не переживай о переработке. Прямая переплавка ещё очень, &oочень&r долго остаётся самым эффективным способом, ведь за один &eпоход в шахту&r здесь легко набрать много руды."
 				""
-				"Gather &l&cany&r of the requested &dRaw Ores&r to complete this quest!"
+				"Собери &l&cлюбое&r &dсырьё&r, чтобы выполнить этот квест!"
 			]
 			icon: "minecraft:iron_ingot"
 			id: "1ECBA1CBFFB9F625"
@@ -830,7 +830,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Isn't it ironic... don't you think?"
+			subtitle: "Иронично, не правда ли?"
 			tasks: [{
 				id: "063705687ED657F5"
 				item: {
@@ -873,10 +873,10 @@
 						]
 					}
 				}
-				title: "Iron-bearing Ores"
+				title: "Железосодержащие руды"
 				type: "item"
 			}]
-			title: "Iron, Iron, Iron!"
+			title: "Железо, Железо, Железо!"
 			x: 0.75d
 			y: -3.0d
 		}
