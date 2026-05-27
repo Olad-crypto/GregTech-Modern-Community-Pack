@@ -715,13 +715,13 @@
 		{
 			dependencies: ["1ECBA1CBFFB9F625"]
 			description: [
-				"Alright - your first &oproper&r &aGregTech&r tool. The first of &dmany&r."
+				"Отлично — твой первый &oнастоящий&r инструмент &aGregTech&r. Первый из &dмногих&r."
 				""
-				"GT tools can be made out of many different materials. When used in crafting recipes, they &baren't consumed&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest."
+				"Инструменты GT можно делать из множества разных материалов. При использовании в рецептах крафта они &bне расходуются&r, а вместо этого теряют прочность. Начать лучше с железного инструмента, но если ты уже выполнил тот квест, можешь выбрать кованое железо."
 				""
-				"&9&lHammer&f:&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &msmacking&r right-clicking them."
+				"&9&lМолот&f:&r Инструмент для крафта, который используется во множестве рецептов ранней игры. Его дополнительная функция — заглушать машины: для этого нужно &mстукнуть по ним&r нажать по ним ПКМ."
 				""
-				"As a sidenote on all &aGregTech&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &eBottles o' Enchanting&r are now craftable."
+				"Кстати, все инструменты &aGregTech&r можно чинить в наковальне материалом, из которого сделан сам инструмент, прямо как обычные ванильные инструменты. Если тебе не хватает опыта, &eпузырьки опыта&r теперь можно скрафтить."
 			]
 			id: "7DEB73FD649BDFB6"
 			rewards: [{
@@ -732,7 +732,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Your first GT Tool!"
+			subtitle: "Твой первый инструмент GT!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -750,10 +750,10 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "Any Hammer!"
+				title: "Молот!"
 				type: "item"
 			}]
-			title: "STOP! Hammer time!"
+			title: "СТОП! Время молота!"
 			x: 2.25d
 			y: -3.0d
 		}
