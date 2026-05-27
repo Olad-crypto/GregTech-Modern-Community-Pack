@@ -677,13 +677,13 @@
 			dependencies: ["36DD94945D5B4A80"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Wrought Iron has a very low carbon content, but that's enough to make it &btougher&r than regular Iron."
+				"Кованое железо содержит очень мало углерода, но этого достаточно, чтобы сделать его &bпрочнее&r обычного железа."
 				""
-				"&aGregTech&r tools made of Wrought Iron are &650% more durable&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &2something better&r."
+				"Инструменты &aGregTech&r, сделанные из кованого железа, имеют на &650% больше прочности&r, чем их железные аналоги. Возможно, стоит пользоваться кованым железом, пока ты не откроешь &2что-нибудь получше&r."
 				""
-				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &4&laren't&r interchangeable."
+				"Чтобы получить кованое железо, ты можешь &6переплавить&r железные самородки в самородки кованого железа, а затем снова собрать их в слиток. Убедись, что не переработал весь запас железа: эти два материала &4&lне&r взаимозаменяемы."
 				""
-				"This may be time-consuming, but rest assured, you'll unlock a &ebetter way&r to produce Wrought Iron before long."
+				"Это может занять немало времени, но не переживай: совсем скоро ты откроешь &eболее удобный способ&r производства кованого железа."
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "563C96885A227C9F"
@@ -695,7 +695,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Murder, she Wrought"
+			subtitle: "Куй, пока горячо"
 			tasks: [{
 				id: "3DAB1D757B3B049D"
 				item: {
@@ -705,10 +705,10 @@
 						value: "forge:ingots/wrought_iron"
 					}
 				}
-				title: "Wrought Iron Ingot"
+				title: "Слиток кованого железа"
 				type: "item"
 			}]
-			title: "Better Than Iron"
+			title: "Лучше чем железо"
 			x: 0.75d
 			y: 0.0d
 		}
