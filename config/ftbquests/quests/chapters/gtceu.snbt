@@ -138,34 +138,34 @@
 					type: "item"
 				}
 			]
-			title: "What do I need to progress?"
+			title: "Что мне нужно для прогресса?"
 			x: -0.75d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dhundreds&o&r of ore blocks."
+				"Генерация руд в &2GregTech&r сильно отличается от ванильного и обычного модифицированного Minecraft. Все руды генерируются в &6огромных жилах&r, которые могут содержать &dсотни&o&r блоков руды."
 				""
-				"GTCEu now features the functionality of &dVisual Prospecting&r natively, which will mark discovered veins on your map. &9Right Click&r an ore block in the vein, or a surface rock to add it to the map. You can toggle the ore vein view in the lower left corner of the fullscreen map."
+				"В GTCEu теперь встроена функция &dвизуальной разведки&r, которая отмечает найденные рудные жилы на карте. Нажми &9ПКМ&r по блоку руды в жиле или по камешку на поверхности, чтобы добавить жилу на карту. Отображение рудных жил можно включить или выключить в левом нижнем углу полноэкранной карты."
 				"{@pagebreak}"
-				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
+				"Полное объяснение генерации руд находится во вкладке «Советы и хитрости», но вот что тебе нужно знать:"
 				""
-				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
+				"&9-&r Рудные жилы генерируются по &4сетке&r. В основных направлениях каждая жила расположена примерно на &93 чанка&r от соседней."
 				""
-				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for every vein you've found and and to label their type. You may want to come back to the vein several times."
+				"&9-&r Хорошая привычка — ставить &dметки&r (по умолчанию &4N&r) для каждой найденной жилы и подписывать её тип. Скорее всего, тебе ещё не раз захочется вернуться к этой жиле."
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "More like SNORE generation!"
+			subtitle: "Рудная нудятина!"
 			tasks: [{
 				id: "3FA401CACE8BBE5D"
-				title: "Woah, ores sure sound exciting."
+				title: "Ух ты, руды — это звучит так увлекательно."
 				type: "checkmark"
 			}]
-			title: "Ore Generation"
+			title: "Генерация руд"
 			x: -2.25d
 			y: -3.0d
 		}
