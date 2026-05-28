@@ -21,25 +21,25 @@
 				"7567E885B7166603"
 			]
 			description: [
-				"The &3Pyrolyse Oven&r is an electric equivalent to the &3Coke Oven&r. It can produce &9Coal Coke&r and &9Charcoal&r with a &9Creosote&r byproduct just as before, but also has additional &6Organic Byproducts&r, the most beneficial of these being &aWood Tar&r."
+				"&3MV пиролизная печь&r — электрический аналог &3коксовой печи&r. Она по-прежнему даёт &9коксовый уголь&r и &9древесный уголь&r с побочным &9креозотом&r, но также производит дополнительные &6органические побочные продукты&r — самый полезный из них &aдревесная смола&r."
 				""
-				"Another product is &aBiomass&r, which is more pertinent for your progression as of this moment."
+				"Ещё один продукт — &aбиомасса&r, которая сейчас важнее для твоего прогресса."
 				"{@pagebreak}"
-				"The byproducts can be Distilled for an array of organic resources, with &odifferent&r byproducts giving &odifferent&r ratios of &odifferent&r chemicals."
+				"Побочные продукты можно дистиллировать в целый набор органических ресурсов: &oразные&r побочные продукты дают &oразные&r соотношения &oразных&r химикатов."
 				""
-				"You will need to take a peek at the &9Distillation&r Quest to get to grips with the power of distillation..."
+				"Загляни в квест про &9дистилляцию&r, чтобы понять, на что способна дистилляция..."
 				"{@pagebreak}"
 				""
-				"&9Note: &rWith &d40 EU/t&r recipes, it needs either 1 &bMV&r energy hatch or 2 &7LV&r energy hatches. Multiblocks will &cnot&r use 2A of one tier to reach the next one for recipe voltage minimums. "
+				"&9Примечание: &rДля рецептов на &d40 EU/t&r нужен либо 1 энергетический люк &bMV&r, либо 2 люка &7LV&r. Мультиблоки &cне&r используют 2A одного tier'а, чтобы «дотянуть» до следующего минимального напряжения рецепта."
 				""
-				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in EMI, even if they can draw enough EU/t with a lower tier hatch configuration. On the bright side, if you're using two &7LV&r hatches, you can choose to only power one, leaving the other disconnected - as long as you supply enough EU."
+				"Иными словами, в GUI контроллера должно быть минимум «&bMV&r», чтобы запускать рецепты с «&bMV&r» в EMI — даже если при конфигурации с люками более низкого tier'а хватит EU/t. С другой стороны, если у тебя два люка &7LV&r, можно питать только один, оставив второй отключённым — главное, чтобы EU хватало."
 				""
 				"{@pagebreak}"
-				"The Pyrolyse Oven remains &doptional&r, should you choose to use Breweries instead. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look."
+				"Пиролизная печь остаётся &dнеобязательной&r, если ты выберешь пивоварни. Но построить её очень выгодно — ради энергии или побочных продуктов; мы настоятельно советуем присмотреться."
 				""
-				"There are recipes that can accept &bNitrogen&r to double the speed. This isn't quite worth pursuing right now, but Nitrogen will eventually be free and infinite."
+				"Есть рецепты с &bазотом&r, удваивающие скорость. Пока это не стоит усилий, но со временем азот станет бесплатным и бесконечным."
 				""
-				"&l&3Lore:&r&o In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a EMI preview."
+				"&l&3Лор:&r&o В GT5u структура пиролизной печи была печально известна гигантским ящиком с 9 катушками внутри. Игроки тратили минуты на отладку из-за отсутствия превью в EMI."
 			]
 			icon: "gtceu:pyrolyse_oven"
 			id: "53DC6E32C41C94C3"
@@ -60,13 +60,13 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Thermal Decomposition"
+			subtitle: "Термическое разложение"
 			tasks: [{
 				id: "0FD2962C232149F8"
 				item: "gtceu:pyrolyse_oven"
 				type: "item"
 			}]
-			title: "Pyrolyse Oven"
+			title: "MV пиролизная печь"
 			x: 0.0d
 			y: -0.75d
 		}
@@ -76,15 +76,15 @@
 				"1A29EFBCEA017F99"
 			]
 			description: [
-				"Welcome to the &2natural&r Ethylene route! This method uses &9plant matter&r to produce Ethanol."
+				"Добро пожаловать на &2натуральный&r маршрут к этилену! Этот способ использует &9растительную массу&r для получения этанола."
 				""
-				"Before we get ahead of ourselves, &aSugar Cane&r works fine in a &3Brewery&r for a decent yield of Biomass."
+				"Не забегая вперёд: &aсахарный тростник&r отлично работает в &3пивоварне&r и даёт приличный выход биомассы."
 				""
-				"Othe&rrwise, you could try the \"&o&dPlantball into Bio Chaff&r\" route, and then turn it into Biomass, either in the &3Brewery&r or the &3Pyrolyse Oven&r - the latter being more efficient."
+				"И&rlи попробуй маршрут «&o&dрастительный шар → био-сырьё&r», а затем преврати его в биомассу в &3пивоварне&r или &3пиролизной печи&r — второй вариант эффективнее."
 				""
-				"&9Note:&r Only one Bio Chaff can be obtained from maceration until you make the &3HV Macerator&r."
+				"&9Примечание:&r Из дробилки выходит только одна порция био-сырья, пока не сделаешь &3HV дробилку&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You may recognise Plantballs from IndustrialCraft2! In IC2 Experimental, there was this rather... obscure way to turn Biomass into Biogas for power, which sadly required too much investment to be really worth it."
+				"&l&3Лор:&r&o Растительные шары ты, возможно, знаешь из IndustrialCraft2! В IC2 Experimental был довольно... &oзапутанный&r способ превратить биомассу в биогаз для энергии — жаль, вложения не окупались."
 			]
 			icon: "gtceu:biomass_bucket"
 			id: "6EB68C28BEE24DEF"
@@ -95,13 +95,13 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "Plants aren't industrial enough!"
+			subtitle: "Растения недостаточно индустриальны!"
 			tasks: [{
 				id: "4FBD476EB6B6DD04"
 				item: "gtceu:biomass_bucket"
 				type: "item"
 			}]
-			title: "Biomass"
+			title: "Биомасса"
 			x: 0.0d
 			y: -2.64d
 		}
@@ -109,13 +109,13 @@
 			dependencies: ["74180AC57AE9F0FE"]
 			dependency_requirement: "one_started"
 			description: [
-				"The Brewery can be used to make &aLubricant&r from &aRedstone&r and &aCreosote&r/&aOil&r. Lubricant has some niche uses, namely being used in the &3Cutter&r to significantly reduce the duration of its recipes."
+				"В пивоварне можно делать &aсмазку&r из &aредстоуна&r и &aкреозота&r/&aнефти&r. Смазка нужна в нише — например, в &3резаке&r сильно сокращает время рецептов."
 				""
-				"The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &2many Breweries&r will help you obtain enough Biomass on your quest for plastic. Oh, and you can use it to brew &dPotions&r too!"
+				"Пивоварня очень, очень медленная, но почти не ест энергию. Построй &2много пивоварен&r — так проще набрать биомассу на пути к пластику. А ещё можно варить &dзелья&r!"
 				""
-				"&9Note:&r The Brewery \"unlocks\" the Biomass path towards &9Ethylene&r. The same can be done in the &3Pyrolyse Oven&r. The other path involves Oil.&r"
+				"&9Примечание:&r Пивоварня «открывает» путь через биомассу к &9этилену&r. То же можно в &3пиролизной печи&r. Другой путь — через нефть.&r"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You could make your own Brewery if you want to build up a company and start selling Booze... in GregTech 6.&r"
+				"&l&3Лор:&r&o Свою пивоварню можно было построить, если мечтал о компании и продаже выпивки... в GregTech 6.&r"
 			]
 			icon: "gtceu:mv_brewery"
 			id: "1A29EFBCEA017F99"
@@ -127,7 +127,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "*hic*... *hic*"
+			subtitle: "*ик*... *ик*"
 			tasks: [
 				{
 					id: "095C98D86D021B2E"
@@ -141,7 +141,7 @@
 					type: "item"
 				}
 			]
-			title: "Local Brewery selling Booze"
+			title: "Местная пивоварня с выпивкой"
 			x: -1.125d
 			y: -1.875d
 		}
@@ -152,24 +152,24 @@
 				"316FF60D6FFE97CE"
 			]
 			description: [
-				"Our warmest congratulations on making it here."
+				"Наши самые тёплые поздравления — ты добрался сюда."
 				""
-				"The way you should obtain &aEthylene&r was described in the previous Quest, depending on the route you chose."
+				"Способ получить &aэтилен&r описан в предыдущем квесте — в зависимости от выбранного маршрута."
 				""
-				"&aEthylene&r will shortly be used in polymer production. It's also useful in a few other reactions."
+				"&aЭтилен&r скоро понадобится для полимеров. Он также полезен в ряде других реакций."
 			]
 			icon: "gtceu:ethylene_bucket"
 			id: "6BB98D128822730E"
 			min_required_dependencies: 1
 			shape: "square"
 			size: 0.75d
-			subtitle: "One of many hydrocarbons"
+			subtitle: "Один из многих углеводородов"
 			tasks: [{
 				id: "29191DABA0ACE155"
 				item: "gtceu:ethylene_bucket"
 				type: "item"
 			}]
-			title: "Ethylene"
+			title: "Этилен"
 			x: 5.625d
 			y: -4.125d
 		}
@@ -179,41 +179,41 @@
 				"6A304E453D74C57C"
 			]
 			description: [
-				"Put your previously made &aBiomass&r into a &3MV Distillery&r to make &aEthanol&r."
+				"Залей ранее полученную &aбиомассу&r в &3MV дистиллятор&r, чтобы получить &aэтанол&r."
 				""
-				"You will need this for &dEthylene&r by reacting it with &aSulfuric Acid&r in a &3MV Chemical Reactor&r... unless you chose to go down the Oil path."
+				"Он понадобится для &dэтилена&r — реакция с &aсерной кислотой&r в &3MV химическом реакторе&r... если только ты не пошёл по нефтяному пути."
 				""
-				"Once you have a hefty starting stock of Ethanol, consider making and distilling &9Fermented Biomass&r in a &3Distillation Tower&r (when you get there!) for extra chemicals."
+				"Когда наберёшь приличный запас этанола, подумай о &9ферментированной биомассе&r и её дистилляции в &3дистилляционной башне&r (когда доберёшься!) для дополнительных химикатов."
 				""
-				"&cDo not try&r to use Ethanol as a Power source... it's quite possibly its worst use. If it's organic &9Power&r that you want, we suggest taking a look at &dBenzene&r instead!"
+				"&cНе пытайся&r использовать этанол как источник энергии... это, пожалуй, худшее применение. Если нужна органическая &9энергия&r — посмотри на &dбензол&r!"
 			]
 			id: "5D9D01EF219A31C5"
 			size: 0.66d
-			subtitle: "Yo, wait - that's alcohol!"
+			subtitle: "Эй, постой — это же алкоголь!"
 			tasks: [{
 				id: "6D7350EA7AB6CF25"
 				item: "gtceu:ethanol_bucket"
 				type: "item"
 			}]
-			title: "Ethanol"
+			title: "Этанол"
 			x: 0.0d
 			y: -3.63d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"Дистилляция &aнефти&r даёт топливо, которое нужно обессерить."
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				"&aСероводород&r отлично &dперерабатывается&r в &3электролизёре&r."
 				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
+				"Для автоматизации поставь &3химический реактор&r и &3электролизёр&r рядом. Не забудь &5отвёрткой&r &4включить ввод с выходной стороны&r."
 				""
-				"&aNaphtha&r is a good &9Product&r source. Keep following the quests to the right for more details."
+				"&aНафта&r — хороший источник &9продуктов&r. Следуй квестам справа за подробностями."
 			]
 			icon: "gtceu:naphtha_bucket"
 			id: "6238B2A7ED1BE5A1"
 			size: 0.66d
-			subtitle: "We're still confused on how this is pronounced"
+			subtitle: "Мы до сих пор не знаем, как это произносить"
 			tasks: [
 				{
 					id: "01BF2D557A9EF2B0"
@@ -227,7 +227,7 @@
 					type: "item"
 				}
 			]
-			title: "Naphtha"
+			title: "Нафта"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -238,27 +238,27 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Don't panic! We'll mostly be doing this to get hydrocarbons."
+				"Не паникуй! В основном мы делаем это ради углеводородов."
 				""
-				"There are many ways to acquire &dEthylene&r from Oil processing. It's easy to get lost in all the options and recipes!"
+				"Из переработки нефти &dэтилен&r можно получить множеством способов. Легко запутаться в вариантах и рецептах!"
 				""
-				"The best way is to steam-crack &aNaphtha&r in a &3Chemical Reactor&r. Be sure to make the &aSeverely Steam-Cracked&r version for a higher yield of Ethylene."
+				"Лучший способ — паровой крекинг &aнафты&r в &3химическом реакторе&r. Бери версию &aсильно парокрекингованной&r — выход этилена выше."
 				"{@pagebreak}"
-				"Once in &6HV&r, you'll have the option to do this recipe in the &3Cracking Unit&r at 100% efficiency. Unfortunately, the recipes you are doing with the Chemical Reactor have a loss of &450%&r."
+				"В &6HV&r можно делать этот рецепт в &3крекинг-установке&r с КПД 100%. К сожалению, рецепты в химическом реакторе теряют &450%&r."
 				""
-				"&9Note:&r All of this looks and feels terribly inefficient - we hope that's strong motivation to tier up! The &3Distillation Tower&r will be a huge upgrade for petrochem, but you're not quite there... yet. Right now, you'll have to use a &3Distillery&r to get &dEthylene&r."
+				"&9Примечание:&r Всё это выглядит ужасно неэффективно — надеемся, это мотивирует перейти на следующий tier! &3Дистилляционная башня&r будет огромным апгрейдом для нефтехимии, но ты ещё не там... пока. Сейчас для &dэтилена&r придётся использовать &3дистиллятор&r."
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "3E2E161F8CE35138"
 			progression_mode: "linear"
 			size: 0.66d
-			subtitle: "Fuel and oil cracking can get complicated..."
+			subtitle: "Крекинг топлива и нефти — это сложно..."
 			tasks: [{
 				id: "5687D81E6BFDC7E0"
 				item: "gtceu:severely_steam_cracked_naphtha_bucket"
 				type: "item"
 			}]
-			title: "Fuel Cracking"
+			title: "Крекинг топлива"
 			x: -4.5d
 			y: -4.125d
 		}
@@ -269,21 +269,21 @@
 				"6E186F9C57155BFA"
 			]
 			description: [
-				"Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &3Advanced Steam Turbine&r will use &d5,120 mB Steam&r per second, equivalent to &d256 mB/t&r."
+				"Генераторы более высокого tier'а потребляют топливо пропорционально выработке — длительность горения и удельная энергия топлива те же. &3MV продвинутый паровой турбогенератор&r жрёт &d5 120 mB пара&r в секунду — эквивалент &d256 mB/t&r."
 				""
-				"Get &eany&r of the generators to complete this quest, but you may prefer starting off with the &3Advanced Steam Turbine&r."
+				"Подойдёт &eлюбой&r генератор для выполнения квеста, но начать лучше с &3MV продвинутого парового турбогенератора&r."
 				"{@pagebreak}"
-				"There are a few new power options available for &bMV&r. Selecting the Generators and pressing &4U&r will let you see which fuels count as &aCombustion&r or &aGas&r."
+				"Для &bMV&r доступны новые источники энергии. Выдели генераторы и нажми &4U&r — увидишь, какие топлива считаются &aкомбустионными&r или &aгазовыми&r."
 				""
-				"Quests in the top left corner of this Chapter are for the valuable Power options."
+				"Квесты в левом верхнем углу главы — про ценные варианты энергии."
 				""
-				"If you stick to &9Steam&r for your Power generation, you'll probably need a &3Large Boiler&r."
+				"Если остаёшься на &9паре&r, скорее всего понадобится &3большой котёл&r."
 			]
 			icon: "gtceu:mv_steam_turbine"
 			id: "583D0CC4FAA4FC98"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Things are 'boutta get rough"
+			subtitle: "Сейчас станет жёстко"
 			tasks: [{
 				id: "1F170291094582D6"
 				item: {
@@ -309,24 +309,24 @@
 				title: "MV Generators"
 				type: "item"
 			}]
-			title: "Electricity Generation in MV"
+			title: "Генерация электричества в MV"
 			x: 0.0d
 			y: 2.44d
 		}
 		{
 			dependencies: ["2AD44111B9B39C90"]
 			description: [
-				"Any Steel you encounter in day-to-day life is most likely &7Stainless Steel&r. It is extremely resilient against corrosion.&r"
+				"Любая «сталь» в быту — скорее всего &7нержавеющая сталь&r. Она крайне устойчива к коррозии."
 				""
-				"Stainless Steel is the material for &6HV&r components, like Aluminium for &bMV&r and Steel for &7LV&r. It is also used in high quantities for the &3Distillation Tower&r."
+				"Нержавеющая сталь — материал для компонентов &6HV&r, как алюминий для &bMV&r и сталь для &7LV&r. Ещё нужна в больших количествах для &3дистилляционной башни&r."
 				""
-				"It requires &cChromium&r, obtained mainly from &cRuby&r, and &2Manganese&r, obtained from &2Pyrolusite&r and others in its vein."
+				"Нужны &cхром&r (в основном из &cрубина&r) и &2марганец&r (из &2пиролюзита&r и других руд жилы)."
 				"{@pagebreak}"
-				"Smelting Stainless Steel requires &dHV Power&r, which you likely do not have at this point. Scaling Power Production is crucial."
+				"Плавка нержавеющей стали требует &dHV&r — скорее всего, у тебя его ещё нет. Масштабирование выработки энергии критично."
 				""
-				"If you &9haven't already&r, it would be a good idea to get a second EBF going. They can share blocks, so that means your second EBF only requires &a10 Cupronickel Coils&r instead of 16."
+				"Если &9ещё не&r — хорошая идея поставить вторую ЭПП. Блоки можно шарить — вторая ЭПП потребует только &a10 катушек из меди-никеля&r вместо 16."
 				""
-				"Have one EBF run off &bMV&r for Aluminium and any other recipes requiring &bMV&r Power, and one running off &6HV&r with &32 MV Energy Hatches&r."
+				"Одна ЭПП на &bMV&r — для алюминия и прочих рецептов &bMV&r, вторая на &6HV&r с &32 люками ввода энергии MV&r."
 			]
 			icon: "gtceu:stainless_steel_ingot"
 			id: "16A6AE5C770DB83A"
@@ -338,13 +338,13 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "HV is in your grasp"
+			subtitle: "HV уже на расстоянии вытянутой руки"
 			tasks: [{
 				id: "3192FF80FBDC7A28"
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			title: "Stainless Steel"
+			title: "Нержавеющая сталь"
 			x: 3.375d
 			y: 0.375d
 		}
@@ -354,28 +354,28 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"&3Transformers&r allow you to step up and down safely between Voltage tiers. They convert the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage."
+				"&3Трансформаторы&r позволяют безопасно повышать и понижать напряжение между tier'ами. Они преобразуют получаемую мощность в эквивалентную на один tier выше или ниже входного напряжения."
 				""
-				"Apart from running machines on different voltage tiers, Transformers come in handy for transporting power across longer distances, as cable loss has less of an effect at higher voltages. Just like real life!"
+				"Кроме питания машин разных tier'ов, трансформаторы удобны для передачи энергии на большие расстояния — потери в кабелях меньше на высоком напряжении. Как в жизни!"
 				"{@pagebreak}"
-				"Transformers have 5 low voltage sides, and 1 high voltage side."
+				"У трансформатора 5 сторон низкого напряжения и 1 сторона высокого."
 				""
-				"The &9normal&r Transformer can only do 1A <-> 4A conversion, but &9Adjustable&r Transformers can be changed between 1A <-> 4A, 2A <-> 8A, 4A <-> 16A, and 16A <-> 64A conversions. "
+				"&9Обычный&r трансформатор делает только 1A ↔ 4A, а &9регулируемый&r переключается между 1A ↔ 4A, 2A ↔ 8A, 4A ↔ 16A и 16A ↔ 64A."
 				""
-				"Use a &aSoft Hammer&r to change between transforming up and down, and a &aScrewdriver&r on Adjustable Transformers to change the amperage."
+				"&aМягким молотком&r переключай повышение/понижение, &aотвёрткой&r на регулируемых — ампераж."
 				""
-				"Higher tier Transformers will require &9Coils&r."
+				"Трансформаторы высших tier'ов требуют &9катушек&r."
 			]
 			icon: "gtceu:mv_transformer_1a"
 			id: "6C20A9A64C1BE0BF"
 			size: 0.75d
-			subtitle: "LV In Disguise"
+			subtitle: "LV в маскировке"
 			tasks: [{
 				id: "6C36867EB98E772D"
 				item: "gtceu:lv_transformer_1a"
 				type: "item"
 			}]
-			title: "Transformers"
+			title: "Трансформаторы"
 			x: 1.125d
 			y: 2.44d
 		}
@@ -385,39 +385,39 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"If you're wanting to dive into &bMV&r, start here."
+				"Хочешь погрузиться в &bMV&r — начни здесь."
 				""
-				"The dusts created in an &3MV Mixer&r have great utility."
+				"Порошки из &3MV смесителя&r очень полезны."
 			]
 			icon: "gtceu:mv_mixer"
 			id: "4A92AFD2532EED26"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Mixing more complex alloys"
+			subtitle: "Смешиваем более сложные сплавы"
 			tasks: [{
 				id: "31B514C75B302F25"
 				item: "gtceu:mv_mixer"
 				type: "item"
 			}]
-			title: "Advanced Mixer"
+			title: "MV продвинутый смеситель"
 			x: 1.125d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7567E885B7166603"]
 			description: [
-				"Here's a list of the components you will need in &bMV&r. To alleviate the pain, be sure to autocraft or &dbulk-craft&r these parts, especially &aMotors&r."
+				"Вот список компонентов, которые понадобятся в &bMV&r. Чтобы облегчить боль, автокрафти или &dкрафти оптом&r — особенно &aмоторы&r."
 				""
-				"Familiar with the &aEmitter&r? This tier's Emitter requires a &dFlawless Emerald&r in its recipe, which'll be only attainable with the &3Sifting Machine&r for now."
+				"Знаком с &aизлучателем&r? В этом tier'е в рецепте нужен &dбезупречный изумруд&r — пока только через &3просеиватель&r."
 				""
-				"Conveyors, Pumps and Robot Arms are objective upgrades to &7LV&r versions if you use them as covers."
+				"Конвейеры, насосы и робот-манипуляторы — однозначный апгрейд над &7LV&r, если используешь их как крышки."
 				""
-				"&6This quest unlocks a new tutorial on Overclocking in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6Этот квест открывает новый туториал об оверклоке во вкладке &l«Советы и хитрости»&r&6 — загляни!&r"
 			]
 			icon: "gtceu:mv_electric_motor"
 			id: "1BE0349B8F3890D3"
 			size: 0.66d
-			subtitle: "Hated crafting these in the previous tier?"
+			subtitle: "Ненавидел крафтить их в прошлом tier'е?"
 			tasks: [
 				{
 					id: "76A30E86C0FDF039"
@@ -450,7 +450,7 @@
 					type: "item"
 				}
 			]
-			title: "MV Components"
+			title: "MV компоненты"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -459,31 +459,31 @@
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
-			description: ["The Advanced Electrolyzer allows you to decompose &6far more&r Dusts. This will make getting materials such as &aAluminium&r&o a lot&r easier!"]
+			description: ["&3MV продвинутый электролизёр&r позволяет разлагать &6намного больше&r порошков. Получать материалы вроде &aалюминия&r&o станет&r намного проще!"]
 			icon: "gtceu:mv_electrolyzer"
 			id: "0EFEE489906256AA"
 			shape: "square"
 			size: 0.75d
-			subtitle: "We made it to MV, and, well..."
+			subtitle: "Мы на MV, и, ну..."
 			tasks: [{
 				id: "151788F66BAD5F97"
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			title: "Advanced Electrolyser"
+			title: "MV продвинутый электролизёр"
 			x: -1.125d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
 			description: [
-				"All four output Dusts obtained from Clay electrolysis are immensely useful."
+				"Все четыре порошка из электролиза глины невероятно полезны."
 				""
-				"We'll ask you to give us a total of &a416 Clay Dust&r for this quest. You may also want to look into other sources of similar materials, such as &aSodalite&r. Check EMI for some ideas."
+				"Попросим суммарно &a416 порошка глины&r. Можешь искать и другие источники похожих материалов — например &aсодалит&r. Загляни в EMI."
 				""
-				"You should use the Sodium and/or Lithium to make some &6MV Batteries&r."
+				"Натрий и/или литий стоит потратить на &6MV-батареи&r."
 				""
-				"Grr, all this useless &dWater&r you're getting keeps clogging the machine! Maybe you should deal with it by using a &3Voiding Cover&r."
+				"Брр, вся эта бесполезная &dвода&r забивает машину! Может, поставить &3крышку уничтожения&r?"
 			]
 			icon: "minecraft:clay_ball"
 			id: "2273DD7E5CD49017"
@@ -494,7 +494,7 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "Clay is an extremely &mbalanced&r useful material for electrolysis"
+			subtitle: "Глина — безумно &mсбалансированный&r полезный материал для электролиза"
 			tasks: [
 				{
 					count: 64L
@@ -521,28 +521,28 @@
 					type: "item"
 				}
 			]
-			title: "A Balanced Quest"
+			title: "Сбалансированный квест"
 			x: -2.25d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0DBC148D92A9F69F"]
 			description: [
-				"This kind soul&r will mine ores for you when placed above a vein."
+				"Эта добрая душа&r будет добывать руду, если поставить её над жилой."
 				""
-				"Vertical range is unlimited below the miner. Horizontal range is displayed in the tooltip."
+				"Вертикальный радиус вниз не ограничен. Горизонтальный — в подсказке."
 				""
-				"The &bMV&r variant may not have the range to mine a full vein, but the &6HV&r variant does, so you may wish hold off for now. Get &eeither&r to complete this Quest."
+				"У &bMV&r-варианта может не хватить радиуса на всю жилу, у &6HV&r — хватит; можешь подождать. Для квеста подойдёт &eлюбой&r."
 				"{@pagebreak}"
-				"You will need &9Power&r. &aCharged Batteries&r may work, but they tend to run out of power, which is a bit inconvenient."
+				"Нужно &9питание&r. &aЗаряженные батареи&r сработают, но быстро сядут — неудобно."
 				""
-				"Our top suggestion is to use a filled &3Drum&r of some kind of fuel &7(if you're using Steam, no dice!)&r and a &3Generator&r. "
+				"Лучший вариант — заполненная &3бочка&r с топливом &7(пар не катит!)&r и &3генератор&r."
 				""
-				"Place the Drum above your Generator and right-click it with a &5Screwdriver&r to auto-output into the Generator."
+				"Поставь бочку над генератором и ПКМ &5отвёрткой&r — автовывод в генератор."
 				"{@pagebreak}"
-				"&cNote:&r Do not forget to &dchunkload&r all 9 chunks of the ore vein with FTB Utilities &7(open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)&r."
+				"&cПримечание:&r не забудь &dпрогрузить чанки&r всей жилы (9 чанков) через FTB Utilities &7(карта слева сверху, ЛКМ — захват, Shift+ЛКМ — форс-загрузка)&r."
 				""
-				"&9Tip:&r You can either use an &3ME Chest&r or a &32x2 Drawer&r as the output inventory to make transporting the ores back home a simple task. The &3ME Chest&r can be powered with EU directly."
+				"&9Совет:&r на выход — &3ME-сундук&r или &3ящик 2×2&r; руду домой везти проще. &3ME-сундук&r можно питать EU напрямую."
 			]
 			icon: "gtceu:mv_miner"
 			id: "5C94CF50090D7DA0"
@@ -584,18 +584,18 @@
 				title: "Any of the listed Miners"
 				type: "item"
 			}]
-			title: "Digital Miner"
+			title: "Цифровой майнер"
 			x: -3.375d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4A92AFD2532EED26"]
 			description: [
-				"Vanadiumsteel is required in small quantities in progression. It's &6nearly four times as durable&r as Steel if used in GregTech tools. The Vanadium comes from &aVanadium Magnetite&r, which you may have encountered in Magnetite veins."
+				"Ванадиевая сталь нужна в небольших количествах для прогресса. В инструментах GregTech она &6почти в четыре раза прочнее&r стали. Ванадий — из &aванадиевого магнетита&r в жилах магнетита."
 				""
-				"Other Steel alloys include Blue Steel, Red Steel, and Black Steel!"
+				"Другие стальные сплавы — синяя, красная и чёрная сталь!"
 				""
-				"Take some Blue Steel free of charge - it's twice as durable as Steel."
+				"Вот синей стали бесплатно — вдвое прочнее обычной."
 			]
 			icon: "gtceu:vanadium_steel_ingot"
 			id: "682C26579EDDCA76"
@@ -607,14 +607,14 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Steel Your Heart"
+			subtitle: "Закали сердце"
 			tasks: [{
 				count: 4L
 				id: "2E6C71CB2E5EEAC7"
 				item: "gtceu:vanadium_steel_ingot"
 				type: "item"
 			}]
-			title: "Steel Alloys"
+			title: "Стальные сплавы"
 			x: 2.25d
 			y: 2.625d
 		}
@@ -624,40 +624,40 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"&3Molecular Assemblers&r can be used to automate Crafting Table recipes, which means you can automate just about anything now."
+				"&3Молекулярные сборщики&r автоматизируют рецепты верстака — значит, почти всё."
 				""
-				"To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Pattern Providers - where each component is surrounded on 6 sides by the other."
+				"Чтобы один сборщик делал больше рецептов, построй 3D-матрицу из сборщиков и ME Pattern Providers — каждый окружён с шести сторон другим типом."
 				""
-				"Using higher-tier materials in crafting will yield more Molecular Assemblers."
+				"Материалы высшего tier'а в крафте дают больше сборщиков."
 				"{@pagebreak}"
-				"&cWarning:&r Try to avoid using GT tools in AE2 autocrafting! It causes AE2 to freak out... you may or may not destroy the TPS, or even worse, end up having thousands of tools being crafted as soon as one of them breaks."
+				"&cПредупреждение:&r Старайся не использовать GT-инструменты в AE2-автокрафте! AE2 сходит с ума... TPS может умереть, а то и тысячи инструментов скрафтятся, когда один сломается."
 				""
-				"If you're stubborn enough to &oreally&r want to use GT tools in AE2 autocrafting, prioritise encoding recipes that use tools with high durability, but &4do not&r setup autocrafting for the tools themselves. Instead, use the alternate &3Assembling Machine&r recipes."
+				"Если всё же &oправда&r хочешь GT-инструменты в AE2 — кодируй рецепты с прочными инструментами, но &4не&r настраивай автокрафт самих инструментов. Используй альтернативные рецепты &3сборочного автомата&r."
 			]
 			icon: "ae2:molecular_assembler"
 			id: "0A1165C6D1F62C2B"
 			size: 0.66d
-			subtitle: "Autocrafting at last!"
+			subtitle: "Наконец автокрафт!"
 			tasks: [{
 				id: "37ED5227CCC0FE20"
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			title: "Autocrafting"
+			title: "Автокрафт"
 			x: 3.375d
 			y: 1.5d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Making &aAE2 Presses&r will unlock all the &9Processors&r from AE2. This opens up &9ME Drives&r, &9ME Pattern Providers,&r &9ME Crafting CPUs&r... that's almost the rest of AE2 at your fingertips! &7(Or at least... not until you obtain Silicon Ingots.)&r"
+				"Крафт &aштампов AE2&r откроет все &9процессоры&r AE2. Это &9ME-накопители&r, &9ME-поставщики шаблонов&r, &9ME-процессоры крафта&r... почти весь AE2 у тебя под рукой! &7(Ну, пока не получишь кремниевые слитки.)&r"
 				""
-				"AE2 &9Printed Circuits&r are now made in the &3Forming Press&r."
+				"&9Печатные платы&r AE2 теперь делаются в &3формовочном прессе&r."
 			]
 			icon: "ae2:silicon_press"
 			id: "5401AB5E399E7BEA"
 			size: 0.66d
-			subtitle: "Who likes meteor hunting, anyway?"
+			subtitle: "Кому вообще нравится охота на метеориты?"
 			tasks: [
 				{
 					id: "1141B6EFBC930999"
@@ -680,18 +680,18 @@
 					type: "item"
 				}
 			]
-			title: "Pressing Matters"
+			title: "Дело в прессах"
 			x: 3.375d
 			y: 2.64d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
 			description: [
-				"The &3MV Cutter&r is required to cut &7Silicon Boules&r to prepare them for &aLaser Engraving&r."
+				"&3MV продвинутый резак&r нужен, чтобы резать &7кремниевые слитки&r перед &aлазерной гравировкой&r."
 				""
-				"We recommend you supply this machine with a steady stream of &dLubricant&r to cut down on the processing time."
+				"Советуем подавать стабильный поток &dсмазки&r — так рецепты идут быстрее."
 				""
-				"Lubricant can be &3brewed&r from &eOil&r and &aTalc&r, &2Soapstone&r or &cRedstone&r."
+				"Смазку можно &3варить&r из &eнефти&r и &aталькa&r, &2стеатита&r или &cредстоуна&r."
 			]
 			icon: "gtceu:mv_cutter"
 			id: "5CBBBFD1FBBE95CE"
@@ -711,13 +711,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Upgrades, people, upgrades!"
+			subtitle: "Апгрейды, люди, апгрейды!"
 			tasks: [{
 				id: "2AFB7F9BD4D82974"
 				item: "gtceu:mv_cutter"
 				type: "item"
 			}]
-			title: "Advanced Cutter"
+			title: "MV продвинутый резак"
 			x: 3.375d
 			y: 3.75d
 		}
@@ -727,9 +727,9 @@
 				"71412502C81F21C1"
 			]
 			description: [
-				"The &3Laser Engraver&r engraves patterns into &9Silicon Wafers&r based on the type of &9Lens&r it is given. After the wafers are engraved, they must be passed through a &3Cutting Machine&r to turn them into components ready to be put into Circuits."
+				"&3MV лазерный гравёр&r выгравирует узор на &9кремниевой пластине&r в зависимости от &9линзы&r. После гравировки пластины прогоняют через &3резатель&r — получаются компоненты для схем."
 				""
-				"Higher tier Engravers can etch more complex wafers for more efficient Circuits."
+				"Гравёры высших tier'ов делают более сложные пластины и более эффективные схемы."
 			]
 			icon: "gtceu:mv_laser_engraver"
 			id: "315169840E06110F"
@@ -740,7 +740,7 @@
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			title: "Laser Engraving"
+			title: "Лазерная гравировка"
 			x: 4.5d
 			y: 2.625d
 		}
@@ -750,9 +750,9 @@
 				"16A1EF8B80A96633"
 			]
 			description: [
-				"A &7LV&r Battery Buffer and two &7LV&r Energy Hatches likely won't cut it anymore. Let's remedy that!"
+				"Батарейный буфер &7LV&r и два энергетических люка &7LV&r, похоже, больше не хватит. Исправим!"
 				""
-				"Upgrade your Electric Blast Furnace with a &3MV Energy Hatch&r. Now, you can run it with &bMV&r Generators without having to mess around with &3Transformers&r."
+				"Поставь на электроплавильную печь &3MV энергетический люк&r. Теперь можно питать её &bMV&r-генераторами без возни с &3трансформаторами&r."
 			]
 			icon: "gtceu:mv_energy_input_hatch"
 			id: "2AD44111B9B39C90"
@@ -764,13 +764,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "LV is so old-school!"
+			subtitle: "LV — это так ретро!"
 			tasks: [{
 				id: "1C69557EB4F9E50F"
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			title: "Upgrade your EBF!"
+			title: "Апгрейд ЭПП!"
 			x: 3.375d
 			y: -0.75d
 		}
@@ -780,23 +780,23 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"The &3Assembler&r is a staple for every Tier; an important goal to unlock more recipes and progress further into the Age. Many in the community see crafting a voltage tier's Assembler as a sign of &oproperly&r reaching said voltage."
+				"&3Сборочный автомат&r — опора каждого tier'а; важная цель для новых рецептов и прогресса. Многие в сообществе считают сборочный автомат tier'а знаком того, что ты &oпо-настоящему&r дошёл до этого напряжения."
 				""
-				"That being said, welcome to &bMV&r!"
+				"Так что добро пожаловать в &bMV&r!"
 				""
-				"The &bMV &3Assembler&r unlocks &eTransistors&r, &eCapacitors&r and &eInductors&r, used for the next tiers of Circuits."
+				"&bMV &3сборочный автомат&r открывает &eтранзисторы&r, &eконденсаторы&r и &eиндукторы&r для следующих tier'ов схем."
 			]
 			icon: "gtceu:mv_assembler"
 			id: "75F38905DEA60F15"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Assengers, Avemble"
+			subtitle: "Сборщики собирайтесь!"
 			tasks: [{
 				id: "2396FECF2A11AA8E"
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
-			title: "Advanced Assembler"
+			title: "MV продвинутый сборочный автомат"
 			x: 1.125d
 			y: -0.75d
 		}
@@ -806,21 +806,21 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"GregTech doesn't provide ways to farm plants or trees, so we made a custom multiblock for the modpack!"
+				"GregTech не даёт фермить растения и деревья, поэтому мы добавили свой мультиблок в модпак!"
 				""
-				"The multiblock &3Greenhouse&r will be your source of &aWood&r and other plants if you wish."
+				"Мультиблок &3теплица&r — источник &aдревесины&r и других растений."
 				""
-				"Its &aWood&r production should be enough to run &32 Pyrolyse Ovens&r at their lowest Power."
+				"Выработки &aдревесины&r хватит на &32 пиролизные печи&r при минимальной мощности."
 				""
-				"You can also use this for automated &aResin&r. The yields are kept low to incentivize other rubber sources later in the game."
+				"Можно автоматизировать &aсмолу&r. Выходы занижены, чтобы позже тянуть к другим источникам каучука."
 				"{@pagebreak}"
-				"&9Note: &rWith &d40 EU/t&r recipes, it needs either 1 &bMV&r energy hatch or 2 &7LV&r energy hatches. Multiblocks will &cnot&r use 2A of one tier to reach the next one for recipe voltage minimums. "
+				"&9Примечание: &rДля рецептов на &d40 EU/t&r нужен либо 1 энергетический люк &bMV&r, либо 2 люка &7LV&r. Мультиблоки &cне&r используют 2A одного tier'а для минимального напряжения рецепта."
 				""
-				"In other words, the controller needs to say at least \"&bMV&r\" in the GUI to run recipes which say \"&bMV&r\" in EMI, even if they can draw enough EU/t with a lower tier hatch configuration."
+				"Иными словами, в GUI контроллера должно быть минимум «&bMV&r» для рецептов с «&bMV&r» в EMI — даже если при конфигурации с люками более низкого tier'а хватит EU/t."
 				""
-				"&9Note:&r The structure requires a lot of &9Wrought Iron&r. Make sure you have an &3Arc Furnace&r for that."
+				"&9Примечание:&r Структура требует много &9кованого железа&r. Заведи &3дуговую печь&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o We originally implemented a Chemical Reactor recipe for wood in the modpack to solve the tree problem. Our implementation turned out to be completely busted, so we decided that a rebalance was due. Hopefully, the Greenhouse is a happy middle ground."
+				"&l&3Лор:&r&o Сначала мы добавили рецепт древесины в химическом реакторе. Реализация оказалась сломанной — нужен был ребаланс. Надеемся, теплица — золотая середина."
 			]
 			icon: "minecraft:oak_sapling"
 			id: "2655B72C9FF3B372"
@@ -832,13 +832,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The power of KubeJS"
+			subtitle: "Сила KubeJS"
 			tasks: [{
 				id: "35CFA225ADAD5D06"
 				item: "gtceu:greenhouse"
 				type: "item"
 			}]
-			title: "Greenhouse"
+			title: "Теплица"
 			x: -1.125d
 			y: 0.375d
 		}
@@ -849,51 +849,51 @@
 				"66805BB78A828C00"
 			]
 			description: [
-				"&3Kanthal Heating Coils&r are the next major step in progression. They increase the temperature of your &3Blast Furnace&r to &d2,700K&r, allowing you to process new materials. They may also &eaccelerate&r less hot recipes - check the quest to the top-left for details."
+				"&3Канталовые катушки&r — следующий большой шаг. Они поднимают температуру &3электроплавильной печи&r до &d2 700 K&r и открывают новые материалы. Могут &eускорять&r и менее горячие рецепты — см. квест слева сверху."
 				""
-				"You will need a staggering &a128 Ingots&r for a full set of Coils, which will easily take over an hour. We advise that you move on to other projects while your &3EBF&r is hard at work - that or build another one!"
+				"На полный комплект нужно &a128 слитков&r — легко больше часа. Займись другими проектами, пока &3ЭПП&r работает — или построй вторую!"
 				"{@pagebreak}"
-				"An &3MV Chemical Bath&r is required to cool &cHot Ingots&r down. They're &chot&r when held, as the name implies. &o&7Maybe you should save your hands and automate this...&r"
+				"Для охлаждения &cгорячих слитков&r нужна &3MV химическая ванна&r. В руке они &cгорячие&r — как следует из названия. &o&7Может, пора автоматизировать и не обжигать руки...&r"
 				""
-				"With the construction of a &3Kanthal EBF&r, you're now able to make &dSilicon Ingots&r, opening up the vast majority of AE2!"
+				"С &3канталовой ЭПП&r можно делать &dкремниевые слитки&r — открывается большая часть AE2!"
 			]
 			icon: "gtceu:kanthal_coil_block"
 			id: "1C55AE6AD5BDE304"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Is it getting hot in here?"
+			subtitle: "Здесь жарко?"
 			tasks: [{
 				count: 16L
 				id: "0737586F9DFFC0FE"
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			title: "Kanthal Coils"
+			title: "Канталовые катушки"
 			x: 4.5d
 			y: -0.75d
 		}
 		{
 			dependencies: ["1C55AE6AD5BDE304"]
 			description: [
-				"This is a guide on how to automatically route &lall&r your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape."
+				"Гайд: как автоматически направлять &lвсе&r горячие слитки в химическую ванну и держать линию в порядке."
 				""
-				"The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's try the fun option."
+				"Дешёвый путь — фильтры и ручное добавление слитков по одному... скучно! Попробуем интересный."
 				""
-				"Install an &aItem Tag Filter&r Cover on the side of your &3Chemical Bath&r, open it and set it to whitelist \"&e&lhot_ingots&r\"."
+				"Поставь &aфильтр по тегам предметов&r как крышку на &3химическую ванну&r, открой и добавь в белый список «&e&lhot_ingots&r»."
 				""
-				"From here, you can route with &9any logistics system&r of your choice."
+				"Дальше — любая логистика на выбор."
 				"{@pagebreak}"
-				"Connect the output of your &3EBF(s)&r to the input of your &3Chemical Bath&r and the output dump (Chest or Crate)."
-				"You can also have a &dRestrictive Pipe&r in front of the output dump to ensure the Chemical Bath will be prioritized."
+				"Подключи выход &3ЭПП&r ко входу &3химической ванны&r и к сливу (сундук или ящик)."
+				"Можно поставить &dограничительную трубу&r перед сливом — ванна будет в приоритете."
 				""
-				"&l&9Note:&r If you wish to know more tags for more automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &e&o#forge:plates/copper&r would be filtered as &e&lplates/copper&r."
+				"&l&9Примечание:&r Больше тегов для автоматизации — Shift при наведении на предмет. Например, &e&o#forge:plates/copper&r фильтруется как &e&lplates/copper&r."
 				""
-				"&9Other Note:&r The Item Tag Filter partially supports &dregex&r. Hover over the info icon for more information."
+				"&9Ещё:&r Фильтр по тегам частично поддерживает &dregex&r — наведи на иконку информации."
 			]
 			icon: "gtceu:item_tag_filter"
 			id: "13A976D0D612BC84"
 			size: 0.66d
-			subtitle: "Stop burning your darn hands!"
+			subtitle: "Хватит обжигать руки!"
 			tasks: [{
 				id: "76A20EE57CB39857"
 				item: "gtceu:item_tag_filter"
@@ -908,7 +908,7 @@
 				"10FB27DD3C7BEC2F"
 				"1C55AE6AD5BDE304"
 			]
-			description: ["A circuit component that you can now produce thanks to the &3MV Assembler&r and your shiny new &3Kanthal EBF&r."]
+			description: ["Компонент схемы, который теперь можно делать благодаря &3MV сборочному автомату&r и новой &3канталовой ЭПП&r."]
 			icon: "gtceu:transistor"
 			id: "375684F9CBEF9132"
 			rewards: [{
@@ -924,7 +924,7 @@
 				item: "gtceu:transistor"
 				type: "item"
 			}]
-			title: "Moore's Law"
+			title: "Закон Мура"
 			x: 6.75d
 			y: -0.75d
 		}
@@ -935,32 +935,32 @@
 				"1E7BF65DB32B8B3E"
 			]
 			description: [
-				"Alright... technically, obtaining &6HV&r Circuits and Stainless Steel lets you progress to &6HV&r - but let's not rush things."
+				"Ладно... технически &6HV&r-схемы и нержавеющая сталь открывают &6HV&r — но не спеши."
 				""
-				"The first thing you should make with these is a &3MV Circuit Assembler&r to unlock the new tier of Circuits right away; cheaper recipes is the &dreal payoff&r here."
+				"Первым делом сделай &3MV сборщик схем&r — сразу откроешь новый tier; &dнастоящая награда&r — более дешёвые рецепты."
 			]
 			icon: "gtceu:advanced_integrated_circuit"
 			id: "26394C1290D70AB6"
 			shape: "square"
 			size: 0.75d
-			subtitle: "...but hold on before getting too giddy"
+			subtitle: "...но не радуйся раньше времени"
 			tasks: [{
 				id: "75EB5730046212D0"
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			title: "First HV Circuits!"
+			title: "Первые HV-схемы!"
 			x: 6.75d
 			y: 0.375d
 		}
 		{
 			dependencies: ["315169840E06110F"]
-			description: ["&aRandom Access Memory&r is required for more advanced Electronic Components."]
+			description: ["&aОЗУ&r нужно для более продвинутых электронных компонентов."]
 			icon: "gtceu:ram_chip"
 			id: "1E7BF65DB32B8B3E"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Random Access Memories"
+			subtitle: "Случайный доступ к воспоминаниям"
 			tasks: [
 				{
 					id: "40E0E6FD45AEC7B1"
@@ -980,47 +980,47 @@
 					type: "item"
 				}
 			]
-			title: "Download more RAM"
+			title: "Скачай больше RAM"
 			x: 5.625d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6F6D2829FC42F21C"]
 			description: [
-				"The Integrated Logic Circuit is an alternate &7LV &aCircuit&r, which is easier to mass-produce, and can be upgraded to &bMV&r (and then &6HV&r)."
+				"Интегральная логическая схема — альтернативная &7LV &aсхема&r: проще массово производить, апгрейдится до &bMV&r (и &6HV&r)."
 				""
-				"&9Note:&r This is not a strict upgrade to the cost of Circuits - you would need to get to the next Tier for that, just slightly further down in &bMV&r. It is still an important upgrade, and is required to get to &6HV circuits&r."
+				"&9Примечание:&r Это не строгий апгрейд по стоимости схем — для этого нужен следующий tier, чуть ниже в &bMV&r. Но это важный апгрейд и нужен для &6HV-схем&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &lSpecifically&r&o this circuit tier, which was a trap!"
+				"&l&3Лор:&r&o Прогрессия схем в GTCEu в основном от GT5u, но перебалансирована. &lОсобенно&r&o этот tier — в оригинале была ловушка!"
 			]
 			icon: "gtceu:basic_integrated_circuit"
 			id: "5C17BF90DA2AAEEE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "You have unlocked a new tier of Circuits!"
+			subtitle: "Ты открыл новый tier схем!"
 			tasks: [{
 				id: "2301CD2A841F17D9"
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			title: "More LV Circuits"
+			title: "Ещё LV-схемы"
 			x: 6.75d
 			y: 2.625d
 		}
 		{
 			dependencies: ["5C17BF90DA2AAEEE"]
-			description: ["The &bMV&r Circuit for the Integrated Tier."]
+			description: ["&bMV&r-схема интегрального tier'а."]
 			icon: "gtceu:good_integrated_circuit"
 			id: "60D7F6C1EE918B66"
 			shape: "square"
 			size: 0.75d
-			subtitle: "More... I demand more!"
+			subtitle: "Ещё... я требую ещё!"
 			tasks: [{
 				id: "0622E51767B0AB58"
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			title: "More MV Circuits"
+			title: "Ещё MV-схемы"
 			x: 6.75d
 			y: 1.5d
 		}
@@ -1030,21 +1030,21 @@
 				"1E9BE8D3F8A602DC"
 			]
 			description: [
-				"&9Silicon Boules&r are made in the &3EBF&r with half a stack of &aSilicon Dust&r and a pinch of &aGallium Arsenide&r. Their primary purpose is engraving &6Circuit Wafers&r."
+				"&9Кремниевые слитки&r делаются в &3ЭПП&r из полстака &aкремниевого порошка&r и щепотки &aарсенида галлия&r. Главная цель — гравировка &6пластин схем&r."
 				""
-				"After making the Boule, process it in the &3Cutter&r to get 16 Silicon Wafers ready for engraving."
+				"После слитка — в &3резак&r: 16 кремниевых пластин для гравировки."
 				""
-				"The recommended &aSilicon&r source at this point would be... hm, either &dGlass Dust&r or &dSodalite&r."
+				"Рекомендуемый источник &aкремния&r сейчас... хм, &dстеклянный порошок&r или &dсодалит&r."
 				""
-				"&cWarning:&r Each Silicon Boule takes &47.5 minutes&r to make at 120 EU/t, or 1,080,000 EU! If the EBF loses power midway, the recipe will start to &close progress&r."
+				"&cПредупреждение:&r Один слиток — &47,5 минут&r при 120 EU/t, или 1 080 000 EU! Если ЭПП потеряет питание — прогресс &cсбросится&r."
 				""
-				"With that being said, Silicon Boules take an absolute age to craft, so consider parallelizing the recipe in multiple &3EBF&rs and stockpiling them."
+				"Слитки крафтятся вечность — параллель в нескольких &3ЭПП&r и запас впрок."
 			]
 			icon: "gtceu:silicon_boule"
 			id: "71412502C81F21C1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "These wafers are fully fungible"
+			subtitle: "Эти пластины полностью взаимозаменяемы"
 			tasks: [
 				{
 					id: "1A18D503A429CC17"
@@ -1058,16 +1058,16 @@
 					type: "item"
 				}
 			]
-			title: "Silicon Lottery"
+			title: "Кремниевая лотерея"
 			x: 4.5d
 			y: 3.75d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"As is common for every tier, the &3Circuit Assembler&r is an essential part of progression, always opening up a new Tier of circuits."
+				"Как на каждом tier'е, &3сборщик схем&r — ключ к прогрессу и новому tier'у схем."
 				""
-				"At this point you should be placing an &3Extractor&r next to your Circuit Assembler. Send off dozens of stacks of &aSoldering Alloy&r Ingots, and you won't have to worry about refilling again."
+				"Поставь &3экстрактор&r рядом со сборщиком. Прогони десятки стаков &aпаяльного сплава&r — и забудь о дозаправке."
 			]
 			icon: "gtceu:mv_circuit_assembler"
 			id: "0DE5C3FBC9A6A690"
@@ -1079,24 +1079,24 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Yippee, yahoo"
+			subtitle: "Ура, ура"
 			tasks: [{
 				id: "7ED7103DAF7E4413"
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			title: "Advanced Circuit Assembler"
+			title: "MV продвинутый сборщик схем"
 			x: 7.875d
 			y: 0.375d
 		}
 		{
 			dependencies: ["26394C1290D70AB6"]
 			description: [
-				"At its lowest power (Cupronickel coils and &7LV&r Voltage), the &dMulti Smelter&r smelts 32 items in just 12 seconds - equivalent to &926.7 Furnaces&r, or 3.3 Steam Ovens!"
+				"На минимальной мощности (медно-никелевые катушки и &7LV&r) &dмультиплавильня&r плавит 32 предмета за 12 секунд — это &926,7 печей&r или 3,3 паровых печи!"
 				""
-				"If that wasn't already enough to convince you, standard &aoverclocks&r can be applied with sufficient voltage."
+				"Если этого мало — стандартные &aразгоны&r работают при достаточном напряжении."
 				""
-				"And even better - higher tier &3Coils&r increase the amount of items it can smelt in &dparallel&r!"
+				"И лучше: катушки высших tier'ов увеличивают объём плавки &dпараллельно&r!"
 			]
 			icon: "gtceu:multi_smelter"
 			id: "6DDDE2268B691F74"
@@ -1107,13 +1107,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Possibly the most powerful furnace you've seen"
+			subtitle: "Пожалуй, самая мощная печь, что ты видел"
 			tasks: [{
 				id: "0A42FE4B72071451"
 				item: "gtceu:multi_smelter"
 				type: "item"
 			}]
-			title: "Ultimate Smelter"
+			title: "Идеальная плавильня"
 			x: 5.625d
 			y: 0.375d
 		}
@@ -1125,23 +1125,23 @@
 				"375684F9CBEF9132"
 			]
 			description: [
-				"&6The best LV Circuits&r! You can start to churn these guys out, as you'll be making them for the rest of the game."
+				"&6Лучшие LV-схемы&r! Можешь штамповать их — они понадобятся до конца игры."
 				""
-				"Try to keep a stockpile of these crafted at all times - making these on-demand can take a while."
+				"Держи запас наготове — по запросу крафтить долго."
 				""
-				"Reaching &5EV&r will unlock methods to make them even cheaper."
+				"На &5EV&r откроются способы делать их ещё дешевле."
 			]
 			icon: "gtceu:microchip_processor"
 			id: "5E76D4C24026157D"
 			shape: "square"
 			size: 0.75d
-			subtitle: "It Feels Good to be the Best"
+			subtitle: "Приятно быть лучшим"
 			tasks: [{
 				id: "4E076080D7B23372"
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			title: "Best LV Circuits"
+			title: "Лучшие LV-схемы"
 			x: 7.875d
 			y: -0.75d
 		}
@@ -1153,21 +1153,21 @@
 				"375684F9CBEF9132"
 			]
 			description: [
-				"&6The best MV Circuits&r! You will be making these for the remainder of the game."
+				"&6Лучшие MV-схемы&r! Будешь делать их до конца игры."
 				""
-				"Eventually (in &9IV&r), they will become even cheaper."
+				"Позже (на &9IV&r) станут ещё дешевле."
 			]
 			icon: "gtceu:micro_processor"
 			id: "38DE506FF5B32031"
 			shape: "square"
 			size: 0.75d
-			subtitle: "MV has peaked"
+			subtitle: "MV на пике"
 			tasks: [{
 				id: "120B63C2E40D359A"
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			title: "Best MV Circuits"
+			title: "Лучшие MV-схемы"
 			x: 9.0d
 			y: -0.75d
 		}
@@ -1178,21 +1178,21 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"Your first &5EV&r Circuit gets a unique texture. If you still consider yourself to be in &bMV&r, &ahold off&r on making too many of these, as they won't benefit you right now. We can't stop you from making these if you &djust wanna flex&r on us, though."
+				"Первая &5EV&r-схема с уникальной текстурой. Если считаешь себя ещё в &bMV&r — &aне делай&r слишком много: сейчас не поможет. Не остановим, если &dпросто хочешь похвастаться&r."
 				""
-				"It'll be needed in &6HV&r."
+				"На &6HV&r она всё же понадобится."
 			]
 			icon: "gtceu:micro_processor_computer"
 			id: "4AFD3073C731A1E4"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Standing out amongst the rest"
+			subtitle: "Выделяется среди остальных"
 			tasks: [{
 				id: "34EA9B71F8BF607F"
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			title: "First EV Circuits!"
+			title: "Первые EV-схемы!"
 			x: 11.25d
 			y: -0.75d
 		}
@@ -1202,58 +1202,58 @@
 				"3DFFA8F91452C62A"
 			]
 			description: [
-				"Better &6HV&r Circuits - much &dcheaper&r and easier to make than before."
+				"Лучшие &6HV&r-схемы — намного &dдешевле&r и проще, чем раньше."
 				""
-				"Before you move on to &6HV&r, make sure you have scaled up your Power Production, and automated the most important processes with AE2!"
+				"Перед переходом на &6HV&r нарасти выработку энергии и автоматизируй главное через AE2!"
 			]
 			icon: "gtceu:micro_processor_assembly"
 			id: "5063FDFFBE3E4855"
 			shape: "square"
 			size: 0.75d
-			subtitle: "On that HV grind"
+			subtitle: "Гринд HV в разгаре"
 			tasks: [{
 				id: "2FE33281A44C34F6"
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			title: "More HV Circuits"
+			title: "Ещё HV-схемы"
 			x: 10.125d
 			y: -0.75d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"A circuit component that you can now produce thanks to the &3MV Assembler&r!"
+				"Компонент схемы, который теперь можно делать благодаря &3MV сборочному автомату&r!"
 				""
-				"Capacitors are commonly used in computers to store information during power failures, amongst many other uses."
+				"Конденсаторы в компьютерах хранят данные при сбое питания — и не только для этого."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:capacitor"
 			id: "6E9E15DA847DD0A1"
 			shape: "square"
 			size: 0.75d
-			subtitle: "No cap, bussin frfr"
+			subtitle: "Без cap'а, реально огонь"
 			tasks: [{
 				id: "60D8154F5C9C0EAC"
 				item: "gtceu:capacitor"
 				type: "item"
 			}]
-			title: "Capacitors"
+			title: "Конденсаторы"
 			x: 9.0d
 			y: -1.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&aBlue Alloy&r is an excellent Cable material for &6HV&r power."
+				"&aСиний сплав&r — отличный кабель для &6HV&r."
 				""
-				"Nothing is preventing you from using it for &bMV&r power too! Make sure that you don't overvolt your machines, though."
+				"Можно и для &bMV&r! Только не перенапрягай машины."
 				""
-				"Superconductors for both &bMV&r and &6HV&r are unlocked... later."
+				"Сверхпроводники для &bMV&r и &6HV&r откроются... позже."
 				""
-				"&aElectrotine&r is obtained from the &cNether&r, so don't craft it in the Mixer!"
+				"&aЭлектротин&r добывается в &cНезере&r — не крафти его в смесителе!"
 				""
-				"Furthermore, &aElectrotine&r can be separated for &dElectrum&r and &dRedstone&r."
+				"Кстати, &aэлектротин&r можно разделить на &dэлектрум&r и &dредстоун&r."
 			]
 			icon: "gtceu:blue_alloy_ingot"
 			id: "1FCF2C103E25972B"
@@ -1264,51 +1264,51 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "You're blue now... that's my alloy"
+			subtitle: "Теперь ты синий... это мой сплав"
 			tasks: [{
 				id: "15C7369398FAB8DB"
 				item: "gtceu:blue_alloy_ingot"
 				type: "item"
 			}]
-			title: "Blue Alloy"
+			title: "Синий сплав"
 			x: 11.25d
 			y: -1.875d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"A Circuit Component that you can now make thanks to the &3MV Assembler&r."
+				"Компонент схемы — теперь доступен благодаря &3MV сборочному автомату&r."
 				""
-				"If you want the cheapest recipe, &aNickel-Zinc Ferrite&r is the way to go."
+				"Самый дешёвый рецепт — через &aникель-цинковый феррит&r."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:inductor"
 			id: "3DFFA8F91452C62A"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Z = jwL"
+			subtitle: "Z = jωL"
 			tasks: [{
 				id: "6690451CCAB62CA1"
 				item: "gtceu:inductor"
 				type: "item"
 			}]
-			title: "Inductors"
+			title: "Индукторы"
 			x: 10.125d
 			y: -1.875d
 		}
 		{
 			dependencies: ["6BB98D128822730E"]
 			description: [
-				"If you want to be less fancy, just call it plastic."
+				"Если проще — зови пластиком."
 				""
-				"For the polymerization process, add &aOxygen&r, which gives better returns than Air, then solidify like you would with Rubber."
+				"При полимеризации добавь &aкислород&r — выход лучше, чем с воздухом, затем застывай как с каучуком."
 				""
-				"&aPolyethylene (PE)&r is the key to unlocking &6many new things&r. It's commonly used as &dSheets&r, or in &dFluid&r form."
+				"&aПолиэтилен (ПЭ)&r открывает &6много нового&r. Часто нужен как &dлисты&r или &dжидкость&r."
 				""
-				"In addition, some recipes are now more efficient! Check out diodes and machine hulls (both &8LV&r and &bMV&r)."
+				"К тому же некоторые рецепты стали эффективнее! Глянь диоды и корпуса машин (&8LV&r и &bMV&r)."
 				""
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The OreDict and fluid name for Polyethylene in 1.12.2 GTCEu was &bplastic&f, for cross-mod compatibility."
+				"&l&3Лор:&r&o В GTCEu 1.12.2 OreDict и имя жидкости для полиэтилена было &bplastic&f — для совместимости с модами."
 			]
 			icon: "gtceu:polyethylene_plate"
 			id: "10FB27DD3C7BEC2F"
@@ -1320,83 +1320,83 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Baby's first polymer!"
+			subtitle: "Первый полимер!"
 			tasks: [{
 				id: "15E5F008339B8964"
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			title: "Polyethylene"
+			title: "Полиэтилен"
 			x: 6.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&aPatterns&r are used for AE2 autocrafting. Using &aPolyvinyl Chloride&r increases the yield by &64 times&r, and higher-tier plastics have even greater yields."
+				"&aШаблоны&r нужны для автокрафта AE2. &aПВХ&r поднимает выход в &64 раза&r, у пластиков выше tier'а — ещё больше."
 				""
-				"Don't get too excited, though - to really get into the automation side of AE2, you'll need to get some &dSilicon Ingots&r first."
+				"Не радуйся рано — для полноценной автоматизации AE2 сначала нужны &dкремниевые слитки&r."
 				""
-				"A sub-note for autocrafting... whilst it's possible to perform chemical chains on-demand with AE2, doing so can build some bad habits that'll come back around to bite you in higher tiers. We urge you to passive things wherever you can."
+				"Заметка про автокрафт: химические цепочки по запросу в AE2 возможны, но это плохая привычка на высоких tier'ах. Лучше делай пассивные линии, где можешь."
 			]
 			icon: "ae2:blank_pattern"
 			id: "1C036BCB2C488CFF"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Autocrafting at last!"
+			subtitle: "Наконец автокрафт!"
 			tasks: [{
 				id: "032C24CBA8687E72"
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			title: "Patterns"
+			title: "Шаблоны"
 			x: 5.625d
 			y: -3.0d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"No, but seriously."
+				"Нет, серьёзно."
 				""
-				"This is the &cu&6l&et&ai&bm&9a&5t&4e&r portable Fluid storage solution. &64,000 buckets of storage&r - in one single block!"
+				"Это &cu&6l&et&ai&bm&9a&5t&4e&r портативное хранилище жидкостей. &64 000 вёдер&r — в одном блоке!"
 				""
-				"Like Drums, Super Tanks &6keep their fluids when broken&r, and can be cleared in the crafting grid."
+				"Как бочки, супер-танки &6сохраняют жидкость при разрушении&r и очищаются в сетке крафта."
 				""
-				"If you hunger for &9even more&r storage, take a look at higher tier Super Tanks or AE2 Fluid Storage Cells."
+				"Хочешь &9ещё больше&r — смотри супер-танки высших tier'ов или AE2 Fluid Storage Cells."
 			]
 			icon: "gtceu:lv_super_tank"
 			id: "6C53B01A05FFF1DC"
 			size: 0.66d
-			subtitle: "Super Tanks are OP!"
+			subtitle: "Супер-танки — имба!"
 			tasks: [{
 				id: "47EA273D728C158F"
 				item: "gtceu:lv_super_tank"
 				type: "item"
 			}]
-			title: "Super Tank"
+			title: "Супер-танк"
 			x: 5.625d
 			y: -1.875d
 		}
 		{
 			dependencies: ["10FB27DD3C7BEC2F"]
 			description: [
-				"&aPolyvinyl Chloride (PVC)&r is the 3rd-most produced plastic in real life. Here in CEu, it can be substituted for Polyethylene in the production of &aPlastic Circuit Boards&r and other items to increase the yield. It is required from &5EV&r onwards to wrap Cables."
+				"&aПоливинилхлорид (ПВХ)&r — третий по объёму пластик в реальной жизни. В CEu заменяет полиэтилен при крафте &aпластиковых плат&r и других вещей с большим выходом. С &5EV&r нужен для обмотки кабелей."
 				""
-				"PVC item pipes also have the &6highest throughput&r available for a while, but most of your setups right now won't need such speed. Still, it's good to keep this knowledge in your pocket."
+				"Предметные трубы из ПВХ долго имеют &6максимальную пропускную способность&r, но большинству линий сейчас это не нужно. Запомни на будущее."
 				""
-				"&9Pro tip:&r The fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets."
+				"&9Совет:&r жидкий ПВХ в базовом GTCEu не используется — смело застывай всё в листы."
 			]
 			icon: "gtceu:polyvinyl_chloride_plate"
 			id: "40408FFD02134148"
 			shape: "square"
 			size: 0.75d
-			subtitle: "You've already made one polymer, what's two?"
+			subtitle: "Один полимер был, что такого во втором?"
 			tasks: [{
 				id: "72696AD2B77F805B"
 				item: "gtceu:polyvinyl_chloride_plate"
 				type: "item"
 			}]
-			title: "Polyvinyl Chloride"
+			title: "Поливинилхлорид"
 			x: 6.75d
 			y: -4.125d
 		}
@@ -1406,15 +1406,15 @@
 				"10FB27DD3C7BEC2F"
 			]
 			description: [
-				"At this point, you have all the tools available to start making Plastic Boards. Higher-tier polymers in future will increase your PCB yields substantially."
+				"К этому моменту у тебя есть всё для пластиковых плат. Полимеры высших tier'ов позже сильно поднимут выход."
 				""
-				"The recipe chains are starting to get pretty long, so we recommend processing large batches in two dedicated &3Chemical Reactors&r."
+				"Цепочки рецептов уже длинные — советуем гонять большие партии в двух отдельных &3химических реакторах&r."
 			]
 			icon: "gtceu:plastic_printed_circuit_board"
 			id: "4600221BF0A30C3A"
 			shape: "square"
 			size: 0.75d
-			subtitle: "It's a Casio on a Plastic Board"
+			subtitle: "Casio на пластиковой плате"
 			tasks: [
 				{
 					id: "68B5E2667EDAE895"
@@ -1427,7 +1427,7 @@
 					type: "item"
 				}
 			]
-			title: "Plastic Boards"
+			title: "Пластиковые платы"
 			x: 7.875d
 			y: -1.875d
 		}
@@ -1438,19 +1438,19 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"&aSodium Persulfate&r can be used in &9Ore Processing&r in the &3Chemical Bath&r to get various bonus outputs you would not normally obtain. It's completely optional, but pretty rewarding."
+				"&aПерсульфат натрия&r можно использовать в &9переработке руды&r в &3химической ванне&r для бонусных выходов. Полностью опционально, но выгодно."
 				""
-				"&lWait, stop! That's only a distraction&r - the real topic of this Quest is..."
+				"&lСтой, это отвлечение!&r Настоящая тема квеста..."
 				""
-				"&aSodium Persulfate&r and &aIron III Chloride&r are used to make cheaper &9Good Circuit Boards&r, as their inclusion cuts Silver usage by a factor of four."
+				"&aПерсульфат натрия&r и &aхлорид железа(III)&r нужны для более дешёвых &9хороших плат&r — расход серебра падает вчетверо."
 				""
-				"They're also &drequired&r to make &9Plastic Circuit Boards&r."
+				"Они также &dобязательны&r для &9пластиковых плат&r."
 				"{@pagebreak}"
-				"Making &aSodium Persulfate&r will yield &aHydrochloric Acid&r as a coproduct, which you may re-use to make &aIron III Chloride&r. This should the best approach right now, but the decision is entirely yours."
+				"При производстве &aперсульфата натрия&r получаешь &aсоляную кислоту&r — её можно пустить на &aхлорид железа(III)&r. Сейчас это лучший путь, но решать тебе."
 				""
-				"With more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path."
+				"Позже с автоматизацией &aхлорида железа(III)&r станет проще и дешевле."
 				""
-				"This Quest requires &eboth&r Fluids to complete. You'll need both anyway..."
+				"Квест требует &eобе&r жидкости. Они всё равно понадобятся..."
 			]
 			icon: "gtceu:iron_iii_chloride_bucket"
 			id: "4353AB0E20601AEC"
@@ -1462,7 +1462,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Let's etch some Copper off Circuit Boards!"
+			subtitle: "Сотрём медь с плат!"
 			tasks: [
 				{
 					id: "118468CD578081CF"
@@ -1475,7 +1475,7 @@
 					type: "item"
 				}
 			]
-			title: "Sodium Persulfate / Iron III Chloride"
+			title: "Персульфат натрия / хлорид железа(III)"
 			x: 7.875d
 			y: -4.125d
 		}
@@ -1485,28 +1485,28 @@
 				"1A77CA35F054F988"
 			]
 			description: [
-				"EMI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here."
+				"EMI может показаться перегруженным — разберём лучший путь к &eсерной кислоте&r."
 				""
-				"Making &eSulfuric Acid&r is a three step process. It is used in many important reactions, so you should automate its production ASAP."
+				"&eСерная кислота&r — три шага. Нужна во многих реакциях, автоматизируй как можно скорее."
 				"{@pagebreak}"
-				"To automate it, you will need &3three LV Chemical Reactors&r. We would recommend building a dedicated setup somewhere with &3a single LV Generator&r to power all three machines. You can then spaghetti your pipes to handle input and output &m...or simply use AE2&r."
+				"Для автоматизации нужны &3три LV химических реактора&r. Собери отдельную линию с &3одним LV генератором&r на все три. Трубы — спагетти &m...или просто AE2&r."
 				""
-				"&9-&r Step 1: React &aSulfur&r with &bOxygen&r to form &aSulfur Dioxide&r."
-				"&9-&r Step 2: React &aSulfur Dioxide&r with more &bOxygen&r to form &aSulfur Trioxide&r."
-				"&9-&r Step 3: React &aSulfur Trioxide&r with &bWater&r to form &eSulfuric Acid&r."
+				"&9-&r Шаг 1: &aСера&r + &bкислород&r → &aдиоксид серы&r."
+				"&9-&r Шаг 2: &aДиоксид серы&r + &bкислород&r → &aтриоксид серы&r."
+				"&9-&r Шаг 3: &aТриоксид серы&r + &bвода&r → &eсерная кислота&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's Chemical Reactor only had one Fluid slot. To circumvent that, they would do &dcell chemistry&f. The way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then loop back to its starting position. A somewhat fun and interesting automation challenge, but also a chore!"
+				"&l&3Лор:&r&o В GT5 у химического реактора был один слот для жидкости. Обходили через &dхимию в ячейках&f: одна ячейка ездила по машинам по кругу. Забавный челлендж, но рутина!"
 			]
 			id: "316FF60D6FFE97CE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "\"...what he thought was H2O was H2SO4!\""
+			subtitle: "«...он думал, что это H2O, а оказалось H2SO4!»"
 			tasks: [{
 				id: "06B5F04DEFC12458"
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			title: "Sulfuric Acid"
+			title: "Серная кислота"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -1516,29 +1516,29 @@
 				"3D98819A799D2E64"
 			]
 			description: [
-				"Obtain &9Hydrochloric Acid&r by mixing &aHydrogen&r and &aChlorine&r."
+				"Получи &9соляную кислоту&r, смешав &aводород&r и &aхлор&r."
 				""
-				"This acid is also obtained as waste from a lot of reactions involving &aChlorine&r. Depending on your setups, you may never need to produce it directly."
+				"Она также выходит как отход из многих реакций с &aхлором&r. В зависимости от линий можешь никогда не делать её напрямую."
 				"{@pagebreak}"
-				"&cNote:&r We have a $medicine command on our Discord:"
+				"&cПримечание:&r На нашем Discord есть команда $medicine:"
 				""
-				"\"&b&oDo not attempt this in real life - it is not only illegal, but also stupidly dangerous&r\"."
+				"\"&b&oНе пытайся повторить в реальной жизни — это незаконно и тупо опасно&r\"."
 				""
-				"This applies to toying with chemicals. Please don't do it."
+				"Это про эксперименты с химикатами. Пожалуйста, не надо."
 				""
-				"Side note - we can guarantee you have a sample of this with you right now! It's in your stomach as a part of gastric acid."
+				"Кстати — образец у тебя уже есть! В желудке, как часть желудочного сока."
 			]
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "64CACABB48635904"
 			shape: "square"
 			size: 0.75d
-			subtitle: "You'll need a lot of this!"
+			subtitle: "Это понадобится в огромных количествах!"
 			tasks: [{
 				id: "34147C1DD7B8DE55"
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			title: "Hydrochloric Acid"
+			title: "Соляная кислота"
 			x: 2.25d
 			y: -3.0d
 		}
@@ -1548,19 +1548,19 @@
 				"64CACABB48635904"
 			]
 			description: [
-				"You may notice that some fluids say they are \"&aAcidic&r\", with &9Sulfuric Acid&r being one of them."
+				"Замечал, что некоторые жидкости помечены «&aкислые&r»? &9Серная кислота&r — одна из них."
 				""
-				"This means that many fluid pipes will not be able to transport them safely!"
+				"Многие трубы не смогут безопасно их перевозить!"
 				""
-				"At &bMV&r, the cheapest pipes for acid transportation are probably &aGold&r, with the more expensive &aVanadium Steel&r or &aChrome&r pipes taking second and third place."
+				"На &bMV&r дешевле всего, пожалуй, &aзолото&r; дороже — &aванадиевая сталь&r или &aхром&r."
 				""
-				"&aStainless Steel&r or &aPolytetrafluoroethylene&r (try saying that fast) will be valid options once you are in &6HV&r."
+				"&aНержавеющая сталь&r или &aполитетрафторэтилен&r (попробуй быстро произнести) — варианты в &6HV&r."
 				"{@pagebreak}"
-				"You have three options for acid storage at around this point: &dGlass Vials&r, &dGold Drums&r, or &dSuper Tanks&r. Glass Vials are like &9Fluid Cells&r, and are made to store acids. Gold Drums are self-explanatory. Super Tanks will be unlocked after &9Polyethylene&r, and can store any fluid without restriction."
+				"Три способа хранить кислоты: &dстеклянные виалы&r, &dзолотые бочки&r или &dсупер-танки&r. Виалы — как &9жидкостные канистры&r для кислот. Золотые бочки — очевидно. Супер-танки после &9полиэтилена&r — любая жидкость без ограничений."
 				""
-				"&cWARNING:&r Acids in the wrong pipes will cause &cvoiding&r, &cpipe burning&r, and high chance of &cdeath&r! Be careful!"
+				"&cВНИМАНИЕ:&r Кислоты в неправильных трубах → &cуничтожение&r, &cгорение труб&r и высокий шанс &cсмерти&r! Будь осторожен!"
 				""
-				"&l&3Lore:&r&o The acid transportation and storage mechanics originate from GregTech 6."
+				"&l&3Лор:&r&o Механика кислотных труб и хранения из GregTech 6."
 			]
 			icon: "gtceu:acid_hazard_sign_block"
 			id: "079442C113D54856"
@@ -1572,13 +1572,13 @@
 			}]
 			shape: "circle"
 			size: 0.66d
-			subtitle: "...if you don't read this quest."
+			subtitle: "...если не прочитаешь этот квест."
 			tasks: [{
 				id: "2D0DE3FB6E5E4146"
 				title: "I'm an acid professional, don't worry"
 				type: "checkmark"
 			}]
-			title: "It will Melt Your Flesh"
+			title: "Оно растопит твою плоть"
 			x: 3.375d
 			y: -3.0d
 		}
@@ -1588,17 +1588,17 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&bMV&r Batteries will appeal to you if you want to buffer Energy, just like &7LV&r."
+				"&bMV&r-батареи пригодятся, если хочешь буферизовать энергию — как и &7LV&r."
 				""
-				"The cost in &aSodium&r, &aLithium&r or &aCadmium&r jumps up to 8 dusts, so you should use whatever you have the most of. The difference in capacity isn't &7THAT&r huge, after all!"
+				"Расход &aнатрия&r, &aлития&r или &aкадмия&r вырос до 8 порошков — используй то, чего у тебя больше. Разница в ёмкости &7НЕ ТАК&r уж велика!"
 				""
-				"Get &eeither&r Battery to complete the Quest."
+				"Подойдёт &eлюбая&r батарея для выполнения квеста."
 			]
 			icon: "gtceu:hv_battery_hull"
 			id: "2202AA5DC6DB0A26"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Baby Got Battery"
+			subtitle: "Батарейка на районе"
 			tasks: [{
 				id: "5FEE671A75766B78"
 				item: {
@@ -1611,7 +1611,7 @@
 				title: "Any MV Battery"
 				type: "item"
 			}]
-			title: "Better Batteries"
+			title: "Батарейки получше"
 			x: 4.5d
 			y: -1.875d
 		}
@@ -1621,13 +1621,13 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"We &lSINCERELY&r hope at &cno&r point you made the &7LV&r Extruder, because only the &bMV&r Extruder is actually useful. If you did, immediately &arecycle it&r through the Arc Furnace."
+				"Мы &lИСКРЕННЕ&r надеемся, что ты &cни&r за что не делал &7LV&r экструдер — полезен только &bMV&r экструдер. Если делал — сразу &aпереплавь&r его в дуговой печи."
 				""
-				"The Extruder shapes solid materials into (almost!) any form using &aIngots&r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio."
+				"Экструдер формует твёрдые материалы в (почти!) любую форму из &aслитков&r. Отличный способ сократить микрокрафт и сохранить высокий КПД переработки."
 				""
-				"The Extruder can make &6Rods&r, &6Bolts&r, &6&6Small Gears&r, &6Gears&r, and &6&6Rings&r at the highest efficiency in a single step!"
+				"Экструдер делает &6стержни&r, &6болты&r, &6малые шестерни&r, &6шестерни&r и &6кольца&r за один шаг с максимальной эффективностью!"
 				""
-				"You may also like to use it for &dPipes&r, &dLong Rods&r, and &dRotors&r."
+				"Ещё им удобно делать &dтрубы&r, &dдлинные стержни&r и &dроторы&r."
 			]
 			icon: "gtceu:mv_extruder"
 			id: "22B5AD670496C02D"
@@ -1645,33 +1645,33 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The biggest upgrade you'll make"
+			subtitle: "Самый большой апгрейд, который ты сделаешь"
 			tasks: [{
 				id: "73E8504BA235C4BF"
 				item: "gtceu:mv_extruder"
 				type: "item"
 			}]
-			title: "Advanced Extruder"
+			title: "MV продвинутый экструдер"
 			x: 1.125d
 			y: 0.375d
 		}
 		{
 			dependencies: ["22B5AD670496C02D"]
 			description: [
-				"Aluminium Cells are a big upgrade over the Steel Cells or Universal Fluid Cells."
+				"Алюминиевые канистры — большой апгрейд над стальными или универсальными жидкостными канистрами."
 				""
-				"They can hold any fraction of Fluid - up to &d32 buckets&r!"
+				"Они держат любую долю жидкости — до &d32 вёдер&r!"
 			]
 			icon: "gtceu:aluminium_fluid_cell"
 			id: "53B0D08DB90EC369"
 			size: 0.66d
-			subtitle: "Like cells... only larger!"
+			subtitle: "Как канистры... только больше!"
 			tasks: [{
 				id: "105EA8621A99C1EC"
 				item: "gtceu:aluminium_fluid_cell"
 				type: "item"
 			}]
-			title: "Large Cells"
+			title: "Большие канистры"
 			x: 2.25d
 			y: 0.375d
 		}
@@ -1681,80 +1681,80 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"It's quite the investment to own a &3Fluid Drilling Rig&r, but it is &oby far&r the most prominent &6source of Oil&r."
+				"&3Нефтяная вышка&r — серьёзные вложения, но это &oдалеко&r главный &6источник нефти&r."
 				""
-				"It pumps fluids from underneath Bedrock itself. Note that the fluids aren't actually there, instead being simulated."
+				"Качает жидкости из-под бедрока. Их там на самом деле нет — всё симулируется."
 				""
-				"Fluid veins are stored within &cchunk-sized regions&r. Each vein has a different fluid, but they are mostly types of Oil."
+				"Жидкостные жилы хранятся в &cрегионах размером с чанк&r. В каждой — своя жидкость, в основном нефть."
 				""
-				"You can't carry out prospecting for fluid veins &oyet&r - this will come at &6HV&r."
+				"Разведку жидкостных жил пока &oнельзя&r — это в &6HV&r."
 				"{@pagebreak}"
-				"Each vein generates with a different base yield. This is typically between &d150L&r to &d300L per second&r."
+				"Базовая выработка жилы разная — обычно &d150–300 L/с&r."
 				""
-				"When drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time until it reaches its depletion yield. At that point, you should move the Rig to a different vein."
+				"При выкачке жила медленно истощается — выход падает до минимума. Тогда переноси вышку."
 				""
-				"A &3Basic Fluid Drilling Rig&r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for &6well over 10,000&r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate."
+				"&3Базовая нефтяная вышка&r — 100 000 операций (1 с/операция) до истощения. Это &6намного больше 10 000&r вёдер нефти. Вышки высших tier'ов дают больше и медленнее истощают."
 				"{@pagebreak}"
-				"&lWhat you can find in the &2Overworld&r&l:&r"
+				"&lЧто найти в &2Верхнем мире&r&l:&r"
 				""
-				"&9Oil:&r richer in &aLight Fuel&r, the most appreciated variant."
-				"&9Light Oil:&r richer in &aRefinery Gas&r, usable for power."
-				"&9Heavy Oil:&r richer in &aHeavy Fuel&r, which has uses that are more niche."
-				"&9Raw Oil:&r richer in &aNaphtha&r, the best source of the early-game oil products."
-				"&9Natural Gas:&r grants &aRefinery Gas&r with no distillation required."
-				"&l&9Salt Water:&r grants &aSodium&r and &aChlorine&r, useful later."
+				"&9Нефть:&r богата &aлёгким топливом&r — самый ценный вариант."
+				"&9Лёгкая нефть:&r богата &aгазом переработки&r, годится для энергии."
+				"&9Тяжёлая нефть:&r богата &aтяжёлым топливом&r — более нишевое."
+				"&9Сырая нефть:&r богата &aнафтой&r — лучший ранний источник нефтепродуктов."
+				"&9Природный газ:&r даёт &aгаз переработки&r без дистилляции."
+				"&l&9Солёная вода:&r даёт &aнатрий&r и &aхлор&r — пригодится позже."
 				"{@pagebreak}"
-				"&lWhat you can find in the &cNether&r&l:&r"
+				"&lЧто найти в &cНезере&r&l:&r"
 				""
-				"&9Natural Gas:&r grants &aRefinery Gas&r but with higher yield than the Overworld vein."
-				"&9Lava:&r hopefully, you know what this is."
+				"&9Природный газ:&r &aгаз переработки&r с большим выходом, чем в Верхнем мире."
+				"&9Лава:&r надеемся, ты знаешь, что это."
 				""
-				"When starting out, you may have to tap randomly until you find something you like. Remember that whatever you pump could also be used to refuel your Fluid Rig."
+				"В начале, возможно, придётся бурить наугад. Помни: то, что качаешь, можно пустить на заправку вышки."
 			]
 			icon: "gtceu:mv_fluid_drilling_rig"
 			id: "05ADBAE5B6F38956"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Fluid Drilling Rigs in CEu!"
+			subtitle: "Нефтяные вышки в CEu!"
 			tasks: [{
 				id: "3FB527F5B10381D2"
 				item: "gtceu:mv_fluid_drilling_rig"
 				type: "item"
 			}]
-			title: "Fluid Drilling Rigs"
+			title: "Нефтяные вышки"
 			x: -2.25d
 			y: -0.75d
 		}
 		{
 			dependencies: ["74180AC57AE9F0FE"]
 			description: [
-				"Get any kind of &3Pump&r, place it above an Oil spout and... give it some power."
+				"Возьми любой &3насос&r, поставь над нефтяным фонтаном и... подай питание."
 				""
-				"Do &cnot&r pump above an Ocean, as the pump will attempt to pull water, resulting in getting the pump stuck. Sorry!"
+				"&cНе&r качай над океаном — насос потянет воду и застрянет. Извини!"
 				"{@pagebreak}"
-				"Each Oil deposit can have between &63,000&r and &69,200&r buckets of Oil, which is a LOT! Refining the Oil&r onsite into either &aLight Fuel&r or &aDiesel&r (or both) is perfectly viable. The next few Quests will explain each type's pros and cons."
+				"В одной залежи от &63 000&r до &69 200&r вёдер нефти — это МНОГО! Переработка &rна месте в &aлёгкое топливо&r или &aдизель&r (или оба) вполне рабочая. Следующие квесты разберут плюсы и минусы."
 				""
-				"Store any obtained Oil in &3Drums&r, but you would do yourself a favour to use a &3Super Tank&r as soon as you can make them."
+				"Храни нефть в &3бочках&r, но лучше поставь &3супер-танк&r, как только сможешь."
 				""
-				"&cWarning: &rDo not forget to &dchunkload&r with FTB Utilities (open the map in the top left corner, claim the chunks with left-click, and enable force loading with shift-left-click)."
+				"&cВнимание:&r не забудь &dпрогрузить чанки&r через FTB Utilities (карта слева сверху, ЛКМ — захват, Shift+ЛКМ — форс-загрузка)."
 				"{@pagebreak}"
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
+				"&9&lПримечание:&r&l Нефтяной путь — один из маршрутов к &9&lэтилену&r&l. Другие — «натуральный» с этанолом.&r"
 				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
+				"Пока нефть &dнеобязательна&r. Обязательной станет намного позже на &5EV&r."
 				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
+				"Нефть можно переработать в &aлёгкое топливо&r, &aдизель&r или даже &aбензин&r — отличные источники энергии."
 				""
-				"If you chose this path, you should use it for both Power and Ethylene."
+				"Если выбрал этот путь — используй его и для энергии, и для этилена."
 				""
-				"Oil spouts are a &6great starting point&r - they will tide you over until you unlock Fluid Drilling Rigs."
+				"Нефтяные фонтаны — &6отличная стартовая точка&r, пока не откроешь нефтяные вышки."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Oil geysers were originally from Buildcraft. If you played a GregTech 5 modpack &cwithout&f Buildcraft, you needed to use the Fluid Rig and tap randomly to try and get lucky, or wait until &6HV&f, where prospecting for fluids was available."
+				"&l&3Лор:&r&o Нефтяные гейзеры изначально из Buildcraft. В GT5-паке &cбез&f Buildcraft нужна была вышка и удача — или ждать &6HV&f с разведкой жидкостей."
 			]
 			icon: "gtceu:oil_bucket"
 			id: "0774EC59CD3DD7A5"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Ever mined into an Oil deposit?"
+			subtitle: "Уже копал в нефтяную залежь?"
 			tasks: [
 				{
 					id: "21FF6E45F9AC5E76"
@@ -1815,24 +1815,24 @@
 					type: "item"
 				}
 			]
-			title: "US Simulator"
+			title: "Симулятор США"
 			x: -3.375d
 			y: -0.75d
 		}
 		{
 			dependencies: ["74180AC57AE9F0FE"]
 			description: [
-				"Underground, you may come across pure Oilsands ore veins. You can &3centrifuge&r the Dust to get &aOil&r."
+				"Под землёй встречаются чистые жилы &aнефтяного песка&r. &3Центрифугой&r из пыли получишь &aнефть&r."
 				""
-				"&9&lNote:&r&l The Oil path is one path towards &9&lEthylene&r&l. The other paths involve getting natural with some Ethanol.&r"
+				"&9&lПримечание:&r&l Нефтяной путь — один из маршрутов к &9&lэтилену&r&l. Другие — «натуральный» с этанолом.&r"
 				""
-				"For now, Oil is &doptional&r. It becomes mandatory much later when you get to &5EV&r."
+				"Пока нефть &dнеобязательна&r. Обязательной станет намного позже на &5EV&r."
 				""
-				"Oil can also be refined in the form of &aLight Fuel&r, &aDiesel&r or even &aGasoline&r, which are excellent power options."
+				"Нефть можно переработать в &aлёгкое топливо&r, &aдизель&r или даже &aбензин&r — отличные источники энергии."
 				""
-				"If you chose this path, you should use it for both Power and Ethylene."
+				"Если выбрал этот путь — используй его и для энергии, и для этилена."
 				""
-				"Oilsands are a &6great starting point&r - they'll tide you over until you unlock Fluid Drilling Rigs."
+				"Нефтяной песок — &6отличная стартовая точка&r, пока не откроешь нефтяные вышки."
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "575B07D390D9D079"
@@ -1844,7 +1844,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "This quest was sponsored by the US Military"
+			subtitle: "Квест при поддержке армии США"
 			tasks: [
 				{
 					id: "7B6C7E6C11D68E06"
@@ -1865,7 +1865,7 @@
 					type: "item"
 				}
 			]
-			title: "America Simulator"
+			title: "Симулятор Америки"
 			x: -4.5d
 			y: -0.75d
 		}
@@ -1878,27 +1878,27 @@
 				"6EB68C28BEE24DEF"
 			]
 			description: [
-				"Before we start, here's some important information if you're aiming to make Ethylene:"
+				"Перед началом — важное, если целишься в &aэтилен&r:"
 				""
-				"Taking the &aOil&r route will require &oat least&r a &3LV Distillery&r."
+				"Маршрут через &aнефть&r потребует &oкак минимум&r &3LV дистиллятор&r."
 				""
-				"With the &aBiomass&r route, you will &lneed&r a &3MV Distillery&r."
+				"Маршрут через &aбиомассу&r &lтребует&r &3MV дистиллятор&r."
 				""
-				"Get &eeither&r to complete this quest."
+				"Подойдёт &eлюбой&r для выполнения квеста."
 				"{@pagebreak}"
-				"Got all that? &6Alright&r! Let's discuss a complex topic: &9Distillation&r. We'll try to help you understand how and why the &aEMI&r recipes are the way they are, so stick with us."
+				"Понял? &6Отлично&r! Разберём сложную тему: &9дистилляцию&r. Постараемся объяснить, почему рецепты в &aEMI&r устроены именно так — не отваливайся."
 				""
-				"Nearly all the &3Distillery&r recipes are duplicates from the &3Distillation Tower&r, except that they only have one Fluid output, and void everything else."
+				"Почти все рецепты &3дистиллятора&r — копии из &3дистилляционной башни&r, но с одним выходом жидкости; остальное уничтожается."
 				""
-				"In other words, you could argue the &3Distillery&r is an &dinferior&r &3Distillation Tower&r."
+				"Иными словами, &3дистиллятор&r — &dуступчивый&r &3дистилляционной башне&r."
 				"{@pagebreak}"
-				"This doesn't mean that the &3Distillery&r is the worse of the two. It is unlocked earlier, and it is &dsmaller&r, &dcheaper&r, and &dmore energy efficient&r per recipe."
+				"Это не значит, что дистиллятор хуже. Он открывается раньше, &dменьше&r, &dдешевле&r и &dэнергоэффективнее&r на рецепт."
 				""
-				"Hell, in many cases, you won't even mind losing the other Fluids."
+				"Чёрт, во многих случаях тебе и не жалко потерять остальные жидкости."
 				""
-				"&3Distilleries&r are an essential component for power generation, whether you pick &aDiesel&r or &aBenzene&r."
+				"&3Дистилляторы&r — ключ к генерации энергии, будь то &aдизель&r или &aбензол&r."
 				""
-				"You'll probably want many of them at as low-tier as possible to avoid the energy losses from Overclocking."
+				"Скорее всего, захочешь много штук как можно ниже tier'ом — чтобы не терять энергию на разгон."
 			]
 			icon: "gtceu:mv_distillery"
 			id: "6A304E453D74C57C"
@@ -1910,7 +1910,7 @@
 			}]
 			shape: "gear"
 			size: 1.1d
-			subtitle: "The Illusion of Free Choice"
+			subtitle: "Иллюзия свободного выбора"
 			tasks: [{
 				id: "685043442271A0D0"
 				item: {
@@ -1932,27 +1932,27 @@
 				title: "Either an LV or MV Distillery"
 				type: "item"
 			}]
-			title: "Distillery"
+			title: "Дистиллятор"
 			x: -3.375d
 			y: -1.875d
 		}
 		{
 			dependencies: ["05ADBAE5B6F38956"]
 			description: [
-				"&aRefinery Gas&r, &aLPG&r and &aMethane&r are &9Gas Fuels&r. LPG (Liquid Petroleum Gas) is a mix of hydrocarbons typically used in heating appliances."
+				"&aГаз переработки&r, &aСУГ&r и &aметан&r — &9газовые топлива&r. СУГ (сжиженный нефтяной газ) — смесь углеводородов для отопительной техники."
 				""
-				"Refinery Gas is obtained either through &dNatural Gas&r or &dLight Oil&r, the latter yielding more, yet requiring an extra step of distillation."
+				"Газ переработки получают из &dприродного газа&r или &dлёгкой нефти&r — второй даёт больше, но нужна лишняя дистилляция."
 				""
-				"Use of a &3Centrifuge&r to separate into &aLPG&r and &aMethane&r should always be done, as it's practically free."
+				"&3Центрифугой&r разделить на &aСУГ&r и &aметан&r стоит всегда — почти бесплатно."
 				"{@pagebreak}"
-				"&a&aLPG&r and &aMethane&r are burned in a &3Gas Turbine&r. Among the other fuel options, they are the easier to set up which makes them excellent to get started. Their drawback is that they cannot be refined further, so upgrading the &3Fluid Drilling Rig&r may be a top priority if you stick to this fuel source."
+				"&aСУГ&r и &aметан&r сжигают в &3газовой турбине&r. Среди топлив их проще всего запустить — отличный старт. Минус — дальше не переработать; если останешься на этом топливе, апгрейд &3нефтяной вышки&r может стать приоритетом."
 				""
-				"&aMethane&r can also be obtained from a few &anatural sources&r. &eBetween us&r, they're memes, but you can explore them if you wish. Ultimately, your power source is your choice."
+				"&aМетан&r ещё дают несколько &aприродных источников&r. &eМежду нами&r — это мемы, но можешь поизучать. В итоге источник энергии — твой выбор."
 			]
 			icon: "gtceu:natural_gas_bucket"
 			id: "227D89550BB9BD55"
 			size: 0.66d
-			subtitle: "Whoever smelt it..."
+			subtitle: "Кто сделал — тот и..."
 			tasks: [
 				{
 					id: "027B41ACE1566E28"
@@ -1970,53 +1970,53 @@
 					type: "item"
 				}
 			]
-			title: "The Church of Natural Farts"
+			title: "Церковь природного метана"
 			x: -2.25d
 			y: 0.375d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"&aBenzene&r is a &9Gas Fuel&r. To skip some frustration, let's check out the two best ways to obtain it."
+				"&aБензол&r — &9газовое топливо&r. Чтобы не беситься, разберём два лучших способа получить его."
 				""
-				"The first option is typically &dWood based&r. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r, which you &3distill&r for &aBenzene&r."
+				"Первый — обычно &dиз древесины&r. Бревна в &3пиролизную печь&r → &9древесная смола&r. Уголь из печи — в &3экстракторы&r за ещё &9древесной смолой&r, которую &3дистиллируешь&r в &aбензол&r."
 				""
-				"Your second option is &dHeavy Oil based&r. Put Heavy Oil in a &3Distillery&r for &9Heavy Fuel&r, which you &aseverely steam-crack&r and &3distill&r again for &aBenzene&r."
+				"Второй — &dиз тяжёлой нефти&r. Тяжёлую нефть в &3дистиллятор&r → &9тяжёлое топливо&r, затем &aсильный парокрекинг&r и снова &3дистилляция&r в &aбензол&r."
 				"{@pagebreak}"
-				"For information on how to process Oil, check the Light Fuel and Naphtha Quests."
+				"Про переработку нефти — квесты про лёгкое топливо и нафту."
 				""
-				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
+				"В целом лучше ставить больше машин (&dпараллелизация&r), чем разгонять рецепты — так теряешь меньше энергии."
 				""
-				"&aBenzene&r is burned in a &3Gas Turbine&r. This power source starts weaker than its &eDiesel&r cousin, but gets a big boost when refined to &6Nitrobenzene&r in &6HV&r. Ultimately, your power source is your choice."
+				"&aБензол&r сжигают в &3газовой турбине&r. Стартует слабее &eдизеля&r, но сильно прокачивается до &6нитробензола&r на &6HV&r. Источник энергии — твой выбор."
 			]
 			icon: "gtceu:benzene_bucket"
 			id: "00E1A728E6F6D6A0"
 			size: 0.66d
-			subtitle: "In the end, it's always Benzene"
+			subtitle: "В конце концов, это всегда бензол"
 			tasks: [{
 				id: "4E9EBCCCC7BBAFDD"
 				item: "gtceu:benzene_bucket"
 				type: "item"
 			}]
-			title: "The Church of Benzene"
+			title: "Церковь бензола"
 			x: -3.375d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"Distillating &aOil&r will give you Fuel that you will need to desulfurize."
+				"Дистилляция &aнефти&r даёт топливо, которое нужно обессерить."
 				""
-				"&aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				"&aСероводород&r отлично &dперерабатывается&r в &3электролизёре&r."
 				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to use your &5Screwdriver&r to &4enable input from the output side&r."
+				"Для автоматизации поставь &3химический реактор&r и &3электролизёр&r рядом. Не забудь &5отвёрткой&r &4включить ввод с выходной стороны&r."
 				""
-				"&aLight Fuel&r is a good &9Power&r option, but there's something even greater... check the Quest to the left."
+				"&aЛёгкое топливо&r — хороший &9источник энергии&r, но есть кое-что получше... загляни в квест слева."
 			]
 			icon: "gtceu:light_fuel_bucket"
 			id: "61972B16805FC9EE"
 			size: 0.66d
-			subtitle: "Turn up the Lights in here, baby"
+			subtitle: "Светлее здесь, детка"
 			tasks: [
 				{
 					id: "6E4D818CE088D7D4"
@@ -2030,28 +2030,28 @@
 					type: "item"
 				}
 			]
-			title: "Light Fuel"
+			title: "Лёгкое топливо"
 			x: -5.625d
 			y: -1.875d
 		}
 		{
 			dependencies: ["61972B16805FC9EE"]
 			description: [
-				"&aDiesel&r is a &dOil-based &9Combustion Fuel&r."
+				"&aДизель&r — &dнефтяное&r &9топливо для генераторов внутреннего сгорания&r."
 				""
-				"To mix &aLight Fuel&r and &aHeavy Fuel&r, the right ratio for &3Distilleries&r is &63:2&r from &dOil&r or &dRaw Oil&r."
+				"Чтобы смешать &aлёгкое&r и &aтяжёлое топливо&r, для &3дистилляторов&r из &dнефти&r или &dсырой нефти&r нужно соотношение &63:2&r."
 				""
-				"This would necessitate 3 Distilleries for Light Fuel, or 2 Distilleries for Heavy Fuel."
+				"Это значит 3 дистиллятора на лёгкое топливо или 2 на тяжёлое."
 				"{@pagebreak}"
-				"You can cut the amount of &dOil&r required &6drastically&r by using &dHeavy Oil&r for &aHeavy Fuel&r specifically. &dOilsands&r is a great option if you wish to go down this route!"
+				"Расход &dнефти&r можно &6сильно&r сократить, если &aтяжёлое топливо&r делать из &dтяжёлой нефти&r. &dНефтяной песок&r — отличный вариант!"
 				""
-				"&o(For the math nerds, you go from 8.33 Oil -> 6 Diesel, to 5 Oil + 0.4 Heavy Oil -> 6 Diesel)&r"
+				"&o(Для математиков: было 8,33 нефти → 6 дизеля, станет 5 нефти + 0,4 тяжёлой нефти → 6 дизеля)&r"
 				""
-				"&eNote:&r Do &cnot attempt&r to put Oil in the &3Distillation Tower&r You might think it's a good idea because it gives both Light Fuel and Heavy Fuel. However, this process requires a lot of overclocking to be worth your time, and you will lose more energy than what the byproducts are worth."
+				"&eПримечание:&r &cне&r лей нефть в &3дистилляционную башню&r — кажется выгодным, даёт и лёгкое, и тяжёлое топливо, но нужен сильный разгон, и энергии уйдёт больше, чем стоят побочные продукты."
 				"{@pagebreak}"
-				"In general, it is better to prioritize placing down more machines (&dparallelisation&r) over overclocking the recipes. That way, you end up losing less energy processing the resources."
+				"В целом лучше ставить больше машин (&dпараллелизация&r), чем разгонять рецепты — так теряешь меньше энергии."
 				""
-				"&aDiesel&r is burned in a &3Combustion Generator&r. It can be further refined to &6Cetane-Boosted Diesel&r in &6HV&r. Compared to the other power sources, it is generally more efficient, but a more demanding processing line. If you take the &eOil&r route for &aPolyethylene&r, this can work great with existing infrastructure. Ultimately, the power source you want to use is your choice."
+				"&aДизель&r сжигают в &3генераторе внутреннего сгорания&r. На &6HV&r его можно улучшить до &6цетанового дизеля&r. Среди источников энергии обычно эффективнее, но линия сложнее. Если шёл по &eнефти&r ради &aполиэтилена&r — отлично ложится на инфраструктуру. Источник энергии — твой выбор."
 			]
 			icon: "gtceu:diesel_bucket"
 			id: "45769156F4253C86"
@@ -2070,13 +2070,13 @@
 				type: "item"
 			}]
 			size: 0.66d
-			subtitle: "Mother, how is diesel made?"
+			subtitle: "Мама, как делают дизель?"
 			tasks: [{
 				id: "10BAA54947D975AF"
 				item: "gtceu:diesel_bucket"
 				type: "item"
 			}]
-			title: "The Church of Diesel"
+			title: "Церковь дизеля"
 			x: -6.75d
 			y: -1.875d
 		}
@@ -2084,18 +2084,18 @@
 			dependencies: ["1FFD2242B94A7378"]
 			dependency_requirement: "one_started"
 			description: [
-				"Regular &o&dGregTech&r Fluid Pipes can only transport one fluid type at a time."
+				"Обычные &o&dGregTech&r жидкостные трубы перевозят только один тип жидкости."
 				""
-				"&3Quadruple Fluid Pipes&r can transfer four different types of fluids. &3Nonuple Fluid Pipes&r can transfer nine different types! Useful for compact setups."
+				"&3Четверные жидкостные трубы&r — четыре типа. &3Девятикратные&r — девять! Удобно для компактных линий."
 				""
-				"&3Nonuple Fluid Pipes&r will be useful in &5EV&r for handling the many outputs of the &3Distillation Tower&r."
+				"&3Девятикратные трубы&r пригодятся на &5EV&r для множества выходов &3дистилляционной башни&r."
 				""
-				"Get &eeither&r to finish this quest."
+				"Подойдёт &eлюбой&r вариант для выполнения квеста."
 			]
 			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
 			id: "66041DE10C882382"
 			size: 0.66d
-			subtitle: "\"I thought channels were disabled!\""
+			subtitle: "«Я думал, каналы отключены!»"
 			tasks: [{
 				id: "2620FA131244B3DA"
 				item: {
@@ -2117,22 +2117,22 @@
 				title: "Multiple Channel Potin Pipes, please"
 				type: "item"
 			}]
-			title: "Multiple Channel Pipes"
+			title: "Многоканальные трубы"
 			x: 2.25d
 			y: -1.875d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Using a Ruby Lens, engrave a Silicon Wafer into an ILC Wafer."
+				"С &aрубиновой линзой&r гравируй &9кремниевую пластину&r в ILC-пластину."
 				""
-				"This can be processed in a Cutter for IC Chips, which are important components that will be precious when improving upon your circuit crafting capabilities."
+				"В &3резаке&r получишь IC-чипы — важные компоненты для прокачки крафта схем."
 			]
 			icon: "gtceu:ilc_chip"
 			id: "6F6D2829FC42F21C"
 			shape: "square"
 			size: 0.75d
-			subtitle: "I C U"
+			subtitle: "Я тебя вижу"
 			tasks: [
 				{
 					id: "295D2CE93D4CE067"
@@ -2152,21 +2152,21 @@
 					type: "item"
 				}
 			]
-			title: "IC Chips"
+			title: "IC-чипы"
 			x: 5.625d
 			y: 2.625d
 		}
 		{
 			dependencies: ["315169840E06110F"]
 			description: [
-				"Using a Sapphire Lens, engrave a Silicon Wafer into an ULPIC Wafer."
+				"С &aсапфировой линзой&r гравируй &9кремниевую пластину&r в ULPIC-пластину."
 				""
-				"This can be processed in a Cutter for ULPIC Chips, which are important for some multiblock components!"
+				"В &3резаке&r получишь ULPIC-чипы — они нужны для некоторых компонентов мультиблоков!"
 			]
 			icon: "gtceu:ulpic_chip"
 			id: "16A1EF8B80A96633"
 			size: 0.66d
-			subtitle: "Pickin' up Chips"
+			subtitle: "Собираем чипы"
 			tasks: [
 				{
 					id: "6D4D63F75646DB1C"
@@ -2186,23 +2186,23 @@
 					type: "item"
 				}
 			]
-			title: "ULPIC Chips"
+			title: "ULPIC-чипы"
 			x: 4.5d
 			y: 0.375d
 		}
 		{
 			dependencies: ["5C94CF50090D7DA0"]
 			description: [
-				"&3Long-Distance Item Pipes&r can be used to send items across great distances. Place one endpoint at each end, and connect them with pipeline blocks."
+				"&3Дальние предметные трубы&r передают предметы на большие расстояния. Поставь конечную точку с каждой стороны и соедини блоками трубопровода."
 				""
-				"These pipes instantly transfer from the input side to the output side."
+				"Передача мгновенная — с входа на выход."
 				""
-				"They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+				"Есть минимальная дистанция между точками — для коротких маршрутов не подходят."
 			]
 			icon: "gtceu:long_distance_item_pipeline_endpoint"
 			id: "653345427522D728"
 			size: 0.66d
-			subtitle: "Wondering how to move those ores around?"
+			subtitle: "Как перевозить всю эту руду?"
 			tasks: [
 				{
 					count: 2L
@@ -2216,7 +2216,7 @@
 					type: "item"
 				}
 			]
-			title: "Long-Distance Items"
+			title: "Дальние предметы"
 			x: -3.375d
 			y: 0.375d
 		}
@@ -2226,18 +2226,18 @@
 				"575B07D390D9D079"
 			]
 			description: [
-				"&3Long-Distance Fluid Pipes&r can be used to send fluids across great distances. Place one endpoint at each end, and connect them with pipeline blocks."
+				"&3Дальние жидкостные трубы&r передают жидкости на большие расстояния. Поставь конечную точку с каждой стороны и соедини блоками трубопровода."
 				""
-				"These pipes instantly transfer from the input side to the output side."
+				"Передача мгновенная — с входа на выход."
 				""
-				"They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+				"Есть минимальная дистанция между точками — для коротких маршрутов не подходят."
 				"{@pagebreak}"
-				"These pipes have a reputation of being &4buggy&r to set up. If they don't seem to work at first, try rotating the endpoints with a &eWrench&r."
+				"Имеют репутацию &4глючных&r при настройке. Если не работает — покрути конечные точки &eгаечным ключом&r."
 			]
 			icon: "gtceu:long_distance_fluid_pipeline_endpoint"
 			id: "5480AF2EDEDB6A36"
 			size: 0.66d
-			subtitle: "Wondering how to move that oil around?"
+			subtitle: "Как перевозить всю эту нефть?"
 			tasks: [
 				{
 					count: 2L
@@ -2251,18 +2251,18 @@
 					type: "item"
 				}
 			]
-			title: "Long-Distance Fluids"
+			title: "Дальние жидкости"
 			x: -4.5d
 			y: 0.375d
 		}
 		{
 			dependencies: ["682C26579EDDCA76"]
 			description: [
-				"Tired of running around your base yet? &3Travel Anchors&r make their introduction in the latest update!"
+				"Устал бегать по базе? &3Якоря путешествий&r — в новом обновлении!"
 				""
-				"Aim the &aTravel Staff&r at a placed Anchor, then &6sneak-right-click&r to teleport on top. You can &bcustomise the appearance&r of a Travel Anchor by right-clicking it with a block in your off-hand, and you can &9rename&r Anchors in their GUI. The effective tool for breaking them is the &bWrench&r."
+				"Наведи &aпосох путешествий&r на якорь и &6Shift+ПКМ&r — телепорт наверх. &bВнешний вид&r меняется ПКМ с блоком во второй руке, &9имя&r — в GUI. Ломать удобнее &bгаечным ключом&r."
 				""
-				"The &dEnder Pearls&r necessary to craft more Anchors won't be available yet - take a small handful of Anchors to make life a &olittle&r easier."
+				"&dЖемчуги Эндера&r для крафта новых якорей пока недоступны — возьми несколько якорей в награду, жизнь станет &oчуть&r проще."
 			]
 			icon: "travelanchors:travel_anchor"
 			id: "350E8A014DD8C838"
@@ -2274,13 +2274,13 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "pshhh... nothin personnel... kid"
+			subtitle: "pshhh... ничего личного... пацан"
 			tasks: [{
 				id: "132FA856BB60C546"
 				item: "travelanchors:travel_staff"
 				type: "item"
 			}]
-			title: "Travel Anchors"
+			title: "Якоря путешествий"
 			x: 2.25d
 			y: 1.5d
 		}
@@ -2291,15 +2291,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"This Jetpack takes most &aCombustion Fuels&r (excluding oils) to enable a primitive form of flight."
+				"Этот ранец жрёт большинство &aтоплив для генераторов&r (кроме нефти) и даёт примитивный полёт."
 				""
-				"Fill it like you would fill a Drum, or with a &3Canning Machine&r."
+				"Заправляй как бочку или через &3консервную машину&r."
 				""
-				"Press &4H&r (default) to enable Hover Mode."
+				"Нажми &4H&r (по умолчанию) для режима зависания."
 			]
 			id: "6FA956DAA72D6139"
 			size: 0.5d
-			subtitle: "...well, almost Fly"
+			subtitle: "...ну, почти полёт"
 			tasks: [{
 				id: "022324F9630960C6"
 				item: {
@@ -2309,7 +2309,7 @@
 				}
 				type: "item"
 			}]
-			title: "I Believe I Can Fly"
+			title: "Я верю, что могу летать"
 			x: -3.37d
 			y: -3.56d
 		}
@@ -2317,17 +2317,17 @@
 			dependencies: ["75F38905DEA60F15"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This jetpack enables flight, and requires energy."
+				"Этот ранец даёт полёт и требует энергии."
 				""
-				"Charge it like you would charge a Battery."
+				"Заряжай как батарею."
 				""
-				"Press &4H&r (default) to enable Hover Mode."
+				"Нажми &4H&r (по умолчанию) для режима зависания."
 				""
-				"&o&8(Yeah, yeah, a jetpack is supposed to work off \"propellants\". Y'all are always here to nitpick.)&r"
+				"&o&8(Да-да, ранец «должен» работать на «реактивной тяге». Вы всегда найдёте, до чего докопаться.)&r"
 			]
 			id: "21F70EACF6D81E6A"
 			size: 0.5d
-			subtitle: "...still not quite there."
+			subtitle: "...ещё не совсем."
 			tasks: [{
 				id: "1940421A45E45E25"
 				item: {
@@ -2337,7 +2337,7 @@
 				}
 				type: "item"
 			}]
-			title: "I Believe I Can Fly II"
+			title: "Я верю, что могу летать II"
 			x: 1.7784863945578095d
 			y: -0.20216836734694255d
 		}
@@ -2345,47 +2345,47 @@
 			dependencies: ["26394C1290D70AB6"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &aPortable Scanner&r, or &aTricorder&r, is GTCEu's debug tool."
+				"&aПортативный сканер&r, или &aтрикордер&r, — отладочный инструмент GTCEu."
 				""
-				"Using it will show you a block's details, the details of the energy network, its current status and contents, and its impact on performance."
+				"Показывает детали блока, энергосети, статус, содержимое и влияние на производительность."
 				""
-				"It'll also display a percentage of fluid remaining in the fluid vein for the &3Fluid Rigs&r."
+				"Также показывает процент оставшейся жидкости в жиле для &3нефтяных вышек&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information (basically nothing) was given by GUIs or WAILA."
+				"&l&3Лор:&r&o Полезная штука из GregTech 5. В ранние дни была незаменима — GUI и WAILA почти ничего не показывали."
 			]
 			id: "26C43416F9427BB3"
 			size: 0.5d
-			subtitle: "For the nosiest GregTech players"
+			subtitle: "Для самых любопытных игроков GregTech"
 			tasks: [{
 				id: "3E70CB46874DE7C1"
 				item: "gtceu:portable_scanner"
 				type: "item"
 			}]
-			title: "Tricorder"
+			title: "Трикордер"
 			x: 5.996173469387756d
 			y: -0.3042091836734713d
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
 			description: [
-				"In this quest, we'll bestow upon you &5cursed wisdom&r... the ability to easily automate the Electrolyzer."
+				"В этом квесте даруем &5проклятую мудрость&r... как легко автоматизировать электролизёр."
 				""
-				"The &9Smart Item Filter&r is a filter that recognises Recipe Maps. When placed on the side of a machine, you can set it to \"&3Electrolyzer&r\" to allow insertion of electrolyzable items specifically. You heard that right - no need to filter manually!"
+				"&9Умный фильтр предметов&r понимает карты рецептов. На боку машины выставь «&3Электролизёр&r» — пускает только электролизуемые предметы. Да, без ручной фильтрации!"
 				""
-				"Oh, and it only gets &abetter&r. If you combine this bad boy with a &aRobot Arm&r, it'll only supply the &6exact amount&r of items required for a successful recipe to the machine."
+				"И становится &aещё лучше&r: с &aробот-манипулятором&r он подаёт &6ровно столько&r предметов, сколько нужно для рецепта."
 				"{@pagebreak}"
-				"Place the &aRobot Arm&r on your Electrolyzer, open its GUI, then place the &9Smart Filter&r inside. Ensure that the Smart Filter is set to Electrolyzer."
+				"Поставь &aробот-манипулятор&r на электролизёр, открой GUI и положи внутрь &9умный фильтр&r. Убедись, что выбран электролизёр."
 				""
-				"Next, configure it to &d&lImport&r and &d&lSupply Exact&r. Finally, attach any inventory &7(a chest will do)&r onto the side where you placed the &aRobot Arm&r. Ta-dah! You've figured out how to handle &6all&r Electrolyzer recipes!"
+				"Настрой на &d&lимпорт&r и &d&lточную подачу&r. Подключи любой инвентарь &7(сундук сойдёт)&r с той стороны, где манипулятор. Та-да! Все рецепты электролизёра под контролем!"
 				""
-				"What about the output of the &3Electrolyzer&r? You may want to route the Fluids to several Tanks - or even &3Super Tanks&r if you've gotten that far. We highly recommend that you avoid any methods involving voiding Fluids.&7.&8. except for Water for obvious reasons."
+				"Выход жидкостей? Направь в несколько баков или &3супер-танки&r. Старайся не voidить жидкости&7.&8. кроме воды — очевидно."
 				"{@pagebreak}"
-				"&9Note:&r The Robot Arm has to facilitate the item transfer for its filtering functionality to work! Inserting directly into the machine &7(for instance, pushing with a Hopper!)&r will ignore the Robot Arm's &dSupply Exact&r setting."
+				"&9Примечание:&r манипулятор должен передавать предметы сам! Прямая подача в машину &7(например, воронкой!)&r игнорирует режим &dточной подачи&r."
 			]
 			icon: "gtceu:item_smart_filter"
 			id: "63AE94F1F504DE76"
 			size: 0.66d
-			subtitle: "Knock, knock - who's that? It's MENSA!"
+			subtitle: "Тук-тук — это MENSA!"
 			tasks: [{
 				id: "1C19F21F1416DD52"
 				item: "gtceu:item_smart_filter"
@@ -2398,17 +2398,17 @@
 		{
 			dependencies: ["7567E885B7166603"]
 			description: [
-				"Welcome to your first (of many) forays into &bHydrocarbons&r! You may already know a few of them, like Petrol, Plastic, Alcohol... well, in GregTech, you'll mass-produce many of these things, and more! This topic can be confusing at times, so you'll want to read carefully in order to avoid getting lost in the details. Now..."
+				"Добро пожаловать в первое (из многих) погружение в &bуглеводороды&r! Ты знаешь бензин, пластик, спирт... в GregTech ты будешь массово производить это и многое другое! Тема запутанная — читай внимательно, чтобы не потеряться. Итак..."
 				"{@pagebreak}"
-				"Here in &bMV&r, there are two main goals of working with Hydrocarbons - Power and Plastics. The interesting part is how you'll accomplish this. There are two main paths you can take: &6Petrochemicals&r and &aBiochemicals&r. Both have their pros and cons - Petrochemicals typically provide &9higher yields&r and &benergy-efficiency&r, while Biochemicals are fully &drenewable&r. Your source of Power and Plastics is entirely &bup to you&r."
+				"Здесь, на &bMV&r, две главные цели углеводородов — энергия и пластики. Интересно, как ты к ним придёшь. Два пути: &6нефтехимия&r и &aбиохимия&r. У каждого плюсы и минусы — нефтехимия даёт &9больший выход&r и &bэнергоэффективность&r, биохимия полностью &dвозобновляема&r. Источник энергии и пластиков — &bтвой выбор&r."
 				"{@pagebreak}"
-				"Ready to dive in? The &6Petrochemical&r route(s) are to the left of this quest - you've got three options here. For those with green thumbs, the &2Biochemical&r routes are diagonally right. Best of luck!"
+				"Готов нырнуть? &6Нефтехимические&r маршруты слева от квеста — три варианта. Для зелёных пальцев — &2биохимия&r по диагонали вправо. Удачи!"
 			]
 			icon: "gtceu:polyethylene_nugget"
 			id: "74180AC57AE9F0FE"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Getting industrial"
+			subtitle: "Становимся индустриальными"
 			tasks: [{
 				id: "093E71F51E1ECA6F"
 				title: "Hydrocarbons"
@@ -2420,19 +2420,19 @@
 		{
 			dependencies: ["6A304E453D74C57C"]
 			description: [
-				"If you've tried to distill an Oil into &eLight Fuel, Heavy Fuel&r, etc., you might've realised that you can't. Instead, you've gotten this &6sulfurized&r version of it. How dreadful!"
+				"Если пытался дистиллировать нефть в &eлёгкое или тяжёлое топливо&r и т.д., мог заметить: не выходит. Вместо этого — &6серосодержащая&r версия. Ужас!"
 				""
-				"To fix this, we'll need to &6desulfurize&r it. Combine whatever you'd like to desulfurize with &9Hydrogen Gas&r in a &3Chemical Reactor&r to produce the pure product, along with a byproduct of &aHydrogen Sulfide&r. What now?"
+				"Нужно &6обессерить&r. Смешай жидкость с &9водородом&r в &3химическом реакторе&r — получишь чистый продукт и &aсероводород&r. Что дальше?"
 				"{@pagebreak}"
 				""
-				"Luckily, &aHydrogen Sulfide&r is perfectly &drecycled&r in an &3Electrolyzer&r."
+				"К счастью, &aсероводород&r отлично &dперерабатывается&r в &3электролизёре&r."
 				""
-				"To automate this process, simply place your &3Chemical Reactor&r and your &3Electrolyzer&r next to each other. Be sure to &cenable input from the output side&r. We've graciously provided a &3Fluid Filter&r so that your desulfurized prize doesn't go into your Electrolyzer too - remember to set it to filter both input/extract so that the right fluids can flow both ways!"
+				"Для автоматизации поставь &3химический реактор&r и &3электролизёр&r рядом. &cВключи ввод с выходной стороны&r. Мы дали &3жидкостный фильтр&r, чтобы обессеренный продукт не попал в электролизёр — настрой на ввод и извлечение в обе стороны!"
 				""
 				"{@pagebreak}"
-				"But now, how do we get our refined goodies out of our &3Chemical Reactor&r? This is where the Electric Pump comes in - use it on a different face of the Chemical Reactor and extract your prize!"
+				"Как вытащить готовое из &3химического реактора&r? &3Электрический насос&r на другой грани — и забирай приз!"
 				""
-				"&l&bTip&r&r: You only need two buckets of &9Hydrogen Gas&r. The easiest way of obtaining it is by electrolyzing water. You don't need to mass-produce Hydrogen (yet), don't worry!"
+				"&l&bСовет:&r хватит двух вёдер &9водорода&r. Проще всего — электролиз воды. Массово водород пока не нужен!"
 			]
 			icon: "gtceu:sulfur_dust"
 			id: "5898743D8D6C2690"
@@ -2443,55 +2443,56 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Waiter! Why is there Sulfur in my soup?"
+			subtitle: "Официант! Почему в супе сера?"
 			tasks: [{
 				id: "3F4C5D4741ABEE3C"
 				item: "gtceu:hydrogen_bucket"
 				type: "item"
 			}]
-			title: "Desulfurization"
+			title: "Обессеривание"
 			x: -4.5d
 			y: -1.875d
 		}
 		{
 			dependencies: ["5898743D8D6C2690"]
 			description: [
-				"Heavy Fuel can be obtained from many sources, but your best bet is distilling it from &eHeavy Oil&r. "
+				"&aТяжёлое топливо&r можно получить из разных источников, но лучше всего — дистилляция &eтяжёлой нефти&r."
 				""
-				"You could just burn it in a combustion generator now for &9Power&r, but there's something even greater... check the Quest to the left."
+				"Можно сжечь в генераторе внутреннего сгорания для &9энергии&r, но есть кое-что получше... квест слева."
 			]
 			id: "035CF39E6CC98B77"
 			progression_mode: "linear"
 			size: 0.666d
-			subtitle: "Things are getting really Heavy around here..."
+			subtitle: "Тут всё становится по-настоящему тяжёлым..."
 			tasks: [{
 				id: "4BA6939D643E63A6"
 				item: "gtceu:heavy_fuel_bucket"
 				type: "item"
 			}]
-			title: "Heavy Fuel"
+			title: "Тяжёлое топливо"
 			x: -5.625d
 			y: -3.0d
 		}
 		{
 			dependencies: ["53DC6E32C41C94C3"]
 			description: [
-				"This is the main way of getting &9Power&r via the &aBiochemical&r route. Put Logs in the &3Pyrolyse Oven&r for &9Wood Tar&r. The Charcoal you obtain can then be processed in &3Extractors&r for even more &9Wood Tar&r!"
+				"Главный способ получить &9энергию&r по &aбиохимическому&r маршруту. Бревна в &3пиролизную печь&r → &9древесная смола&r. Уголь — в &3экстракторы&r за ещё &9древесной смолой&r!"
 				""
-				"Check out the Distillation quest to see what you can do with this wondrous substance."
+				"Загляни в квест про дистилляцию — что можно сделать с этим чудом."
 			]
 			id: "37AAB88A9EDCC862"
 			size: 0.66d
+			subtitle: "Смола из леса"
 			tasks: [{
 				id: "7EC058F5FE8478D1"
 				item: "gtceu:wood_tar_bucket"
 				type: "item"
 			}]
-			title: "Wood Tar"
+			title: "Древесная смола"
 			x: -2.25d
 			y: -1.875d
 		}
 	]
-	subtitle: ["Venture into petrochemistry and refine electronics"]
-	title: "&bMV&r - Medium Voltage"
+	subtitle: ["Погрузись в нефтехимию и усовершенствуй электронику"]
+	title: "&bMV&r — Среднее напряжение"
 }
