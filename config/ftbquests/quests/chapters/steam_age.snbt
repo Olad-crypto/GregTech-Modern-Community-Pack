@@ -11,11 +11,11 @@
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"You may recall that regular Steam machines had a duration penalty, and were twice as slow. Not great."
+				"Наверняка ты помнишь, что обычные паровые машины имели штраф к времени и работали вдвое медленнее. Не очень."
 				""
-				"&5High Pressure&r Steam machines no longer bear a &bduration penalty &rfor recipes, making them objective upgrades."
+				"Паровые машины &5высокого давления&r больше не получают &bштрафа к времени&r на рецепты — это однозначное улучшение."
 				""
-				"Make &eone&r of the proposed HP machines to complete this quest."
+				"Сделай &eодну&r из предложенных машин ВД, чтобы выполнить квест."
 			]
 			icon: "gtceu:hp_steam_compressor"
 			id: "5673089822BFCA70"
@@ -27,7 +27,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Pressure can be good sometimes"
+			subtitle: "Иногда давление — это хорошо"
 			tasks: [{
 				id: "77ECBBA179EC9B3F"
 				item: {
@@ -53,18 +53,18 @@
 				title: "Look at all these HP machines..."
 				type: "item"
 			}]
-			title: "No More Penalty"
+			title: "Больше никаких штрафов"
 			x: 0.0d
 			y: -1.98d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Now that you have Steel, you can make a Hang Glider. This might be a good item to grab before you hit up the &cNether&r."
+				"Теперь, когда у тебя есть сталь, ты можешь сделать дельтаплан. Неплохо запастись им, прежде чем отправляться в &cНезер&r."
 				""
-				"If you don't have enough Leather yet, make a &9Butchering Knife&r and employ its inherent Looting III to hunt some cows."
+				"Если кожи ещё не хватает, сделай &9разделочный нож&r и воспользуйся встроенным Looting III, чтобы охотиться на коров."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The Hang Glider originally came from a mod known as OpenBlocks. As its utility was too great to be left on earlier versions, it was ported all the way up to modern versions."
+				"&l&3Лор:&r&o Дельтаплан изначально появился в моде OpenBlocks. Его полезность была слишком велика, чтобы оставить его в прошлых версиях, поэтому его портировали вплоть до современных."
 			]
 			id: "0C301014EC4D17B8"
 			rewards: [{
@@ -75,7 +75,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "No, it's Steve with a glider!"
+			subtitle: "Нет, это Steve с дельтапланом!"
 			tasks: [{
 				id: "1D0F8D4470DFFD19"
 				item: {
@@ -87,28 +87,28 @@
 				}
 				type: "item"
 			}]
-			title: "Is it a Phantom? Is it an Elytra?"
+			title: "Это Phantom? Это Elytra?"
 			x: 2.5d
 			y: -2.25d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"&3High Pressure Boilers&r will be a better source of Steam for powering your Steam machines."
+				"&3Котлы высокого давления&r будут лучшим источником пара для твоих паровых машин."
 				""
-				"Keep in mind that you will still be using Steam to power your Electric machines in &7LV&r via the miracles of energy conversion."
+				"Помни, что ты всё ещё будешь использовать пар для питания электрических машин на &7LV&r — благодаря чудесам преобразования энергии."
 				""
-				"&cNote:&r You will need more than a handful of &3HP Boilers&r. The more you make, the less you'll need to worry about running out of power."
+				"&cПримечание:&r Тебе понадобится больше, чем пара котлов &3ВД&r. Чем больше сделаешь, тем меньше придётся беспокоиться о нехватке энергии."
 				"{@pagebreak}"
-				"The &3Solid Boiler&r burns solid Fuel. It's self explanatory - better fuels last longer."
+				"&3Твёрдотопливный котёл&r сжигает твёрдое топливо. Всё просто — лучшее топливо горит дольше."
 				""
-				"The &3Liquid Boiler&r burns either &dLava&r or &dCreosote&r."
+				"&3Жидкостный котёл&r сжигает либо &dлаву&r, либо &dкреозот&r."
 				""
-				"The &3Solar Boiler&r burns nothing - it's fueled by the sun."
+				"&3Солнечный котёл&r ничего не сжигает — его топливо — солнце."
 				""
-				"Looking for a recommendation? Honestly, either goes, as all three boilers are equivalent in generation. Craft the boiler that best suits your preferred resource."
+				"Ищешь рекомендацию? Честно говоря, подойдёт любой — все три котла одинаковы по выработке. Сделай тот, который лучше подходит под твои ресурсы."
 				""
-				"Get &eany&r of the proposed boilers to complete this quest."
+				"Получи &eлюбой&r из предложенных котлов, чтобы выполнить квест."
 			]
 			icon: "gtceu:hp_steam_solid_boiler"
 			id: "2FD75E4BD95F6645"
@@ -134,7 +134,7 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Pressure! Pushin' down on me..."
+			subtitle: "Давление! Давит на меня..."
 			tasks: [{
 				id: "0DC74FB54995F3F1"
 				item: {
@@ -160,24 +160,24 @@
 				title: "High Pressure Boilers"
 				type: "item"
 			}]
-			title: "High Pressure"
+			title: "Высокое давление"
 			x: 0.0d
 			y: -1.2d
 		}
 		{
 			dependencies: ["07415D6305C3B1D2"]
 			description: [
-				"The &3Primitive Blast Furnace&r (&3PBF&r for short) is a multiblock you will become very familiar with in the next few hours."
+				"&3Примитивная доменная печь&r (&3ПДП&r) — мультиблок, с которым ты проведёшь ближайшие несколько часов."
 				""
-				"It is &cimportant&r that you get a &3Macerator&r before tackling this quest - if you haven't made one yet, this multiblock will be &lfour times as expensive&r."
+				"&cВажно&r сначала сделать &3дробитель&r — если его ещё нет, этот мультиблок обойдётся тебе в &lчетыре раза дороже&r."
 				""
-				"Using your fancy new &3Macerator&r, you'll need to process &d132 Clay&r, split into &d66 Clay Dusts&r and &d66 Brick Dusts&r."
+				"С помощью нового &3дробителя&r тебе нужно переработать &d132 глины&r — разделить на &d66 пыли глины&r и &d66 кирпичной пыли&r."
 				""
-				"Build the structure using &4EMI's Multiblock preview tab&r."
+				"Собери конструкцию, используя &4вкладку предпросмотра мультиблоков в EMI&r."
 				"{@pagebreak}"
-				"Steel will be &9of utmost importance&r throughout the entire game, so make sure you keep that PBF running. We should clarify that the PBF isn't the only way to get Steel throughout your playthrough, though!"
+				"Сталь будет &9чрезвычайно важна&r на протяжении всей игры, так что держи ПДП в работе. Уточним: ПДП — не единственный способ получать сталь в прохождении!"
 				""
-				"Steel also has &6double the durability&r compared to regular Iron for GregTech tools. It also provides &6Diamond mining level&r, and is much faster."
+				"Сталь также даёт &6удвоенную прочность&r по сравнению с обычным железом для инструментов GregTech. Ещё она даёт &6уровень добычи алмаза&r и работает намного быстрее."
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "40DE888E6025C646"
@@ -197,7 +197,7 @@
 			]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Steel Yourself for Greater Things"
+			subtitle: "Закаляйся — впереди большие свершения"
 			tasks: [
 				{
 					id: "7B33C92B976F5AB8"
@@ -211,31 +211,31 @@
 					type: "item"
 				}
 			]
-			title: "Primitive Blast Furnace"
+			title: "Примитивная доменная печь"
 			x: 1.125d
 			y: -1.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"With a very small percentage of carbon in its mass, Steel is significantly tougher than Iron or Wrought Iron.&r"
+				"С небольшой долей углерода в составе сталь значительно прочнее железа или кованого железа.&r"
 				""
-				"One &3PBF&r most likely won't cut it moving forwards. Make another one, and you'll effectively halve the time spent waiting for Steel."
+				"Одной &3ПДП&r, скорее всего, будет мало. Сделай ещё одну — и время ожидания стали сократится примерно вдвое."
 				""
-				"To save the most time, use blocks of &aCoke&r and &eWrought Iron&r - this generates a block of Steel every 270 seconds. Not bad!"
+				"Чтобы сэкономить больше всего времени, используй блоки &aкокса&r и &eкованого железа&r — так каждые 270 секунд получается блок стали. Неплохо!"
 				""
 				"{@pagebreak}"
-				"Just to check - did you know GregTech multiblocks can &dshare walls&r? This could save you a whole 12 Firebricks for your second PBF. &7There may be more efficient setups, but don't stress out over figuring them out.&r"
+				"Кстати — знал ли ты, что мультиблоки GregTech могут &dделить стены&r? Это сэкономит целых 12 огнеупорных кирпичей на вторую ПДП. &7Может, есть и более эффективные схемы, но не мучайся, пытаясь их найти.&r"
 				""
-				"What you &omay&r also do is upgrade to four &3PBFs&r. It just depends on how much time you want to dedicate to resource collection, but more PBFs are always nice. We won't force you to make them, don't worry."
+				"Ещё ты &oможешь&r поставить четыре &3ПДП&r — всё зависит от того, сколько времени хочешь тратить на сбор ресурсов, но больше ПДП — всегда приятно. Мы не заставляем, не переживай."
 				""
-				"&9Note:&r The &3PBF&r cannot be (reasonably) automated, but putting blocks of Iron and Coke or Charcoal will guarantee it will run for a long time without needing to be babysat."
+				"&9Примечание:&r &3ПДП&r нельзя (разумно) автоматизировать, но если класть блоки железа и кокса или древесного угля, она будет работать долго без присмотра."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o  In GregTech 5, one single Ingot of Steel would take you &d360 seconds&f in the PBF when using Coal or Charcoal! That's over &e6 hours&f for a whole stack! Of course, with 4 PBFs, that would cut it down to &3around 1.5 hours&f."
+				"&l&3Лор:&r&o В GregTech 5 один слиток стали в ПДП занимал &d360 секунд&f при угле или древесном угле! Целый стак — больше &e6 часов&f! Конечно, с 4 ПДП это сокращалось до &3примерно 1,5 часа&f."
 				""
-				"&oPollution was also (infamously) a thing, so four of these monsters would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison."
+				"&oЗагрязнение тоже (печально известно) существовало — четыре таких монстра гарантировали периодические дебафы: замедление, усталость при добыче, тошноту и даже отравление."
 				""
-				"&oPollution is actually integrated into GregTech Modern, but we've graciously disabled it in the configs. You can re-enable it if you're up for a challenge."
+				"&oЗагрязнение есть и в GregTech Modern, но мы любезно отключили его в конфигах. Можешь включить обратно, если ищешь вызов."
 			]
 			icon: "gtceu:steel_ingot"
 			id: "5D17DFCF6672404C"
@@ -247,7 +247,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Steel, Schrödinger's alloy"
+			subtitle: "Сталь — сплав Шрёдингера"
 			tasks: [
 				{
 					count: 2L
@@ -268,26 +268,26 @@
 					type: "item"
 				}
 			]
-			title: "We Need More Steel!"
+			title: "Нам нужно больше стали!"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Now that you have Steel, you can make a &3Flint and Steel&r. You now have access to the &4Nether&r."
+				"Теперь, когда у тебя есть сталь, ты можешь сделать &3огниво&r. Теперь доступен &4Незер&r."
 				""
-				"&o&8You could also light the Nether portal using... natural means. Dirty cheater.&r"
+				"&o&8Можно зажечь портал и «естественным» путём... Грязный читер.&r"
 				""
-				"The &4Nether&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins."
+				"В &4Незере&r больше жил для добычи и новых руд. Загляни во вкладку руд, чтобы узнать о незерских жилах."
 				""
-				"Additionally, &6Nether Ores are worth two Overworld Ores&r if mined with &3Silk Touch&r. It'd be great if you could craft the book directly, huh? ;)"
+				"К тому же &6незерские руды стоят двух обычных&r при добыче с &3Silk Touch&r. Было бы здорово скрафтить книгу напрямую, да? ;)"
 				"{@pagebreak}"
-				"&4Nether&r veins will take more effort to find - and are more dangerous to mine - than &2Overworld&r veins. Keep on top of your mining by using Waypoints - and remember that veins can be above you as well!"
+				"Жилы в &4Незере&r найти сложнее — и добывать опаснее, чем в &2обычном мире&r. Следи за добычей с помощью меток — помни, что жилы могут быть и над тобой!"
 				""
-				"If you're yet to transition to &dPeaceful&r, it isn't too late to make the switch! There's no need to bother fighting Ghasts or Blazes in GTCEu."
+				"Если ещё не перешёл на &dМирный&r режим — ещё не поздно! В GTCEu нет нужды сражаться с гастами или ифритами."
 				""
-				"This is because the Blaze/Magma Cube and Enderman loot tables have been changed in this pack to &5Sulfur Dust&r and &5Ender Pearl Dust&r respectively, so you can't just rush the End."
+				"Таблицы лута ифритов/магма-кубов и эндерменов в этом паке изменены: вместо них выпадают &5серная пыль&r и &5пыль эндер-жемчуга&r — так что в Энд не пробежишь."
 			]
 			icon: "minecraft:netherrack"
 			id: "7CAD6FF241A827F7"
@@ -321,25 +321,25 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Why WOULDN'T it be made of Steel?"
+			subtitle: "А из чего ещё, если не из стали?"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "01DEABF7BF6C5413"
 				title: "Take a trip to the Nether"
 				type: "dimension"
 			}]
-			title: "Journey to the Nether"
+			title: "Путешествие в Незер"
 			x: 4.125d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
 			description: [
-				"Mine some &dSulfur&r from the Nether."
+				"Добывай &dсеру&r в Незере."
 				""
-				"If Lava is \"too hot to handle\", we've included a &6direct crafting recipe&r for &aPotions of Fire Resistance&r. EMI might look a little confusing, but don't worry - you can use &bWater Bottles&r in the potion recipe."
+				"Если лава «слишком горячая», у нас есть &6прямой рецепт крафта&r &aзелий огнестойкости&r. EMI может выглядеть запутанно, но не переживай — в рецепте можно использовать &bбутылки с водой&r."
 				""
-				"&l&3Lore:&r&o With the existence of &6Small Sulfur Ores&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!"
+				"&l&3Лор:&r&o Благодаря &6мелким серным рудам&f, разбросанным по жилам GregTech 5, можно было добыть достаточно серы в обычном мире и не ходить в Незер. Звучит сломано, но это всё равно был такой же гринд, как поход в Незер!"
 			]
 			id: "236C886D50A99785"
 			rewards: [
@@ -368,25 +368,25 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "A little bit of exploring never hurt anyone"
+			subtitle: "Немного исследований никому не вредили"
 			tasks: [{
 				count: 16L
 				id: "36D03210534D3226"
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			title: "S is for Sulfur"
+			title: "S — как сера"
 			x: 5.625d
 			y: -1.5d
 		}
 		{
 			dependencies: ["77EA56D16A9B3BFC"]
 			description: [
-				"Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &2EMI is your true mentor&r if recipes are getting overwhelming."
+				"Хорошие новости — дальше мы будем требовать меньше компонентов для квестов по мере прогресса в паке. Помни, что &2EMI — твой настоящий наставник&r, если рецепты кажутся подавляющими."
 				""
-				"Getting back on topic, set yourself up for &7LV&r by crafting six &aLV Electric Motors&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &7LV&r."
+				"Возвращаясь к делу: подготовься к &7LV&r, скрафтив шесть &aэлектродвигателей LV&r! Кажется много, но это минимум, чтобы добраться до хорошего в &7LV&r."
 				""
-				"&6Once you complete this Quest and the Electronic Circuit Quest, you are ready to move on to the LV Age.&r"
+				"&6После выполнения этого квеста и квеста на электронную схему ты готов перейти к эпохе LV.&r"
 			]
 			icon: "gtceu:lv_electric_motor"
 			id: "5A8F0124E07D5025"
@@ -397,7 +397,7 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Low Voltage beckons..."
+			subtitle: "Низкое напряжение зовёт..."
 			tasks: [{
 				count: 6L
 				icon: "gtceu:lv_electric_motor"
@@ -405,30 +405,30 @@
 				item: "gtceu:lv_electric_motor"
 				type: "item"
 			}]
-			title: "The First of Many Motors"
+			title: "Первый из многих двигателей"
 			x: 7.875d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg."
+				"Получить бумагу здесь сложнее и менее эффективно, чем в ванилле. Спасибо, Грег."
 				""
-				"You'll need to grind &aSugar Canes&r into &aChad&r, and then smush the dust with a mallet and water."
+				"Тебе нужно перемолоть &aсахарный тростник&r в &aChad&r (да, именно так он называется — мы тоже улыбнулись), а потом размять пыль киянкой с водой."
 				"{@pagebreak}"
-				"&9Note 1:&r Don't worry, we're not cruel enough to have the recipe consume the bucket."
+				"&9Примечание 1:&r Не переживай, рецепт не съест ведро."
 				"{@pagebreak}"
-				"&9Note 2:&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &aNomifactory&r veterans."
+				"&9Примечание 2:&r Сделай ручную ферму сахарного тростника. Можно автоматизировать наблюдателями и поршнями. Привет ветеранам &aNomifactory&r."
 				"{@pagebreak}"
-				"&9Note 3:&r When you reach &7LV&r, you'll be able to make Paper from Wood."
+				"&9Примечание 3:&r На &7LV&r ты сможешь делать бумагу из дерева."
 				"{@pagebreak}"
-				"&9Note 4:&r The Crafting Station makes this microcrafting absolutely &2trivial&r - use it!"
+				"&9Примечание 4:&r Верстак делает этот микрокрафт абсолютно &2тривиальным&r — пользуйся им!"
 				"{@pagebreak}"
-				"&9Note 5:&r Paper will be used as a poor-quality wrapping material for the upcoming resistors."
+				"&9Примечание 5:&r Бумага понадобится как некачественный материал для обмотки предстоящих резисторов."
 				"{@pagebreak}"
-				"&9Note 6:&r It is truly a pleasure to share this moment with you, our fellow Greg enjoyer."
+				"&9Примечание 6:&r Настоящее удовольствие разделить этот момент с тобой, наш собрат по Greg."
 				"{@pagebreak}"
-				"&9Note 7:&r Yes, Paper Dust is really called that. Let's get the giggles out of the way now, shall we?"
+				"&9Примечание 7:&r Да, пыль для бумаги действительно так называется. Давай сначала посмеёмся над этим, ладно?"
 			]
 			id: "76B70EF552B35779"
 			rewards: [{
@@ -439,29 +439,29 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "#realism"
+			subtitle: "#реализм"
 			tasks: [{
 				count: 4L
 				id: "5DCE370285F5B2C6"
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			title: "Greg has struck again"
+			title: "Грег нанёс удар"
 			x: 9.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&6GregTech&r can quickly get &4overwhelming&r with the plethora of fluids it introduces, so you may be looking for a way to store them. "
+				"&6GregTech&r быстро становится &4подавляющим&r из-за множества жидкостей, так что ты, наверное, ищешь способ их хранить."
 				""
-				"Introducing... &aDrums&r! They have large internal buffers, and any &aDrum&r can be broken and picked up and will &dkeep the fluid&r inside."
+				"Представляем... &aбочки&r! У них большой внутренний буфер, и любую &aбочку&r можно сломать и поднять — она &dсохранит жидкость&r внутри."
 				"{@pagebreak}"
-				"Additionally, &binternal tanks&r from machines will interact with items containing fluid. This is great for manual crafting - this means you can use fluid drums instead of multiple buckets in crafting. To &5void fluid&r contained in a Drum, place it alone in any crafting grid."
+				"Кроме того, &bвнутренние ёмкости&r машин взаимодействуют с предметами, содержащими жидкость. Отлично для ручного крафта — можно использовать бочки вместо кучи вёдер. Чтобы &5слить жидкость&r из бочки, положи её одну в любую сетку крафта."
 				""
-				"&o&7Pssst:&8 &oA right-click with a Screwdriver allows a Drum to drain its content into another container placed under it. This is great if you want to keep your Liquid Boilers fueled for longer."
+				"&o&7Psst:&8 &oПКМ отвёрткой позволяет слить содержимое бочки в ёмкость под ней. Удобно, если хочешь дольше подпитывать жидкостные котлы."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o These drums are actually ported from GregTech 6."
+				"&l&3Лор:&r&o Эти бочки портированы из GregTech 6."
 			]
 			id: "2B74E56C9E138F18"
 			rewards: [{
@@ -471,32 +471,32 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Just kidding, tanks for fluids"
+			subtitle: "Шучу — баки для жидкостей"
 			tasks: [{
 				id: "5876092FAA1763E0"
 				item: "gtceu:bronze_drum"
 				type: "item"
 			}]
-			title: "Armoured Tanks"
+			title: "Бронированные бочки"
 			x: -1.125d
 			y: -0.375d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"The &bPrimitive Water Pump&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &einternally&r. Therefore, you don't need access to a &3body of water&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production."
+				"&bПримитивный водяной насос&r — простой способ автоматически получать воду для котлов. Он не качает воду из мира, а генерирует её &eвнутри&r. Поэтому тебе не нужен &3водоём&r рядом. Влажность биома даёт небольшой бонус к выработке."
 				""
-				"It's a multiblock, so &5consult EMI&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&a&ocontroller&r\" block with an empty hand (in this case, the controller block is the &bPrimitive Water Pump&r itself)."
+				"Это мультиблок — &5смотри структуру в EMI&r. Мультиблоки можно предпросматривать в мире, если нажать Shift+ПКМ по блоку «&a&oконтроллера&r» пустой рукой (здесь контроллер — сам &bпримитивный водяной насос&r)."
 				""
-				"&6Small tip for you:&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up."
+				"&6Небольшой совет:&r пока не беспокойся о биоме базы — котлам нужно очень мало воды."
 				"{@pagebreak}"
-				"The &cOutput Hatch&r is where water will be generated. You can make it face up or down to auto-output water into your pipes, which can go &ethrough&r the Treated Wood Frames - just place the pipe before you encase it in the frames. "
+				"&cВыходной люк&r — отсюда генерируется вода. Можно повернуть его вверх или вниз для авто-вывода в трубы, которые проходят &eсквозь&r деревянные рамы — просто положи трубу до того, как обшить рамами."
 				""
-				"Later you can use a &8ULV&r or &7LV&r Output Hatch to further boost the Pump's output."
+				"Позже можно использовать выходной люк &8ULV&r или &7LV&r, чтобы ещё увеличить выработку насоса."
 				""
-				"&2Reminder:&r Use a Wrench to rotate GregTech blocks (sneak right-click)."
+				"&2Напоминание:&r Гаечным ключом поворачивай блоки GregTech (Shift+ПКМ)."
 				""
-				"&l&3Lore:&r&o This Multiblock was ported from GT IMPACT, a classic 1.7.10 GregTech modpack."
+				"&l&3Лор:&r&o Этот мультиблок портирован из GT IMPACT — классического грегтех-пака 1.7.10."
 			]
 			id: "13901DA3D4F5C5A6"
 			rewards: [{
@@ -507,22 +507,22 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "There's no such thing as \"free\" water"
+			subtitle: "Бесплатной воды не бывает"
 			tasks: [{
 				id: "03501AB173BA60EE"
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			title: "Primitive Water Pump"
+			title: "Примитивный водяной насос"
 			x: 0.0d
 			y: -0.375d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"Make the listed molds for future alloy smelting. Be sure to make &aMolds&r - don't make &cExtruder Shapes&r, as they're used in a different machine."
+				"Сделай указанные формы для будущего сплавления. Делай именно &aформы&r — не &cформы экструдера&r, они для другой машины."
 				""
-				"The reward for this quest will alleviate &da lot of pain&r when it comes to crafting &bGears&r."
+				"Награда за этот квест сильно облегчит &dболь&r при крафте &bшестерён&r."
 			]
 			icon: "gtceu:ball_casting_mold"
 			id: "22997534983F6812"
@@ -540,7 +540,7 @@
 			]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Reduce the amount of malding by molding"
+			subtitle: "Меньше бесит — больше литья"
 			tasks: [
 				{
 					id: "33DCDFE73740AF97"
@@ -558,16 +558,16 @@
 					type: "item"
 				}
 			]
-			title: "Malding"
+			title: "Бесит"
 			x: 2.25d
 			y: -0.375d
 		}
 		{
 			dependencies: ["249374557D095913"]
 			description: [
-				"Not many items are made in the &3Extractor&r during the &6Steam Age&r, but it's used to make &9Rubber&r, which you'll need after Steel."
+				"В &6Паровую эпоху&r в &3экстракторе&r делается немного предметов, но он нужен для &9резины&r — она понадобится после стали."
 				""
-				"You can also process Dirt in the Extractor for &aBones&r, which makes getting &aBone Meal&r a lot easier for Peaceful players."
+				"Также можно переработать землю в &aкости&r — так &aкостная мука&r достаётся проще игрокам на &bМирном&r режиме."
 			]
 			id: "1436DB89E21264F3"
 			rewards: [{
@@ -579,22 +579,22 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Steam Extractor extracts..."
+			subtitle: "Паровой экстрактор экстрагирует..."
 			tasks: [{
 				id: "12A46916B1BC17EC"
 				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
-			title: "Steam Extractor"
+			title: "Паровой экстрактор"
 			x: 5.625d
 			y: -0.375d
 		}
 		{
 			dependencies: ["5193DD03C0742548"]
 			description: [
-				"Grow &dRubber Trees&r and cut them down to get &aSticky Resin&r."
+				"Выращивай &dкаучуковые деревья&r и руби их, чтобы получить &aлипкую смолу&r."
 				""
-				"If you're playing on a difficulty other than &bPeaceful&r, Sticky Resin can be obtained from Slimeballs."
+				"Если играешь не на &bМирном&r режиме, липкую смолу можно получить из слизней."
 			]
 			id: "3144DC68B266730C"
 			rewards: [{
@@ -605,14 +605,14 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Did you think we would force you to use treetaps...?"
+			subtitle: "Думал, заставим капать из деревьев...?"
 			tasks: [{
 				count: 32L
 				id: "67D04A48C5473D10"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			title: "Sticky Resin"
+			title: "Липкая смола"
 			x: 7.875d
 			y: 1.875d
 		}
@@ -623,11 +623,11 @@
 				"1436DB89E21264F3"
 			]
 			description: [
-				"Rubber is an excellent insulation material, and that's exactly what it's used for in GTCEu."
+				"Резина — отличный изоляционный материал, и именно для этого она используется в GTCEu."
 				""
-				"You'll want to use the &3Alloy Smelter&r to make &aRubber Bars&r. These ratios aren't particularly great, but we promise that making Rubber Bars will be much more efficient at &7LV&r."
+				"Используй &3сплавочную печь&r, чтобы сделать &aрезиновые прутки&r. Соотношения не ахти, но на &7LV&r делать прутки станет намного эффективнее."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GregTech 5 &7(and in base GTCE)&f, you needed to get string and black wool carpets as your first insulation material. &8&mThat was obviously far, far more fun.&r"
+				"&l&3Лор:&r&o В базовом GregTech 5 &7(и в базовом GTCE)&f первым изолятором были нитки и чёрные шерстяные ковры. &8&mОчевидно, это было куда веселее.&r"
 			]
 			icon: "gtceu:rubber_ingot"
 			id: "77EA56D16A9B3BFC"
@@ -639,7 +639,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Put that resin to use!"
+			subtitle: "Пусть смола работает!"
 			tasks: [
 				{
 					id: "04946F2F0923EFFE"
@@ -653,7 +653,7 @@
 					type: "item"
 				}
 			]
-			title: "Rubbering up"
+			title: "Резинимся"
 			x: 7.875d
 			y: -0.375d
 		}
@@ -663,11 +663,11 @@
 				"76B70EF552B35779"
 			]
 			description: [
-				"Resistors are components that will be used to make your first Circuit."
+				"Резисторы — компоненты для твоей первой схемы."
 				""
-				"It wouldn't be unwise to prioritise the recipes that use &aFine Wires&r, as they'll save you more materials in the long run."
+				"Не глупо отдать приоритет рецептам с &aтонкой проволокой&r — в долгосрочной перспективе они экономят материалы."
 				""
-				"Wires may be expensive right now, but they'll get a lot cheaper in &7LV&r."
+				"Провода сейчас дорогие, но на &7LV&r станут намного дешевле."
 			]
 			id: "391E853DCE86BFD0"
 			rewards: [{
@@ -678,32 +678,32 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The easier component for circuits"
+			subtitle: "Более простой компонент для схем"
 			tasks: [{
 				id: "35CFB9E695DE3549"
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			title: "Electronics #1: Resistors"
+			title: "Электроника №1: резисторы"
 			x: 7.875d
 			y: 0.75d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&bFluid Pipes&r will transport &7Steam&r between machines for you."
+				"&bЖидкостные трубы&r будут переносить &7пар&r между машинами."
 				""
-				"Each Pipe has a certain throughput in mB/t, and a &6Temperature Limit&r. This is relevant right now, as Steam will burn Wooden Pipes. Some pipes have &bspecial&r attributes you don't need to worry about for now."
+				"У каждой трубы свой пропускной объём в mB/t и &6температурный предел&r. Это важно сейчас — пар сожжёт деревянные трубы. У некоторых труб есть &bособые&r свойства, но пока не думай о них."
 				""
-				"Each material has several sizes for Pipes. The bigger the Pipe, the &ahigher&r the throughput, but the more &dexpensive&r the craft. For example, a normal &6Bronze Fluid Pipe&r transfers 120 mB/t. (It also has a 1,200 mB internal buffer!)"
+				"У каждого материала несколько размеров труб. Чем больше труба, тем &aвыше&r пропускная способность, но тем &dдороже&r крафт. Например, обычная &6бронзовая жидкостная труба&r передаёт 120 mB/t. (И имеет внутренний буфер 1 200 mB!)"
 				""
-				"Get any &6Bronze Fluid Pipe&r to complete this quest. The &6small&r and &enormal&r ones in particular are used in other recipes as well."
+				"Получи любую &6бронзовую жидкостную трубу&r для выполнения квеста. &6Маленькие&r и &eобычные&r особенно часто нужны в других рецептах."
 				"{@pagebreak}"
-				"&aReminder:&r 1 second = 20 ticks... assuming the server isn't lagging."
+				"&aНапоминание:&r 1 секунда = 20 тиков... если сервер не лагает."
 				""
-				"&dNote:&r GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe."
+				"&dПримечание:&r Включены трубы в стиле GT6. Это значит, что при установке труба соединяется только с блоком, к которому поставлена. Чтобы открыть больше соединений, используй гаечный ключ на трубе."
 				""
-				"You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing &7(liquids travelling in an undesired direction)&r."
+				"Shift+ПКМ гаечным ключом отключает ввод с этой стороны. Помогает против «плескания» &7(когда жидкость течёт не туда)&r."
 			]
 			icon: "gtceu:bronze_normal_fluid_pipe"
 			id: "1FFD2242B94A7378"
@@ -715,7 +715,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Liquids, gases... we don't discriminate"
+			subtitle: "Жидкости, газы... мы не разбираем"
 			tasks: [{
 				id: "5953F4446733D908"
 				item: {
@@ -752,50 +752,50 @@
 				}
 				type: "item"
 			}]
-			title: "Fluid Pipes"
+			title: "Жидкостные трубы"
 			x: -1.125d
 			y: 0.75d
 		}
 		{
 			dependencies: ["315DBB3B23F95E0D"]
 			description: [
-				"The &dSolid Boiler&r is the only available Boiler for now, as the &aGlass&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two."
+				"&dТвёрдотопливный котёл&r — единственный доступный котёл пока, так как &aстекло&r для остальных ещё недоступно. Можно обойтись одним, но мы рекомендуем сделать хотя бы два."
 				""
-				"Important: Boilers can explode! This still catches out &eexperienced GT players&r, so keep this warning in mind when setting your Boiler up."
+				"Важно: котлы могут взорваться! Даже &eопытных игроков GT&r это застаёт врасплох — помни об этом при установке."
 				"{@pagebreak}"
-				"Water does not gel well with &6high temperatures&r, and a &cSteam Explosion&r &7(Launch!)&r may occur under the following conditions:"
+				"Вода плохо сочетается с &6высокими температурами&r, и &cпаровой взрыв&r &7(Пуск!)&r может произойти при следующих условиях:"
 				""
-				"- The Boiler is &4overheating.&r Its temperature is indicated by the &cred bar&r in the GUI."
-				"...and..."
-				"- The Boiler does not have any &bwater&r. This is signified by the absence of a &bblue bar&r in the GUI."
-				"...AND..."
-				"- The Boiler receives water whilst &6both&r conditions are &2true&r."
+				"- Котёл &4перегревается.&r Температура показана &cкрасной полосой&r в GUI."
+				"...и..."
+				"- В котле нет &bводы&r. Это видно по отсутствию &bсиней полосы&r в GUI."
+				"...И..."
+				"- Котёл получает воду, когда &6оба&r условия &2верны&r."
 				"{@pagebreak}"
-				"You can avert catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &b1 mB&r of Water boils into &7160 mB&r of Steam - so you shouldn't have to worry about running out."
+				"Катастрофу можно избежать, залив котёл водой до нагрева и обеспечив постоянную подачу. Расход медленный — &b1 mB&r воды превращается в &7160 mB&r пара — так что о нехватке можно не беспокоиться."
 				""
-				"The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face."
+				"Котёл может автоматически выбрасывать пар со всех сторон, кроме нижней. Для автоматической подачи воды используй нижнюю сторону."
 				""
-				"&3Note:&r In this modpack, explosions are configured to &cnot&r damage any block or entity, but you'll &dstill lose&r your machine."
+				"&3Примечание:&r В этом паке взрывы настроены так, что &cне&r наносят урон блокам и сущностям, но машину ты &dвсё равно потеряешь&r."
 			]
 			id: "5DD49D500327A0E2"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Putting the Steam in Steam Age"
+			subtitle: "Вносим пар в Паровую эпоху"
 			tasks: [{
 				id: "0F864E85D4956919"
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			title: "Pressure Cookin'"
+			title: "Под давлением"
 			x: 0.0d
 			y: 0.75d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&dSteam Machines&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from EMI up to 32 EU/t (&7LV&r-tier)."
+				"&dПаровые машины&r принимают любой пар, поданный из соседних котлов во внутренний бак. Они выполняют рецепты из EMI до 32 EU/t (уровень &7LV&r)."
 				""
-				"&6This quest unlocks a new tutorial on Steam in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6Этот квест открывает новый туториал о паре во вкладке &l«Советы и хитрости»&r&6 — загляни, чтобы узнать больше!&r"
 			]
 			id: "03DBF1961AE21C76"
 			rewards: [{
@@ -806,22 +806,22 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Surprisingly Steamy"
+			subtitle: "Удивительно парно"
 			tasks: [{
 				id: "03BA041BE9C347FD"
 				item: "gtceu:bronze_machine_casing"
 				type: "item"
 			}]
-			title: "Steam Machine Behaviour"
+			title: "Поведение паровых машин"
 			x: 1.125d
 			y: 0.75d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The &bAlloy Smelter&r is used for, well, alloys. You'll want it for the efficient &6Bronze&r recipe, and for &4Red Alloy&r in the near future."
+				"&bСплавочная печь&r нужна для, ну, сплавов. Тебе понадобится она для эффективного рецепта &6бронзы&r и для &4красного сплава&r в ближайшем будущем."
 				""
-				"Out of all the &6Steam Age&r machines, this is the most steam-hungry. If you ever find yourself running out of steam, give your machine a &alove-tap&r with &dany Soft Mallet&r to momentarily pause it."
+				"Из всех машин &6Паровой эпохи&r эта жрёт больше всего пара. Если пара не хватает, «полюбуй» машину &dлюбой мягкой киянкой&r, чтобы ненадолго приостановить её."
 			]
 			id: "48AED37B4E20A99A"
 			rewards: [{
@@ -832,24 +832,24 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Alloy Smelter makes alloys..."
+			subtitle: "Сплавочная печь делает сплавы..."
 			tasks: [{
 				id: "2F3B195A110E41C2"
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			title: "Steam Alloy Smelter"
+			title: "Паровая сплавочная печь"
 			x: 2.25d
 			y: 0.75d
 		}
 		{
 			dependencies: ["249374557D095913"]
 			description: [
-				"Crafting Vacuum Tubes might make you question your existence. Sorry about that."
+				"Крафт вакуумных ламп может заставить тебя усомниться в смысле жизни. Извини за это."
 				""
-				"This is mostly due to the fact that Wires and Rods are &7(sadly)&r very expensive right now, but they'll get cheaper in &7LV&r."
+				"В основном из-за того, что провода и прутья &7(увы)&r сейчас очень дорогие, но на &7LV&r станут дешевле."
 				""
-				"Vacuum Tubes are also technically your first Ultra Low Voltage (&8ULV&r) Circuit! Congratulations! You won't find very much use for these by themselves, though."
+				"Вакуумные лампы — технически твоя первая схема сверхнизкого напряжения (&8ULV&r)! Поздравляем! Самостоятельно они тебе особо не пригодятся."
 			]
 			id: "3CF550B81716B8B9"
 			rewards: [{
@@ -860,14 +860,14 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The harder component for circuits"
+			subtitle: "Более сложный компонент для схем"
 			tasks: [{
 				count: 2L
 				id: "099C373568DF4500"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			title: "Electronics #3: Vacuum Tubes"
+			title: "Электроника №3: вакуумные лампы"
 			x: 5.625d
 			y: 0.75d
 		}
@@ -877,23 +877,23 @@
 				"48AED37B4E20A99A"
 			]
 			description: [
-				"Use Mortars or a Macerator (your choice) to microcraft your way to Glass Dust, which you can then turn into a &aGlass Block&r."
+				"Используй ступки или дробитель (на выбор), чтобы через микрокрафт дойти до стеклянной пыли, а затем превратить её в &aстеклянный блок&r."
 				""
-				"If you are lost, a more detailed guide for this process is on the next page, but &dwe urge you to nose around EMI&r and figure out the recipe on your own. Being able to navigate EMI and parse recipes is an &6essential skill&r for completing this pack."
+				"Если запутался — на следующей странице подробнее, но &dмы советуем покопаться в EMI&r и разобраться самому. Умение ориентироваться в EMI и читать рецепты — &6необходимый навык&r для прохождения этого пака."
 				""
-				"Glass will be easier later on. You've probably already noticed that juicy &3Arc Furnace&r recipe - don't worry, we'll get there soon."
+				"Стекло станет проще позже. Ты, наверное, уже заметил сочный рецепт &3дуговой печи&r — не переживай, скоро доберёмся."
 				""
-				"Glass tubes will be required for your first Electronic Circuit."
+				"Стеклянные трубки понадобятся для первой электронной схемы."
 				"{@pagebreak}"
-				"Lost? Worry not!"
+				"Запутался? Не беда!"
 				""
-				"First, use a &3method of pulverisation&r to turn Sand into &9Quartz Sand Dust&r."
+				"Сначала &3измельчи&r песок в &9кварцевую песчаную пыль&r."
 				""
-				"Next, crush down some Flint into &9Flint Dust&r, and split this dust into tiny piles in a crafting grid."
+				"Затем раздроби кремний в &9кремниевую пыль&r и раздели её на крошечные кучки в сетке крафта."
 				""
-				"Combine the two into &9Glass Dust&r, which can be molded into Glass in an Alloy Smelter with a &9Block Mold&r."
+				"Соедини их в &9стеклянную пыль&r, которую можно отлить в стекло в сплавочной печи с &9формой блока&r."
 				""
-				"Finally, Glass!"
+				"Наконец — стекло!"
 			]
 			icon: "minecraft:glass"
 			id: "249374557D095913"
@@ -906,7 +906,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Must be satisfying, right?"
+			subtitle: "Должно быть приятно, да?"
 			tasks: [
 				{
 					id: "4B958F6E2AA74763"
@@ -919,18 +919,18 @@
 					type: "item"
 				}
 			]
-			title: "Glass, at last!"
+			title: "Наконец-то стекло!"
 			x: 4.125d
 			y: -0.375d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
 			description: [
-				"&4Red Alloy&r is an alloy of Copper and Redstone, prized in the GregTech universe for its conductivity."
+				"&4Красный сплав&r — сплав меди и редстоуна, ценимый во вселенной GregTech за проводимость."
 				""
-				"You will need some for &9Electronic Circuits&r."
+				"Немного понадобится для &9электронных схем&r."
 				""
-				"&l&3Lore:&r&o This material originally comes from RedPower - what a throwback!"
+				"&l&3Лор:&r&o Этот материал изначально из RedPower — ностальгия!"
 			]
 			id: "54AF8696674766B4"
 			rewards: [{
@@ -941,13 +941,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "A completely fictional alloy"
+			subtitle: "Полностью вымышленный сплав"
 			tasks: [{
 				id: "4D3C4CF6577957A1"
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
-			title: "Red Alloy"
+			title: "Красный сплав"
 			x: 4.125d
 			y: 0.75d
 		}
@@ -960,15 +960,15 @@
 				"77EA56D16A9B3BFC"
 			]
 			description: [
-				"We made it to &7LV&r! Give yourself a pat on the back!"
+				"Мы добрались до &7LV&r! Похлопай себя по плечу!"
 				""
-				"Just kidding &7(lol)&r, you actually need three Circuits to get started anywhere relevant in &7LV&r. Thankfully for you, someone left this spare circuit laying around."
+				"Шучу &7(лол)&r — для чего-то осмысленного в &7LV&r нужны три схемы. К счастью, кто-то оставил лишнюю схему."
 				""
-				"We also want you to make an &aLV Machine Hull&r for this quest. You'll need one if you're to make any &7LV&r machine. We're feeling generous enough that this quest will grant you a second Hull, free of charge!"
+				"Ещё мы хотим, чтобы ты сделал &aкорпус машины LV&r. Он нужен для любой машины &7LV&r. Мы щедры — за квест получишь второй корпус бесплатно!"
 				""
-				"Circuits are an integral part of progression in GregTech, so keep climbing."
+				"Схемы — неотъемлемая часть прогресса в GregTech, так что продолжай карабкаться."
 				""
-				"&6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.&r"
+				"&6После выполнения этого квеста и квеста на двигатель LV ты готов перейти к эпохе LV.&r"
 			]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "4B979482EF026BFF"
@@ -986,7 +986,7 @@
 			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Your first &aElectronic Circuit&r!"
+			subtitle: "Твоя первая &aэлектронная схема&r!"
 			tasks: [
 				{
 					count: 2L
@@ -1000,22 +1000,22 @@
 					type: "item"
 				}
 			]
-			title: "Electronics #4: The Circuit"
+			title: "Электроника №4: схема"
 			x: 6.75d
 			y: 0.75d
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
 			description: [
-				"&dPotin Fluid Pipes&r have a &avery high throughput&r for the material tier and cost. You may want to look into making some of these to aid with fluid logistics."
+				"&dЖидкостные трубы из потина&r имеют &aочень высокую пропускную способность&r для своего уровня материала и стоимости. Стоит сделать несколько для логистики жидкостей."
 				""
-				"To get &dPotin&r, you should start by crafting its &eDust&r form."
+				"Чтобы получить &dпотин&r, начни с его &eпыли&r."
 				""
-				"Get a &dPotin&r pipe of any size to complete this quest."
+				"Получи &dпотин&r-трубу любого размера для выполнения квеста."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o &dPotin Fluid Pipes&f were first seen in &9GT++&f, an addon to GT5, and are a considerable power spike for players in a relatively unknown pack called &4GT:NH&f. We wanted to spread some of that joy."
+				"&l&3Лор:&r&o &dЖидкостные трубы из потина&f впервые появились в &9GT++&f — аддоне к GT5, и стали серьёзным скачком силы в относительно малоизвестном паке &4GT:NH&f. Мы хотели принести часть этой радости и сюда."
 				""
-				"&oIn the real world, &dPotin&f is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day..."
+				"&oВ реальности &dпотин&f — сплав для монет, а не для труб. GTCEu с каждым днём всё менее реалистичен..."
 			]
 			icon: "gtceu:potin_normal_fluid_pipe"
 			id: "3C70B0717E9377A4"
@@ -1027,7 +1027,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "...I'm going into battle, and I need only your finest Potin."
+			subtitle: "...Я иду в бой, и мне нужен только твой лучший потин."
 			tasks: [{
 				id: "7C0AFE7BBF56CD68"
 				item: {
@@ -1064,20 +1064,20 @@
 				}
 				type: "item"
 			}]
-			title: "Potin Seller..."
+			title: "Продавец Potin..."
 			x: -2.25d
 			y: 0.75d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"With the creation of this machine, many recipes that once required you to use a hammer can instead be made here!"
+				"С этой машиной многие рецепты, где раньше нужен был молот, можно делать здесь!"
 				""
-				"It can process &bCobblestone into Gravel&r, and &dGravel into Sand&r - and it's zippy at that to boot."
+				"Она перерабатывает &bбулыжник в гравий&r и &dгравий в песок&r — и делает это быстро."
 				""
-				"Last but not least, it makes &aPlates&r at a better ratio: &6three Ingots for two Plates&r. A worthwhile investment!"
+				"И наконец, делает &aпластины&r с лучшим соотношением: &6три слитка на две пластины&r. Стоит вложиться!"
 				""
-				"You know what? &aBonus&r! We'll give you the &8Anvil&r back if you craft the Forge Hammer. This is a gentle reminder that you can repair GregTech tools in an Anvil."
+				"Знаешь что? &aБонус&r! Мы вернём &8наковальню&r, если скрафтишь кузнечный молот. Напоминание: инструменты GregTech можно чинить на наковальне."
 			]
 			id: "1931FC6DEAC29646"
 			rewards: [{
@@ -1087,26 +1087,26 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Forge Hammer hammers..."
+			subtitle: "Кузнечный молот кузнечит..."
 			tasks: [{
 				id: "4F4074D7CE5A61A0"
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			title: "Steam Forge Hammer"
+			title: "Паровой кузнечный молот"
 			x: 0.0d
 			y: 1.875d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"The &bMacerator&r frees you from the painful process of &egrinding stuff into dust&r with a &3Mortar&r, but at the steep cost of time. Processing a single piece of Iron Ore in this machine will take &ctwenty seconds&r - twice the time it takes to smelt an ingot in a furnace!"
+				"&bДробитель&r освобождает от мучительного &eизмельчения в пыль&r с помощью &3ступки&r, но ценой времени. Одна железная руда в этой машине обрабатывается &cдвадцать секунд&r — вдвое дольше, чем переплавка слитка в печи!"
 				""
-				"The Macerator also marks the advent of &eOre Processing&r, but that's a scary topic that we'll dip our toes into in the next quest."
+				"Дробитель также знаменует начало &eпереработки руды&r, но это страшная тема — окунёмся в неё в следующем квесте."
 				"{@pagebreak}"
-				"The macerator will output only the first item shown in recipes from EMI. The other slots are locked until you make a &6HV&r Macerator. How unfortunate..."
+				"Дробитель выдаёт только первый предмет из рецепта в EMI. Остальные слоты заблокированы, пока не сделаешь дробитель &6HV&r. Какая досада..."
 				""
-				"Our (&oimportant!&r) advice: it's actually better to keep directly smelting for now! The efficiency loss is made up with faster mining. Use the Macerator to make things like &aClay Dust&r instead!"
+				"Наш (&oважный!&r) совет: пока лучше продолжать прямую переплавку! Потерю эффективности компенсирует более быстрая добыча. Используй дробитель для таких вещей, как &aглиняная пыль&r!"
 			]
 			id: "1C50A758A1DE25CB"
 			rewards: [{
@@ -1117,19 +1117,19 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Macerator macerates..."
+			subtitle: "Дробитель дробит..."
 			tasks: [{
 				id: "6DFD6AC8CF31305C"
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			title: "Steam Macerator"
+			title: "Паровой дробитель"
 			x: 1.125d
 			y: 1.875d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
-			description: ["Invar has &650% more durability&r when used in GregTech tools compared to Iron (yes, that is the same as &aWrought Iron&r). Great for mining - you might want to consider using this in your tools if you &5haven't unlocked&r Steel."]
+			description: ["Инвар даёт &6на 50% больше прочности&r в инструментах GregTech по сравнению с железом (да, столько же, сколько &aкованое железо&r). Отлично для добычи — стоит использовать в инструментах, если &5ещё не открыл&r сталь."]
 			id: "76F61E499780C30B"
 			rewards: [{
 				id: "4B335E308869FC4B"
@@ -1163,7 +1163,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "An Iron-Nickel alloy"
+			subtitle: "Сплав железа и никеля"
 			tasks: [{
 				count: 3L
 				id: "49E114B96843E5C9"
@@ -1177,7 +1177,7 @@
 				title: "Invar Ingot"
 				type: "item"
 			}]
-			title: "Invar"
+			title: "Инвар"
 			x: 2.25d
 			y: 1.875d
 		}
@@ -1187,11 +1187,11 @@
 				"1C50A758A1DE25CB"
 			]
 			description: [
-				"Macerate Wood into Wood Pulp, then compress it into Wood Plates. Combine it with Resin to make an empty board."
+				"Измельчи дерево в древесную массу, затем сожми в деревянные пластины. Соедини со смолой — получится пустая плата."
 				""
-				"Stick in some expensive Copper Wires (these'll get cheaper in &7LV&r) and you've got the base for your first &aCircuit&r."
+				"Вставь дорогие медные провода (на &7LV&r станут дешевле) — и основа для первой &aсхемы&r готова."
 				""
-				"Almost there!"
+				"Почти у цели!"
 			]
 			icon: "gtceu:resin_printed_circuit_board"
 			id: "4ED5A9AEF7B928BA"
@@ -1203,7 +1203,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The circuit-er part of circuits..."
+			subtitle: "Схемная часть схем..."
 			tasks: [
 				{
 					id: "3704C06203B7485A"
@@ -1224,45 +1224,45 @@
 					type: "item"
 				}
 			]
-			title: "Electronics #2: Circuit Boards"
+			title: "Электроника №2: печатные платы"
 			x: 6.75d
 			y: 1.875d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"In its simplest form, Ore Processing in GregTech boils down to &aconverting one Ore Block into two Ingots through two Dusts&r, like several other tech mods. "
+				"В простейшем виде переработка руды в GregTech сводится к &aпревращению одного блока руды в два слитка через две пыли&r, как в нескольких других техмодах."
 				""
-				"The added spice is the amount of steps, either optional or required."
+				"Изюминка — количество шагов, обязательных или опциональных."
 				""
-				"Ore Processing will be explained further once you get into &7LV&r."
+				"Переработку руды подробнее разберём, когда доберёшься до &7LV&r."
 				""
-				"&6This quest unlocks a new tutorial on rudimentary Ore Processing in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6Этот квест открывает туториал о базовой переработке руды во вкладке &l«Советы и хитрости»&r&6 — загляни, чтобы узнать больше!&r"
 			]
 			icon: "gtceu:crushed_gold_ore"
 			id: "7813F183681E0342"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "...and how do I get rid of it?"
+			subtitle: "...и как от этого избавиться?"
 			tasks: [{
 				id: "1C4CFA0AD3125A6D"
 				title: "Oh god, what have I gotten myself into!?"
 				type: "checkmark"
 			}]
-			title: "What is this Mess?!"
+			title: "Что это за каша?!"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
 			description: [
-				"&o...or perhaps it was the opposite?&r"
+				"&o...или наоборот?&r"
 				""
-				"The &3Steam Grinder&r can pulverize &6large batches of items quickly&r and effortlessly&r, sort of like a parallel Macerator."
+				"&3Паровая дробилка&r может измельчать &6большие партии предметов быстро&r и без усилий&r — что-то вроде параллельного дробителя."
 				""
-				"This thing is incredibly good for its tier. It's actually as strong as 5.3 &6HV&r Macerators, and only requires a trickle of Steam to power."
+				"Эта штука невероятно хороша для своего уровня. По силе она как 5,3 дробителя &6HV&r и требует лишь каплю пара."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze."
+				"&l&3Лор:&r&o Этот мультиблок изначально из GT++. Для крафта нужен был тумбага — сплав золота и бронзы."
 			]
 			icon: "gtceu:steam_grinder"
 			id: "7FF95F1216D104B2"
@@ -1275,7 +1275,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Steam Oven's elder brother"
+			subtitle: "Старший брат паровой печи"
 			tasks: [
 				{
 					id: "478F7F5E6B4FC488"
@@ -1304,21 +1304,21 @@
 					type: "item"
 				}
 			]
-			title: "Steam Grinder"
+			title: "Паровая дробилка"
 			x: 1.125d
 			y: 3.0d
 		}
 		{
 			dependencies: ["76F61E499780C30B"]
 			description: [
-				"&o...or little brother. Don't let him know!&r"
+				"&o...или младший брат. Только не говори ему!&r"
 				""
-				"The &3Steam Oven&r is a great multiblock option if you need &6effortlessly smelt large quantities of items.&r No more lines of furnaces that you have to manually empty and refuel!"
+				"&3Паровая печь&r — отличный мультиблок, если нужно &6без усилий переплавить большие количества предметов.&r Больше никаких рядов печей, которые нужно вручную опустошать и заправлять!"
 				""
-				"It effectively behaves as a parallel furnace, smelting up to 8 items at a time for a low cost of Steam."
+				"По сути это параллельная печь — переплавляет до 8 предметов одновременно за небольшую цену в паре."
 				"{@pagebreak}"
 				""
-				"&l&3Lore:&r&o This Multiblock - despite being very similar to its brother, the Steam Grinder - isn't ported from a GregTech version or addon. Its actual progenitor is the Steam Oven from Railcraft, which dates back to 1.4.7!"
+				"&l&3Лор:&r&o Этот мультиблок — несмотря на сходство с паровой дробилкой — не портирован из GregTech или аддона. Его прародитель — паровая печь из Railcraft, ещё с 1.4.7!"
 			]
 			icon: "gtceu:steam_oven"
 			id: "6C25D11A26306168"
@@ -1331,7 +1331,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Steam Grinder's big brother"
+			subtitle: "Старший брат паровой дробилки"
 			tasks: [
 				{
 					id: "0EA421E6E53FA6A8"
@@ -1366,7 +1366,7 @@
 					type: "item"
 				}
 			]
-			title: "Steam Oven"
+			title: "Паровая печь"
 			x: 2.25d
 			y: 3.0d
 		}
@@ -1376,17 +1376,17 @@
 				"54AF8696674766B4"
 			]
 			description: [
-				"The &9Portable Cell&r serves as an early-game digital backpack alternative! It holds up to &a54&r types of items."
+				"&9Портативная ячейка&r — ранний аналог цифрового рюкзака! Вмещает до &a54&r типов предметов."
 				""
-				"What's more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an &aME Drive&r or &b&aME IO Port&r for convenience."
+				"Более того, она работает как обычная ячейка хранения AE2. Когда запустишь ME-систему, можно просто положить её в &aME Drive&r или &b&aME IO Port&r."
 				""
-				"The Portable Cell's energy only drains when it's open. With &6167 minutes&r of juice stored in it thanks to changed config, you shouldn't worry about it running out of energy."
+				"Энергия портативной ячейки расходуется только когда она открыта. Благодаря изменённому конфигу в ней &6167 минут&r заряда — можно не беспокоиться."
 				""
-				"Regardless, you will be able to &dcharge&r it in &7LV&r in &3machine Charger slots&r, &3Turbo Chargers&r or &3Battery Buffers&r."
+				"В любом случае на &7LV&r её можно будет &dзаряжать&r в &3слотах зарядки машин&r, &3Turbo Chargers&r или &3Battery Buffers&r."
 				"{@pagebreak}"
-				"&cWarning&r: Attempting to store items with very large NBT Tags may result in them getting &cstuck&r. So far it seems that the Building Gadgets, Terminal and Clipboards are &lsafe&r, but you never know what could happen."
+				"&cПредупреждение&r: попытка хранить предметы с очень большими NBT-тегами может привести к тому, что они &cзастрянут&r. Пока Building Gadgets, Terminal и Clipboards кажутся &lбезопасными&r, но никогда не знаешь."
 				""
-				"If something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest, then place your Portable Cell inside the IO Port. This will spit out any stored items into the chest."
+				"Если что-то застряло, собери простую сеть AE2 с Energy Acceptor, IO Port и Storage Bus на сундуке, затем положи портативную ячейку в IO Port — предметы выпадут в сундук."
 			]
 			icon: {
 				Count: 1
@@ -1403,7 +1403,7 @@
 			}]
 			shape: "circle"
 			size: 0.66d
-			subtitle: "A higher-tech Backpack! "
+			subtitle: "Рюкзак повышенной технологичности!"
 			tasks: [{
 				id: "459D19A750BB8440"
 				item: {
@@ -1413,13 +1413,13 @@
 				}
 				type: "item"
 			}]
-			title: "Portable Cell"
+			title: "Портативная ячейка"
 			x: 4.875d
 			y: 1.32d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
-			description: ["The Steam Compressor unlocks some tantalising new recipes that will help you to progress towards Steel."]
+			description: ["Паровой компрессор открывает заманчивые новые рецепты, которые помогут продвинуться к стали."]
 			id: "07415D6305C3B1D2"
 			rewards: [{
 				id: "1F47D2A131498C25"
@@ -1428,24 +1428,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The Steam Compressor compresses..."
+			subtitle: "Паровой компрессор сжимает..."
 			tasks: [{
 				id: "21C99D59F1BE48A3"
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			title: "Steam Compressor"
+			title: "Паровой компрессор"
 			x: 1.125d
 			y: -0.375d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"With your first &8Steel&r under your belt &7(ha!)&r, you can make a &bTool Belt&r to free up inventory space from all those pesky GT tools. It can be equipped in its own &ddedicated Curio slot&r."
+				"С первой &8сталью&r за поясом &7(ха!)&r можно сделать &bпояс для инструментов&r и освободить инвентарь от назойливых инструментов GT. Его можно надеть в отдельный &dслот Curio&r."
 				""
-				"By default, the hotkey to open the belt is &eR&r, but you can rebind it if you prefer. From this GUI, you can place tools inside the belt's storage, and swap them with your &dmain-hand tool&r whenever is convenient."
+				"По умолчанию горячая клавиша — &eR&r, но можно переназначить. В этом GUI можно класть инструменты в пояс и менять их с &dинструментом в основной руке&r когда удобно."
 				""
-				"The belt has a small initial inventory of a single tool. This can be expanded by combining the belt with &bBelt Pouches&r in an &aAnvil&r - the maximum slottage is &69 slots&r."
+				"Изначально пояс вмещает один инструмент. Можно расширить, объединяя пояс с &bкошельками для пояса&r на &aнаковальне&r — максимум &69 слотов&r."
 			]
 			icon: "toolbelt:belt"
 			id: "4A993CC40AB6D35C"
@@ -1456,7 +1456,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Take some weight off your inventory"
+			subtitle: "Сними груз с инвентаря"
 			tasks: [
 				{
 					id: "281B54469C34A5E2"
@@ -1469,40 +1469,40 @@
 					type: "item"
 				}
 			]
-			title: "Tool Belt"
+			title: "Пояс для инструментов"
 			x: 2.0d
 			y: -2.75d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
 			description: [
-				"&3Item Pipes&r are a simple yet effective way to move items around &dinstantly&r, but with throughput limitations."
+				"&3Трубы для предметов&r — простой и эффективный способ перемещать предметы &dмгновенно&r, но с ограничениями пропускной способности."
 				""
-				"Higher tier pipes provide ridiculously large throughput - a rare sight in modded Minecraft!"
+				"Трубы высших уровней дают безумно большую пропускную способность — редкость в модифицированном Minecraft!"
 				""
-				"Item Pipes &9do not pull&r, but they will push any item inserted into them to other connected inventories, prioritizing &9the closest inventory&r first."
+				"Трубы для предметов &9не тянут&r сами, но будут проталкивать вставленный предмет в подключённые инвентари, отдавая приоритет &9ближайшему&r."
 				"{@pagebreak}"
-				"The priority mechanics are &osomewhat complicated&r, so skip ahead if you aren't interested:"
+				"Механика приоритетов &oдовольно сложная&r — пропусти, если не интересно:"
 				""
-				"A &eDestination&r will have a &dRouting Value&r calculated, which is the sum of all \"Routing Values\" of the individual Pipes to that Destination. Whichever Destination has the &clowest &dRouting Value&r will be the one selected for Insertion."
+				"У &eназначения&r вычисляется &dзначение маршрутизации&r — сумма «значений маршрутизации» отдельных труб до этого назначения. Выбирается назначение с &cнаименьшим &dзначением маршрутизации&r."
 				""
-				"&3Restrictive Pipes&r typically have the lowest Priority for insertion due to their higher Routing Value."
+				"&3Ограничительные трубы&r обычно имеют наименьший приоритет из-за более высокого значения маршрутизации."
 				"{@pagebreak}"
-				"Right now, you can use them in combination with &6Hoppers&r, but you will also be able to use them with Conveyor Modules, Output Buses, and machine Auto-Outputs all in the LV age."
+				"Сейчас их можно использовать с &6воронками&r, а на эпохе LV — с конвейерными модулями, выходными шинами и авто-выводом машин."
 				""
-				"&9Note:&r GT6-style Pipes are &denabled&r. It means that placing Pipes connect them only to the block they were placed against. To open more connections, use your &5Wrench&r on the grid."
+				"&9Примечание:&r Трубы в стиле GT6 &dвключены&r. При установке труба соединяется только с блоком, к которому поставлена. Чтобы открыть больше соединений, используй &5гаечный ключ&r."
 				""
-				"You can also shift-right click with your Wrench to force items to flow in a certain direction. This can help counteract backflow (items being transported in an undesirable direction.) It also prevents the common issue of your &eCoke Oven Hatches&r trying to export charcoal/coke into your hoppers!"
+				"Shift+ПКМ гаечным ключом задаёт направление потока предметов. Помогает против обратного потока (когда предметы идут не туда). Также решает частую проблему, когда &eлюки коксовой печи&r пытаются выгрузить уголь/кокс в воронки!"
 				""
-				"Get &eany&r of the suggested Item Pipes to complete this quest."
+				"Получи &eлюбую&r из предложенных труб для предметов, чтобы выполнить квест."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Oooooh, YEAH! Item Pipes were in GregTech 5, and for whatever reason they weren't kept for GTCE, so you had to use other mods to transport items. Who does that!? Jokes aside, we hope you enjoy Item Pipes being back in GregTech!"
+				"&l&3Лор:&r&o О да! Трубы для предметов были в GregTech 5, но по какой-то причине не перешли в GTCE — приходилось таскать предметы другими модами. Кто вообще так делает!? Ладно, шутки в сторону — надеемся, тебе понравится, что трубы для предметов вернулись в GregTech!"
 			]
 			icon: "gtceu:tin_small_item_pipe"
 			id: "539CF1B85725786D"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "All your logistics woes are solved"
+			subtitle: "Все логистические проблемы решены"
 			tasks: [{
 				id: "158F4EEDC214A3BA"
 				item: {
@@ -1528,22 +1528,22 @@
 				title: "Earlygame Item Pipes"
 				type: "item"
 			}]
-			title: "Item Pipes"
+			title: "Трубы для предметов"
 			x: -1.125d
 			y: 1.875d
 		}
 		{
 			dependencies: ["54AF8696674766B4"]
 			description: [
-				"After &lmany&r requests, &6Sophisticated Backpacks&r has now been integrated!"
+				"После &lмногочисленных&r просьб &6Sophisticated Backpacks&r теперь интегрирован!"
 				""
-				"Backpacks scale alongside &aPortable Cell&r tiering, with modular upgrades that can be inserted to provide new &dBackpack functionalities&r."
+				"Рюкзаки масштабируются вместе с уровнем &aпортативной ячейки&r, с модульными улучшениями для новых &dфункций рюкзака&r."
 				""
-				"Before you reach &7LV&r, the upgrade options are &cquite limited&r. However, you should be able to upgrade the starter backpack &eonce&r before you make your first electric machine!"
+				"До &7LV&r варианты улучшений &cдовольно ограничены&r. Однако стартовый рюкзак можно улучшить &eодин раз&r до первой электрической машины!"
 				"{@pagebreak}"
-				"Just so you know - backpacks have been configured and will &cnot&r interact with a connected &bStorage Bus&r. If you want the power of digital storage, you'll have to work for it!"
+				"Кстати — рюкзаки настроены так, что &cне&r взаимодействуют с подключённой &bStorage Bus&r. Если хочешь цифровое хранение — придётся поработать!"
 				""
-				"Oh, and holding one too many backpacks will &6slow you down&r."
+				"И да — слишком много рюкзаков &6замедлят&r тебя."
 			]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "5E89BDA8943534AF"
@@ -1556,30 +1556,30 @@
 			}]
 			shape: "circle"
 			size: 0.66d
-			subtitle: "A lower-tech Personal Cell!"
+			subtitle: "Персональная ячейка попроще!"
 			tasks: [{
 				id: "193A62DF98B59838"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "Backpacks"
+			title: "Рюкзаки"
 			x: 3.3d
 			y: 1.32d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"The &3Charcoal Pile Igniter&r is a particularly unique multiblock. You can use it to produce &aCharcoal&r faster than &3Coke Ovens&r, but this comes with the trade-off of &amanual labor&r."
+				"&3Поджигатель угольной кучи&r — особенный мультиблок. С его помощью можно получать &aдревесный уголь&r быстрее, чем в &3коксовых печах&r, но ценой &aручного труда&r."
 				"{@pagebreak}"
-				"To operate the Igniter, dig a big pit into the ground - up to &e9x9x5&r blocks in size. Line the floor of the pit with vanilla &aBrick blocks&r, then fill the remaining space entirely with &aLogs&r. After that, &esurround the filled pit&r with Grass, Dirt, or other natural groundcover. In the layer with the roof, place the Igniter! To start it, light it with &aFlint and Steel&r."
+				"Чтобы запустить поджигатель, вырой большую яму — до &e9×9×5&r блоков. Выложи дно ванильными &aкирпичными блоками&r, затем заполни оставшееся пространство &aбрёвнами&r. После этого &eобложи заполненную яму&r травой, землёй или другим естественным грунтом. В слое с «крышей» поставь поджигатель! Чтобы запустить, подожги &aогнивом&r."
 				""
-				"Once the process completes, open up the pit for your reward - &aBrittle Charcoal&r. This can be mined with a Shovel (or Spade!), and each block drops 1.4 Charcoal on average. Assuming 1 Log converts into 1 Brittle Charcoal, we're sure you can see the efficiency boost!"
+				"Когда процесс завершится, открой яму — награда: &aхрупкий древесный уголь&r. Добывается лопатой (или совком!), каждый блок даёт в среднем 1,4 древесного угля. При соотношении 1 бревно = 1 хрупкий уголь — видишь прирост эффективности!"
 				"{@pagebreak}"
-				"&eNote&r: The pit must be &cfull to the brim&r with Logs - Air blocks will prevent this Multiblock from forming."
+				"&eПримечание&r: яма должна быть &cзаполнена до краёв&r брёвнами — блоки воздуха помешают формированию мультиблока."
 				""
-				"&eNote&r: This quest is &boptional&r. If you would like to skip this quest, hit the checkmark instead."
+				"&eПримечание&r: этот квест &bнеобязательный&r. Если хочешь пропустить — нажми галочку."
 				""
-				"&l&3Lore:&r&o This multiblock originated in GT5u, but did not require a fire-starting item to start."
+				"&l&3Лор:&r&o Этот мультиблок из GT5u, но там не требовался предмет для розжига."
 			]
 			icon: "gtceu:charcoal_pile_igniter"
 			id: "4384068C4517F3D9"
@@ -1590,7 +1590,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I'm the trouble starter, punkin' instigator..."
+			subtitle: "Я — зачинщик бед..."
 			tasks: [
 				{
 					id: "2586D1FC6BC5E53C"
@@ -1604,32 +1604,32 @@
 					type: "checkmark"
 				}
 			]
-			title: "Fuel Pit"
+			title: "Топливная яма"
 			x: 1.2d
 			y: -2.97d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
 			description: [
-				"You DO have access to some beefy &bfluid storage&r right now, but you'll need to make a &eMultiblock&r to access it!"
+				"Сейчас у тебя уже есть доступ к серьёзному &bхранению жидкостей&r, но для этого нужен &eмультиблок&r!"
 				""
-				"The &3Wooden Multiblock Tank&r&r holds &a250,000 mB&r, but you won't be able to use it to store &chot Fluids&r such as Lava, or &cGases&r such as Steam or Oxygen."
+				"&3Деревянная мультиблок-цистерна&r&r вмещает &a250 000 mB&r, но в ней нельзя хранить &cгорячие жидкости&r вроде лавы или &cгазы&r вроде пара или кислорода."
 				""
-				"The &3Bronze Multiblock Tank&r holds &a500,000 mB&r, lifiting the maximum fluid tempreture and can now store &cGases&r. "
+				"&3Бронзовая мультиблок-цистерна&r вмещает &a500 000 mB&r, снимает ограничение по температуре и позволяет хранить &cгазы&r."
 				""
-				"The &3Steel Multiblock Tank&r holds &a1,000,000 mB&r, and lifts all the aforementioned fluid restrictions."
+				"&3Стальная мультиблок-цистерна&r вмещает &a1 000 000 mB&r и снимает все перечисленные ограничения."
 				""
-				"Get &eany&r of the Tanks to complete this quest. The Steel version is &dway too expensive&r right now - so you should probably make the Wooden  or Bronze one instead."
+				"Получи &eлюбую&r из цистерн для выполнения квеста. Стальная версия &dслишком дорогая&r сейчас — лучше сделай деревянную или бронзовую."
 				"{@pagebreak}"
-				"Fluid transfer can either be facilitated through the Controller block, or through up to &atwo Valves&r."
+				"Перекачку жидкостей можно организовать через блок контроллера или через до &aдвух клапанов&r."
 				""
-				"Valves can &9auto-output&r by placing them on the &dbottom layer&r and making them &dface down&r (as always, use a &5Wrench&r to adjust their facing)."
+				"Клапаны могут &9авто-выводить&r, если поставить их на &dнижний слой&r и повернуть &dвниз&r (как всегда — &5гаечным ключом&r)."
 				""
-				"Unlike &3Drums&r, these Tanks aren't portable... but you probably guessed that already."
+				"В отличие от &3бочек&r, эти цистерны не переносные... но ты, наверное, уже догадался."
 				""
-				"This Quest generously rewards an extra &6Coke Oven&r. Make the most of GTCEu's &bwallsharing&r mechanic, and place it next to an existing Coke Oven to save on casings."
+				"Этот квест щедро награждает дополнительной &6коксовой печью&r. Используй механику &bобщих стен&r GTCEu и поставь её рядом с существующей, чтобы сэкономить на корпусах."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Just like Drums, these multiblocks are ported from GregTech 6."
+				"&l&3Лор:&r&o Как и бочки, эти мультиблоки портированы из GregTech 6."
 			]
 			icon: "gtceu:steel_tank_valve"
 			id: "15923B47D23CCF34"
@@ -1648,7 +1648,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "So long, and Tanks for all the fish!"
+			subtitle: "До свидания, и спасибо за все tanks!"
 			tasks: [
 				{
 					id: "19C34AAB329C7ABF"
@@ -1727,7 +1727,7 @@
 					type: "item"
 				}
 			]
-			title: "Multiblock Tanks"
+			title: "Мультиблок-цистерны"
 			x: 0.33d
 			y: -2.64d
 		}
@@ -1738,29 +1738,29 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Ever wanted your pipes to look &leven&r cooler? Now you can!"
+				"Хотел, чтобы трубы выглядели &lещё&r круче? Теперь можно!"
 				""
-				"Fluid and Item Pipes can be placed inside of Frameboxes, giving your base an &6unparalleled level of beauty&r!"
+				"Жидкостные и предметные трубы можно помещать внутрь рам, придавая базе &6непревзойдённую красоту&r!"
 				""
-				"All you - dear player - need to do is right-click a frame onto a pipe &7(or a pipe onto a frame)&r, and you're done."
+				"Тебе нужно лишь нажать ПКМ рамой по трубе &7(или трубой по раме)&r — и готово."
 				""
-				"&l&3Lore:&r&o This is a GTCEu-original mechanic."
+				"&l&3Лор:&r&o Это оригинальная механика GTCEu."
 			]
 			icon: "gtceu:steel_frame"
 			id: "27240865315F9530"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Spaghetti has never looked so swanky!"
+			subtitle: "Спагетти ещё никогда не выглядели так шикарно!"
 			tasks: [{
 				id: "431894F9877BC900"
 				item: "gtceu:steel_frame"
 				type: "item"
 			}]
-			title: "Aesthetic Ultra"
+			title: "Эстетика Ultra"
 			x: -2.25d
 			y: 1.875d
 		}
 	]
-	subtitle: ["Harness the power of Steam and learn the basics"]
-	title: "Steam Age"
+	subtitle: ["Используй силу пара и освой основы"]
+	title: "&6Паровая эпоха&r"
 }

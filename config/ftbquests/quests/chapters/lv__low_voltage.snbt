@@ -18,12 +18,12 @@
 		{
 			dependencies: ["2F7617C0C4B330DE"]
 			description: [
-				"The &aFluid Regulator&r is sort of the equivalent to a &9Robot Arm&r for Fluids."
+				"&aРегулятор жидкости&r — своего рода аналог &9робота-манипулятора&r для жидкостей."
 				""
-				"It can transfer fluids, but has two useful modes:"
+				"Он может передавать жидкости и имеет два полезных режима:"
 				""
-				"&9-&r &dSupply Exact&r will transfer the amount of specified Fluid per tick if available. No more, no less."
-				"&9-&r &dKeep Exact&r will make sure the exact amount of Fluid in the attached machine is being kept."
+				"&9-&r &d«Точная подача»&r передаёт указанное количество жидкости за тик, если она доступна. Ни больше, ни меньше."
+				"&9-&r &d«Точное поддержание»&r следит, чтобы в подключённой машине оставалось ровно указанное количество жидкости."
 			]
 			id: "47D4545452F05E37"
 			rewards: [{
@@ -33,25 +33,26 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A cover!"
+			subtitle: "Крышка!"
 			tasks: [{
 				id: "5E8D784C83A4F672"
 				item: "gtceu:lv_fluid_regulator"
 				type: "item"
 			}]
+			title: "LV регулятор жидкости"
 			x: -1.125d
 			y: 1.125d
 		}
 		{
 			dependencies: ["38993B4697B0E16C"]
 			description: [
-				"When placed on a machine, Robot Arms are a more configurable version of a Conveyor Module. They allow you to transfer items in specific batches, at specific rates, or keep a certain amount of items stocked."
+				"Установленный на машину робот-манипулятор — более настраиваемая версия конвейерного модуля. Он позволяет передавать предметы определёнными партиями, с заданной скоростью или поддерживать нужное количество на складе."
 				""
-				"Practical uses for the Robot Arm will be explained in future Quests as a tutorial."
+				"Практическое применение робота-манипулятора будет разобрано в следующих квестах как обучение."
 				""
-				"&9Note:&r The functionalities provided by the Robot Arm work &lonly&r if it is &lrequired&r to perform the operation."
+				"&9Примечание:&r Функции робота-манипулятора работают &lтолько&r если он &lнеобходим&r для выполнения операции."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it's all been replaced by the almighty Robot Arm and various Filter Covers. Much more compact!"
+				"&l&3Лор:&r&o В GregTech 5 были блоки вроде буфера, фильтра и типового фильтра для тонкого контроля предметов. В GTCE всё это заменили всемогущим роботом-манипулятором и разными фильтрующими крышками. Намного компактнее!"
 			]
 			id: "3DE7A2B91CFF48F6"
 			rewards: [{
@@ -61,23 +62,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "You're going to hate making these"
+			subtitle: "Ты будешь ненавидеть их делать"
 			tasks: [{
 				id: "7D7A9CBE1E368E53"
 				item: "gtceu:lv_robot_arm"
 				type: "item"
 			}]
+			title: "LV робот-манипулятор"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"Less common as a component, but used in a number of critical machines."
+				"Реже встречается как компонент, но используется в ряде важных машин."
 				""
-				"When placed on a machine, conveyor modules will transfer items. You can configure them to import or export."
+				"Установленный на машину конвейерный модуль передаёт предметы. Его можно настроить на импорт или экспорт."
 				""
-				"They can also accept various &9Item Filters&r."
+				"Он также поддерживает различные &9фильтры предметов&r."
 			]
 			id: "288CE4AA4C5AA8BF"
 			rewards: [{
@@ -88,21 +90,22 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component, but also a cover!"
+			subtitle: "Компонент для крафта, но ещё и крышка!"
 			tasks: [{
 				id: "064169E7E2772387"
 				item: "gtceu:lv_conveyor_module"
 				type: "item"
 			}]
+			title: "LV конвейерный модуль"
 			x: 1.125d
 			y: 1.125d
 		}
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"When placed on a machine, pumps will transfer fluid. You can configure them to import or export."
+				"Установленный на машину насос передаёт жидкости. Его можно настроить на импорт или экспорт."
 				""
-				"It can accept a &9Fluid Filter&r."
+				"Он поддерживает &9фильтр жидкостей&r."
 			]
 			id: "2F7617C0C4B330DE"
 			rewards: [{
@@ -113,21 +116,22 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component, but also a cover!"
+			subtitle: "Компонент для крафта, но ещё и крышка!"
 			tasks: [{
 				id: "7A37B370D2D40E6A"
 				item: "gtceu:lv_electric_pump"
 				type: "item"
 			}]
+			title: "LV электрический насос"
 			x: -1.125d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5A8F0124E07D5025"]
 			description: [
-				"A specialized motor needed to make certain machines."
+				"Специализированный двигатель, необходимый для создания определённых машин."
 				""
-				"One of the more intricate crafting components, as it's made using a motor."
+				"Один из более сложных компонентов для крафта — ведь он сам делается из двигателя."
 			]
 			id: "38993B4697B0E16C"
 			rewards: [{
@@ -138,12 +142,13 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A crafting component - did you expect anything fancier?"
+			subtitle: "Компонент для крафта — ты же не ждал чего-то роскошного?"
 			tasks: [{
 				id: "70FEF63FB9A58B02"
 				item: "gtceu:lv_electric_piston"
 				type: "item"
 			}]
+			title: "LV электрический поршень"
 			x: 1.125d
 			y: 0.0d
 		}
@@ -153,48 +158,48 @@
 				"5A8F0124E07D5025"
 			]
 			description: [
-				"The &3Steam Turbine&r is the only Generator you can realistically use in &7LV&r. &2Later, you'll unlock more interesting Power options&r, such as natural gases or petrols."
+				"&3Паровая турбина&r — единственный генератор, который ты реально можешь использовать в &7LV&r. &2Позже откроются более интересные варианты энергии&r — например, природные газы или бензин."
 				""
-				"When provided Steam, the turbine will output EU at a ratio of &d2 Steam = 1 EU&r."
+				"При подаче пара турбина выдаёт EU в соотношении &d2 пара = 1 EU&r."
 				""
-				"&6This quest unlocks two new tutorials on Electricity and Cables in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
+				"&6Этот квест открывает два новых руководства об электричестве и кабелях во вкладке &lСоветы и хитрости&r&6 — загляни туда, чтобы узнать больше!&r"
 				"{@pagebreak}"
-				"If you're using a single &3Steam Turbine&r, you only need &a1x Tin Cables&r. On the other hand, if you upgrade to &32 Steam Turbines&r, you should use &a2x Tin Cables&r - else they may end up &cburning&r."
+				"Если у тебя одна &3паровая турбина&r, достаточно &a1x оловянных кабелей&r. Если ты апгрейдишься до &32 паровых турбин&r, используй &a2x оловянных кабелей&r — иначе они могут &cсгореть&r."
 				""
-				"This is because of the &9Amperage&r mechanic... but that will be explained later so you can enjoy playing. Don't worry!"
+				"Это из-за механики &9ампер&r... но об этом расскажем позже, чтобы ты мог спокойно играть. Не переживай!"
 			]
 			id: "6E186F9C57155BFA"
 			size: 0.75d
-			subtitle: "You must construct more turbines"
+			subtitle: "Тебе нужно построить больше турбин"
 			tasks: [{
 				id: "155BC745245BCBAF"
 				item: "gtceu:lv_steam_turbine"
 				type: "item"
 			}]
-			title: "Electricity Generation"
+			title: "Генерация электричества"
 			x: 3.375d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6431381FBE07D6EF"]
 			description: [
-				"This questline serves as a quick guide to &9GregTech Amperage&r. As for &dVoltage&r mechanics, we'll go over those once you reach &bMV&r."
+				"Эта цепочка квестов — краткое руководство по &9амперам в GregTech&r. Механику &dнапряжения&r разберём, когда ты дойдёшь до &bMV&r."
 				""
-				"&6&lTL;DR:&r For safety, match the Amperage limit of your Cables with the max amount of Amps provided by your Energy Producers."
+				"&6&lКратко:&r Для безопасности подбирай лимит ампер твоих кабелей под максимальное число ампер от твоих генераторов энергии."
 				""
-				"&6This quest unlocks a new tutorial on Amperage in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6Этот квест открывает новое руководство об амперах во вкладке &lСоветы и хитрости&r&6 — загляни туда, чтобы узнать больше!&r"
 			]
 			id: "7B0FF43022F6C2EC"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Amps and You: a how-to"
+			subtitle: "Амперы и ты: краткое руководство"
 			tasks: [{
 				count: 4L
 				id: "1C81FD3C54CC2274"
 				item: "gtceu:tin_quadruple_cable"
 				type: "item"
 			}]
-			title: "But what are Amps?"
+			title: "Но что такое амперы?"
 			x: 6.75d
 			y: 1.125d
 		}
@@ -204,15 +209,15 @@
 				"45B71324028F6E68"
 			]
 			description: [
-				"Well... can you show us an &bMV&r Circuit as well?"
+				"Ну... покажешь нам и &bMV&r-схему?"
 				""
-				"&aAluminium&r is the main ingredient for &bMV&r machinery. Check &8aa&7aa&raall the way to the other side for the &2Sapphire Quest&r if you haven't acquired any &aAluminium Dust&r yet."
+				"&aАлюминий&r — главный ингредиент для &bMV&r-машин. Загляни &8аа&7аа&raa&r на другую сторону к &2квесту на сапфир&r, если ещё не добывал &aалюминиевую пыль&r."
 				""
-				"Once you setup an &3MV Electrolyzer&r, you can get &aAluminium&r through many other ores. All of this quest's rewards bear &aAluminium&r, so keep an eye out for them when mining."
+				"Когда поставишь &3MV электролизёр&r, алюминий можно получать из многих других руд. Все награды этого квеста содержат &aалюминий&r — следи за ними при добыче."
 				""
-				"The process of smelting Aluminium can be cut down by about a third with &9Nitrogen&r, which is obtained by centrifuging &9Air&r from a &3Gas Collector&r."
+				"Плавку алюминия можно сократить примерно на треть с &9азотом&r, который получают центрифугированием &9воздуха&r в &3газовом коллекторе&r."
 				""
-				"&6You will still need MV Circuits in order to make MV machines!&r"
+				"&6Для MV-машин всё равно понадобятся MV-схемы!&r"
 			]
 			id: "7567E885B7166603"
 			rewards: [{
@@ -223,29 +228,30 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "We're basically in MV now, right?"
+			subtitle: "Мы уже почти на MV, да?"
 			tasks: [{
 				id: "161B5813936E5E42"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
+			title: "Алюминий"
 			x: 9.393452380952382d
 			y: 3.360459183673477d
 		}
 		{
 			dependencies: ["4B979482EF026BFF"]
 			description: [
-				"Make some Battery Alloy, used for Battery Hulls."
+				"Сделай сплав для аккумуляторов — он нужен для корпусов батарей."
 				""
-				"Antimony is found in the &cNether&r, so don't forget to check its Ore Tab."
+				"Сурьму ищи в &cНезере&r — не забудь проверить вкладку руд."
 				""
-				"&9Note:&r This quest does &lnot&r contain functional Batteries - head downwards for that."
+				"&9Примечание:&r этот квест &lне&r даёт рабочие батареи — для них иди ниже."
 			]
 			icon: "gtceu:battery_alloy_ingot"
 			id: "6D9D54FAB21EC086"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Batteries are great!"
+			subtitle: "Батареи — это круто!"
 			tasks: [
 				{
 					count: 2L
@@ -266,16 +272,16 @@
 					type: "item"
 				}
 			]
-			title: "Battery Preparations!"
+			title: "Подготовка к батареям!"
 			x: 3.96d
 			y: 2.64d
 		}
 		{
 			dependencies: ["1C767009F505A813"]
 			description: [
-				"Crates are flat upgrades to Chests. A single block space that stores more items - what more could you ask for?"
+				"Ящики — плоское улучшение сундуков. Один блок — больше предметов. Чего ещё желать?"
 				""
-				"Where they shine is the fact that they &6accept Covers&r, making them perfect candidates for buffers in automation."
+				"Их сила в том, что они &6принимают крышки&r — идеальные буферы для автоматизации."
 			]
 			id: "7CCC1BDDE0C67F16"
 			rewards: [{
@@ -285,13 +291,13 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Earlygame buffering"
+			subtitle: "Ранняя буферизация"
 			tasks: [{
 				id: "6FE87ED832BF40D1"
 				item: "gtceu:steel_crate"
 				type: "item"
 			}]
-			title: "GregTech Storage"
+			title: "Хранение GregTech"
 			x: 0.0d
 			y: 2.25d
 		}
@@ -302,21 +308,21 @@
 				"2F7617C0C4B330DE"
 			]
 			description: [
-				"Covers are placed by right-clicking with Cover in hand on a face of a machine, and removed with a &5Crowbar&r (or by mining the machine, but that's way slower)."
+				"Крышки ставятся ПКМ с крышкой в руке на грань машины и снимаются &5ломом&r (или ломая машину, но это намного медленнее)."
 				""
-				"Pretty much any GregTech \"machine\" will accept Covers, even if they wouldn't provide any functionality."
+				"Почти любая «машина» GregTech принимает крышки, даже если они ничего не дадут."
 				""
-				"Opening a Cover is done by sneak-right-clicking it with an &5empty hand&r. You can also right-click with a &5Screwdriver&r, or sneak-right-click on another face using the grid."
+				"Открыть крышку — Shift+ПКМ &5пустой рукой&r. Можно также ПКМ &5отвёрткой&r или Shift+ПКМ по другой грани через сетку."
 				"{@pagebreak}"
-				"For Covers that transfer Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:"
+				"У крышек, передающих предметы/жидкости, есть кнопка включения/отключения других видов передачи через крышку:"
 				""
-				"&9- &rDisabled: only the cover will be allowed to transfer on this machine side."
+				"&9- &rОтключено: только крышка может передавать с этой стороны машины."
 				""
-				"&9-&r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter"
+				"&9-&r Разрешить с фильтром (только с фильтром!): другая передача включена, если совпадает с фильтром"
 				""
-				"&9-&r Allow Unfiltered: any other transfer is allowed on this machine side."
+				"&9-&r Разрешить без фильтра: любая другая передача разрешена с этой стороны."
 				""
-				"Placing a cover of a lower voltage tier on a machine is &9safe&r."
+				"Ставить крышку более низкого напряжения на машину &9безопасно&r."
 			]
 			icon: "gtceu:storage_cover"
 			id: "1C767009F505A813"
@@ -327,42 +333,42 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Extra utility without taking up blockspace!"
+			subtitle: "Полезность без лишних блоков!"
 			tasks: [{
 				id: "7C7A8A26D3FF0E96"
 				title: "I'm an expert on Covers now, don't you worry."
 				type: "checkmark"
 			}]
-			title: "Cover Behaviour"
+			title: "Поведение крышек"
 			x: 0.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"All machines typically have one &7Front Face&r, and one &9Output Face&r."
+				"У всех машин обычно есть одна &7передняя грань&r и одна &9выходная грань&r."
 				""
-				"The &7Front Face&r should be obvious.\\nThe &9Output Face&r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it."
+				"&7Передняя грань&r очевидна.\\n&9Выходная грань&r — с точкой или отверстием. По умолчанию это задняя сторона при установке."
 				""
-				"Machines can &aauto-output&r through their output face. To enable auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over outputs can be achieved with &dFilters&r and &dCovers&r, which are explained in the quest to the upper left of this one."
+				"Машины могут &aавтовыводить&r через выходную грань. Включи автовывод кнопкой в GUI. Автовывод жидкостей и предметов переключается отдельно. Дополнительный контроль — через &dфильтры&r и &dкрышки&r, о них в квесте слева сверху."
 				"{@pagebreak}"
-				"Right-clicking a machine with a &5Wrench&r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side &ccannot&r also be the output side! "
+				"ПКМ по машине &5гаечным ключом&r меняет выходную сторону, Shift+ПКМ — переднюю. Помни: передняя &cне может&r быть выходной!"
 				""
-				"By default, items and fluids cannot be inserted through the output side, but this can be toggled with a &5Screwdriver&r. Either right-click the output face directly, or shift-right-click on the grid corresponding to the side of the output."
+				"По умолчанию предметы и жидкости нельзя вставлять через выходную сторону, но это переключается &5отвёрткой&r — ПКМ по выходной грани или Shift+ПКМ по нужной стороне в сетке."
 				""
-				"There are unique machines that do not process recipes, such as the &3Pump&r, &3Miner&r, &3Fisher&r, &3Item Collector&r, etc. These machines will output on their &7Front Face&r (which is still marked as a dot)."
+				"Есть особые машины без рецептов — &3насос&r, &3шахтёр&r, &3рыболов&r, &3сборщик предметов&r и т.д. Они выводят на &7передней грани&r (тоже с точкой)."
 			]
 			icon: "minecraft:hopper"
 			id: "64E1E87B8AF72968"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Let's learn."
+			subtitle: "Давай разберёмся."
 			tasks: [{
 				id: "6A4DFF7493955B8D"
 				title: "Hmm, how interesting!"
 				type: "checkmark"
 			}]
-			title: "Machine Auto-Output Behaviour"
+			title: "Автовывод машин"
 			x: 1.125d
 			y: 2.25d
 		}
@@ -372,17 +378,17 @@
 				"5A8F0124E07D5025"
 			]
 			description: [
-				"You could make any other &7LV&r Machine, but it would be easiest to start with the most useful one. We know, we know... you wanna make some of the crazier stuff first, but trust us, this is the best starting point."
+				"Можно сделать любую другую &7LV&r-машину, но проще начать с самой полезной. Знаем, знаем — хочется сразу что-то безумное, но поверь, это лучшая отправная точка."
 				""
-				"The Wiremill lets you make &6two Wires from one Ingot&r. That should be three times cheaper than what you were doing up until now! &8&oPlus, aren't you sick of crafting Wire Cutters?&r"
+				"Проволочный станок даёт &6два провода из одного слитка&r — в три раза дешевле, чем раньше! &8&oИ ты же устал крафтить кусачки для проводов?&r"
 				""
-				"To the right of this Quest, you'll find some important machines which will grant you cheaper intermediates."
+				"Справа от этого квеста — важные машины для более дешёвых промежуточных продуктов."
 				"{@pagebreak}"
-				"&9Note:&r Recipes inside &3LV Machines&r go up to a maximum usage of &a32 EU/t (LV)&r. Anything higher than that and you will need a &bMV&r (or better) Machine. Needless to say, we aren't quite there yet."
+				"&9Примечание:&r рецепты в &3LV-машинах&r потребляют до &a32 EU/t (LV)&r. Выше — нужна &bMV&r-машина (или лучше). Пока мы не там."
 				""
-				"You will need a &dProgrammed Circuit&r for certain recipes. We're sure you don't want to spend a precious Circuit to craft one, so &6read the dedicated quest for important details&r."
+				"Для некоторых рецептов нужна &dпрограммируемая схема&r. Наверняка не хочешь тратить драгоценную схему — &6прочитай отдельный квест&r."
 				""
-				"With this machine safely crafted - welcome to the age of all things electric!"
+				"Машина готова — добро пожаловать в эпоху электричества!"
 			]
 			id: "32EA7E81885C8E87"
 			rewards: [{
@@ -392,22 +398,22 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "No more painful wires!"
+			subtitle: "Хватит мучиться с проводами!"
 			tasks: [{
 				id: "2B5BF6F3ED693B9E"
 				item: "gtceu:lv_wiremill"
 				type: "item"
 			}]
-			title: "Basic Wiremill"
+			title: "LV проволочный станок"
 			x: 2.25d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"Arguably the second best &7LV&r machine to craft, but we're down if you want to argue otherwise."
+				"Спорно, но это вторая по полезности &7LV&r-машина. Если не согласен — поспорим."
 				""
-				"This unlocks the ability to convert one &6Ingot into one Plate&r, which is a better ratio than the Forge Hammer."
+				"Позволяет превращать &6один слиток в одну пластину&r — лучше, чем кузнечный молот."
 			]
 			id: "10ECB471A77F5136"
 			rewards: [{
@@ -417,24 +423,24 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "The Bender bends!"
+			subtitle: "Гибочный станок гнет..."
 			tasks: [{
 				id: "3AC3A8728EE60E4C"
 				item: "gtceu:lv_bender"
 				type: "item"
 			}]
-			title: "Basic Bender"
+			title: "LV гибочный станок"
 			x: 4.5d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"The Lathe is an important machine to help shape metals. Thanks to it, you can turn &6one Ingot into one Rod and 2 small piles of Dust&r, and &6one Bolt into one screw&r. That's twice the material efficiency on those recipes as opposed to crafting by hand. "
+				"Токарный станок важен для обработки металлов. С его помощью &6один слиток → один прут и 2 маленькие кучки пыли&r, &6один болт → один винт&r. Вдвое эффективнее ручного крафта."
 				""
-				"However the &bMV&r &3Extruder&r has the ability to turn &6one Ingot&r directly into &6two Rods&r alongside its many other functions."
+				"Но &bMV&r &3экструдер&r может превращать &6один слиток&r сразу в &6два прута&r — и многое другое."
 				""
-				"&l&3Lore:&r &oThe GT6 Lathe acts like GTm's lathe, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!"
+				"&l&3Лор:&r &oТокарный станок GT6 работает как в GTm, но болты превращаются в один винт и 1/72 кучки пыли. Мерзость!"
 			]
 			id: "07E7678095258EDB"
 			rewards: [{
@@ -444,19 +450,19 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "The Lathe lathes!"
+			subtitle: "Токарный станок точит..."
 			tasks: [{
 				id: "6781D0241D0564A5"
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
-			title: "Basic Lathe"
+			title: "LV токарный станок"
 			x: 3.375d
 			y: 1.125d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
-			description: ["One of the cheapest - if not the cheapest - &7LV&r machine. Use this to make &6Redstone-free Magnetic Rods&r for your Motors. Whenever you start to batch your Motors, this machine will save you stacks and stacks of Redstone."]
+			description: ["Одна из самых дешёвых — если не самая — &7LV&r-машин. Делай &6магнитные прутья без редстоуна&r для моторов. Когда начнёшь пачками крафтить моторы, сэкономишь горы редстоуна."]
 			id: "29379C91D6E00436"
 			rewards: [{
 				count: 16
@@ -466,13 +472,13 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "The Polarizer polarizes!"
+			subtitle: "Поляризатор поляризует..."
 			tasks: [{
 				id: "5EC42A72DEC6F9FC"
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
-			title: "Basic Polariser"
+			title: "LV поляризатор"
 			x: 5.625d
 			y: 1.125d
 		}
@@ -482,45 +488,45 @@
 				"3E6DC423FE4A99F7"
 			]
 			description: [
-				"&dSneak right-click&r when in hand to activate your Magnet. Do it again to deactivate. The battery capacity of your magnet depends on the battery used to craft it."
+				"&dShift+ПКМ&r с магнитом в руке включает его. Ещё раз — выключает. Ёмкость зависит от батареи, использованной при крафте."
 				""
-				"If you're worried about getting overwhelmed by Cobblestone or Netherrack, use the trash can from FTB Utilities (top left corner of your inventory) to void them"
+				"Если завалило булыжником или незерраком — используй мусорное ведро из FTB Utilities (левый верхний угол инвентаря), чтобы их уничтожать"
 				""
-				"&9Note:&r The magnet has a whitelist filter turned on by default (in other words, it's not going to pick anything up.) Right-click the magnet to tinker with the item filter settings. There's even a &ctag filter&r - you could, for example, whitelist only &braw ores&r!"
+				"&9Примечание:&r по умолчанию включён белый список (магнит ничего не подбирает). ПКМ по магниту — настройки фильтра. Есть даже &cфильтр по тегам&r — например, только &bсырые руды&r!"
 			]
 			id: "3ECD9C9B909CCCCC"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Why can't these items I mine behave and enter my inventory!?"
+			subtitle: "Почему добытые предметы не лезут в инвентарь!?"
 			tasks: [{
 				id: "14E4C5F6C88F5358"
 				item: "gtceu:lv_item_magnet"
 				type: "item"
 			}]
-			title: "Magnet"
+			title: "Магнит"
 			x: 5.61d
 			y: 2.31d
 		}
 		{
 			dependencies: ["6431381FBE07D6EF"]
 			description: [
-				"&oThe &3Large Boiler&r is an &6optional&r big-boy variant of the Small Boilers. It runs off solid or liquid fuel."
+				"&o&3Большой котёл&r — &6необязательный&r «взрослый» вариант маленьких котлов. Работает на твёрдом или жидком топливе."
 				""
-				"If you want Steam-based power production, this will be your first port-of-call. Other power options are listed in the &bMV&r chapter, if you want to invest in those, you can &cskip this quest&r with the checkmark."
+				"Если хочешь паровую генерацию — начни с него. Другие варианты энергии — в главе &bMV&r; если инвестируешь в них, можешь &cпропустить квест&r галочкой."
 				""
-				"One \"easy\" fuel option is producing &dCharcoal&r from &3Coke Ovens&r. One piece of Charcoal lasts 20s in the LBB and the wood can be sourced from a tree farm."
+				"«Простой» вариант топлива — &dдревесный уголь&r из &3коксовых печей&r. Один уголь горит 20 с в БК, древесину можно брать с фермы деревьев."
 				""
-				"&cImportant:&r This Boiler &lCAN&r also &cexplode&r similarly to the regular Boilers! Usually, the explosion can be rather devastating... but it's configured to not damage blocks or entities in this modpack."
+				"&cВажно:&r этот котёл &lМОЖЕТ&r &cвзорваться&r, как обычные! Обычно взрыв разрушителен... но в этой сборке он не ломает блоки и сущности."
 				"{@pagebreak}"
-				"&cWater supply is &lcrucial&r&r. Dedicate a &3Primitive Pump&r with a &7LV&r Output Hatch in the &lsame chunk&r as the Boiler. Any biome will still be enough to supply enough water."
+				"&cПодвод воды &lкритичен&r&r. Поставь &3примитивный насос&r с &7LV&r выходной люк в &lтом же чанке&r, что и котёл. Любой биом даст достаточно воды."
 				""
-				"Once fully heated up, the &3LBB&r produces 800 Steam per tick, which is &d400EU/t&r after conversion, or 12.5 Basic Steam Turbines. Such (relatively!) immense power comes at the cost of automating fuel."
+				"После прогрева &3БК&r выдаёт 800 пара/тик — это &d400 EU/t&r после конвертации, или 12,5 базовых паровых турбин. Такая (относительно!) мощь требует автоматизации топлива."
 				"{@pagebreak}"
-				"&5&lWith this in consideration&r, the GUI lets you &9throttle&r the Boiler down to 25% power for 200 Steam per tick. That's &d100EU/t&r, or slightly above 3 Basic Steam Turbines."
+				"&5&lС учётом этого&r в GUI можно &9дросселировать&r котёл до 25% — 200 пара/тик. Это &d100 EU/t&r, чуть больше 3 базовых паровых турбин."
 				""
-				"&9Note:&r An in-depth tutorial about Multiblocks is given after you get the &3Electric Blast Furnace&r. We recommend you aim for that first."
+				"&9Примечание:&r подробный туториал по мультиблокам — после &3электроплавильной печи&r. Сначала лучше к ней стремиться."
 				""
-				"&l&3Lore:&r&o The LBB used to be terrible, however it recently got rebalanced in 7.3.0 to make it actually viable to use."
+				"&l&3Лор:&r&o БК раньше был ужасен, но в 7.3.0 его перебалансировали — теперь он реально полезен."
 			]
 			icon: "gtceu:bronze_large_boiler"
 			id: "33263404ED38C6D2"
@@ -531,7 +537,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Boom, boom, boom, boom"
+			subtitle: "Бум, бум, бум, бум"
 			tasks: [
 				{
 					id: "560D4D0D6BECE006"
@@ -551,18 +557,18 @@
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
 			description: [
-				"&6Superconductors&r are special Wires available for each Voltage tier. They don't come with a Cable counterpart, but that isn't necessary, as they have absolutely &6zero cable loss&r."
+				"&6Сверхпроводники&r — особые провода для каждого уровня напряжения. Без кабельного аналога, но это не нужно: у них &6нулевые потери в кабеле&r."
 				""
-				"They also won't damage you when you touch them. This makes them the best choice for wiring, if not a little expensive in comparison to the other wires."
+				"Они не бьют током при касании — лучший выбор для проводки, хоть и дороже обычных проводов."
 				""
-				"If you weren't already enamoured, the 1x variant also covers 2 Amps. Isn't that nice?"
+				"Вариант 1x покрывает 2 ампера. Приятно, да?"
 				""
-				"Now is a good time to replace your crappy &aTin Cables&r. Recycle them in the &3Packager&r to recover both the Tin and Rubber used to craft them."
+				"Пора заменить жалкие &aоловянные кабели&r. Переработай их в &3упаковщике&r — вернёшь олово и резину."
 				"{@pagebreak}"
-				"Can't figure out how to make some of these? Here's a hint - &eTricalcium Phosphate&r and &2Pyrolusite&r ought to help."
+				"Не понимаешь, как их сделать? Подсказка — &eтрикальций-фосфат&r и &2пиролюзит&r должны помочь."
 				""
 				"{@pagebreak}"
-				"&l&3Lore:&r&o No version of GregTech has had actual Superconductors for &7LV&f up until Gregicality and GTCEu, though some modpacks had lossless cables."
+				"&l&3Лор:&r&o Ни одна версия GregTech не имела настоящих сверхпроводников для &7LV&f до Gregicality и GTCEu, хоть в некоторых сборках были без потерь кабели."
 			]
 			id: "46AD7A6F3B6775F5"
 			rewards: [{
@@ -573,105 +579,106 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "We aren't losing a single Amp more"
+			subtitle: "Ни одного ампера больше не потеряем"
 			tasks: [{
 				id: "4477AB06651827D6"
 				item: "gtceu:manganese_phosphide_single_wire"
 				type: "item"
 			}]
-			title: "LV Superconductor"
+			title: "LV сверхпроводник"
 			x: 7.875d
 			y: 2.25d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The &3Thermal Centrifuge&r is the most energy hungry out of the Ore Processing machines. It takes &aCrushed Ore&r or &aPurified Ore&r to give a different &6Byproduct&r from the &3Ore Washer&r, but at the same rate."
+				"&3Термоцентрифуга&r — самая энергоёмкая из машин переработки руды. Берёт &aдроблённую&r или &aочищенную руду&r и даёт другой &6побочный продукт&r, чем &3промывочная установка&r, но с той же скоростью."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The GT5 Thermal Centrifuge required 48 EU/t to run. Yes, this may be above 32 EU/t, but GT5 had &dspecial mechanics&f where certain machines such as this one could accept more than 1 Amp."
+				"&l&3Лор:&r&o Термоцентрифуга GT5 требовала 48 EU/t. Да, это выше 32 EU/t, но в GT5 были &dособые механики&f — некоторые машины принимали больше 1 ампера."
 				""
-				"&oIn GTCE, the Thermal Centrifuge was changed to only work at &bMV&f with 60EU/t recipes. Let's be completely honest with you... what a &4complete waste of time&f! Never worth it. Thankfully, we've buffed the machine to be much more relevant."
+				"&oВ GTCE термоцентрифуга работала только на &bMV&f с 60 EU/t. Честно... &4полная трата времени&f! Не стоила того. К счастью, мы её усилили."
 			]
 			hide_dependent_lines: true
 			id: "772F7CD63D31966A"
 			size: 0.75d
-			subtitle: "No, not THAT kind of Thermal"
+			subtitle: "Нет, не ТА термоцентрифуга"
 			tasks: [{
 				id: "10AB20A316EA688F"
 				item: "gtceu:lv_thermal_centrifuge"
 				type: "item"
 			}]
-			title: "Basic Thermal Centrifuge"
+			title: "LV термоцентрифуга"
 			x: -0.375d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The Sifter sifts &dGem type&r &aPurified Ores&r to find &aExquisite&r and &aFlawless&r Gems, which can be cut into normal Gems. It also finds &aPurified Dusts&r of that gem. Overall, this gives a &6higher yield&r than other means."
+				"Просеиватель обрабатывает &dгемовые&r &aочищенные руды&r, находя &aизысканные&r и &aбезупречные&r камни — их можно огранить в обычные. Также даёт &aочищенную пыль&r гема. В итоге &6больший выход&r, чем другими способами."
 				""
-				"A small amount of &dFlawless Emeralds&r will be required in &bMV&r, and running ores in &3Sifting Machine&r is how you obtain these."
+				"Немного &dбезупречных изумрудов&r понадобится в &bMV&r — их получают просеиванием в &3просеивателе&r."
 				""
-				"&9Note:&r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However, this is a rather slow process, so you may want to smelt this type of ore directly into the Gem."
+				"&9Примечание:&r если дробил гемовые руды (алмаз и т.д.), важно восстановить камни через эту машину, а не пыль. Процесс медленный — можно плавить руду сразу в камень."
 			]
 			id: "7A64425597F58015"
 			size: 0.75d
-			subtitle: "You're as Exquisite as the gems you sift!"
+			subtitle: "Ты так же изысканна, как камни, что просеиваешь!"
 			tasks: [{
 				id: "2D87ADACFE1EF8E5"
 				item: "gtceu:lv_sifter"
 				type: "item"
 			}]
+			title: "LV просеиватель"
 			x: 0.75d
 			y: 5.625d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&lВне переработки руды:&r"
 				""
-				"You can make &6Paper out of Wood&r so that you no longer rely on &aSugar Canes&9*&r. You're probably sick of them by now, especially if you've played Nomifactory."
+				"Можно делать &6бумагу из дерева&r и не зависеть от &aтростника&9*&r. Наверняка уже достало, особенно если играл в Nomifactory."
 				""
-				"There are some other less important recipes, such as applying colours to various items and blocks, or bleaching them."
+				"Есть и другие, менее важные рецепты — покраска предметов и блоков или отбеливание."
 				""
-				"&9*&r &aSugar&r is still useful as a requirement for &cTNT&r production in &6HV&r, so don't dismantle your setups."
+				"&9*&r &aСахар&r всё ещё нужен для &cTNT&r в &6HV&r — не разбирай установки."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&lДля переработки руды:&r"
 				""
-				"Some &aCrushed Ores&r have alternate routes when washed into &aPurified Ore&r, involving bathing in either &aMercury&r or &aSodium Persulfate&r. This step isn't really important, unless you really want that special &6Byproduct&r. This can be a nice alternate source of Gold (hint, hint!)."
+				"У некоторых &aдроблённых руд&r есть альтернативные пути при промывке в &aочищенную руду&r — купание в &aртути&r или &aперсульфате натрия&r. Шаг не критичен, если не нужен особый &6побочный продукт&r. Хороший источник золота (намёк!)."
 			]
 			id: "330BDB559A7BAB35"
 			size: 0.75d
-			subtitle: "The Chemical Bath bathes..."
+			subtitle: "Химическая ванна купает..."
 			tasks: [{
 				id: "526A5FF9B5DBB129"
 				item: "gtceu:lv_chemical_bath"
 				type: "item"
 			}]
-			title: "Basic Chemical Bath"
+			title: "LV химическая ванна"
 			x: 1.125d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"This machine combines washing for simple automation, but also advanced and precise washing for byproducts."
+				"Эта машина сочетает простую промывку для автоматизации и продвинутую точную промывку для побочных продуктов."
 				""
-				"Washing a &aCrushed Ore&r will grant a &aPurified Ore&r which can be refined further, some useless stone, and more importantly, the first &6Byproduct&r!"
+				"Промывка &aдроблённой руды&r даёт &aочищенную руду&r для дальнейшей переработки, немного бесполезного камня и, главное, первый &6побочный продукт&r!"
 				""
-				"Any Ore will give at &9minimum 2/3rd of a Dust&r of this Byproduct through washing. Prioritize this step the most."
+				"Любая руда даёт &9минимум 2/3 пыли&r этого побочного продукта при промывке. Приоритизируй этот шаг."
 				""
-				"Using Distilled Water over Water cuts recipe duration in half, but it's also more difficult to produce."
+				"Дистиллированная вода вместо обычной сокращает время рецепта вдвое, но её сложнее получить."
 			]
 			id: "58BA62A3A8A32C24"
 			size: 0.75d
-			subtitle: "Wash that mouth out"
+			subtitle: "Промой рот..."
 			tasks: [{
 				id: "1C03C5F3E5196342"
 				item: "gtceu:lv_ore_washer"
 				type: "item"
 			}]
-			title: "Basic Ore Washing Plant"
+			title: "LV промывочная установка"
 			x: 1.5d
 			y: 5.25d
 		}
@@ -681,15 +688,15 @@
 				"10ECB471A77F5136"
 			]
 			description: [
-				"By clicking the &6Circuit Configuration Slot&r in machines, you can create a &bghost Programmed Circuit&r. "
+				"Нажав &6слот конфигурации схемы&r в машинах, можно создать &bфантомную программируемую схему&r."
 				""
-				"This is a \"&7fake circuit&r\" that allows you to select a configuration for recipes. There's no need to spend your circuits crafting &bProgrammed Circuits&r anymore."
+				"Это «&7фальшивая схема&r» для выбора конфигурации рецептов. Больше не нужно тратить схемы на крафт &bпрограммируемых схем&r."
 				""
-				"The purpose of this ghost circuit is to prevent &drecipe clashes&r - for example, the same Wiremill can produce wires of different thicknesses, with the same material!"
+				"Фантомная схема предотвращает &dконфликты рецептов&r — например, один проволочный станок может делать провода разной толщины из одного материала!"
 				""
-				"&dElectric Machines&r and &dItem Input Buses&r will have a Ghost Circuit Slot."
+				"&dЭлектрические машины&r и &dшины ввода предметов&r имеют слот фантомной схемы."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This feature is originally from GTNH."
+				"&l&3Лор:&r&o Эта функция изначально из GTNH."
 			]
 			icon: {
 				Count: 1
@@ -701,21 +708,21 @@
 			id: "59F0060B55307311"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Don't want to spend your circuits to select recipes?"
+			subtitle: "Не хочешь тратить схемы на выбор рецептов?"
 			tasks: [{
 				id: "7C04F3247B0C0BCB"
 				type: "checkmark"
 			}]
-			title: "Programmed Circuits"
+			title: "Программируемые схемы"
 			x: 3.375d
 			y: 1.98d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"Make this machine when you feel like it's time you invested into Batteries."
+				"Сделай эту машину, когда решишь вложиться в батареи."
 				""
-				"It'll also be required if you want to make Storage Disks from &bApplied Energistics 2&r."
+				"Она также нужна для дисков хранения из &bApplied Energistics 2&r."
 			]
 			id: "37307A46E70011D3"
 			rewards: [{
@@ -725,13 +732,13 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "This machine does nothing exciting"
+			subtitle: "Эта машина ничего особенного не делает"
 			tasks: [{
 				id: "5521E4E26119E152"
 				item: "gtceu:lv_canner"
 				type: "item"
 			}]
-			title: "Basic Canner"
+			title: "LV консервная машина"
 			x: 3.375d
 			y: 3.375d
 		}
@@ -741,19 +748,19 @@
 				"6D9D54FAB21EC086"
 			]
 			description: [
-				"&aBatteries&r can be put into the energy slot at the bottom middle of machine GUIs, or in a &3Battery Buffer&r."
+				"&aБатареи&r можно ставить в энергослот внизу по центру GUI машин или в &3буфер батарей&r."
 				""
-				"When inside your inventory, they can be sneak-right-clicked to allow the batteries to &dcharge&r your EU items."
+				"В инвентаре Shift+ПКМ позволяет батареям &dзаряжать&r твои EU-предметы."
 				""
-				"&7LV&r, &bMV&r, and &6HV&r Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have. &dLithium&r has the best capacity, followed by &dCadmium&r, then &dSodium&r."
+				"Батареи &7LV&r, &bMV&r и &6HV&r бывают в трёх вариантах — выбирай по материалам. &dЛитий&r — лучшая ёмкость, затем &dкадмий&r, потом &dнатрий&r."
 				""
-				"Our recommendation? Find a Salt vein, and either &aelectrolyze Salt&r for &dSodium&r, or &awash crushed Lepidolite&r for &dLithium&r."
+				"Наш совет? Найди жилу соли и &aэлектролизируй соль&r для &dнатрия&r или &aпромой дроблённый лепидолит&r для &dлития&r."
 				""
-				"Get &eany&r &aBattery&r to complete this quest."
+				"Получи &eлюбую&r &aбатарею&r для завершения квеста."
 			]
 			id: "3E6DC423FE4A99F7"
 			size: 0.75d
-			subtitle: "Batteries for storing energy!"
+			subtitle: "Батареи для хранения энергии!"
 			tasks: [{
 				icon: "gtceu:lv_sodium_battery"
 				id: "47D0D12A26963702"
@@ -767,26 +774,26 @@
 				title: "Any LV Battery"
 				type: "item"
 			}]
-			title: "Batteries!"
+			title: "Батареи!"
 			x: 4.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"By itself, the Battery Buffer does nothing. However, if you place batteries inside its internal storage, it will act as a power buffer."
+				"Сам по себе буфер батарей ничего не делает. Но если положить батареи во внутреннее хранилище — он станет энергетическим буфером."
 				""
-				"The &3Battery Buffer&r handles &9two Amps in&r, and &9one Amp out&r, &dper Battery&r. The output side has the dot, and all other sides are used as inputs."
+				"&3Буфер батарей&r принимает &9два ампера на вход&r и отдаёт &9один ампер на выход&r &dна каждую батарею&r. Выход — сторона с точкой, остальные — входы."
 				""
-				"Our recommendation is to have your generators input energy into it, and power your machines from the output side. This is because the Battery Buffers will demand many Amps of power when it charges, and this could prevent you from using your other machines if it's set up in a way where it can divert power from your other machines to itself."
+				"Рекомендуем: генераторы подают энергию в него, машины питаются с выхода. При зарядке буфер требует много ампер — если он может перехватить энергию у других машин, те могут простаивать."
 				""
-				"&6It'll also charge &lboth&r EU and RF Tools inside it&r."
+				"&6Он также заряжает &lи&r EU-, и RF-инструменты внутри&r."
 				""
-				"This is a must have if you don't have unlimited power at hand. Get &eany&r &7LV&r Battery Buffer to finish the quest. However, the 16 slots variant is likely overkill at this stage."
+				"Необходимость, если нет безлимитной энергии. Получи &eлюбой&r &7LV&r буфер батарей. Вариант на 16 слотов, скорее всего, перебор на этом этапе."
 				"{@pagebreak}"
-				"&9Note:&r Don't loop your lossy Cables back to your Battery Buffer! If you think about it, you'll just end up voiding energy."
+				"&9Примечание:&r не замыкай потерянные кабели обратно на буфер! Энергия просто сгорит впустую."
 				""
-				"&l&3Lore:&r&o To be frank with you, the GTCE Battery Buffer was... mediocre. It's been reworked in GTCEu to provide a mix between GT5 and GTCE's functionality. Energy now splits evenly across all batteries!"
+				"&l&3Лор:&r&o Честно, буфер батарей GTCE был... посредственным. В GTCEu его переделали — смесь GT5 и GTCE. Энергия теперь делится равномерно между всеми батареями!"
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "6431381FBE07D6EF"
@@ -816,7 +823,7 @@
 				title: "LV Battery Buffer"
 				type: "item"
 			}]
-			title: "Battery Buffer"
+			title: "Буфер батарей"
 			x: 6.75d
 			y: 3.375d
 		}
@@ -826,13 +833,13 @@
 				"6431381FBE07D6EF"
 			]
 			description: [
-				"This Quest explains the core mechanic of the &3Electric Blast Furnace&r, whilst the quest below will explore the mechanics of the Multiblock Parts that you'll also need. Be sure to refer to them."
+				"Этот квест объясняет основную механику &3электроплавильной печи&r, а квест ниже — части мультиблока. Обязательно загляни в оба."
 				""
-				"Anyway, the &3EBF&r is your &efirst electric multiblock&r! Congrats. It's used to process materials at high temperatures."
+				"&3ЭПП&r — твой &eпервый электрический мультиблок&r! Поздравляем. Обрабатывает материалы при высоких температурах."
 				""
-				"You'll become familiar with the EBF to make &aAluminium&r and progress to &d&bMV Age&r. It can also make &7Steel&r faster than a PBF."
+				"С ЭПП ты освоишь производство &aалюминия&r и перейдёшь в &d&bэпоху MV&r. Также делает &7сталь&r быстрее, чем ПДП."
 				"{@pagebreak}"
-				"It's important to keep in mind that the EBF is a beefy boy. The minimum power cost to run a recipe is &9120 EU/t&r! That's slightly under 4 &7LV&r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this."
+				"Помни: ЭПП — мощная штука. Минимальная стоимость рецепта — &9120 EU/t&r! Это чуть меньше 4 &7LV&r генераторов. Поэтому квест за батареями. Можешь построить отдельную линию питания с генераторами и буфером батарей."
 			]
 			id: "1E9BE8D3F8A602DC"
 			rewards: [{
@@ -843,98 +850,99 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "A big milestone!"
+			subtitle: "Большая веха!"
 			tasks: [{
 				id: "10F6305A7E5D186D"
 				item: "gtceu:electric_blast_furnace"
 				type: "item"
 			}]
+			title: "Электроплавильная печь"
 			x: 7.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The Autoclave is typically the last step of Gem Processing. It is used turn a select few &aGem Dusts&r back into regular Gems."
+				"Автоклав — обычно последний шаг переработки гемов. Превращает некоторые &aгемовые пыли&r обратно в камни."
 				""
-				"It's veeeery slow - thus, it is generally not advised to crush gem ores at all, as the recovery process is too expensive."
+				"Он оооочень медленный — дробить гемовые руды обычно не советуют, восстановление слишком дорогое."
 				""
-				"&9Note:&r In this modpack, the Autoclave is required to make &5Fluix Crystals&r if you're to progress in Applied Energistics. Sorry."
+				"&9Примечание:&r в этой сборке автоклав нужен для &5кристаллов Fluix&r в Applied Energistics. Извини."
 			]
 			id: "22A1A629AF754066"
 			size: 0.75d
-			subtitle: "\"Oops, I turned my Diamonds into dust\""
+			subtitle: "«Упс, я превратил алмазы в пыль»"
 			tasks: [{
 				id: "30C94122AD446D9B"
 				item: "gtceu:lv_autoclave"
 				type: "item"
 			}]
-			title: "Basic Autoclave"
+			title: "LV автоклав"
 			x: -1.125d
 			y: 4.125d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
-			description: ["A rarely used machine. It uses magnetism to separate some Magnetic ores and gain additional &6Byproducts&r you would not obtain otherwise."]
+			description: ["Редко используемая машина. Магнитным полем разделяет некоторые магнитные руды и даёт дополнительные &6побочные продукты&r, иначе недоступные."]
 			id: "24B4D9608718EE27"
 			size: 0.75d
-			subtitle: "Magnets... how do they work?"
+			subtitle: "Магниты... как они работают?"
 			tasks: [{
 				id: "3162F3E3D12E00FB"
 				item: "gtceu:lv_electromagnetic_separator"
 				type: "item"
 			}]
-			title: "Basic Electromagnetic Separator"
+			title: "LV электромагнитный сепаратор"
 			x: 0.375d
 			y: 3.375d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"This quest is a light look over the &dfull scale of regular Ore Processing&r. Why \"regular\"? Some ores require special treatment, but that's a topic for much later. Oh no, we're already getting carried away!"
+				"Этот квест — лёгкий обзор &dполного масштаба обычной переработки руды&r. Почему «обычной»? Некоторые руды требуют особой обработки — но это намного позже. Ой, мы уже увлеклись!"
 				""
-				"Each quest surrounding this one gives a different machine that has some involvement in Ore Processing."
+				"Каждый соседний квест — другая машина, связанная с переработкой руды."
 				""
-				"&cNote:&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. &7That's a legitimate stat, by the way.&r"
+				"&cПримечание:&r не зацикливайся на переработке! Сейчас это медленно и энергоёмко. Около 90% руд не стоят усилий ради побочных продуктов. &7Это реальная статистика, кстати.&r"
 			]
 			icon: "gtceu:crushed_sulfur_ore"
 			id: "701BCADAE5CF6CA5"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "You can't escape Greg..."
+			subtitle: "От Грега не уйти..."
 			tasks: [{
 				id: "3A7506F2C9145157"
 				title: "I agree to lose my sanity"
 				type: "checkmark"
 			}]
-			title: "What is this Mess?: Part Two"
+			title: "Что это за бардак?: часть вторая"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["32EA7E81885C8E87"]
 			description: [
-				"&7LV&r will require you to craft a lot of different machines! You may also find it useful to have multiple of the same machine, set to different programmed circuit values."
+				"&7LV&r потребует много разных машин! Полезно иметь несколько одинаковых с разными значениями программируемых схем."
 				""
-				"Here's a friendly tip if you're struggling to set goals: pick an item in a later quest and go backwards from there."
+				"Совет, если трудно с целями: выбери предмет из позднего квеста и иди назад от него."
 				""
-				"With that in mind... why don't we start with a &5Fusion Reactor&r? Never mind, slightly too ambitious - let's check a closer goal instead. Ah, yes, the &3Electric Blast Furnace&r - the main \"end goal\" of &7LV&r - should be a good target."
+				"С этим в виду... начнём с &5термоядерного реактора&r? Ладно, слишком амбициозно — ближе цель: &3электроплавильная печь&r — главная «конечная цель» &7LV&r."
 				""
-				"The EBF is &aexpensive&r, which is why you should initially focus on machines to make components and materials cheaper. We'll do our best to guide you in the right direction with these quests."
+				"ЭПП &aдорогая&r — сначала сфокусируйся на машинах для более дешёвых компонентов и материалов. Мы постараемся направить тебя этими квестами."
 				""
-				"Other important goals are crafting the &3LV Assembler&r and making your first &aMV Circuits&r."
+				"Другие важные цели — &3LV сборочный автомат&r и первые &aMV-схемы&r."
 			]
 			icon: "gtceu:basic_electronic_circuit"
 			id: "648BCF486E16CCB2"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "Too many options, too little time!"
+			subtitle: "Слишком много вариантов, слишком мало времени!"
 			tasks: [{
 				id: "07CE2766ECA4B0D8"
 				title: "I... might have some sense of direction now"
 				type: "checkmark"
 			}]
-			title: "Progressing Through LV"
+			title: "Прогресс в LV"
 			x: 2.25d
 			y: 4.5d
 		}
@@ -942,11 +950,11 @@
 			dependencies: ["3D98819A799D2E64"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Build this machine next to your &3Chemical Reactor&r to automatically solidify Rubber into &aRubber Sheets&r."
+				"Поставь эту машину рядом с &3химическим реактором&r, чтобы автоматически затвердевать резину в &aрезиновые листы&r."
 				""
-				"You can make your Chemical Reactor auto-output if you &dwrench&r the side of your &3Chemical Reactor&r and enable Fluid &9auto-output&r."
+				"Химический реактор можно настроить на автовывод: &dгаечным ключом&r поверни сторону и включи &9автовывод жидкости&r."
 				""
-				"There will be more Fluids to solidify, so you may re-purpose your &3Fluid Solidifier&r when not crafting Rubber - or make a second one!"
+				"Жидкостей для затвердевания будет больше — переиспользуй &3затвердитель жидкостей&r или сделай второй!"
 			]
 			id: "581CDF545E1EA1FD"
 			rewards: [{
@@ -955,35 +963,35 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "The Fluid Solidifier solidifies..."
+			subtitle: "Затвердитель жидкостей затвердевает..."
 			tasks: [{
 				id: "20B1CA4DB2750E84"
 				item: "gtceu:lv_fluid_solidifier"
 				type: "item"
 			}]
-			title: "Basic Fluid Solidifier"
+			title: "LV затвердитель жидкостей"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"The Prospector is an amazing tool that'll help you find veins in no time."
+				"Разведчик — потрясающий инструмент для быстрого поиска жил."
 				""
-				"Its GUI is interactive. Right-clicking will scan for ores, displaying them on a dynamic map."
+				"Интерактивный GUI. ПКМ сканирует руды и показывает их на динамической карте."
 				""
-				"&l&3Lore:&r&o Back in OUR day, the portable Prospector was locked to &dLuV&f. Kids these days have it easy."
+				"&l&3Лор:&r&o В НАШИ дни портативный разведчик был доступен только с &dLuV&f. Нынешним детям повезло."
 			]
 			id: "2E36E5755B2F551C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "(Ok, maybe not)"
+			subtitle: "(Ну, может, и нет)"
 			tasks: [{
 				id: "1AC97E61EF4958C8"
 				item: "gtceu:prospector.lv"
 				type: "item"
 			}]
-			title: "This is Hacking"
+			title: "Это взлом"
 			x: 4.642304421768699d
 			y: 2.165391156462583d
 		}
@@ -993,13 +1001,13 @@
 				"70432F650591353C"
 			]
 			description: [
-				"Prepare &a128 Cupronickel&r, &a32 Bronze&r and &a16 Tin Alloy&r to craft the Heating Coils required for your first Electric Blast Furnace."
+				"Подготовь &a128 меди-никеля&r, &a32 бронзы&r и &a16 оловянного сплава&r для нагревательных катушек первой электроплавильной печи."
 				""
-				"This is still less than half (!) of the cost of the whole EBF in raw materials. You will also need about a stack each of Invar and Steel, so get mining."
+				"Это всё ещё меньше половины (!) стоимости всей ЭПП в сырье. Нужен ещё примерно стак инвара и стали — копай."
 				""
-				"The Cupronickel Coils will allow the EBF to perform recipes up to &d1,800K&r (ignoring Voltage bonuses). That's pretty hot if you ask us."
+				"Катушки из меди-никеля позволят ЭПП выполнять рецепты до &d1 800 K&r (без бонусов напряжения). Довольно жарко, согласись."
 				""
-				"&6This quest unlocks a new tutorial on Coils in the &lTips and Tricks&r&6 tab - check it out to learn more!&r"
+				"&6Этот квест открывает руководство о катушках во вкладке &lСоветы и хитрости&r&6 — загляни!&r"
 			]
 			icon: {
 				Count: 1
@@ -1024,31 +1032,31 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "Baby's first heating coil"
+			subtitle: "Первые нагревательные катушки"
 			tasks: [{
 				count: 16L
 				id: "4F19FBED1E1766AC"
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
-			title: "Cupronickel Coils"
+			title: "Катушки из меди-никеля"
 			x: 6.75d
 			y: 4.5d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&5You:&r &oThat's it, I'm uninstalling! This pack is stupid! We're barely in &7LV&r&o, but you're asking me to make you a &6HV&r&o machine!?&r"
+				"&5Ты:&r &oХватит, удаляю! Сборка тупая! Мы еле в &7LV&r&o, а ты просишь &6HV&r&o-машину!?&r"
 				""
-				"Yes! This is indeed not completable yet, which is also why this quest appears in the &6HV&r Chapter."
+				"Да! Пока это невыполнимо — поэтому квест и в главе &6HV&r."
 				"{@pagebreak}"
-				"Remember how disappointing it was that you couldn't get byproducts with your Macerator? Well... that disappointment won't be going away until you reach &6HV&r."
+				"Помнишь разочарование, что дробитель не даёт побочные продукты? Оно не уйдёт, пока не дойдёшь до &6HV&r."
 				""
-				"&6The Macerator will unlock its second and third slot at HV&r. Trust us - this is great news for your Ore Processing. In fact, one byproduct is completely locked behind this (after the Thermal Centrifuge step)."
+				"&6Второй и третий слот дробителя откроются на HV&r. Поверь — отличные новости для переработки руды. Один побочный продукт полностью за этим (после термоцентрифуги)."
 				""
-				"&cNote:&r Unlike GTCE, the &bMV&r Macerator in GTCEu &4doesn't&r have a second slot."
+				"&cПримечание:&r в отличие от GTCE, &bMV&r-дробитель в GTCEu &4не&r имеет второго слота."
 				""
-				"&5Writer:&r &oCome back to me when you are stronger, young Cricket.&r"
+				"&5Автор:&r &oВернись ко мне, когда станешь сильнее, юный Сверчок.&r"
 			]
 			id: "1DA54DA70E12F499"
 			rewards: [{
@@ -1057,13 +1065,13 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "What? Why?!"
+			subtitle: "Что? Зачем?!"
 			tasks: [{
 				id: "5580AE2868E0E451"
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			title: "Universal Macerator"
+			title: "Универсальный дробитель"
 			x: -1.125d
 			y: 3.375d
 		}
@@ -1073,71 +1081,71 @@
 				"5263F866638D875C"
 			]
 			description: [
-				"The Gas Collector collects Air that can then be centrifuged into &aOxygen&r and &aNitrogen&r."
+				"Газовый коллектор собирает воздух, который можно центрифугировать на &aкислород&r и &aазот&r."
 				""
-				"&l&3Lore:&r&o GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... here, cell chemistry is no more."
+				"&l&3Лор:&r&o Игроки GregTech 5 помнят компрессор с ячейками IC2 для сжатого воздуха... здесь химия элементов больше не нужна."
 			]
 			id: "15928F50AE80A5CF"
 			shape: "square"
 			size: 0.75d
-			subtitle: "Time to sell some Air"
+			subtitle: "Пора продавать воздух"
 			tasks: [{
 				id: "5710E0C2A7441809"
 				item: "gtceu:lv_gas_collector"
 				type: "item"
 			}]
-			title: "Basic Gas Collector"
+			title: "LV газовый коллектор"
 			x: -1.125d
 			y: 6.75d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"The &3Packager&r compresses &aTiny Dusts&r and &aSmall Dusts&r into &afull Dusts&r, which can be compressed further into Ingots."
+				"&3Упаковщик&r сжимает &aкрошечную&r и &aмалую пыль&r в &aполную пыль&r, которую можно дальше прессовать в слитки."
 				""
-				"It can also work in reverse, change between sizes of Wires, and much more..."
+				"Также работает в обратную сторону, меняет размеры проводов и многое другое..."
 				""
-				"Unpacking Cables back into Wires and Rubber will be &every useful&r once you rewire your Energy Network."
+				"Распаковка кабелей обратно в провода и резину будет &eочень полезна&r при перепрокладке энергосети."
 				"{@pagebreak}"
-				"&oYeah, we know...&r the 3x3 compacting recipes don't seem useful, because you can just use a Crafting Table. We urge you to consider the utility of this machine when used for &9automation&r purposes."
+				"&oДа, знаем...&r рецепты сжатия 3x3 кажутся бесполезными — можно верстаком. Но подумай об &9автоматизации&r."
 				""
-				"For an &9automated&r Dust setup, route &aTiny Dusts&r into a buffer inventory (a chest will do) placed next to your &3Packager&r."
+				"Для &9автоматической&r установки пыли направляй &aкрошечную пыль&r в буфер (сундук) рядом с &3упаковщиком&r."
 				""
-				"Next place a &3Robot Arm&r and configure it to \"&dImport&r\", and \"&dSupply Exact 9&r\". Finally, let the Machine auto-output on another side."
+				"Поставь &3робота-манипулятора&r: «&dИмпорт&r» и «&dТочная подача 9&r». Включи автовывод с другой стороны."
 				""
-				"&l&3Lore:&r&o In GTCE, the reverse operation required a separate machine - the Unpackager."
+				"&l&3Лор:&r&o В GTCE обратная операция требовала отдельной машины — распаковщика."
 			]
 			id: "3F123950216DF93B"
 			size: 0.75d
-			subtitle: "Look who's packing"
+			subtitle: "Смотри-ка, кто упаковывает"
 			tasks: [{
 				id: "33AEA84A406741FF"
 				item: "gtceu:lv_packer"
 				type: "item"
 			}]
-			title: "Basic Packer"
+			title: "LV упаковщик"
 			x: -1.125d
 			y: 4.875d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"The &3Chemical Reactor&r will be required for &la lot&r of recipes."
+				"&3Химический реактор&r понадобится для &lмножества&r рецептов."
 				""
-				"Let's give it a spin - why don't we use your freshly made Chemical Reactor to unlock a new, &6better recipe for Rubber&r? Rubber is &dunusable&r as a Fluid, so you will need to make another machine to process it further."
+				"Попробуем — используй свежий реактор для нового, &6лучшего рецепта резины&r? Резина как жидкость &dнепригодна&r — нужна ещё одна машина."
 				"{@pagebreak}"
-				"You can't make Rubber using the Chemical Reactor alone, so here are some &aother machines&r you might want to aim for: "
+				"Только реактором резину не сделать — вот &aдругие машины&r, к которым стоит стремиться:"
 				""
-				"A &3Solidifier&r is useful to solidify your Rubber directly into &aRubber Sheets&r. You'll want these moving forward."
+				"&3Затвердитель&r сразу делает &aрезиновые листы&r. Они понадобятся дальше."
 				""
-				"You could then make use of an &3Assembler&r to use your molten Rubber for &aCables&r. This isn't important for Tin Cables, but better cables will &eneed&r to be made in the Assembler."
+				"Затем &3сборочный автомат&r для &aкабелей&r из расплавленной резины. Для оловянных не важно, но лучшие кабели &eнужно&r делать в автомате."
 				""
-				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
+				"&eПримечание:&r жидкость сдаётся, если &lведро&r с ней в инвентаре. Прости — особенность FTB Quests."
 			]
 			icon: "gtceu:lv_chemical_reactor"
 			id: "3D98819A799D2E64"
 			size: 0.75d
-			subtitle: "Chemistry for dummies"
+			subtitle: "Химия для чайников"
 			tasks: [
 				{
 					id: "108424445D0F748A"
@@ -1150,22 +1158,22 @@
 					type: "item"
 				}
 			]
-			title: "Basic Chemical Reactor"
+			title: "LV химический реактор"
 			x: 3.375d
 			y: 4.5d
 		}
 		{
 			dependencies: ["10ECB471A77F5136"]
 			description: [
-				"Cells are an alternative form of Fluid storage. All Cell types with the same type and amount of Fluid inside them &6stack&r. They can be automatically filled with a &3Canning Machine&r."
+				"Ячейки — альтернативный способ хранения жидкостей. Одинаковые ячейки с одной жидкостью &6складываются&r. Заполняются автоматически в &3консервной машине&r."
 				""
-				"Cells hold &done bucket&r of Fluid."
+				"Ячейка вмещает &dодно ведро&r жидкости."
 				"{@pagebreak}"
-				"Universal Cells hold up to &done bucket&r, but also can store &9fractions&r of Buckets. They're particularly ideal if you want to store leftover Fluid without crafting a whole Drum. "
+				"Универсальные ячейки — до &dодного ведра&r, но также &9доли&r ведра. Удобны для остатков без целой бочки."
 				""
-				"Cells made from higher tier materials can hold even more fluid, but &9Drums&r and &9Super Tanks&r will hold more by then."
+				"Ячейки из материалов высших tier вмещают больше, но к тому времени &9бочки&r и &9супер-танки&r вместят ещё больше."
 				""
-				"Like Drums, Cells can be placed into a crafting grid to clear their contents."
+				"Как бочки, ячейки можно очистить в сетке крафта."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:fluid_cell"
@@ -1178,7 +1186,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "GTCE killed cell chemistry... GTCE killed Cells!"
+			subtitle: "GTCE убил химию элементов... GTCE убил ячейки!"
 			tasks: [
 				{
 					id: "48507FA04651418B"
@@ -1191,7 +1199,7 @@
 					type: "item"
 				}
 			]
-			title: "Dead Cells"
+			title: "Мёртвые ячейки"
 			x: 4.5d
 			y: 5.61d
 		}
@@ -1201,11 +1209,11 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"Use both of your new machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes Rotors far easier to craft - &6four Ingots per Rotor&r, as well."
+				"Используй обе новые машины: материал → жидкость → ротор! Комбинация сильно упрощает крафт — &6четыре слитка на ротор&r."
 				""
-				"You can also do the same for &6Gears&r and &6Small Gears&r, which will then be superseded when you make a &3MV Extruder&r."
+				"То же для &6шестерён&r и &6маленьких шестерён&r — позже заменит &3MV экструдер&r."
 				""
-				"&9Note:&r Some metals, like Steel, require higher voltages than &7LV&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in EMI."
+				"&9Примечание:&r некоторые металлы, как сталь, требуют напряжения выше &7LV&r для жидкостной экстракции — следи за tier рецепта в EMI."
 			]
 			icon: "gtceu:rotor_casting_mold"
 			id: "115C4226F6473F0C"
@@ -1217,7 +1225,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time to end the misery of hand crafting rotors!"
+			subtitle: "Хватит мучиться с ручным крафтом роторов!"
 			tasks: [
 				{
 					id: "4A68C6BC78CB07E2"
@@ -1231,29 +1239,29 @@
 					type: "item"
 				}
 			]
-			title: "C-C-Combo!"
+			title: "К-к-комбо!"
 			x: 5.625d
 			y: 4.5d
 		}
 		{
 			dependencies: ["199361B5FEC959EA"]
 			description: [
-				"&aSoldering Alloy&r is used solely as a &9Fluid&r, and in most cases is &dinterchangeable&r in circuit recipes as a cheaper alternative to Tin&r."
+				"&aПрипой&r используется только как &9жидкость&r и в большинстве рецептов схем &dвзаимозаменяем&r с оловом как более дешёвая альтернатива&r."
 				""
-				"The choice is yours. Save more materials? Make Soldering Alloy. Spend less time crafting materials? Tin is the way to go."
+				"Выбор за тобой. Экономить материалы? Делай припой. Меньше времени на крафт? Олово."
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:soldering_alloy_ingot"
 			id: "713C8D6A20BF3A0E"
 			shape: "square"
 			size: 0.75d
-			subtitle: "I got soul but I'm not a solder"
+			subtitle: "Есть душа, но я не паяльщик"
 			tasks: [{
 				id: "67F9F84D66E32728"
 				item: "gtceu:soldering_alloy_dust"
 				type: "item"
 			}]
-			title: "Soldering Alloy"
+			title: "Припой"
 			x: 5.625d
 			y: 9.0d
 		}
@@ -1263,11 +1271,11 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"With &7LV&r power, the primary way of getting &aAluminium Dust&r is by electrolyzing &9Sapphire&r or &2Green Sapphire&r. Aluminium is the main &bMV&r material, similar to how Steel is crucial in &7LV&r, and Bronze is important in the &6Steam Age&r."
+				"С &7LV&r-энергией главный способ получить &aалюминиевую пыль&r — электролиз &9сапфира&r или &2зелёного сапфира&r. Алюминий — основной материал &bMV&r, как сталь для &7LV&r и бронза для &6Паровой эпохи&r."
 				""
-				"It's possible to obtain Aluminium by processing ores such as &6Fullers' Earth&r, but the commitment required to see similar yields is more than sourcing your Aluminium from &3Sapphire&r. For this reason, you can &5skip the quest&r with the checkbox."
+				"Алюминий можно из руд вроде &6бентонита&r, но усилий больше, чем из &3сапфира&r. Можешь &5пропустить квест&r галочкой."
 				""
-				"It would be wise to obtain enough Sapphire to electrolyze into a full stack of &aAluminium Dust&r - it &lwill&r be useful very soon. Plus, bonus Oxygen is always nice."
+				"Разумно добыть достаточно сапфира на стак &aалюминиевой пыли&r — &lочень&r скоро пригодится. Плюс бонусный кислород."
 			]
 			icon: "gtceu:sapphire_dust"
 			id: "2F1CCFEBAB71B1F3"
@@ -1278,7 +1286,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "One Step Closer To MV"
+			subtitle: "На шаг ближе к MV"
 			tasks: [
 				{
 					count: 6L
@@ -1293,22 +1301,22 @@
 					type: "checkmark"
 				}
 			]
-			title: "Sapphire"
+			title: "Сапфир"
 			x: -2.25d
 			y: 5.625d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&lВне переработки руды:&r"
 				""
-				"Similar to the Centrifuge, this machine does a lot of things - we can't hope to list them all! Fortunately, it's one of the cheapest &7LV&r machines, so grab it as soon as it becomes necessary."
+				"Как центрифуга, эта машина делает много всего — перечислить невозможно! К счастью, одна из самых дешёвых &7LV&r-машин — бери, когда понадобится."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&lДля переработки руды:&r"
 				""
-				"Okay, we lied. It's not &oexactly&r used for Ore Processing, it's actually used in the &adecomposition of Dusts&r. However, most of the useful electrolysis recipes are locked at &bMV&r. You can peep at the &emolecular formula&r in a dust's tooltip to see what you can get from electrolysis."
+				"Ладно, мы солгали. Не &oсовсем&r для руды — для &aразложения пыли&r. Но полезные рецепты электролиза — с &bMV&r. Смотри &eмолекулярную формулу&r во всплывающей подсказке пыли."
 				"{@pagebreak}"
-				"&cTake caution!&r Due to how ores work, directly smelting dusts into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide whether you want to prioritise direct value, or byproduct count."
+				"&cОсторожно!&r Из-за механики руд прямое плавление пыли в слитки даёт больше металла, чем электролиз. Но теряешь другие продукты. Решай: ценность металла или побочные продукты."
 			]
 			id: "32B08E6F414A00C0"
 			rewards: [{
@@ -1318,13 +1326,13 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Separating anything you can think of"
+			subtitle: "Разделяет всё, что только придумаешь"
 			tasks: [{
 				id: "536874A8C35E1C86"
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			title: "Basic Electrolyzer"
+			title: "LV электролизёр"
 			x: -1.125d
 			y: 5.625d
 		}
@@ -1334,41 +1342,39 @@
 				"45B71324028F6E68"
 			]
 			description: [
-				"If you haven't made a &eMixer&r yet, you'll need it to craft this."
+				"Если ещё не сделал &eсмеситель&r — он понадобится для этого."
 				""
-				"For now, you should use &9Water&r for its recipes instead of trying to acquire Lubricant."
+				"Пока используй &9воду&r в рецептах вместо смазки."
 				""
-				"The &3Cutting Machine&r additionally unlocks converting &6Rods into four Bolts&r."
+				"&3Резатель&r также позволяет превращать &6пруты в четыре болта&r."
 				""
-				"This machine is the only way to obtain &dGem Plates&r, which are needed to craft Filters, and by extension, the &3Gas Collector&r."
+				"Единственный способ получить &dгемовые пластины&r — нужны для фильтров и, соответственно, &3газового коллектора&r."
 			]
 			id: "3A8D7FC6F316C38C"
 			shape: "square"
 			size: 0.75d
-			subtitle: "The Cutter... cuts..."
+			subtitle: "Резатель... режет..."
 			tasks: [{
 				id: "662DB818821C4EAE"
 				item: "gtceu:lv_cutter"
 				type: "item"
 			}]
-			title: "Basic Cutter"
+			title: "LV резатель"
 			x: 1.125d
 			y: 6.75d
 		}
 		{
 			dependencies: ["701BCADAE5CF6CA5"]
 			description: [
-				"&lOutside of Ore Processing:&r"
+				"&lВне переработки руды:&r"
 				""
-				"Oh boy, what can't this machine do? Decomposition recipes to separate dust types, separating air, do your taxes, and many others..."
-				""
-				"The list is too long! Let's just say &cyou need the Centrifuge&r."
+				"Что она только не делает? Разложение пыли, разделение воздуха, налоги... шутка. Список бесконечен — скажем так: &cцентрифуга тебе нужна&r."
 				"{@pagebreak}"
-				"&lFor Ore Processing:&r"
+				"&lДля переработки руды:&r"
 				""
-				"This takes &aImpure Dust&r or &aPurified Dust&r and turns them into clean Dust, plus an added tiny Dust &6Byproduct&r. This is outside of the optimal chain for Byproducts, but this is also the cheapest Ore Processing machine of the presented array to run and to setup on a small scale."
+				"Берёт &aгрязную&r или &aочищенную пыль&r и даёт чистую пыль плюс крошечную &6побочную&r. Не оптимальная цепочка побочных продуктов, зато самая дешёвая машина из набора для небольшой линии."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In base GTCE, this was objectively the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity."
+				"&l&3Лор:&r&o В базовом GTCE это была сильнейшая машина переработки — три крошечные пыли, как у промывочной или термоцентрифуги. Мы ослабили ради разнообразия."
 			]
 			id: "5263F866638D875C"
 			rewards: [{
@@ -1377,32 +1383,32 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Jack of Many Trades"
+			subtitle: "Мастер на все руки"
 			tasks: [{
 				id: "20EDB55B8D5CDAD6"
 				item: "gtceu:lv_centrifuge"
 				type: "item"
 			}]
-			title: "Basic Centrifuge"
+			title: "LV центрифуга"
 			x: 0.0d
 			y: 6.75d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"It's recommended that you &6put this machine off&r until you actually require it for for progression - explore elsewhere if you're fresh into &7LV&r."
+				"Лучше &6отложить&r смеситель, пока он не нужен для прогресса — если только вошёл в &7LV&r, исследуй другое."
 				""
-				"Some alloys previously made by hand can also be made in the mixer, except at &ahigher yield&r."
+				"Часть сплавов, что раньше мешал вручную, можно делать в смесителе с &aбольшим выходом&r."
 			]
 			id: "257DB4B39B2A928E"
 			size: 0.75d
-			subtitle: "The Mixer mixes..."
+			subtitle: "Смеситель смешивает..."
 			tasks: [{
 				id: "4A0B4A206ED30212"
 				item: "gtceu:lv_mixer"
 				type: "item"
 			}]
-			title: "Basic Mixer"
+			title: "LV смеситель"
 			x: 2.25d
 			y: 6.75d
 		}
@@ -1413,47 +1419,47 @@
 				"292938760AB9A12B"
 			]
 			description: [
-				"Unfortunately, this is only an &lEmpty&r Spray Can, which you have to fill with Chemical Dye before using."
+				"К сожалению, это только &lпустой&r баллончик — сначала залей химическим красителем."
 				""
-				"&aSpray Cans&r do not provide any functionality involving machines, but can be quite &bvisually appealing and useful&r!"
+				"&aБаллончики&r не влияют на машины, зато &bкрасивы и полезны&r!"
 				""
-				"Any &7(or almost any)&r GregTech tile entity &7(machine, pipe, cable...)&r can be &6painted&r to one of the 16 colors of your choosing. This is great for screenshots, or to separate different setups for convenience in a Multiplayer base. They also help with distinguishing between pipelines and cables."
+				"Почти любой блок GregTech &7(машина, труба, кабель...)&r можно &6покрасить&r в один из 16 цветов. Удобно для скриншотов, разделения зон на сервере и отличия труб от кабелей."
 				""
-				"Holding the &aSpray Can&r in the offhand will automatically paint any block you place."
+				"Баллончик во второй руке автоматически красит ставимые блоки."
 			]
 			id: "5AD9884E7BFB2510"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time for server tag wars"
+			subtitle: "Время войн тегов на сервере"
 			tasks: [{
 				id: "28CFFA0F7A33E02F"
 				item: "gtceu:empty_spray_can"
 				type: "item"
 			}]
-			title: "Spray Can"
+			title: "Баллончик-краскопульт"
 			x: 3.375d
 			y: 5.625d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"While this is an extremely &9important&r machine for progression, this will &9&lnot help you immediately&r as it is &cexpensive.&r Most of the recipes you will want to pursue require &cfluids&r. Set up a little bit more infrastructure before rushing this."
+				"Машина &9крайне важна&r для прогресса, но &9&lсразу не спасёт&r — она &cдорогая&r. Большинство нужных рецептов требуют &cжидкостей&r. Сначала подними инфраструктуру, не беги за автоматом."
 				""
-				"With that out of the way, the &3Assembler&r is crucial to gameplay. Consider it as important as a Crafting Table, except... well, it's a machine, duh."
+				"&3Сборочный автомат&r — как верстак, только машина, очевидно."
 				""
-				"We as \"modpack developers\" also love to use this to include all sorts of custom recipes - and speaking of custom recipes, the Assembler now unlocks &dApplied Energistics 2&r!"
+				"Мы, разработчики сборки, любим кастомные рецепты — а ещё автомат открывает &dApplied Energistics 2&r!"
 				"{@pagebreak}"
-				"Once you have enough infrastructure you will be able to make use of better recipes for:"
+				"С достаточной инфраструктурой появятся лучшие рецепты:"
 				""
-				"&9-&r &6Vacuum Tubes&r, giving over double the previous yield"
+				"&9-&r &6вакуумные лампы&r — больше чем вдвое прежнего выхода"
 				""
-				"&9-&r &6Resistors&r, granting 4 resistors per craft!"
+				"&9-&r &6резисторы&r — 4 за крафт!"
 				""
-				"&9-&r &6Circuit Boards&r, greatly reducing copper used"
+				"&9-&r &6печатные платы&r — меньше меди"
 				""
-				"Wahoo!"
+				"Ура!"
 				""
-				"&l&3Lore:&r&o Back in the days of GregTech 2, the Assembling Machine only had two slots, and was only really used for alternate Circuit and Hull recipes."
+				"&l&3Лор:&r&o В GregTech 2 у сборочной машины было два слота — в основном альтернативные схемы и корпуса."
 			]
 			id: "63CD0236B337EAAD"
 			rewards: [
@@ -1471,12 +1477,13 @@
 			]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Assemblers, Avenge!"
+			subtitle: "Сборочные, мстите!"
 			tasks: [{
 				id: "6B5537B80EB05B30"
 				item: "gtceu:lv_assembler"
 				type: "item"
 			}]
+			title: "LV сборочный автомат"
 			x: 3.375d
 			y: 6.75d
 		}
@@ -1486,17 +1493,17 @@
 				"713C8D6A20BF3A0E"
 			]
 			description: [
-				"&3Voiding Covers&r can be attached to GregTech Machines, Crates or Drums. They will void stuff you don't want. How fancy!"
+				"&3Крышки уничтожения&r ставятся на машины, ящики и бочки GregTech. Уничтожают лишнее. Как удобно!"
 				""
-				"For machines, it will only void items in the Output slots. The Input slots are ignored."
+				"На машинах — только предметы в выходных слотах. Входные не трогают."
 				""
-				"You can attach a &aFilter&r for more precise voiding."
+				"Можно поставить &aфильтр&r для точности."
 				"{@pagebreak}"
-				"An advanced version also exists, which requires a &dMV Circuit&r. It enables voiding above a set threshold - great for for overflow control."
+				"Есть продвинутая версия с &dMV-схемой&r — уничтожение выше порога, отлично против переполнения."
 				""
-				"&9Note:&r They default to being switched off, to prevent accidental voiding. Right-click them with a &5Soft Mallet&r to activate them."
+				"&9Примечание:&r по умолчанию выключены, чтобы случайно не сжечь всё. ПКМ &5мягкой киянкой&r — включить."
 				""
-				"Obtaining &eany&r Voiding Cover will complete this Quest."
+				"Подойдёт &eлюбая&r крышка уничтожения."
 			]
 			icon: "gtceu:item_voiding_cover"
 			id: "249B9E104CAF5FE6"
@@ -1508,7 +1515,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The best mechanic - making an item or fluid disappear!"
+			subtitle: "Лучшая механика — заставить предмет или жидкость исчезнуть!"
 			tasks: [{
 				id: "4AA56628D87A3AF9"
 				item: {
@@ -1530,7 +1537,7 @@
 				title: "Voiding Covers"
 				type: "item"
 			}]
-			title: "Voiding Covers"
+			title: "Крышки уничтожения"
 			x: 4.5d
 			y: 6.75d
 		}
@@ -1541,22 +1548,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&8Wait, we're not in the Steam Age anymore!"
+				"&8Эй, мы уже не в Паровой эпохе!"
 				""
-				"The reason we didn't present &7LV&r versions of &6Steam&r machines is because they are &4NOT&r required. You might not want to invest into an upgrade that does next to nothing. Except for &othis one&r specifically, because it's a big improvement over the &6Steam Age&r."
+				"Мы не показывали &7LV&r-версии &6паровых&r машин — они &4НЕ&r обязательны. Зачем апгрейд почти ни к чему? Кроме &oэтой&r — она сильно лучше, чем в &6Паровой эпохе&r."
 				""
-				"The &3Basic Extractor&r gains Fluid capabilities, which enables &aFluid Extraction&r. Use it to melt Rubber that you previously solidified, to &dmelt Soldering Alloy&r for your circuits, and to &dmelt Red Alloy&r for the &6best Vacuum Tube recipe&r in the &3Assembler&r!"
+				"&3LV экстрактор&r получает работу с жидкостями и &aжидкостную экстракцию&r. Расплавь затвердевшую резину, &dрасплавь припой&r для схем и &dкрасный сплав&r для &6лучшего рецепта вакуумной лампы&r в &3сборочном автомате&r!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Did you notice this machine doubles as both an Extractor and a Fluid Extractor? The two of them were separate machines in previous versions of GregTech."
+				"&l&3Лор:&r&o Заметил, что это и экстрактор, и жидкостной экстрактор в одном? Раньше в GregTech это были разные машины."
 			]
 			id: "5B2696206205CB2E"
 			size: 0.75d
-			subtitle: "The Steam Extractor extracts..."
+			subtitle: "Паровой экстрактор экстрагирует..."
 			tasks: [{
 				id: "5CD363C839475426"
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
+			title: "LV экстрактор"
 			x: 5.625d
 			y: 5.625d
 		}
@@ -1566,11 +1574,11 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"From now on, all Circuits should be made in a &3Circuit Assembler&r. Use it now to enjoy &6far cheaper LV and MV circuits&r."
+				"Отныне все схемы — в &3сборщике схем&r. Используй его для &6гораздо более дешёвых LV и MV схем&r."
 				""
-				"Each time you upgrade to a new tier of &3Circuit Assembler&r, you will be able to craft more &dadvanced themes&r of circuit. These will use &ccomplex&r and &m&7sometimes&r unfamiliar ingredients, but will be more efficient to craft overall."
+				"С каждым новым tier &3сборщика схем&r открываются &dболее продвинутые&r линейки схем. Ингредиенты &cсложнее&r и &m&7иногда&r непривычнее, но крафт эффективнее."
 				""
-				"&l&3Lore:&r&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu."
+				"&l&3Лор:&r&o Сборщик схем то появлялся, то исчезал в версиях GregTech. В GT5 не было — вернули в Unofficial. GTCE не портировал; в GTCEu снова в игре."
 			]
 			id: "199361B5FEC959EA"
 			rewards: [{
@@ -1579,28 +1587,29 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Hopefully, your first MV Circuit expense"
+			subtitle: "Надеемся, первая трата на MV-схему"
 			tasks: [{
 				id: "6287E8A7C254ECA7"
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
+			title: "LV сборщик схем"
 			x: 5.625d
 			y: 7.875d
 		}
 		{
 			dependencies: ["1A77CA35F054F988"]
 			description: [
-				"The &3Arc Furnace&r uses a lil' bit of &9Oxygen&r to smelt items in a different fashion than Furnaces."
+				"&3Дуговая печь&r использует немного &9кислорода&r и плавит иначе, чем обычные печи."
 				""
-				"You can use it to make easier &aWrought Iron&r, double your &aGlass&r, and gain access to &aAnnealed Copper&r."
+				"Упрощённое &aкованое железо&r, удвоение &aстекла&r, &aотожжённая медь&r."
 				""
-				"It can also recycle various components and machines back to their original material."
+				"Также перерабатывает детали и машины в исходный материал."
 				""
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Previous versions had both the Arc Furnace and the &bPlasma Arc Furnace&f. In that case, why not use one machine for both? Well, that's exactly what we thought - but we ultimately decided to remove one of the two &bplasma&f recipes. And then the other &bplasma&f recipe. "
+				"&l&3Лор:&r&o Раньше были дуговая и &bплазменная дуговая&f печи. Почему не одна? Так и думали — но убрали один &bплазменный&f рецепт. Потом второй."
 				""
-				"&oIn short, the &bPlasma Arc Furnace&f is &4gone&f. RIP."
+				"&oКороче, &bплазменная дуговая печь&f &4ушла&f. RIP."
 			]
 			id: "63256ED95F17B242"
 			rewards: [{
@@ -1609,23 +1618,24 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Here lies Plasma Furnace"
+			subtitle: "Здесь покоится плазменная печь"
 			tasks: [{
 				id: "2374C06C5E1EFC24"
 				item: "gtceu:lv_arc_furnace"
 				type: "item"
 			}]
+			title: "LV дуговая печь"
 			x: -3.375d
 			y: 6.75d
 		}
 		{
 			dependencies: ["3A8D7FC6F316C38C"]
 			description: [
-				"A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to &eG&r."
+				"Крутой инструмент для стройки. Режимы переключаются горячей клавишей — по умолчанию &eG&r."
 				""
-				"Be sure to check out the &3Destruction Gadget&r and the &3Copy Paste Gadget&r."
+				"Загляни к &3гаджету разрушения&r и &3копирования-вставки&r."
 				""
-				"You &6should&r be able to charge this in the charger slot of any &bGregTech machine&r, but unfortunately, this is currently &cbugged&r. Have a look at the &dTurbo Charger&r quest in the top-right of this page if you want to charge this."
+				"Теоретически заряжается в слоте зарядки любой &bмашины GregTech&r, но сейчас &cбаг&r. Смотри квест &dтурбо-зарядника&r справа вверху на этой странице."
 			]
 			id: "0DAD0A6360448B39"
 			rewards: [{
@@ -1636,12 +1646,13 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "A familiar face in the land of Greg"
+			subtitle: "Знакомое лицо в земле Greg"
 			tasks: [{
 				id: "65100C599DB0F30C"
 				item: "buildinggadgets2:gadget_building"
 				type: "item"
 			}]
+			title: "Строительный гаджет"
 			x: 1.65d
 			y: 6.0d
 		}
@@ -1652,44 +1663,44 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You could waste &o&eprecious years of your life&r in EMI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed."
+				"Можно потратить &o&eдрагоценные годы&r в EMI на поиск идеального рецепта кислорода — способов много. Разные минералы дают его при электролизе."
 				""
-				"If only the quest book had more information!"
+				"Хорошо, что книга квестов подсказывает!"
 				"{@pagebreak}"
-				"The best way to get &bOxygen&r is by electrolyzing &bSilicon Dioxide&r. Silicon Dioxide is obtained from various sources, most notably Glass Dust. We would &chighly&r recommend setting up an automated, passive line of machines for Oxygen via this method! At first, the machines will consume tons of power, but once the machine buffers are filled up, the machines will rarely turn on. "
+				"Лучший &bкислород&r — электролиз &bдиоксида кремния&r. Его получают из разных источников, чаще всего из стеклянной пыли. &cНастоятельно&r советуем автоматическую пассивную линию! Сначала жрёт энергию, но когда буферы заполнены, машины почти не включаются."
 				""
-				"To figure out how to get renewable Glass for this purpose, check out the relevant quest in the &eRenewables \\& You&r section."
+				"Про возобновляемое стекло — квест в разделе &eRenewables \\& You&r."
 				"{@pagebreak}"
-				"Another method is &acentrifuging Air&r after making a &dGas Collector&r, which you might not be able to make just yet. This recipe also gives &aNitrogen&r, which is handy as it can speed up certain &3Electric Blast Furnace&r recipes&r."
+				"Другой способ — &aцентрифугировать воздух&r после &dгазового коллектора&r (может, его ещё нет). Ещё даёт &aазот&r — ускоряет рецепты &3электроплавильной печи&r."
 				""
-				"Technically, you could source it by &aelectrolyzing Water&r. In reality, electrolysis of water is more suitable for &aHydrogen production&r due to the higher energy cost."
+				"Теоретически — &aэлектролиз воды&r. На практике дороже; вода лучше для &aводорода&r."
 				""
-				"Try your best not to &cvoid&r Oxygen! This applies to most fluids and chemicals in GregTech, and is a good habit to pick up. The less Oxygen you void, the less energy and time you spend on generating more."
+				"Старайся не &cсливать&r кислород! Так со многими жидкостями в GregTech. Чем меньше сливаешь, тем меньше тратишь на новый."
 				""
-				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
+				"&eПримечание:&r жидкость сдаётся ведром в инвентаре. Особенность FTB Quests."
 			]
 			icon: "gtceu:oxygen_bucket"
 			id: "1A77CA35F054F988"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Ackshually, it's Dioxygen..."
+			subtitle: "Акшуали, это диоксид..."
 			tasks: [{
 				id: "1F76ED94CDBD13E1"
 				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
-			title: "Breath of Fresh Oxygen"
+			title: "Свежий глоток кислорода"
 			x: -2.25d
 			y: 6.75d
 		}
 		{
 			dependencies: ["5263F866638D875C"]
 			description: [
-				"You can now &3centrifuge&r &aResin&r, which will still give Raw Rubber - but this time alongside &aGlue&r (and the less useful Plantball)."
+				"Теперь можно &3центрифугировать&r &aсмолу&r — всё ещё сырая резина, но вместе с &aклеем&r (и менее полезным растительным шаром)."
 				""
-				"Give yourself a headstart and get on producing Glue. You can use it to make &6cheaper Resistors&r, as well as &6cheaper Circuit Boards&r in the &3Assembling Machine&r (and it is especially useful &oin the near future&r)."
+				"Начни клей заранее: &6дешевле резисторы&r и &6печатные платы&r в &3сборочном автомате&r (&oособенно скоро&r)."
 				""
-				"&eNote:&r Submit a fluid by having it stored in a &lbucket&r in your inventory. Sorry - it's an FTB Quests quirk."
+				"&eПримечание:&r жидкость — ведром в инвентаре. FTB Quests."
 			]
 			icon: "gtceu:glue_bucket"
 			id: "0EAC071414AEC07E"
@@ -1700,13 +1711,13 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Extractor? I hardly knew 'er!"
+			subtitle: "Экстрактор? Едва знал!"
 			tasks: [{
 				id: "284F6584EEEF3AD6"
 				item: "gtceu:glue_bucket"
 				type: "item"
 			}]
-			title: "Glued"
+			title: "На клею"
 			x: 0.0d
 			y: 9.0d
 		}
@@ -1717,17 +1728,17 @@
 				"772F7CD63D31966A"
 			]
 			description: [
-				"Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are &4among&r these materials."
+				"Многие материалы дальше нельзя выплавить прямо из руды — только побочные продукты переработки. &4Среди них&r галлий и мышьяк."
 				"{@pagebreak}"
-				"For &dGallium&r, you may, ranged from worst to best (compromising difficulty and yields):"
+				"&dГаллий&r — от худшего к лучшему (сложность и выход):"
 				""
-				"&9- &3Electrolyze &aSphalerite&r for a low chance of dust. Note that you lose out on direct smelting value."
+				"&9-&r &3Электролиз&r &aсфалерита&r — низкий шанс пыли, теряешь прямую плавку."
 				""
-				"&9-&r Put &aCrushed Bauxite&r in the &3Chemical Bath&r. Note that this requires &9Sodium Persulfate&r."
+				"&9-&r &aДроблёный боксит&r в &3химическую ванну&r — нужен &9персульфат натрия&r."
 				""
-				"&9-&r Obtain it as a Byproduct of &aSphalerite&r Ore Processing in the &3Thermal Centrifuge&r or &3Centrifuge&r."
+				"&9-&r Побочный продукт &aсфалерита&r в &3термоцентрифуге&r или &3центрифуге&r."
 				""
-				"For &dArsenic&r, you will have to mine and &3centrifuge&r &aRealgar&r."
+				"&dМышьяк&r — копай и &3центрифугируй&r &aреальгар&r."
 			]
 			id: "4073577B7EF9B593"
 			rewards: [{
@@ -1737,13 +1748,13 @@
 				type: "choice"
 			}]
 			size: 0.75d
-			subtitle: "I hate byproducts, they're awesome"
+			subtitle: "Ненавижу побочки, они крутые"
 			tasks: [{
 				id: "0FDC60275B1959C3"
 				item: "gtceu:gallium_arsenide_dust"
 				type: "item"
 			}]
-			title: "Gallium Arsenide"
+			title: "Арсенид галлия"
 			x: 2.25d
 			y: 7.875d
 		}
@@ -1753,15 +1764,15 @@
 				"0EAC071414AEC07E"
 			]
 			description: [
-				"This Circuit Board is used to create &dMV Circuits&r!"
+				"Эта плата нужна для &dMV-схем&r!"
 				""
-				"&9Note:&r You have &ltwo&r options when making the Phenolic Printed Circuit Board. If you use &aSodium Persulfate&r or &aIron III Chloride&r, making boards takes &6only a quarter of the Silver&r as opposed to the crafting recipe."
+				"&9Примечание:&r &lдва&r варианта фенольной печатной платы. С &aперсульфатом натрия&r или &aхлоридом железа(III)&r — &6четверть серебра&r против крафта."
 				""
-				"&lHowever&r, given how painful it may be for you to obtain these chemicals &oright now&r, you can simply use more Silver by mining most of a Galena Vein..."
+				"&lНо&r если химикаты &oсейчас&r — боль, просто копай галенит и трать больше серебра..."
 				""
-				"The quest for &aSodium Persulfate&r is in the &bMV&r chapter, if you're down for some light reading."
+				"Квест про &aперсульфат натрия&r — в главе &bMV&r, если хочешь почитать."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Back in GTCEu 1.12.2, these circuit boards were called \"&2Good Circuit Boards&f\". Not exactly a fitting name, as they're &4rather evil&f to craft."
+				"&l&3Лор:&r&o В GTCEu 1.12.2 это были «&2хорошие платы&f» — название &4злое&f для крафта."
 			]
 			id: "3647B1B964A15E4E"
 			rewards: [{
@@ -1770,41 +1781,42 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "A Good Board"
+			subtitle: "Хорошая плата"
 			tasks: [{
 				id: "2DE7B75F25A4AB9E"
 				item: "gtceu:phenolic_printed_circuit_board"
 				type: "item"
 			}]
+			title: "Фенольная печатная плата"
 			x: 3.375d
 			y: 9.0d
 		}
 		{
 			dependencies: ["63CD0236B337EAAD"]
 			description: [
-				"Getting into Applied Energistics at this point is possible, but also a little bit involved..."
+				"Войти в Applied Energistics сейчас можно, но это непросто..."
 				""
-				"You will need to make quite a few &7LV&r machines, and the &7LV-tier&r recipes for some AE2 items are comparatively expensive without access to more advanced technology."
+				"Нужно несколько &7LV&r-машин, а рецепты AE2 на &7LV&r дорогие без более продвинутых технологий."
 				""
-				"In &7LV&r, you're able to craft:"
+				"На &7LV&r можно скрафтить:"
 				""
-				"&6-&r Energy Acceptor"
+				"&6-&r приёмник энергии"
 				""
-				"&6-&r ME Terminal"
+				"&6-&r ME-терминал"
 				""
-				"&6-&r 1k ME Storage component"
+				"&6-&r компонент ME-хранилища 1k"
 				""
-				"&6-&r ME Chest"
+				"&6-&r ME-сундук"
 				""
-				"&bChannels are disabled&r in this modpack, so feel free to put a few ME Chests with 1k Cells side-by-side to increase your storage capacity! You can use an ME Terminal to access all their contents at the same time."
+				"&bКаналы отключены&r — ставь несколько ME-сундуков с ячейками 1k рядом! Один терминал откроет всё сразу."
 				"{@pagebreak}"
-				"&9Note:&r This pack includes &5Fluix Crystals&r, but they are generated as a GT material, rather than the default AE2 Fluix Crystals. To get them, put &dFluix Dust&r in the &aAutoclave&r, which is made from &7Certus Quartz Dust&r, &eNether Quartz Dust&o&r and &cRedstone&r in a &aMixer&r. No need to charge the Certus Quartz. It gets... charged in the Mixer... or something like that."
+				"&9Примечание:&r &5кристаллы флюикса&r здесь — материал GT, не ванильные AE2. Положи &dпыль флюикса&r в &aавтоклав&r; пыль из &7кварца Certus&r, &eкварца Незера&r и &cредстоуна&r в &aсмесителе&r. Заряжать Certus не надо — «зарядится» в смесителе... ну, что-то вроде того."
 				"{@pagebreak}"
-				"Feel free to use AE2's in-game guide! Alternatively, you could consider:"
+				"Есть внутриигровый гайд AE2! Или:"
 				""
-				"The official &dApplied Energistics 2&r website: &9https://appliedenergistics.org/guides&r"
+				"Сайт &dApplied Energistics 2&r: &9https://appliedenergistics.org/guides&r"
 				""
-				"An &binstructionary video&r made by &aPansmith&r, which covers Applied Energistics 2 on &6Minecraft 1.12.2&r. The fundamentals are still near-identical, however."
+				"&bОбучающее видео&r &aPansmith&r про AE2 на &61.12.2&r — основы почти те же."
 				"&9https://www.youtube.com/watch?v=u0ouTWgdcXk&r"
 			]
 			id: "0E72017800A9766C"
@@ -1819,13 +1831,13 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Time to ditch those chests"
+			subtitle: "Пора сбросить сундуки"
 			tasks: [{
 				id: "2080D5BB367332D3"
 				item: "ae2:cell_component_1k"
 				type: "item"
 			}]
-			title: "The Digital Age? Already!?"
+			title: "Цифровая эра? Уже?!"
 			x: 4.5d
 			y: 7.875d
 		}
@@ -1835,11 +1847,11 @@
 				"4073577B7EF9B593"
 			]
 			description: [
-				"Don't let EMI fool you... there's only one possible recipe right now for this Primitive Diode."
+				"Не верь EMI — сейчас у примитивного диода только один рецепт."
 				""
-				"Diodes have a infamously &4nasty recipe&r, but they will become cheaper and more convenient once you can obtain &ePolyethylene&r."
+				"У диодов &4ужасный рецепт&r, но с &eполиэтиленом&r станет дешевле и проще."
 				""
-				"This is required for &dMV Circuits&r."
+				"Нужно для &dMV-схем&r."
 			]
 			id: "7BE7DE4C0109D788"
 			rewards: [{
@@ -1849,12 +1861,13 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Don't be swayed by EMI!"
+			subtitle: "Не слушай EMI!"
 			tasks: [{
 				id: "0FE8CA1C2D212378"
 				item: "gtceu:diode"
 				type: "item"
 			}]
+			title: "Примитивный диод"
 			x: 3.375d
 			y: 7.875d
 		}
@@ -1865,13 +1878,13 @@
 				"4B979482EF026BFF"
 			]
 			description: [
-				"Well... gotten any Aluminium Ingots yet?"
+				"Ну... уже есть алюминиевые слитки?"
 				""
-				"Each Electric Age has Circuits corresponding to its tier. The Good Electronic Circuit is the &dfirst MV Circuit&r you can make out of the three tiers of &bMV&r Circuitry."
+				"У каждой электрической эры свои схемы. Хорошая электронная схема — &dпервая MV-схема&r из трёх линий &bMV&r."
 				""
-				"Always be on the lookout for a cheaper way to make your circuits - new sets of recipes become available each time you make a new tier of &2Circuit Assembler&r. Conveniently, this tier of Circuit unlocks one now! Its recipes are far, far cheaper than hand-crafting Circuits."
+				"Ищи более дешёвые рецепты — с каждым новым &2сборщиком схем&r открываются наборы. Удобно: этот tier как раз открыл его! Намного дешевле ручного крафта."
 				""
-				"&6Having this and Aluminium will grant access to MV Machines.&r"
+				"&6Эта схема и алюминий откроют MV-машины.&r"
 			]
 			id: "0DBC148D92A9F69F"
 			progression_mode: "linear"
@@ -1883,22 +1896,22 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Does that mean we're at MV yet?"
+			subtitle: "Значит, мы уже на MV?"
 			tasks: [{
 				id: "70313E1917121E14"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			title: "First MV Circuit!"
+			title: "Первая MV-схема!"
 			x: 4.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["2F1CCFEBAB71B1F3"]
 			description: [
-				"As mentioned in the previous quest, electrolyse the &1Sapphire Dust&r to get your &bAluminium Dust&r."
+				"Как в прошлом квесте — электролизируй &1пыль сапфира&r в &bалюминиевую пыль&r."
 				""
-				"Now all you need is an EBF! If you haven't started to work towards one, move to the right on this quest page and you'll end up there."
+				"Дальше нужна ЭПП! Если ещё не начал — иди вправо по странице квестов."
 			]
 			hide_dependent_lines: true
 			id: "45B71324028F6E68"
@@ -1910,48 +1923,48 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Aluminium, not \"Aluminum\""
+			subtitle: "Алюминий, не «Aluminum»"
 			tasks: [{
 				id: "144F4F8EF61BEEA5"
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
-			title: "Aluminium Dust"
+			title: "Алюминиевая пыль"
 			x: -3.375d
 			y: 5.625d
 		}
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
 			description: [
-				"Multiblocks bear a large variety of interesting mechanics that might seem daunting, but don't worry - we've written a guide to help you learn."
+				"У мультиблоков много интересной механики — пугает, но мы написали гайд."
 				""
-				"&6This quest unlocks a bunch of tutorials on Multiblocks in the &lTips and Tricks&r&6 tab - check them out to learn more!&r"
+				"&6Квест открывает туториалы по мультиблокам во вкладке &lСоветы и хитрости&r&6 — загляни!&r"
 			]
 			hide_text_until_complete: false
 			icon: "gtceu:heatproof_machine_casing"
 			id: "2FC7B1E867E4194E"
 			size: 0.75d
-			subtitle: "By the end of this, you'll be an expert"
+			subtitle: "К концу станешь экспертом"
 			tasks: [{
 				id: "2AA5580CDD655FBC"
 				type: "checkmark"
 			}]
-			title: "Multiblock Techniques"
+			title: "Техника мультиблоков"
 			x: 7.875d
 			y: 4.5d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7Тема квеста необязательна, но может быть интересна. Для полноты картины.&r"
 				""
-				"The &3Rock Breaker&r generates different types of igneous Rocks. In order to operate, &9Water&r and &cLava&r (doesn't need to be source blocks) must both be adjacent to it. Those rocks might be pulverized and electrolyzed into certain materials."
+				"&3Камнедробилка&r генерирует магматические породы. Нужны соседние &9вода&r и &cлава&r (не обязательно источники). Породу можно измельчить и электролизовать."
 				""
-				"Certain rocks, such as &b&cRed Granite&r, need, at minimum, &5EV&r power to generate."
+				"Некоторые породы, вроде &b&cкрасного гранита&r, требуют минимум &5EV&r."
 				""
-				"&eAny&r Rock Breaker will complete this Quest."
+				"Подойдёт &eлюбая&r камнедробилка."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Obsidian requiring Redstone to generate is in reference to an ancient Minecraft bug, &7MC-4239&f. Placing Redstone where the Cobblestone would go in a cobble generator would make it generate Obsidian instead. This bug was resolved in snapshot 14w25b for Minecraft 1.8, over 9 years ago at the time of writing!"
+				"&l&3Лор:&r&o Обсидиан с редстоуном — отсылка к древнему багу &7MC-4239&f: редстоун вместо булыжника в генераторе давал обсидиан. Исправлено в 14w25b для 1.8 — больше 9 лет назад!"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_rock_crusher"
@@ -1964,7 +1977,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "What is this, Skyblock?"
+			subtitle: "Что это, Skyblock?"
 			tasks: [{
 				id: "10F588EB061EB2EA"
 				item: {
@@ -2010,26 +2023,26 @@
 				title: "Rock Crusher"
 				type: "item"
 			}]
-			title: "Cobble is Life"
+			title: "Булыжник — это жизнь"
 			x: 4.29d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7Тема квеста необязательна, но может быть интересна. Для полноты картины.&r"
 				""
-				"The &3Turbo Charger&r charges &6RF and EU&r items such as &9Drills&r extremely quickly."
-				"It accepts up to 4 Amps for every item it charges, making it &6twice as fast&r as the &3Battery Buffer&r. It cannot discharge, though."
+				"&3Турбо-зарядник&r заряжает предметы &6RF и EU&r — например &9буры&r — очень быстро."
+				"До 4 ампер на предмет — &6вдвое быстрее&r &3буфера батарей&r. Разряжать не умеет."
 				""
-				"&eAny&r Charger will complete this Quest."
+				"Подойдёт &eлюбой&r зарядник."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_charger_4x"
 			id: "2DB259568F347C0E"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "100% Battery"
+			subtitle: "100% батарея"
 			tasks: [{
 				id: "07BF7F14849A3027"
 				item: {
@@ -2083,27 +2096,27 @@
 				title: "Turbo Charger"
 				type: "item"
 			}]
-			title: "Turbo Charger"
+			title: "Турбо-зарядник"
 			x: 5.28d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7Тема квеста необязательна, но может быть интересна. Для полноты картины.&r"
 				""
-				"The &3Fisher&r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like &dEnchanted Books&r. Each operation consumes 1 String and EU equivalent to its tier (32 for &7LV&r, etc.) That's about it."
+				"&3Рыбак&r ловит рыбу из воды. Нужна зона 5×5 воды снизу. Та же таблица добычи, что у удочки — вплоть до &dзачарованных книг&r. 1 нить и EU по tier (32 на &7LV&r и т.д.)."
 				""
-				"&eFish Oil&r can be extracted from Fish, which can be used for &6Bio Diesel&r."
+				"Из рыбы — &eрыбий жир&r для &6биодизеля&r."
 				""
-				"Get &eany&r tier Fisher to complete this quest. (They only go up to &5EV&r. If you foresee needing enough Fish to justify an &1IV&r or higher Fisher, make a feature request on our GitHub or Discord.)"
+				"Подойдёт &eлюбой&r tier (до &5EV&r). Нужен &1IV&r-рыбак? Пиши на GitHub или Discord."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_fisher"
 			id: "3B26CA44EA955B07"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Women want me, fish fear me"
+			subtitle: "Рыба меня боится"
 			tasks: [{
 				id: "07BA97A0F04F0876"
 				item: {
@@ -2133,18 +2146,18 @@
 				title: "Fisher"
 				type: "item"
 			}]
-			title: "Fishing 50"
+			title: "Рыбалка 50"
 			x: 6.2700000000000005d
 			y: 0.0d
 		}
 		{
 			dependencies: ["46AD7A6F3B6775F5"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7Тема квеста необязательна, но может быть интересна. Для полноты картины.&r"
 				""
-				"The &3World Accelerator&r... well, accelerates the world. Placing it down and powering it will cause it to tick-accelerate any Tile Entities around it. Using a Screwdriver, you can also toggle it to tick-accelerate random blocks in its area, such as farmland. "
+				"&3Ускоритель мира&r... ускоряет мир. С питанием ускоряет тики сущностей вокруг. Отвёрткой можно переключить на случайные блоки — например пашню."
 				""
-				"Keep in mind that GregTech machines are blacklisted from tick acceleration - this is for the better, as tick-accelerating a GregTech machine can lead to it consuming many Amps at once and nuking your power system."
+				"Машины GregTech в чёрном списке — и правильно: ускоренная GT-машина может сожрать кучу ампер и убить энергосеть."
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:lv_world_accelerator"
@@ -2156,7 +2169,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I Have Become Chronos"
+			subtitle: "Я стал Хроносом"
 			tasks: [{
 				id: "5924F0A33AD22EC9"
 				item: {
@@ -2202,20 +2215,20 @@
 				title: "World Accelerators"
 				type: "item"
 			}]
-			title: "At The Speed Of Light"
+			title: "На скорости света"
 			x: 7.875d
 			y: 1.125d
 		}
 		{
 			dependencies: ["46AD7A6F3B6775F5"]
 			description: [
-				"If you're a builder, &bweep no more&r - this custom multiblock, freshly made with the powers of &dKubeJS&r, is made for you."
+				"Строитель? &bНе плачь&r — кастомный мультиблок на &dKubeJS&r для тебя."
 				""
-				"By providing the multiblock with a near-negligible amount of &6Construction Foam&r, you'll gain access to increased yields of many different &bbuilding blocks&r to spice up your base."
+				"Капля &6строительной пены&r — и больше &bстроительных блоков&r для базы."
 				""
-				"Don't go too crazy!"
+				"Не сходи с ума!"
 				""
-				"&8(Crazy? I was crazy once!)&r"
+				"&8(С ума? Я же сходил с ума!)&r"
 			]
 			hide_dependency_lines: false
 			icon: "gtceu:construction_core"
@@ -2228,30 +2241,30 @@
 			}]
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "If you build it, they will come"
+			subtitle: "Построишь — придут"
 			tasks: [{
 				id: "5635E327260121C3"
 				item: "gtceu:construction_core"
 				type: "item"
 			}]
-			title: "Building Resources"
+			title: "Строительные ресурсы"
 			x: 8.91d
 			y: 1.65d
 		}
 		{
 			dependencies: ["3E6DC423FE4A99F7"]
 			description: [
-				"&9Drills&r are electric tools which come in different tiers. The &7LV&r Drill is quite good: mining a 3x3x1 area. Higher-tier drills can mine 3x3x3, 5x5x5, and up to 9x9x9 to make huge holes!"
+				"&9Буры&r — электроинструменты разных tier. &7LV&r-бур копает 3×3×1. Выше — 3×3×3, 5×5×5, до 9×9×9!"
 				""
-				"This suggested drill is with a Diamond tip, which might be the best material for it right now."
+				"Здесь с алмазным наконечником — сейчас, возможно, лучший вариант."
 				""
-				"&9Note 1:&r All Electric Tools have a lot more durability than indicated, as they use Energy to prevent damage from being applied! On top of that, they can be enchanted as Pickaxes can."
+				"&9Примечание 1:&r прочность выше, чем кажется — энергия блокирует урон! Можно зачаровывать как кирку."
 				""
-				"&9Note 2:&r Drills can now be configured to different ranges, not just the maximum or a single block."
+				"&9Примечание 2:&r радиус настраивается — не только максимум или один блок."
 				""
-				"&9Note 3:&r You can now craft electric versions of other tools too! Hooray for less Wire Cutter crafting!"
+				"&9Примечание 3:&r есть электро-версии других инструментов! Меньше кусачек для проводов!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Up until GTCEu, Electric tools required Stainless Steel, which locked players out of experiencing their glory until &6HV&f!"
+				"&l&3Лор:&r&o До GTCEu электроинструменты требовали нержавеющую сталь — с &6HV&f!"
 			]
 			icon: {
 				Count: 1
@@ -2280,7 +2293,7 @@
 			id: "70BBF00528C68A05"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "We Drill Now? We Drill Now."
+			subtitle: "Бурить? Бурим."
 			tasks: [
 				{
 					id: "0D2407D27B875AC3"
@@ -2316,27 +2329,27 @@
 					type: "checkmark"
 				}
 			]
-			title: "Oh Yeah, we Drillin'"
+			title: "О да, мы бурим"
 			x: 5.94d
 			y: 2.97d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7Тема квеста необязательна, но может быть интересна. Для полноты картины.&r"
 				""
-				"The &3Block Breaker&r... well, we'll &dleave it to you&r to figure out what this one does. There are likely some &anifty farms&r you can create with clever usage of this machine - especially with the &6many vanilla mechanics&r introduced between 1.12.2 and 1.20.1!"
+				"&3Разрушитель блоков&r... ну, &dсам разберёшься&r. С ним можно сделать &aхитрые фермы&r — особенно с &6новой ванильной механикой&r между 1.12.2 и 1.20.1!"
 				""
-				"Higher tiers of &3Block Breaker&r come with an additional speed bonus."
+				"Более высокие tier &3разрушителя&r — бонус к скорости."
 				""
-				"&eAny&r Block Breaker will complete this Quest."
+				"Подойдёт &eлюбой&r разрушитель блоков."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_block_breaker"
 			id: "12DF2E5269BE87D5"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I've had it with these blocks!"
+			subtitle: "С меня хватит этих блоков!"
 			tasks: [{
 				id: "3FF25D11627A1D05"
 				item: {
@@ -2366,27 +2379,27 @@
 				title: "Block Breakers"
 				type: "item"
 			}]
-			title: "Break the Targets!"
+			title: "Разбей цели!"
 			x: 7.26d
 			y: 0.0d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"&o&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&r"
+				"&o&7Тема квеста необязательна, но может быть интересна. Для полноты картины.&r"
 				""
-				"&3Item Collectors&r will pick up items - similar to any kind of &aVacuum Chest&r you may be familiar with from &dother mods&r."
+				"&3Сборщики предметов&r подбирают дроп — как &aвакуумный сундук&r из &dдругих модов&r."
 				""
-				"Higher tiers of &3Collector&r will increase the &ecollection radius&r over multiple chunks. This can be useful if your farm relies on in-world drops, such as &bSugar Cane&r, or... &7uh, bizarrely,&r &8chicken eggs.&r"
+				"Старшие tier увеличивают &eрадиус сбора&r на несколько чанков. Полезно для ферм с дропом в мире — &bсахарный тростник&r или... &7странно,&r &8яйца куриц.&r"
 				""
-				"&eAny&r Item Collector will complete this Quest."
+				"Подойдёт &eлюбой&r сборщик."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_item_collector"
 			id: "112189FE1A12537A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Oops, dropped my Pickaxe."
+			subtitle: "Упс, уронил кирку"
 			tasks: [{
 				id: "4FB4D157D57EF9C8"
 				item: {
@@ -2416,16 +2429,16 @@
 				title: "Item Collectors"
 				type: "item"
 			}]
-			title: "Gotta Catch 'Em All"
+			title: "Лови их всех"
 			x: 8.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1E9BE8D3F8A602DC"]
 			description: [
-				"A feature of the &5Soft Mallet&r that you may be aware of is its ability to &6pause machines&r. However, did you know that if you &bsneak whilst pausing a machine&r, it'll tell the machine to continue operating until it finishes its recipe?"
+				"&5Мягкая киянка&r умеет &6ставить машины на паузу&r. Но если &bприсесть при паузе&r, машина доработает текущий рецепт до конца."
 				""
-				"This is &2perfect&r if you need to make changes to a multiblock but don't want to &evoid items&r, as unforming a multiblock will void all inputs."
+				"&2Идеально&r при правках мультиблока без &eслива предметов&r — разбор мультиблока сжигает все входы."
 			]
 			icon: {
 				Count: 1
@@ -2443,26 +2456,26 @@
 			id: "237EEDF8D3F170DA"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Shoutout to Yung Onion"
+			subtitle: "Респект Yung Onion"
 			tasks: [{
 				id: "05610A3CFF3805F3"
 				title: "Alright, now let me play."
 				type: "checkmark"
 			}]
-			title: "I'm Fetching Me Mallet!"
+			title: "Иду за киянкой!"
 			x: 8.91d
 			y: 4.5d
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
 			description: [
-				"This is a &4meme&r quest - check the recipe requirement for the teddy."
+				"&4Мем&r-квест — глянь рецепт плюшевой рыбы."
 				""
-				"Yes... this will take you an entire year to craft in an &7LV&r Compressor. How long would this take you to craft when overclocked to the highest possible value?"
+				"Да... в &7LV&r-компрессоре это год крафта. Сколько при максимальном оверклоке?"
 				""
-				"&7Definitely don't worry about making this now... take the hint and wait for a heavy overclock."
+				"&7Не делай сейчас... намек: жди жёсткий оверклок."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The main developer of this pack spent far too long fixing the model files to customise this thing.&7.&8. If you're wondering why there's a random Pokemon doll, it's my Minecraft skin!"
+				"&l&3Лор:&r&o Главный разработчик сборки слишком долго правил модели.&7.&8. Случайная Pokémon-кукла — его скин в Minecraft!"
 			]
 			hide_dependency_lines: true
 			icon: "expatternprovider:fishbig"
@@ -2475,29 +2488,29 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Got enough time on your hands?"
+			subtitle: "Много свободного времени?"
 			tasks: [{
 				id: "783D21E963174609"
 				item: "expatternprovider:fishbig"
 				type: "item"
 			}]
-			title: "And they say GregTech is grindy..."
+			title: "А говорят, GregTech — гринд..."
 			x: -1.125d
 			y: 2.25d
 		}
 		{
 			dependencies: ["15928F50AE80A5CF"]
-			description: ["&bNitrogen&r is commonly obtained from centrifuging air. It's very useful, speeding up recipes in many multiblocks like the &bElectric Blast Furnace&r and the &6Pyrolyse Oven&r. We would &chighly&r recommend setting up a dedicated passive line to generate Nitrogen!"]
+			description: ["&bАзот&r обычно из центрифугирования воздуха. Ускоряет рецепты в мультиблоках — &bэлектроплавильная печь&r, &6пиролизная печь&r. &cНастоятельно&r советуем пассивную линию на азот!"]
 			id: "7D7A4CC66A3C193F"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Free nitro?"
+			subtitle: "Бесплатный нитро?"
 			tasks: [{
 				id: "0C95F5A0FEC594A3"
 				item: "gtceu:nitrogen_bucket"
 				type: "item"
 			}]
-			title: "Nitrogen"
+			title: "Азот"
 			x: -2.25d
 			y: 7.875d
 		}
@@ -2507,16 +2520,16 @@
 				"581CDF545E1EA1FD"
 			]
 			description: [
-				"&3Concrete&r and &3Studs&r are two decorative block families added that increse your speed when walking on them, with &3Concrete&r increasing your speed more."
+				"&3Бетон&r и &3шипы&r — декоративные блоки, ускоряющие ходьбу; &3бетон&r быстрее."
 				""
-				"Get &9either&r of them to complete this quest."
+				"Нужен &9любой&r из них для квеста."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:light_concrete"
 			id: "41DD503169987D50"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Subsonic!"
+			subtitle: "Дозвук!"
 			tasks: [{
 				id: "755F679F2DA97A4F"
 				item: {
@@ -2602,11 +2615,11 @@
 				title: "Blocks"
 				type: "item"
 			}]
-			title: "Gotta go fast"
+			title: "Надо быстрее"
 			x: 1.12d
 			y: 7.875d
 		}
 	]
-	subtitle: ["Tame electricity and make your first machines"]
-	title: "&7LV&r - Low Voltage"
+	subtitle: ["Укроти электричество и сделай первые машины"]
+	title: "&7LV&r — Низкое напряжение"
 }
