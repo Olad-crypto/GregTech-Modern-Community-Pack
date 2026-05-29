@@ -40,18 +40,18 @@
 		{
 			dependencies: ["6F15D7574B8F6DB5"]
 			description: [
-				"Crafting the &aUltimate Battery&r marks the end of GTCEu and the GregTech Community Modpack. &6Congratulations!&r"
+				"Сбор &aультимативной батареи&r — конец GTCEu и GregTech Community Modpack. &6Поздравляем!&r"
 				""
-				"Now that you've finished the mod, there's a few things you should do:"
+				"Теперь, когда ты прошёл мод, вот что стоит сделать:"
 				""
-				"- &9Join the GTCEu Discord&r and tell us about how your playthrough went! Feel free to show off your battery :) "
+				"- &9Зайди в Discord GTCEu&r и расскажи, как прошла твоя игра! Можешь похвастаться батареей :) "
 				""
-				"- &eGo outside&r (and start playing GregTech in real life, right?). Integrate back into regular society."
+				"- &eВыйди на улицу&r (и начни играть в GregTech в реальной жизни, ага?). Встраивайся обратно в обычное общество."
 				""
-				"- &cBlow up your world with TNT and GT Dynamite&r. &nPlease, please, PLEASE make a backup first!!!&r"
+				"- &cВзорви мир динамитом и GT-димамитом&r. &nПожалуйста, сначала сделай бэкап!!!&r"
 				""
-				"&6&lThank you for playing the pack! :D&r"
-				"- The GregTech Community Pack Dev Team"
+				"&6&lСпасибо, что играл в пак! :D&r"
+				"- Команда GregTech Community Pack"
 			]
 			hide_details_until_startable: true
 			hide_text_until_complete: true
@@ -67,13 +67,13 @@
 			id: "6E8F257261F93501"
 			shape: "heart"
 			size: 4.0d
-			subtitle: "Is this... the end?"
+			subtitle: "Это... конец?"
 			tasks: [{
 				id: "0BE31C55310D03A8"
-				title: "Thanks for playing!"
+				title: "Спасибо за игру!"
 				type: "checkmark"
 			}]
-			title: "The Finale"
+			title: "Финал"
 			x: 10.125d
 			y: 1.5d
 		}
@@ -85,9 +85,9 @@
 				"0199DBC46D7BC2B9"
 			]
 			description: [
-				"This Maintenance Hatch is an upgrade to the Automatic Maintenance Hatch."
+				"Этот люк техобслуживания — апгрейд автоматического люка техобслуживания."
 				""
-				"It allows your Multiblock to run regular &aCleanroom recipes&r when not contained inside one - but not Sterilized recipes."
+				"Он позволяет мультиблоку выполнять обычные &aрецепты чистой комнаты&r, когда он не стоит внутри чистой комнаты — но не стерилизованные рецепты."
 			]
 			id: "1976F9B2220BBEDE"
 			shape: "rsquare"
@@ -97,7 +97,7 @@
 				item: "gtceu:cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			title: "Cleaning Maintenance Hatch"
+			title: "Люк техобслуживания с очисткой"
 			x: 5.625d
 			y: 2.625d
 		}
@@ -108,14 +108,14 @@
 				"762C48F0C2EA6B81"
 			]
 			description: [
-				"The &aUV Lapotronic Orb&r is even better than the &cZPM&r one! It of course comes at a price..."
+				"&aUV лапотронная энергосфера&r ещё круче, чем &cZPM&r! Конечно, цена кусается..."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Imagine making 512 &1IV&f Orbs, or 64 &dLuV&f Orbs... or 8 &cZPM&f Orbs.... for just one of these! See the Lore for the LuV orb for details."
+				"&l&3Лор:&r&o Представь, что крафтишь 512 &1IV&f сфер, или 64 &dLuV&f сфер... или 8 &cZPM&f сфер... ради одной такой! Подробности — в лоре LuV-сферы."
 			]
 			icon: "gtceu:energy_cluster"
 			id: "3D9D27F29D9D12F6"
 			size: 0.75d
-			subtitle: "It holds way too much power!"
+			subtitle: "Она держит слишком много энергии!"
 			tasks: [
 				{
 					id: "3A3B82E7FEE173C3"
@@ -128,7 +128,7 @@
 					type: "item"
 				}
 			]
-			title: "Ultimate Battery?"
+			title: "Ультимативная батарея?"
 			x: 7.875d
 			y: 2.625d
 		}
@@ -138,15 +138,15 @@
 				"0009F48B6E385A47"
 			]
 			description: [
-				"The amount of EU this battery can store is the max value of a Long Integer in Java."
+				"Сколько EU хранит эта батарея — максимум для Long Integer в Java."
 				""
-				"Don't try to win Minecraft - you can't."
+				"Не пытайся «выиграть» Minecraft — не получится."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o You're probably tired of this by now, but things are different with the battery lore this time. We promise."
+				"&l&3Лор:&r&o Ты, наверное, устал от этого, но с лором батареи на этот раз по-другому. Обещаем."
 				""
-				"&oGTCEu's ultimate battery uses 16 &3UV&f orbs. GTNH's only uses 8. However, GTNH also has a &lReally Ultimate Battery&r&o made of 8 Ultimate Batteries! It's not useful at all, but still exists..."
+				"&oУльтимативная батарея GTCEu использует 16 &3UV&f сфер. В GTNH — только 8. Но в GTNH ещё есть &lПо-настоящему ультимативная батарея&r&o из 8 ультимативных! Совсем бесполезна, но существует..."
 				""
-				"&oThey also added an &lExtremely Ultimate Battery&r&o made of 8 Really Ultimate Batteries, which is ludicrously expensive."
+				"&oА ещё &lКрайне ультимативная батарея&r&o из 8 по-настоящему ультимативных — безумно дорогая."
 			]
 			id: "6F15D7574B8F6DB5"
 			rewards: [{
@@ -156,34 +156,34 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Consider touching some grass"
+			subtitle: "Может, пора потрогать траву"
 			tasks: [{
 				id: "5EDF6F9FD702E463"
 				item: "gtceu:max_battery"
 				type: "item"
 			}]
-			title: "Ultimate Battery!"
+			title: "Ультимативная батарея!"
 			x: 7.875d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3CDA855A045A9F4D"]
 			description: [
-				"The &3Network Switch&r allows multiple HPCAs to be used in conjunction with each other! This allows you to provide far more computation to your &aResearch Station&r."
+				"&3Сетевой коммутатор&r позволяет использовать несколько HPCA вместе! Так ты дашь &aисследовательской станции&r гораздо больше вычислений."
 				""
-				"HPCAs can be connected to &3Network Switches&r with transmission and reception hatches, and then the Network Switch can output to a &aResearch Station&r with another transmission hatch."
+				"HPCA подключаются к &3сетевым коммутаторам&r через люки передачи и приёма, а коммутатор выводит данные в &aисследовательскую станцию&r через ещё один люк передачи."
 				""
-				"HPCAs cannot connect to &3Network Switches&r by default, and each connected HPCA requires an &3HPCA Bridge Component&r to enable this functionality."
+				"По умолчанию HPCA не подключаются к &3сетевым коммутаторам&r — на каждую связанную HPCA нужен &3мостовой компонент HPCA&r."
 			]
 			id: "0BADFBA6F96E457E"
 			size: 0.75d
-			subtitle: "With our powers combined..."
+			subtitle: "С нашими силами объединёнными..."
 			tasks: [{
 				id: "5816F0458BEA1BCD"
 				item: "gtceu:network_switch"
 				type: "item"
 			}]
-			title: "Network Switch"
+			title: "Сетевой коммутатор"
 			x: 2.25d
 			y: 0.375d
 		}
@@ -193,20 +193,20 @@
 				"359121584E056022"
 			]
 			description: [
-				"This is a huge accomplishment, nice job!"
+				"Огромное достижение — молодец!"
 				""
-				"The only ingredient that should be new to you are the &4Tritanium Frames&r."
+				"Единственный новый для тебя ингредиент — &4рамы из тритания&r."
 			]
 			id: "3B49BD004F38E1A2"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "The &6final&r circuit"
+			subtitle: "Финальная &6схема&r"
 			tasks: [{
 				id: "433027F7B7C732A1"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			title: "Wetware Mainframe - The UHV Circuit"
+			title: "Влажный мейнфрейм — схема UHV"
 			x: 3.375d
 			y: -0.75d
 		}
@@ -215,37 +215,37 @@
 				"0BADFBA6F96E457E"
 				"42760D3A86EFDCA3"
 			]
-			description: ["The &3Data Module&r is required for Endgame Research. &aAssembly Lines&r cannot read from it using &aData Access Hatches&r directly, and instead require the &9Data Bank&r."]
+			description: ["&3Модуль данных&r нужен для финальных исследований. &aСборочные линии&r не читают его напрямую через &aлюки доступа к данным&r — нужен &9банк данных&r."]
 			id: "45E300FD7CD05A37"
 			size: 0.75d
-			subtitle: "Data storage sure is expensive..."
+			subtitle: "Хранение данных, что поделаешь, дорогое..."
 			tasks: [{
 				id: "10F68287B673E16E"
 				item: "gtceu:data_module"
 				type: "item"
 			}]
-			title: "Data Module"
+			title: "Модуль данных"
 			x: 3.375d
 			y: 0.375d
 		}
 		{
 			dependencies: ["023FF9633765A0EB"]
 			description: [
-				"&6Neutronium&r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GTCEu."
+				"&6Нейтроний&r — сверхплотный материал из сердец нейтронных звёзд: коллапсированных ядер звёзд в десять–тридцать раз массивнее Солнца. Последний основной материал в GTCEu."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!"
+				"&l&3Лор:&r&o В GCYL нейтроний открывается на уровне UMV (в CEu — UXV). Ещё есть космический нейтроний — аналог нейтрония Avaritia в GT5u, который в GCYL открывался ещё позже!"
 				""
-				"&l&3More Lore:&r&o Fun Fact: a single Neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
+				"&l&3Ещё лор:&r&o Факт: один блок нейтрония — примерно 2 884 млн метрических тонн и где-то около 600 000 K, а ты всё равно держишь его голыми руками. Не думай об этом слишком много."
 			]
 			id: "6DBF61D4F94BC851"
 			size: 0.75d
-			subtitle: "Pure Neutrons"
+			subtitle: "Чистые нейтроны"
 			tasks: [{
 				id: "0454B12D9A5C9795"
 				item: "gtceu:neutronium_ingot"
 				type: "item"
 			}]
-			title: "Neutronium"
+			title: "Нейтроний"
 			x: 5.625d
 			y: -0.75d
 		}
@@ -256,44 +256,44 @@
 				"35F13B6D60361904"
 			]
 			description: [
-				"&aTritanium Coils&r bring the Heat Capacity to &d10,800K&r."
+				"&aКатушки из тритания&r поднимают теплоёмкость до &d10 800 K&r."
 				""
-				"These coils aren't needed for much, but they'll provide another perfect overclock for most recipes!"
+				"Они почти ни для чего не нужны, но дадут ещё один идеальный оверклок для большинства рецептов!"
 			]
 			id: "6AF3A40BC9CE7122"
 			size: 0.75d
-			subtitle: "Why would you even need something this hot?!"
+			subtitle: "Зачем вообще что-то настолько горячее?!"
 			tasks: [{
 				count: 16L
 				id: "43CE7370C6D03DFD"
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			title: "Tritanium Coils"
+			title: "Катушки из тритания"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
-				"A goal if you really want to make a point."
+				"Цель, если хочешь всем это доказать."
 				""
-				"If you make this in a &3UV&r machine, it'll take you 10 days."
+				"В машине &3UV&r на это уйдёт 10 дней."
 				""
-				"If you overclock a Gregicality Multiblock to UEV (by using a 4A &4UHV&r hatch), you'll still be waiting for 2.5 days!"
+				"Если оверклочишь мультиблок Gregicality до UEV (люком 4A &4UHV&r), всё равно ждать 2,5 дня!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops."
+				"&l&3Лор:&r&o NAN-сертификат из Crops++ — аддона GT5u с кучей культур IC2."
 			]
 			id: "3ED40CE1E4476C99"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Obtain for G.O.A.T Status"
+			subtitle: "Получи за статус G.O.A.T"
 			tasks: [{
 				id: "29384189E33C8CB1"
 				item: "gtceu:nan_certificate"
 				type: "item"
 			}]
-			title: "Certificate of not being a Noob anymore"
+			title: "Сертификат «больше не нооб»"
 			x: 5.625d
 			y: 0.375d
 		}
@@ -305,22 +305,22 @@
 				"0199DBC46D7BC2B9"
 			]
 			description: [
-				"&3UV&r Components are a tad harder than &cZPM&r. "
+				"&3UV&r-компоненты чуть сложнее &cZPM&r. "
 				""
-				"They use lots of &9Tritanium&r and &9Naquadria&r, so make sure your have enough Fusion Reactors, and a fast enough Naquadah Plant."
+				"Нужно много &9тритания&r и &9наквадрии&r — проверь, хватает ли термоядерных реакторов и достаточно ли быстра наквада-планта."
 				""
-				"They also need a lot more &9Computation&r, which means &3Advanced HPCA Components&r are now required!"
+				"Также нужно больше &9вычислений&r — теперь обязательны &3продвинутые компоненты HPCA&r!"
 				""
-				"Computation Needs for early &3UV&r:"
+				"Потребность в вычислениях на раннем &3UV&r:"
 				""
-				"- &a32 CWU/t&r: Basic &3UV&r Components and the Network Switch"
-				"- &a48 CWU/t&r: &3UV&r Sensor, Emitter, and Field Generator"
+				"- &a32 CWU/t&r: базовые &3UV&r-компоненты и сетевой коммутатор"
+				"- &a48 CWU/t&r: &3UV&r датчик, излучатель и генератор поля"
 			]
 			icon: "gtceu:uv_electric_motor"
 			id: "26F5A04750F6B6DD"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Prepare your Fusion Reactors!"
+			subtitle: "Готовь термоядерные реакторы!"
 			tasks: [
 				{
 					id: "3AD82F68865047F3"
@@ -348,7 +348,7 @@
 					type: "item"
 				}
 			]
-			title: "Total Euphoria"
+			title: "Тотальная эйфория"
 			x: 5.625d
 			y: 1.5d
 		}
@@ -358,11 +358,11 @@
 				"0BADFBA6F96E457E"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r a &3UV Energy Hatch&r&r... or a &3UV Dynamo Hatch&r for your Multiblock Generators."
+				"Квест засчитается с &eлюбым&r &3UV энерголюком&r&r... или &3UV динамо-люком&r для мультиблок-генераторов."
 				""
-				"Don't forget that &d16 Amp&r variants exist!"
+				"Не забудь про варианты на &d16 ампер&r!"
 				""
-				"Additionally, remember that these hatches require a &9Data Module&r for research."
+				"Эти люки для исследования требуют &9модуль данных&r."
 			]
 			icon: "gtceu:uv_energy_input_hatch"
 			id: "2F2F82D9DE3C798C"
@@ -380,16 +380,16 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line III"
+			title: "Апгрейд сборочной линии III"
 			x: 4.5d
 			y: 0.375d
 		}
 		{
 			dependencies: ["6AF3A40BC9CE7122"]
 			description: [
-				"&aUV Superconductors&r show up a lot in recipes when making a &9Fusion Reactor Mk3&r. Better get ready to make a boatload..."
+				"&aUV сверхпроводники&r часто нужны в рецептах &9термоядерного реактора Mk3&r. Готовься варить их тоннами..."
 				""
-				"You can also use them to cheapen &9Superconducting Coils&r even further."
+				"Ими можно ещё удешевить &9сверхпроводящие катушки&r."
 			]
 			id: "3CDA855A045A9F4D"
 			shape: "rsquare"
@@ -399,18 +399,18 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
 				type: "item"
 			}]
-			title: "UV Superconductors"
+			title: "UV сверхпроводники"
 			x: 2.25d
 			y: 1.5d
 		}
 		{
 			dependencies: ["616DB394EB7D81D6"]
 			description: [
-				"This Quest will be completed with &eeither&r a &3UHV Energy Hatch&r&r... or a &3UHV Dynamo Hatch&r for your Multiblock Generators."
+				"Квест засчитается с &eлюбым&r &3UHV энерголюком&r&r... или &3UHV динамо-люком&r для мультиблок-генераторов."
 				""
-				"These are the final energy hatches in GTCEu. It's been a pleasure upgrading our multiblocks together o7"
+				"Это последние энерголюки в GTCEu. Было приятно прокачивать мультиблоки вместе o7"
 				""
-				"Don't forget about the &d16 amp&r versions!"
+				"Не забудь про версии на &d16 ампер&r!"
 			]
 			icon: "gtceu:uhv_energy_input_hatch"
 			id: "5570F02C03267B36"
@@ -428,59 +428,59 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line for the Last Time"
+			title: "Апгрейд сборочной линии в последний раз"
 			x: 6.75d
 			y: -1.875d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
-				"This is the &afinal silicon boule&r, which will allow you to produce a ton of wafers."
+				"Это &aфинальная кремниевая булька&r — из неё можно вытянуть тонну пластин."
 				""
-				"It also unlocks the recipe for the &aHighly Advanced SoC&r, which is used to make cheaper &4wetware circuits&r."
+				"Также открывается рецепт &aпродвинутого SoC&r для более дешёвых &4влажных схем&r."
 			]
 			icon: "gtceu:neutronium_boule"
 			id: "3F058322E1A8D5EC"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Neutron -> Electron Holes"
+			subtitle: "Нейтрон → дырки электронов"
 			tasks: [{
 				id: "74712C8E9A6561A0"
 				item: "gtceu:neutronium_boule"
 				type: "item"
 			}]
-			title: "Neutronium-doped Silicon Boule"
+			title: "Кремниевая булька с легированием нейтронием"
 			x: 6.75d
 			y: -0.75d
 		}
 		{
 			dependencies: ["0009F48B6E385A47"]
-			description: ["The &aCreative Energy Cell&r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don't have to worry about blackouts or power anymore."]
+			description: ["&aКреативная энергоячейка&r — одна из немногих крафтящихся креативных вещей. Даёт бесконечную энергию твоей AE-сети — больше не думай о блэкаутах и питании."]
 			id: "428C62749A1A1BAB"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Ok, maybe there are Creative items."
+			subtitle: "Ладно, креативные предметы всё-таки есть."
 			tasks: [{
 				id: "392079FDF410B9FD"
 				item: "ae2:creative_energy_cell"
 				type: "item"
 			}]
-			title: "Creative ME Energy"
+			title: "Креативная энергия ME"
 			x: 7.875d
 			y: -1.875d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
-			description: ["The &aGravi Star&r is the final upgraded Nether Star in GTCEu. It's needed for &3UV&r Sensors, Emitters, and Field Generators."]
+			description: ["&aГрави-звезда&r — финальный апгрейд адской звезды в GTCEu. Нужна для &3UV&r датчиков, излучателей и генераторов поля."]
 			id: "0009F48B6E385A47"
 			size: 0.75d
-			subtitle: "Unfortunately, doesn't make you float"
+			subtitle: "Жаль, не заставляет парить"
 			tasks: [{
 				id: "06668056CFF73DBD"
 				item: "gtceu:gravi_star"
 				type: "item"
 			}]
-			title: "Gravi Star"
+			title: "Грави-звезда"
 			x: 7.875d
 			y: -0.75d
 		}
@@ -491,68 +491,68 @@
 				"762C48F0C2EA6B81"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aEMI&r."
+				"Собери структуру, показанную со стеклом синтеза в &aEMI&r."
 				""
-				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
+				"Чтобы сэкономить корпуса синтеза, впихни люки ввода и вывода куда можно (как на схеме)."
 				""
-				"The &aFusion Reactor Mk3&r is even more expensive than the Mk2! The key difference is that it has a higher &6Energy To Start&r than the Mk2, allowing you to run new recipes."
+				"&aТермоядерный реактор Mk3&r ещё дороже Mk2! Главное отличие — выше &6энергия на запуск&r, чем у Mk2, открываются новые рецепты."
 				""
-				"It can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk1's quest for how these mechanics work."
+				"Он также оверклочит рецепты нижних напряжений, как в реакторе Mk1 или Mk2. Механика — в квесте Mk1."
 			]
 			id: "023FF9633765A0EB"
 			size: 0.75d
-			subtitle: "The most expensive form of Fusion"
+			subtitle: "Самая дорогая форма синтеза"
 			tasks: [{
 				id: "571672CEA7362C63"
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor III"
+			title: "Термоядерный реактор III"
 			x: 4.5d
 			y: -0.75d
 		}
 		{
 			dependencies: ["6DBF61D4F94BC851"]
 			description: [
-				"You probably don't even need these, but &aUHV Superconductors&r exist, and are used for a few things, which you also probably don't need..."
+				"Скорее всего, они тебе и не нужны, но &aUHV сверхпроводники&r существуют и кое-где используются — вещи, которые тебе тоже, наверное, не нужны..."
 				""
-				"Craft these if you feel like flexing."
+				"Скрафти, если хочешь пофлексить."
 			]
 			id: "616DB394EB7D81D6"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Is Neutronate even a real thing?"
+			subtitle: "Неютронат вообще существует?"
 			tasks: [{
 				id: "665AC3D87C204E18"
 				item: "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
 				type: "item"
 			}]
-			title: "UHV Superconductors"
+			title: "UHV сверхпроводники"
 			x: 5.625d
 			y: -1.875d
 		}
 		{
 			dependencies: ["3F058322E1A8D5EC"]
 			description: [
-				"&aHighly Advanced SoC&rs will make crafting &4wetware circuits&r much easier."
+				"&aПродвинутые SoC&r сильно упростят крафт &4влажных схем&r."
 				""
-				"The drawback is that the recipe requires UV power, but that's no problem to you, right?"
+				"Минус: рецепт требует UV-питания — но для тебя это уже не проблема, верно?"
 			]
 			icon: "gtceu:highly_advanced_soc"
 			id: "0D3B74E82F1CFE8A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Can we get much higher?"
+			subtitle: "Мы можем забраться ещё выше?"
 			tasks: [{
 				id: "493CC040B9974B42"
 				item: "gtceu:highly_advanced_soc"
 				type: "item"
 			}]
-			title: "Highly Advanced SoCs"
+			title: "Продвинутые SoC"
 			x: 6.75d
 			y: 0.375d
 		}
 	]
-	subtitle: ["Bring your long journey to a well-deserved end"]
-	title: "&3UV&r - Ultimate Voltage"
+	subtitle: ["Заверши долгое путешествие достойным финалом"]
+	title: "&3UV&r — Предельное напряжение"
 }

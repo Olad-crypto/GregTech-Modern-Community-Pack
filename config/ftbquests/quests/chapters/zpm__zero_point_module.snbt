@@ -27,19 +27,19 @@
 		{
 			dependencies: ["24F0454B9A090C44"]
 			description: [
-				"The &aZero Point Module&r (item) is a non-rechargable battery with TONS of energy stored. You may have found one of these before now, but you haven't been able to discharge it until reaching &cZPM&r."
+				"&aМодуль нулевой точки&r (предмет) — неперезаряжаемая батарея с ОГРОМНЫМ запасом энергии. Ты мог найти такой и раньше, но разрядить его можно только после &cZPM&r."
 				""
-				"These can only be found as loot from &6Jungle Temples&r. They're exceptionally rare - don't worry about finding one. "
+				"Добыть можно только как лут из &6храмов в джунглях&r. Они невероятно редки — не парься, если не нашёл."
 				""
-				"This quest is &6optional&r and is just for fun. Feel free to hit the checkbox if you just want the completion points!"
+				"Квест &6необязательный&r и просто для прикола. Можешь жать галочку, если хочешь только очки завершения!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Zero Point Module, the full name of the ZPM tier, is also from Stargate. Its namesake is a device which generated crazy amounts of energy."
+				"&l&3Лор:&r&o Zero Point Module — полное название tier'а ZPM — тоже из Stargate. Прототип — устройство, выдававшее безумное количество энергии."
 			]
 			icon: "gtceu:zero_point_module"
 			id: "75905E3672399A63"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Unlimited powah!"
+			subtitle: "Powah без лимитов!"
 			tasks: [
 				{
 					id: "10AC8DC9332D084C"
@@ -52,27 +52,27 @@
 					type: "checkmark"
 				}
 			]
-			title: "Zero Point Module"
+			title: "Модуль нулевой точки"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C7C0F6A6598BC24"]
 			description: [
-				"&aZPM Superconductors&r are a major gate between you and a &9Fusion Reactor Mk2&r, which uses copious amounts for its structure blocks."
+				"&aZPM сверхпроводники&r — серьёзный барьер на пути к &9реактору синтеза Mk2&r: на корпуса уходит уйма провода."
 				""
-				"You can also use them to make &9Superconducting Coils&r for cheaper."
+				"Ими же можно делать &9сверхпроводящие катушки&r — дешевле."
 			]
 			id: "2587BFD0D9F3FF4A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Getting tired of all these pitch-black ingots yet?"
+			subtitle: "Уже надоели эти угольно-чёрные слитки?"
 			tasks: [{
 				id: "5688605649CC30C3"
 				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
 				type: "item"
 			}]
-			title: "ZPM Superconductors"
+			title: "ZPM сверхпроводники"
 			x: -4.875d
 			y: 1.125d
 		}
@@ -82,15 +82,15 @@
 				"24F0454B9A090C44"
 			]
 			description: [
-				"&cZPM&r Components thankfully aren't too much harder than &dLuV&r. "
+				"Компоненты &cZPM&r, к счастью, не намного сложнее &dLuV&r."
 				""
-				"They use lots of &9Osmiridium&r, so make sure your platinum refining process is up to the task."
+				"Нужно много &9осмиридия&r — убедись, что платиновая переработка тянет нагрузку."
 			]
 			icon: "gtceu:zpm_electric_motor"
 			id: "5BBFE222190891DE"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Prepare your platline!"
+			subtitle: "Готовь платиновую линию!"
 			tasks: [
 				{
 					id: "17E45B64101F2249"
@@ -128,22 +128,22 @@
 					type: "item"
 				}
 			]
-			title: "Absolute Elation"
+			title: "Абсолютный восторг"
 			x: -6.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
 			description: [
-				"&aEnriched Naquadah&r is an isotope of Naquadah, Nq-528. It is radioactive and will be used in (as of yet) unimplemented nuclear reactors."
+				"&aОбогащённая накада&r — изотоп накады, Nq-528. Радиоактивна; пригодится в (пока не реализованных) ядерных реакторах."
 				""
-				"Currently, you just need it to make &9Trinium Coils&r."
+				"Сейчас нужна для &9катушек из триния&r."
 			]
 			icon: "gtceu:enriched_naquadah_ingot"
 			id: "74B037D7031F4A78"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Naquadah, but radioactive!"
+			subtitle: "Накада, но радиоактивная!"
 			tasks: [
 				{
 					id: "4598D1D78A71E514"
@@ -157,7 +157,7 @@
 					type: "item"
 				}
 			]
-			title: "Enriched Naquadah"
+			title: "Обогащённая накада"
 			x: -4.875d
 			y: -1.125d
 		}
@@ -168,20 +168,20 @@
 				"2FCBA0D780DBDA9E"
 			]
 			description: [
-				"&aTrinium Coils&r bring up the Heat Capacity to &d9,001K&r."
+				"&aКатушки из триния&r поднимают теплоёмкость до &d9 001 K&r."
 				""
-				"These coils are required for progressing to the second half of &cZPM&r, and beyond."
+				"Они нужны, чтобы пройти вторую половину &cZPM&r и дальше."
 			]
 			id: "4C7C0F6A6598BC24"
 			size: 0.75d
-			subtitle: "IT'S OVER 9000!!!"
+			subtitle: "ЭТО БОЛЬШЕ ДЕВЯТИ ТЫСЯЧ!!!"
 			tasks: [{
 				count: 16L
 				id: "11CD2F83031C6706"
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			title: "Trinium Coils"
+			title: "Катушки из триния"
 			x: -4.875d
 			y: 0.0d
 		}
@@ -191,25 +191,25 @@
 				"2587BFD0D9F3FF4A"
 			]
 			description: [
-				"The &3Research Station&r is the upgrade to the Scanner. It's used for more advanced forms of research, and will finally allow you to perform research which requires &aData Orbs and Modules&r."
+				"&3Исследовательская станция&r — апгрейд сканера. Нужна для более продвинутых исследований и наконец позволяет работать с &aсферами и модулями данных&r."
 				""
-				"When running the &3Research Station&r, energy and &9Computation&r is needed. The latter is provided through an &9HPCA&r, which is explained in the next quest. It is recieved with a &3Computation Data Reception Hatch&r. Note that only one Reception Hatch is allowed in a Research Station."
+				"При работе &3исследовательской станции&r нужны энергия и &9вычисления&r. Последние даёт &9HPCA&r — в следующем квесте. Принимаются через &3люк приёма данных вычислений&r. В станции допускается только один такой люк."
 				"{@pagebreak}"
-				"This multiblock needs computation &dsporadically&r, which means the recipe will not reverse progress if you don't supply enough - it will simply halt in-place. However, the machine will still draw energy constantly, even when recieving no computation."
+				"Мультиблоку вычисления нужны &dвремя от времени&r: если подачи не хватает, рецепт не откатывается — просто встаёт на месте. Но энергия всё равно тратится постоянно, даже без вычислений."
 				""
-				"To scan items, the process is relatively similar. In the &3Object Holder&r, place the target item in the center slot, and the data storage item in the other slot. Then provide computation, and the data storage item will be updated upon completion. When running, the target item will be Locked and cannot be removed."
+				"Сканирование похоже: в &3держателе объектов&r целевой предмет — в центральный слот, носитель данных — в другой. Подай вычисления — по завершении носитель обновится. Пока идёт процесс, целевой предмет заблокирован."
 				""
-				"&eNote&r: To form this multiblock, the &3Object Holder&r must face the controller."
+				"&eЗаметка:&r при сборке мультиблока &3держатель объектов&r должен смотреть на контроллер."
 			]
 			id: "468EEFD9D2F69014"
 			size: 0.75d
-			subtitle: "Your research adventures continue!"
+			subtitle: "Твои исследовательские приключения продолжаются!"
 			tasks: [{
 				id: "148C1C60A855B61E"
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			title: "Research Station"
+			title: "Исследовательская станция"
 			x: -4.875d
 			y: 2.25d
 		}
@@ -219,65 +219,65 @@
 				"7AE681E2AB31EA0D"
 			]
 			description: [
-				"The &aUV Mainframe&r is required to move into &3Fusion Mk2&r."
+				"&aUV мейнфрейм&r нужен для перехода к &3синтезу Mk2&r."
 				""
-				"It's also made in the Assembly Line."
+				"Крафтится и в &3сборочной линии&r."
 				""
-				"Passing over the ingredients we've already seen before, watch out for the &6HSS-E Frames&r."
+				"Из знакомых ингредиентов обрати внимание на &6рамы HSS-E&r."
 			]
 			id: "79E4E53E9DF45549"
 			size: 0.75d
-			subtitle: "...ah, here we go!"
+			subtitle: "...ну вот, поехали!"
 			tasks: [{
 				id: "226973A23C89BDD2"
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			title: "First UV Circuits!"
+			title: "Первые UV-схемы!"
 			x: -3.75d
 			y: 3.375d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
-				"The &aCrystal SoC&r is used to make cheaper &9Crystal Circuits&r. Enjoy the discount!"
+				"&aКристаллический SoC&r нужен для более дешёвых &9кристаллических схем&r. Наслаждайся скидкой!"
 				""
-				"Crystal SoCs require &9ZPM Emitters&r, which means you need a &9Data Orb&r for their research."
+				"Для SoC нужны &9ZPM излучатели&r — а значит, для исследования понадобится &9сфера данных&r."
 				""
-				"In the future, these may become more difficult to make."
+				"В будущем их, возможно, усложнят."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GT5u, the texture for this item was red, and did not have the special design on it. There was a \"raw\" version with the design, but it was used for other unrelated things. Who knows why?"
+				"&l&3Лор:&r&o В GT5u текстура была красной, без особого узора. «Сырая» версия с узором была, но шла на другие, не связанные вещи. Кто знает, зачем?"
 			]
 			id: "29B7D93D7F32DBA9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "When engraving it once isn't enough"
+			subtitle: "Когда одной гравировки мало"
 			tasks: [{
 				id: "488A759013AF2680"
 				item: "gtceu:crystal_soc"
 				type: "item"
 			}]
-			title: "Crystal SoC"
+			title: "Кристаллический SoC"
 			x: -3.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
-				"This hatch allows you to store more &aData Storage Items&r than the basic one."
+				"Этот люк позволяет хранить больше &aносителей данных&r, чем базовый."
 				""
-				"Don't forget that this hatch requires a &9Data Orb&r for research."
+				"Не забудь: для исследования люка нужна &9сфера данных&r."
 			]
 			id: "72740001958E929A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Increased storage density!"
+			subtitle: "Плотность хранения выросла!"
 			tasks: [{
 				id: "0EC657B81458D697"
 				item: "gtceu:advanced_data_access_hatch"
 				type: "item"
 			}]
-			title: "Advanced Data Access Hatch"
+			title: "Продвинутый люк доступа к данным"
 			x: -2.625d
 			y: 1.125d
 		}
@@ -286,12 +286,12 @@
 				"378F0AFCF95354B2"
 				"4C7C0F6A6598BC24"
 			]
-			description: ["&aNaquadria&r is an isotope of Naquadah, Nq-522. It's highly unstable, but it'll still be used for &3UV&r components, &9Fusion Mk2&r, and when fusing Neutronium."]
+			description: ["&aНаквадрия&r — изотоп накады, Nq-522. Крайне нестабильна, но пригодится для &3UV&r компонентов, &9синтеза Mk2&r и при синтезе нейтрония."]
 			icon: "gtceu:naquadria_ingot"
 			id: "6D1F10543A391940"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Naquadah, but radioactive-er!"
+			subtitle: "Накада, но ещё радиоактивнее!"
 			tasks: [
 				{
 					id: "4A49FE8B35B48D97"
@@ -305,38 +305,38 @@
 					type: "item"
 				}
 			]
-			title: "Naquadria"
+			title: "Наквадрия"
 			x: -2.625d
 			y: 0.0d
 		}
 		{
 			dependencies: ["690E013DFCB060ED"]
 			description: [
-				"Production of &aSterilized Growth Medium&r is the final processing line in GTCEu, for now."
+				"Производство &aстерилизованной питательной среды&r — пока что финальная переработочная линия в GTCEu."
 				""
-				"You will need this for your first &4Wetware Circuits&r."
+				"Она понадобится для первых &4влажных схем&r."
 				""
-				"Producing it won't be as much of a hassle as PBI, but nearly every step requires a Sterilized Cleanroom. This means you'll have to get creative with how you use your space."
+				"Делать её не так мучительно, как PBI, но почти каждый шаг требует стерилизованной чистой комнаты — придётся хитро распланировать пространство."
 				""
-				"Make sure to scrutinise every step of the chain. Some recipes are much more efficient than others!"
+				"Внимательно сравни каждый шаг цепочки — некоторые рецепты намного эффективнее других!"
 				""
-				"&ePro Tip&r: You can wall-share cleanrooms with doors in-between too if you want more space."
+				"&eСовет:&r чистые комнаты можно объединять общей стеной с дверями между ними, если нужно больше места."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GTCEu's Sterilized Growth Medium chain is loosely based off of Bartworks' from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line. GTCEu is considering adding a multiblock like it but with their own spin in the future."
+				"&l&3Лор:&r&o Цепочка стерилизованной среды в GTCEu вдохновлена Bartworks из GTNH. Там нужен был мультиблок «бактериальный чан», сложнее упорядоченной сборочной линии. В GTCEu думают добавить свой вариант такого мультиблока."
 				"{@pagebreak}"
-				"&l&3More Lore:&r&o In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients."
+				"&l&3Ещё лор:&r&o В Gregicality Legacy цепочка была совсем другой — одна из самых сложных в моде, больше 30 запутанных шагов! Основана на производстве реальных витаминов и питательных веществ."
 				"{@pagebreak}"
-				"&l&3Even More Lore:&r&o In Shadows of Greg, this was made with just Distilled Water and Mince Meat. How far we've come..."
+				"&l&3И ещё лор:&r&o В Shadows of Greg это делали из дистиллированной воды и фарша. Далеко мы зашли..."
 			]
 			id: "6AFDA523304711DB"
 			size: 0.75d
-			subtitle: "The final processing line, at last!"
+			subtitle: "Финальная линия переработки, наконец!"
 			tasks: [{
 				id: "5FFC06116E025936"
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			title: "Sterilized Growth Medium"
+			title: "Стерилизованная питательная среда"
 			x: -0.375d
 			y: 1.125d
 		}
@@ -346,14 +346,14 @@
 				"0D7C978F9CDF771B"
 			]
 			description: [
-				"The &aZPM Lapotronic Orb&r is even better than the &dLuV&r one! It of course comes at a price..."
+				"&aZPM лапотронная энергосфера&r ещё круче, чем &dLuV&r! Цена, конечно, соответствует..."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Imagine making 64 &1IV&f or 8 &dLuV&f Orbs for just one of these! See the Lore for the &dLuV&f orb for details."
+				"&l&3Лор:&r&o Представь: 64 &1IV&f или 8 &dLuV&f сфер ради одной такой! Подробности — в лоре &dLuV&r сферы."
 			]
 			icon: "gtceu:energy_module"
 			id: "690A51204DF5D469"
 			size: 0.75d
-			subtitle: "A power singularity!"
+			subtitle: "Сингулярность мощности!"
 			tasks: [
 				{
 					id: "41813C4D68B991D7"
@@ -367,7 +367,7 @@
 					type: "item"
 				}
 			]
-			title: "Mega Batteries"
+			title: "Мегабатареи"
 			x: -1.5d
 			y: 1.125d
 		}
@@ -380,11 +380,11 @@
 				"24F0454B9A090C44"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r a &3ZPM Energy Hatch&r&r... or a &3ZPM Dynamo Hatch&r for your Multiblock Generators."
+				"Квест засчитается с &eлюбым&r из: &3ZPM энерголук&r... или &3ZPM динамо-люк&r для мультиблок-генераторов."
 				""
-				"Don't forget that &d16 Amp&r variants exist!"
+				"Не забудь про варианты на &d16 A&r!"
 				""
-				"Don't forget that these hatches require a &9Data Orb&r for research."
+				"Для исследования этих люков нужна &9сфера данных&r."
 			]
 			icon: "gtceu:zpm_energy_input_hatch"
 			id: "64EA73FAB2A51850"
@@ -402,7 +402,7 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line II"
+			title: "Апгрейд твоей ЭПП (электроплавильной печи) II"
 			x: -2.625d
 			y: 2.25d
 		}
@@ -412,63 +412,63 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"The &aSterilized Cleanroom&r is required to produce the next tier of circuits. Nearly every step must be performed inside of one. Good luck fitting everything into such a tight space!"
+				"&aСтерилизованная чистая комната&r нужна для схем следующего tier'а. Почти каждый шаг — только внутри неё. Удачи втиснуть всё в тесное пространство!"
 				""
-				"If you only have one &3Cleanroom&r, you'll need another for &aSterilized&r recipes."
+				"Если у тебя одна &3чистая комната&r, для &aстерилизованных&r рецептов понадобится вторая."
 				""
-				"&eNote&r: Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can't just \"upgrade\" your old Cleanrooms."
+				"&eЗаметка:&r обычные рецепты чистой комнаты в стерилизованной не идут — старые комнаты так просто не «апгрейднешь»."
 			]
 			id: "690E013DFCB060ED"
 			size: 0.75d
-			subtitle: "Comes with disinfectant!"
+			subtitle: "В комплекте дезинфекция!"
 			tasks: [{
 				count: 8L
 				id: "6A4C78385FF8019A"
 				item: "gtceu:sterilizing_filter_casing"
 				type: "item"
 			}]
-			title: "Sterilized Cleanroom"
+			title: "Стерилизованная чистая комната"
 			x: -0.375d
 			y: 2.25d
 		}
 		{
 			dependencies: ["468EEFD9D2F69014"]
 			description: [
-				"The &3High Performance Computation Array&r, also known as the &3HPCA&r, is the multiblock used to create &9Computation&r, measured in CWU/t (Compute-Work Units per tick)."
+				"&3Массив высокопроизводительных вычислений&r, или &3HPCA&r, — мультиблок для &9вычислений&r, в CWU/t (единицы вычислительной работы за тик)."
 				""
-				"The HPCA is a modular multiblock with many unique components you've likely not seen before. There are &a9 slots available&r for different components, and there are some example layouts in the EMI previews, so reviewing these may help if you feel confused."
+				"HPCA — модульный мультиблок с кучей незнакомых деталей. Есть &a9 слотов&r под компоненты; примеры раскладок — в превью EMI, загляни, если запутался."
 				"{@pagebreak}"
-				"There are two main types of components:"
+				"Два основных типа компонентов:"
 				""
-				"- &9Computation Components&r: These generate CWU/t and require EU/t and cooling."
-				"- &9Cooling Components&r: These provide a certain amount of cooling, and require EU/t."
+				"- &9Вычислительные&r: дают CWU/t, требуют EU/t и охлаждение."
+				"- &9Охлаждающие&r: дают определённое охлаждение, тоже требуют EU/t."
 				""
-				"Currently Available Components:"
+				"Сейчас доступны:"
 				""
-				"- &9Empty&r: Fills a slot but otherwise does nothing."
-				"-&9 Heat Sink&r: Requires no power but provides 1 cooling."
-				"- &9Active Cooler&r: Requires power, PCB Coolant, but provides 2 cooling."
-				"- &9Computation&r: Creates 4 CWU/t, but requires a lot of power and cooling."
+				"- &9Пустой&r: занимает слот, больше ничего."
+				"- &9Радиатор&r: без питания, 1 единица охлаждения."
+				"- &9Активный охладитель&r: питание, PCB-охлаждающая жидкость, 2 охлаждения."
+				"- &9Вычисление&r: 4 CWU/t, но жрёт много энергии и охлаждения."
 				"{@pagebreak}"
-				"The HPCA draws some power to idle. Its power and cooling requirements will sit between the idle upkeep power and a maximum value depending on how much computation is being used."
+				"HPCA в простое всё равно потребляет энергию. Потребление энергии и охлаждения — между простоем и максимумом, в зависимости от нагрузки."
 				""
-				"If the HPCA is not given enough cooling, Computation components can be &4damaged&r if it is allowed to run above &c100C&r (the idle temperature is &a20C&r). Only computation components can be damaged - all other blocks will be unharmed!"
+				"Без достаточного охлаждения вычислительные компоненты могут &4повредиться&r при работе выше &c100°C&r (в простое &a20°C&r). Страдают только они — остальные блоки целы!"
 				""
-				"The HPCA can only have 1 &3Computation Data Transmission Hatch&r. You can connect it to the Reception Hatch of the &9Research Station&r with Optical Fiber Cable to transmit the computation."
+				"В HPCA только один &3люк передачи данных вычислений&r. Соедини его с люком приёма &9исследовательской станции&r оптоволокном."
 				"{@pagebreak}"
-				"Basic CWU/t Requirements for ZPM Tier:"
+				"Базовые требования CWU/t для ZPM:"
 				""
-				"- &a4 CWU/t&r for &cZPM&r Sensors, Emitters, and Field Generators"
-				"- &a8 CWU/t&r for &cZPM&r Enegy Hatches"
-				"- &a16 CWU/t&r for &3UV&r Circuits and beyond."
+				"- &a4 CWU/t&r — &cZPM&r датчики, излучатели и генераторы поля"
+				"- &a8 CWU/t&r — &cZPM&r энерголюки"
+				"- &a16 CWU/t&r — &3UV&r схемы и дальше"
 				""
-				"Don't feel forced to go for 16 CWU/t immediately. There's lots to do in between these milestones."
+				"Не обязан сразу гнаться за 16 CWU/t — между этими вехами ещё много дел."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This mechanic is loosely inspired by TecTech's Quantum Computer, which is similar but has some much more annoying mechanics like the Uncertainty Resolver."
+				"&l&3Лор:&r&o Механика вдохновлена квантовым компьютером TecTech — похоже, но там ещё раздражающие штуки вроде «разрешителя неопределённости»."
 			]
 			id: "1D6CC3C7F6BE4055"
 			size: 0.75d
-			subtitle: "That's no Quantum Computer..."
+			subtitle: "Это точно не квантовый компьютер..."
 			tasks: [{
 				id: "5F20D430C26D3BE4"
 				item: "gtceu:high_performance_computation_array"
@@ -480,190 +480,190 @@
 		}
 		{
 			dependencies: ["6AFDA523304711DB"]
-			description: ["&aStem Cells&r are a major component of &4Wetware Circuits&r. Just don't question why these use Osmiridium."]
+			description: ["&aСтволовые клетки&r — важная часть &4влажных схем&r. Не спрашивай, зачем тут осмиридий."]
 			id: "33A1FF5C31EAF716"
 			size: 0.75d
-			subtitle: "This texture used to be really ugly..."
+			subtitle: "Текстура раньше была реально уродливой..."
 			tasks: [{
 				id: "1E31342D5310ED6D"
 				item: "gtceu:stem_cells"
 				type: "item"
 			}]
-			title: "Stem Cells"
+			title: "Стволовые клетки"
 			x: -0.375d
 			y: 0.0d
 		}
 		{
 			dependencies: ["33A1FF5C31EAF716"]
 			description: [
-				"The final circuit board - it's been a long time coming! As you can see, this board is &cmuch&r more expensive than the other ones, but you should be alright. You're a pro now!"
+				"Финальная печатная плата — ждали долго! Как видишь, она &cнамного&r дороже остальных, но ты уже справишься. Ты же профи!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GTNH, these circuit boards require LuV Sensors, instead of IV. This means that Wetware LuV circuits, needed other (crystal) LuV circuits!"
+				"&l&3Лор:&r&o В GTNH для этих плат нужны LuV датчики, а не IV. Значит, влажные LuV-схемы требовали других (кристаллических) LuV-схем!"
 				""
-				"Additionally, because Wetware was so expensive, using Crystal was preferred unless UHV wetware circuits were needed. Thankfully, CEu does not have this problem, and LuV Wetware Circuits are worth making."
+				"Плюс влажные были так дороги, что кристалл выгоднее — пока не нужны UHV влажные. В CEu этой боли нет, LuV влажные схемы того стоят."
 			]
 			id: "678CABA03E17516A"
 			size: 0.75d
-			subtitle: "The board of life itself"
+			subtitle: "Плата самой жизни"
 			tasks: [{
 				id: "0097D7805D82EDEC"
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			title: "Wetware Printed Circuit Board"
+			title: "Влажная печатная плата"
 			x: -0.375d
 			y: -1.125d
 		}
 		{
 			dependencies: ["678CABA03E17516A"]
-			description: ["The &aNeuro Processing Unit&r serves as the CPU for &4Wetware&r. It also takes a circuit board in its recipe, but don't let that scare you."]
+			description: ["&aНейрообрабатывающий блок&r — CPU для &4влажных&r схем. В рецепте тоже нужна плата, но не пугайся."]
 			id: "3BD68E5909A97532"
 			size: 0.75d
-			subtitle: "Neurons for computation"
+			subtitle: "Нейроны для вычислений"
 			tasks: [{
 				id: "06AE61C5F174F4E7"
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			title: "It's Alive!"
+			title: "Оно живо!"
 			x: 0.75d
 			y: -1.125d
 		}
 		{
 			dependencies: ["082AB255886E73C2"]
 			description: [
-				"The second circuit of the &4wetware&r line."
+				"Вторая схема линии &4влажных&r."
 				""
-				"This is also the best &cZPM&r circuit!"
+				"Это ещё и лучшая &cZPM&r схема!"
 			]
 			id: "370FC1CDF5F9A9CC"
 			size: 0.75d
-			subtitle: "Did that circuit just BLINK at me?"
+			subtitle: "Эта схема только что МОРГНУЛА мне?"
 			tasks: [{
 				id: "31DF7507733F3EE0"
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			title: "Best ZPM Circuits!"
+			title: "Лучшие ZPM-схемы!"
 			x: 0.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["3BD68E5909A97532"]
 			description: [
-				"The first Circuit of the &4Wetware&r line."
+				"Первая схема линии &4влажных&r."
 				""
-				"&6Congrats&r!"
+				"&6Поздравляем&r!"
 			]
 			id: "082AB255886E73C2"
 			size: 0.75d
-			subtitle: "Eek, it's alive!"
+			subtitle: "Ой, оно живое!"
 			tasks: [{
 				id: "0B12A1F63822CF8A"
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			title: "Best LuV Circuits!"
+			title: "Лучшие LuV-схемы!"
 			x: 0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["24366846FDA52CE3"]
 			description: [
-				"Remember &aDarmstadtium&r tools from &3GTCE&r? Well then... guess who's back?"
+				"Помнишь инструменты из &aдармштадтия&r в &3GTCE&r? Ну что ж... угадай, кто вернулся?"
 				""
-				"&aDarmstadtium&r is the main material for &3UV&r hulls. It is yet again made with Fusion."
+				"&aДармштадтий&r — главный материал для &3UV&r корпусов. Снова делается в синтезе."
 				"{@pagebreak}"
-				"&bFun Fact&r: Arsenic does not exist as a liquid at standard conditions. It sublimates directly into a gas! \"Realism\", my ass."
+				"&bФакт:&r мышьяк при нормальных условиях жидкости не бывает — сразу в газ! «Реализм», ага."
 			]
 			id: "6988AE94BE7B461F"
 			size: 0.75d
-			subtitle: "I want my particle accelerator back..."
+			subtitle: "Верни мой ускоритель частиц..."
 			tasks: [{
 				id: "798EFE8E18E79C0C"
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			title: "Darmstadtium"
+			title: "Дармштадтий"
 			x: -2.625d
 			y: 4.5d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&aDuranium&r is a material from Star Trek, and is used for a few things in GT. It makes some pretty awesome pipes, but otherwise you won't need much of this quite yet."
+				"&aДураний&r — материал из Star Trek, в GT нужен кое-где. Из него отличные трубы, но пока много не понадобится."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In some versions of GT5u, this material was entirely white. In fact, most fusion materials and later were like this. Boring!"
+				"&l&3Лор:&r&o В некоторых версиях GT5u материал был полностью белым. Как и большинство fusion-материалов позже. Скучно!"
 			]
 			id: "2CB8FCE09920042C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Who needs Stargate, anyway?"
+			subtitle: "Кому вообще нужен Stargate?"
 			tasks: [{
 				id: "0933A476B9F87E66"
 				item: "gtceu:duranium_ingot"
 				type: "item"
 			}]
-			title: "Duranium"
+			title: "Дураний"
 			x: -0.375d
 			y: 4.5d
 		}
 		{
 			dependencies: ["24366846FDA52CE3"]
 			description: [
-				"&aAmericium&r is a Fusion Mk2 material, used in large quantities in CEu progression!"
+				"&aАмериций&r — материал синтеза Mk2, в прогрессии CEu нужен очень много!"
 				""
-				"It requires 2 Fusion steps to obtain - Lanthanum and Silicon will make &bLutetium&r, and combining this &bLutetium&r with Chrome will give you &aAmericium&r."
+				"Два шага синтеза: лантан + кремний → &bлютеций&r, лютеций + хром → &aамериций&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, Americium was replaced with Dubnium. Americium is a material only obtained from nuclear reactors, so GCYL changed it to the synthetic element Dubnium instead."
+				"&l&3Лор:&r&o В Gregicality Legacy америций заменили дубнием — в реальности америций из ядерных реакторов, поэтому GCYL взял синтетический дубний."
 			]
 			id: "762C48F0C2EA6B81"
 			size: 0.75d
-			subtitle: "It'd be nice if we could make this in a nuclear reactor..."
+			subtitle: "Было бы здорово делать это в ядерном реакторе..."
 			tasks: [{
 				id: "5D597AE565A54388"
 				item: "gtceu:americium_ingot"
 				type: "item"
 			}]
-			title: "Americium"
+			title: "Америций"
 			x: -1.5d
 			y: 3.375d
 		}
 		{
 			dependencies: ["370FC1CDF5F9A9CC"]
 			description: [
-				"The third circuit of the &4wetware&r line. Get some &bEuropium&r to make these."
+				"Третья схема линии &4влажных&r. Набери &bевропия&r для крафта."
 				""
-				"This is also the best &3UV&r circuit!"
+				"Это ещё и лучшая &3UV&r схема!"
 			]
 			id: "359121584E056022"
 			size: 0.75d
-			subtitle: "Sentience in circuit form"
+			subtitle: "Разум в форме схемы"
 			tasks: [{
 				id: "5F54BE8467A5C882"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			title: "Best UV Circuits!"
+			title: "Лучшие UV-схемы!"
 			x: 0.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["79E4E53E9DF45549"]
 			description: [
-				"&3Advanced HPCA Components&r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA."
+				"&3Продвинутые компоненты HPCA&r — улучшенные версии обычных, позволяют выжать из HPCA больше вычислений."
 				""
-				"The &3HPCA Advanced Computation Component&r produces &a4x&r the computation for only &a2x&r the Cooling!"
+				"&3Продвинутый вычислительный компонент HPCA&r даёт &aв 4 раза&r больше вычислений при &aв 2 раза&r меньшем охлаждении!"
 			]
 			id: "0199DBC46D7BC2B9"
 			size: 0.75d
-			subtitle: "Time for some computational advancement!"
+			subtitle: "Пора прокачать вычисления!"
 			tasks: [{
 				id: "761AFCD5742F9A03"
 				item: "gtceu:hpca_advanced_computation_component"
 				type: "item"
 			}]
-			title: "Advanced HPCA Components"
+			title: "Продвинутые компоненты HPCA"
 			x: -4.875d
 			y: 3.375d
 		}
@@ -674,24 +674,24 @@
 				"79E4E53E9DF45549"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aEMI&r."
+				"Собери структуру с fusion-стеклом, как в &aEMI&r."
 				""
-				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
+				"Чтобы сэкономить на корпусах синтеза, вставляй входные и выходные люки куда можно (как на схеме)."
 				""
-				"The &aFusion Reactor Mk2&r is even more expensive than the Mk1! The key difference is that it has a higher &6Energy To Start&r than the Mk1, allowing you to run new recipes."
+				"&aРеактор синтеза Mk2&r ещё дороже Mk1! Главное отличие — выше &6энергия на запуск&r, открываются новые рецепты."
 				""
-				"It can also overclock lower voltage recipes, such as those in the Mk1 reactor. See the Mk1's quest for how these mechanics work."
+				"Может оверклокать рецепты ниже по напряжению, как в Mk1. Механика — в квесте Mk1."
 			]
 			id: "24366846FDA52CE3"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Fusion just got more expensive..."
+			subtitle: "Синтез подорожал..."
 			tasks: [{
 				id: "0D45B9FFF6BA13FE"
 				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor II"
+			title: "Реактор синтеза II"
 			x: -2.625d
 			y: 3.375d
 		}
@@ -701,25 +701,25 @@
 				"24366846FDA52CE3"
 			]
 			description: [
-				"&aTritanium&r is a material from Star Trek, and is used for a few other things in GT. It, like &9Americium&r, requires two fusion steps!"
+				"&aТританий&r — материал из Star Trek, в GT нужен ещё кое-где. Как и &9америций&r, требует двух шагов синтеза!"
 				""
-				"You'll need this to get the next tier of circuits, and for &3UV&r components."
+				"Понадобится для схем следующего tier'а и для &3UV&r компонентов."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In some versions of GT5u, only Tritanium fluid was red. The material was otherwise white. In GTCEu, we decided to make the whole thing red instead. Much better looking!"
+				"&l&3Лор:&r&o В некоторых GT5u красной была только жидкость тритания, сам материал — белый. В GTCEu сделали всё красным. Красивее!"
 			]
 			id: "35F13B6D60361904"
 			size: 0.75d
-			subtitle: "Star Trek strikes again!"
+			subtitle: "Star Trek снова в деле!"
 			tasks: [{
 				id: "6C5B3B1C0B85C003"
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			title: "Tritanium"
+			title: "Тританий"
 			x: -0.375d
 			y: 3.375d
 		}
 	]
-	subtitle: ["Harness the cosmos and wield the bacteriological"]
-	title: "&cZPM&r - Zero Point Module"
+	subtitle: ["Покори космос и овладей бактериологией"]
+	title: "&cZPM&r — Модуль нулевой точки"
 }

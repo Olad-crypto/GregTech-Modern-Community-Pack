@@ -73,9 +73,9 @@
 				"78277DBC07D3C45C"
 			]
 			description: [
-				"The &aUHPIC&r unlocks &3ZPM Energy Hatches&r and &3Dynamos&r, as well as the Active Transformer. "
+				"&aUHPIC&r открывает &3ZPM энерголюки&r и &3динамо-люки&r, а также &3активный трансформатор&r."
 				""
-				"You may know the drill, but do you know the screwdriver?"
+				"Ты, наверное, знаешь, как это работает... а знаешь ли ты отвёртку?"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:uhpic_chip"
@@ -94,27 +94,27 @@
 					type: "item"
 				}
 			]
-			title: "Ultra High Power Integrated Circuit"
+			title: "UHPIC-схема"
 			x: 2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["00C14E3B8009DF7F"]
 			description: [
-				"&3Dielectric PCB Coolant&r is used to maintain some highly advanced late and end-game machinery."
+				"&3Диэлектрический охлаждающий агент для ПП&r используется для обслуживания продвинутых машин поздней и эндгейм-стадии."
 				""
-				"You only need a little bit in &dLuV&r, but you'll want to automate it when you get to &cZPM&r."
+				"В &dLuV&r нужно совсем немного, но в &cZPM&r захочешь автоматизировать его производство."
 			]
 			id: "35549F0404C87BCA"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Absolutely beneficial for the environment"
+			subtitle: "Абсолютно безвредно для природы"
 			tasks: [{
 				id: "10FAF765725C7790"
 				item: "gtceu:pcb_coolant_bucket"
 				type: "item"
 			}]
-			title: "Dielectric PCB Coolant"
+			title: "Диэлектрический охлаждающий агент для ПП"
 			x: 2.25d
 			y: 1.125d
 		}
@@ -125,22 +125,22 @@
 				"5ED7707B0ECF2207"
 			]
 			description: [
-				"The &3Active Transformer&r is a multiblock used to transform energy on a much larger scale. For example, you can convert &6HV&r to &7LV&r power directly by using the apropriate energy hatches."
+				"&3Активный трансформатор&r — мультиблок для преобразования энергии в гораздо больших масштабах. Например, можно напрямую конвертировать &6HV&r в &7LV&r, используя подходящие энерголюки."
 				""
-				"It also has a second function, detailed in the above quest."
+				"У него есть и вторая функция — подробнее в квесте выше."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet another feature from TecTech, which also required these cables to be painted. They do look fantastic if you paint them, but it's optional in CEu."
+				"&l&3Лор:&r&o Ещё одна фича из TecTech, где эти кабели тоже нужно было красить. Раскрашенные они выглядят потрясающе, но в CEu это необязательно."
 			]
 			id: "1AD003487B4EC2EF"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "More than a large transformer"
+			subtitle: "Больше, чем просто большой трансформатор"
 			tasks: [{
 				id: "39CDBE6B4B973868"
 				item: "gtceu:active_transformer"
 				type: "item"
 			}]
-			title: "Active Transformer"
+			title: "Активный трансформатор"
 			x: 3.375d
 			y: 0.0d
 		}
@@ -151,96 +151,96 @@
 				"52D952ADBEB67454"
 			]
 			description: [
-				"The &3Data Bank&r is a multiblock capable of storing huge amounts of data. You can fill it with &aData Access Hatches&r, and fill those with &aData Storage Items&r."
+				"&3Банк данных&r — мультиблок, способный хранить огромные объёмы данных. Заполняй его &aлюками доступа к данным&r, а те — &aносителями данных&r."
 				""
-				"After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through &3Optical Fiber Cables&r, which can be used to link &3Optical Data Hatches together&r."
+				"Дальше нужны питание и способ подключить его к &3сборочной линии&r! Это делается через &3оптоволоконные кабели&r — ими можно соединять &3оптические люки данных&r."
 				"{@pagebreak}"
-				"An &9Optical Transmission Hatch&r is used to send data (like an output), and an &9Optical Reception Hatch&r to recieve the data (like an input). "
+				"&9Оптический передаточный люк&r отправляет данные (как выход), а &9оптический приёмный люк&r — принимает (как вход)."
 				""
-				"Optical cables have some restrictions however. They can only connect &eone input to one output&r. The Data Bank is your answer to this, since you can place many hatches on them to route your data anywhere."
+				"У оптических кабелей есть ограничение: они соединяют только &eодин вход с одним выходом&r. Банк данных решает эту проблему — на него можно поставить много люков и маршрутизировать данные куда угодно."
 				""
-				"You can use this behavior to &echain&r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!"
+				"Это же поведение позволяет &eвыстраивать цепочки&r банков данных. Подключи один банк к другому, а один из них — к сборочной линии, и линия получит данные с обоих!"
 				"{@pagebreak}"
-				"&eNote: &rThis multiblock will be required later on in progression, but is very useful to set up early."
+				"&eЗаметка:&r Этот мультиблок понадобится позже в прогрессии, но очень полезно поставить его заранее."
 				""
-				"&l&3Lore:&r&o This multiblock also originates from TecTech, but part of its mechanics required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!"
+				"&l&3Лор:&r&o Этот мультиблок тоже из TecTech, но часть механики требовала красить оптические кабели. Здесь это не обязательно, но выглядит очень красиво!"
 			]
 			id: "42760D3A86EFDCA3"
 			size: 0.75d
-			subtitle: "Time for a server room"
+			subtitle: "Пора заводить серверную"
 			tasks: [{
 				id: "01188385BE2DB3B3"
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			title: "Mass Data Storage"
+			title: "Массовое хранение данных"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1AD003487B4EC2EF"]
 			description: [
-				"The &3Active Transformer&r has a second use - &6Laser Power&r. Lasers are like superconductors, but behave slightly differently. They share the energy input across all connected active transformers, allowing widespread power distribution. You can use &3Active Transformers&r to convert regular EU to and from Lasers."
+				"У &3активного трансформатора&r есть второе применение — &6лазерная энергия&r. Лазеры похожи на сверхпроводники, но ведут себя чуть иначе. Они распределяют входную энергию между всеми подключёнными активными трансформаторами, позволяя разводить питание по всей базе. &3Активные трансформаторы&r могут конвертировать обычные EU в лазеры и обратно."
 				""
-				"Like optical cables, they can only be connected to &eone input and output&r. But, these ones also only can move in &estraight lines&r. To turn them, an &3Active Transformer&r with a Laser Source Hatch (output) and Target Hatch (input) is needed."
+				"Как и оптические кабели, лазеры подключаются только &eк одному входу и одному выходу&r. Но ещё они идут только &eпрямыми линиями&r. Чтобы повернуть луч, нужен &3активный трансформатор&r с люком источника лазера (выход) и целевым люком (вход)."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet again another TecTech feature, but there's a bit more to it this time. TecTech's lasers were tiered by voltage and carried thousands of amps instead. CEu doesn't faff around with any of that tiering. You only need one type of laser here!"
+				"&l&3Лор:&r&o И снова фича TecTech, но на этот раз интереснее. В TecTech лазеры были разделены по напряжению и передавали тысячи ампер. CEu не заморачивается с таким тирингом — здесь нужен только один тип лазера!"
 			]
 			id: "07159FCD9744DD98"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time for some lasers!"
+			subtitle: "Пора добавить лазеры!"
 			tasks: [{
 				id: "3BA3AA8746044DC1"
 				item: "gtceu:normal_laser_pipe"
 				type: "item"
 			}]
-			title: "Laser Power Transmission"
+			title: "Передача лазерной энергии"
 			x: 3.375d
 			y: -1.125d
 		}
 		{
 			dependencies: ["78277DBC07D3C45C"]
 			description: [
-				"Doping &9Silicon&r with &9Naquadah&r will give a better &aSilicon Boule&r."
+				"Легирование &9кремния&r &9наквадой&r даёт лучший &aкремниевый слиток&r."
 				""
-				"Use it for higher yield on &dWafers&r."
+				"Используй его для более высокого выхода &dпластин&r."
 				""
-				"This will also unlock the &6best recipe&r for &6HV&r Circuits in the &3LuV Circuit Assembler&r. You're probably going to want to mass produce these for the many &dLapotronic Energy Orbs&r that'll be required moving forwards."
+				"Это также откроет &6лучший рецепт&r для &6HV&r-схем в &3LuV сборочной машине для схем&r. Скорее всего, захочешь массово производить их — впереди понадобится много &dлапотронных энергосфер&r."
 			]
 			id: "3F31E99D0284A60A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Doper than ever before"
+			subtitle: "Допированнее, чем когда-либо"
 			tasks: [{
 				id: "2F8C92A86CAF338F"
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			title: "Naquadah-doped Silicon Boule"
+			title: "Кремниевый слиток с примесью наквады"
 			x: 0.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["7A1E3C3A2D699C5B"]
 			description: [
-				"&aNaquadah&r is a late-game material with a variety of uses. It is required when building a Fusion Reactor and progressing to &cZPM&r, to name a few."
+				"&aНаквада&r — поздний материал с множеством применений. Он нужен для &3термоядерного синтеза&r и прогресса в &cZPM&r, и это лишь пара примеров."
 				""
-				"For some reason, its fluid is a brilliant &agreen&r - don't ask us why."
+				"Почему-то её жидкость ярко-&aзелёная&r — не спрашивай нас почему."
 				""
-				"&l&3Lore:&r&o Naquadah is a material originally from Stargate."
+				"&l&3Лор:&r&o Наквада — материал, изначально из Stargate."
 			]
 			hide_dependency_lines: true
 			id: "78277DBC07D3C45C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Don't you mean Stargatium?"
+			subtitle: "Тебе не кажется, что это Stargatium?"
 			tasks: [{
 				id: "36833D5050F81992"
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			title: "Naquadah"
+			title: "Наквада"
 			x: 1.125d
 			y: 1.125d
 		}
@@ -250,24 +250,24 @@
 				"7A1E3C3A2D699C5B"
 			]
 			description: [
-				"&aNaquadah Coils&r crank up the Heat Capacity to &d7,200K&r."
+				"&aКатушки из наквады&r поднимают теплоёмкость до &d7 200 K&r."
 				""
-				"These coils are required for progressing to the second half of &dLuV&r and beyond."
+				"Эти катушки нужны для второй половины &dLuV&r и дальше."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Well... not some \"juicy GregTech lore\", but a cool space fact, owing to the fact you're beating the Sun's temperature with your EBF. The surface temperature of the Sun is 5,800K. We're taking this as an effective temperature - i.e. the radiative temperature of the Sun as if it were a perfectly \"black body\". Check out the Stefan-Boltzmann law if you're interested in some crude astrophysics."
+				"&l&3Лор:&r&o Ну... не «сочный лор GregTech», а крутой космический факт: ты превосходишь температуру поверхности Солнца своей ЭПП (электроплавильная печь). Температура поверхности Солнца — 5 800 K. Мы считаем это эффективной температурой — то есть излучательной, как если бы Солнце было идеальным «чёрным телом». Загляни в закон Стефана — Больцмана, если интересна грубая астрофизика."
 				""
-				"&oOh, and the \"photosphere\" (the part of the sun we're talking about when we mention its surface)? It's 400 kilometres thick. That's 250 miles. Damn!"
+				"&oА ещё «фотосфера» (та часть солнца, о которой мы говорим как о поверхности)? Толщиной 400 километров. Это 250 миль. Вот это да!"
 			]
 			id: "2FCBA0D780DBDA9E"
 			size: 0.75d
-			subtitle: "Hotter than the surface temperature of the Sun!"
+			subtitle: "Жарче температуры поверхности Солнца!"
 			tasks: [{
 				count: 16L
 				id: "28332FC9FCA83E41"
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			title: "Naquadah Coils"
+			title: "Катушки из наквады"
 			x: 3.375d
 			y: 1.125d
 		}
@@ -277,85 +277,85 @@
 				"2FCBA0D780DBDA9E"
 			]
 			description: [
-				"&aLuV Superconductors&r are necessary if you're eyeing a &9Fusion Reactor&r. "
+				"&aLuV сверхпроводники&r необходимы, если ты присматриваешься к &9термоядерному синтезу&r."
 				""
-				"Don't ignore our warning here - you're gonna need &ea lot&r&r of them. Luckily, any &5Indium&r shortages will be solved by your Naquadah line."
+				"Не игнорируй наше предупреждение — понадобится &eочень много&r. К счастью, любой дефицит &5индия&r закроет линия наквады."
 			]
 			id: "5ED7707B0ECF2207"
 			size: 0.75d
-			subtitle: "Be glad these don't use pumps"
+			subtitle: "Радуйся, что тут не нужны насосы"
 			tasks: [{
 				id: "10FB849CE994B1A5"
 				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
 				type: "item"
 			}]
-			title: "LuV Superconductors"
+			title: "LuV сверхпроводники"
 			x: 4.5d
 			y: 1.125d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&cWarning&r: &9Plasmas&r are &cextremely hot&r, with temperatures exceeding &d30k Kelvin&r! "
+				"&cПредупреждение&r: &9плазмы&r &cневероятно горячие&r — температура превышает &d30 000 K&r!"
 				""
-				"However, this &6&ldoesn't&r mean that a special type of pipe is required to transport plasma. Plasmas are treated slightly differently, and bend the rules a bit."
+				"Однако это &6&lне&r значит, что для транспортировки плазмы нужен особый тип труб. С плазмами поступают чуть иначе, и они немного гнут правила."
 				""
-				"Fluid pipes that can handle plasmas, such as &aTungsten&r, &aNaquadah&r, or &aDuranium&r can hold any plasma &6regardless of temperature&r. This means they &lwon't&r melt under the heat of the plasma!"
+				"Жидкостные трубы, способные выдержать плазму — например, из &aвольфрама&r, &aнаквады&r или &aдурания&r — держат любую плазму &6независимо от температуры&r. То есть они &lне&r расплавятся от жара плазмы!"
 				""
-				"WARNING:&r Plasmas in incompatible pipes will cause &cvoiding&r, &cpipe burning&r, and &ldisproportionately high&r rates of &cdeath&r. Be careful!"
+				"ПРЕДУПРЕЖДЕНИЕ:&r Плазма в несовместимых трубах вызовет &cуничтожение&r, &cсгорание труб&r и &lнепропорционально высокий&r шанс &cсмерти&r. Будь осторожен!"
 				""
-				"&l&3Lore:&r&o This mechanic originates from GT6, just like the acids!"
+				"&l&3Лор:&r&o Эта механика из GT6 — как и кислоты!"
 			]
 			icon: "gtceu:argon_plasma_bucket"
 			id: "173C1FA72301B5E7"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The stars are calling..."
+			subtitle: "Звёзды зовут..."
 			tasks: [{
 				id: "062ECB2F9C9D741D"
 				type: "checkmark"
 			}]
-			title: "Fluid of the Stars"
+			title: "Жидкость звёзд"
 			x: 5.625d
 			y: 1.125d
 		}
 		{
 			dependencies: ["173C1FA72301B5E7"]
 			description: [
-				"Use this turbine to extract very large amounts of power from plasma!"
+				"Используй эту турбину, чтобы выжимать огромные объёмы энергии из плазмы!"
 				""
-				"&aHelium Plasma&r is the best fuel for its cost."
+				"&aГелиевая плазма&r — лучшее топливо по соотношению цены и эффективности."
 				""
-				"If you're the type to question how realistic Plasma Turbines are... look up Magnetohydrodynamic Generators if you want something that bends fact into fiction."
+				"Если ты из тех, кто сомневается в реалистичности плазменных турбин... погугли магнитогидродинамические генераторы, если хочешь что-то на грани факта и фантастики."
 			]
 			id: "4E9DED9569AA17F5"
 			size: 0.75d
-			subtitle: "Plasma? Turbine?! How?"
+			subtitle: "Плазма? Турбина?! Как?!"
 			tasks: [{
 				id: "13230F892A8F6FA1"
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			title: "Large Plasma Turbine"
+			title: "Большая плазменная турбина"
 			x: 6.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
 			description: [
-				"This is the main material for &cZPM&r. Having this in stock will be a test of your Platinum processing, so this is a &6pre-emptive warning&r to stay on top of mining PGS-bearing ore."
+				"Это основной материал для &cZPM&r. Держать его в запасе — проверка твоей платиновой переработки, так что &6заранее предупреждаем&r: следи за добычей PGS-содержащих руд."
 				""
-				"Prepare to make lots... after you make &9Fusion&r and &9Crystal Circuits&r. Tackle those before you try making this."
+				"Готовься делать много... после того как построишь &9термоядерный синтез&r и &9кристальные схемы&r. Сначала займись ими, а потом уже этим."
 			]
 			id: "24F0454B9A090C44"
 			size: 0.75d
-			subtitle: "Stargate's Strongest"
+			subtitle: "Самый прочный из Stargate"
 			tasks: [{
 				id: "16895659E44B65B5"
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			title: "Naquadah Alloy"
+			title: "Сплав наквады"
 			x: 0.0d
 			y: 2.25d
 		}
@@ -365,42 +365,42 @@
 				"48DEABA155605D23"
 			]
 			description: [
-				"Refining &9Naquadah&r into further products will be your next automation challenge. The primary outputs of this line are &aEnriched Naquadah&r, &aNaquadria&r, and &aTrinium&r. "
+				"Переработка &9наквады&r в дальнейшие продукты — твой следующий вызов по автоматизации. Основные выходы этой линии — &aобогащённая наквада&r, &aнаквадрия&r и &aтриний&r."
 				""
-				"This processing line - affectionately known as the \"Naqline\" - also produces many useful byproducts, such as Titanium and Indium."
+				"Эту линию ласково называют «наклайн» — она также даёт много полезных побочных продуктов: титан, индий и другие."
 				"{@pagebreak}"
-				"&aEnriched Naquadah&r currently isn't used for much, but will be integral to power generation in the future."
+				"&aОбогащённая наквада&r пока почти не используется, но станет ключевой для генерации энергии в будущем."
 				""
-				"&aNaquadria&r is a lategame material that you'll want to stockpile for your &3UV&r components."
+				"&aНаквадрия&r — поздний материал, который захочешь запасти для &3UV&r-компонентов."
 				""
-				"&aTrinium&r is the material you'll be wanting most right now. You'll use a lot of it to build your first Fusion Reactor, is used for the next set of Coils, and sees heavy usage in most &cZPM&r recipes."
+				"&aТриний&r — то, что нужно прямо сейчас. Много уйдёт на первый термоядерный синтез, следующий набор катушек и активно используется в большинстве &cZPM&r-рецептов."
 				"{@pagebreak}"
-				"&eNote&r: This processing chain presents more of a challenge than any chemistry you've dealt with so far."
+				"&eЗаметка:&r Эта цепочка переработки сложнее любой химии, с которой ты сталкивался раньше."
 				""
-				"As usual, outputs in later steps can be sent back into previous processes... with the caveat that they lose a small amount of fluid with each loop."
+				"Как обычно, выходы поздних стадий можно возвращать в предыдущие процессы... с оговоркой, что при каждом цикле теряется немного жидкости."
 				""
-				"This can be challenging to automate. Good luck!"
+				"Автоматизировать это непросто. Удачи!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Many GregTech iterations have Naquadah processing. "
+				"&l&3Лор:&r&o Во многих итерациях GregTech есть переработка наквады."
 				""
-				"&oThe first was likely Impact, with its own original Naquadah fuel process. "
+				"&oПервой, вероятно, была Impact со своим оригинальным процессом наквада-топлива."
 				""
-				"&oGregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel. "
+				"&oGregicality Legacy следом добавила процессы для материала наквады (и вариантов), а также топлива."
 				""
-				"&oAfter that, GTNH added their own Naquadah processes for the material and fuel. "
+				"&oПосле этого GTNH добавила свои процессы наквады для материала и топлива."
 				""
-				"&oLastly, GTCEu added the process you're about to set up!"
+				"&oИ наконец, GTCEu добавила процесс, который ты сейчас и настраиваешь!"
 			]
 			icon: "gtceu:naquadah_dust"
 			id: "378F0AFCF95354B2"
 			size: 0.75d
-			subtitle: "Do not touch the acid"
+			subtitle: "Не трогай кислоту"
 			tasks: [{
 				id: "1D674C3951223E8C"
 				item: "gtceu:fluoroantimonic_acid_bucket"
 				type: "item"
 			}]
-			title: "Naquadah Chain"
+			title: "Цепочка наквады"
 			x: 1.125d
 			y: 2.25d
 		}
@@ -411,17 +411,17 @@
 				"00C14E3B8009DF7F"
 			]
 			description: [
-				"&aTrinium&r is a very important material for progression. You'll need it to make a &9Fusion Reactor&r, but it stays relevant all throughout &cZPM&r. We &7(well, this particular questbook writer!)&r can never have enough of this stuff."
+				"&aТриний&r — очень важный материал для прогрессии. Он нужен для &9термоядерного синтеза&r, но остаётся актуальным на протяжении всего &cZPM&r. Мы &7(ну, этот конкретный автор квестбука!)&r никогда не можем им наесться."
 				""
-				"It also requires an &dLuV&r EBF to smelt! Perhaps dedicate a setup solely for cooking this, unless you're confident that your infrastructure can deal with it."
+				"Его плавка требует &dLuV&r ЭПП (электроплавильная печь)! Возможно, стоит выделить отдельную установку только для него — если только не уверен, что инфраструктура справится."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Stargate, Trinium was strong enough to block a point-blank C4 explosion. It's considered to be a hundred times stronger than steel, at only one-hundreth the weight."
+				"&l&3Лор:&r&o В Stargate триний был достаточно прочным, чтобы выдержать взрыв C4 в упор. Считается, что он в сто раз прочнее стали при весе в сто раз меньше."
 			]
 			icon: "gtceu:trinium_ingot"
 			id: "0DC999F79A685194"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Another Stargate material!"
+			subtitle: "Ещё один материал из Stargate!"
 			tasks: [
 				{
 					id: "48F555D3FC7EA449"
@@ -435,29 +435,29 @@
 					type: "item"
 				}
 			]
-			title: "Trinium"
+			title: "Триний"
 			x: 3.375d
 			y: 2.25d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"&aPlutonium-241&r is yet another requirement for the &9Fusion Reactor&r. It's very easy to make: just centrifuge some &9Pu-239&r to slowly separate some out."
+				"&aПлутоний-241&r — ещё одно требование для &9термоядерного синтеза&r. Его очень легко получить: просто центрифугируй &9Pu-239&r — со временем немного отделится."
 				""
-				"In the future, this material will require a &dNuclear Reactor&r to produce, but that's not in GTCEu yet."
+				"В будущем этот материал потребует &dядерный реактор&r, но в GTCEu его пока нет."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GT Impact, making Pu-241 was a challenge. Your first Pu-241 had to be produced as a byproduct of its very expensive Naquadah fuel process, and it could only be made independently with something post-fusion!"
+				"&l&3Лор:&r&o В GT Impact получение Pu-241 было вызовом. Первый Pu-241 приходилось делать как побочный продукт очень дорогого процесса наквада-топлива, а самостоятельно его можно было получить только после синтеза!"
 			]
 			id: "2BBD3BC7D1B955C2"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Spicy Plutonium Isotope"
+			subtitle: "Острый изотоп плутония"
 			tasks: [{
 				id: "757053C4979D8B08"
 				item: "gtceu:plutonium_241_dust"
 				type: "item"
 			}]
-			title: "Plutonium-241"
+			title: "Плутоний-241"
 			x: 4.5d
 			y: 2.25d
 		}
@@ -470,82 +470,82 @@
 				"327C3E02CD751453"
 			]
 			description: [
-				"First things first - build the version of the structure that uses Fusion Glass in &aEMI&r. It's far cheaper right now."
+				"Прежде всего — построй версию структуры со стеклом термоядерного синтеза, как показано в &aEMI&r. Сейчас это гораздо дешевле."
 				""
-				"To save on &3Fusion Casings&r, fit Input/Output Hatches wherever you can (as displayed in the structure)."
+				"Чтобы сэкономить на &3корпусах термоядерного синтеза&r, ставь входные/выходные люки везде, где можно (как на схеме структуры)."
 				""
-				"The &bFusion Reactor&r will pick a free Output Hatch from the many that are available. In order to \"&6force&r\" the Reactor to use a particular Output Hatch, you can always &alock all of the hatches&r to an irrelevant fluid (we usually use &9Water&r)."
+				"&bТермоядерный синтез&r выберет свободный выходной люк из доступных. Чтобы «&6заставить&r» реактор использовать конкретный выходной люк, можно &aзаблокировать все люки&r ненужной жидкостью (обычно &9водой&r)."
 				""
-				"This time, we'll try something new: we're gonna explain the &3Lore&r at the same time as the mechanics."
+				"На этот раз попробуем новое: будем объяснять &3лор&r одновременно с механикой."
 				""
-				"Enjoy the ride!"
+				"Приятного погружения!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's &3Fusion Reactor&f stores EU you feed it in its internal buffer. The maximum capacity is determined by the amount of &3Energy Hatches&f in the structure."
+				"&l&3Лор:&r&o &3Термоядерный синтез&f GregTech 5 хранит подаваемые EU во внутреннем буфере. Максимальная ёмкость зависит от количества &3энерголюков&f в структуре."
 				""
-				"&oRecipes can only start if the &9\"EU to start\"&f is stored internally, which will be &cconsumed&f. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again."
+				"&oРецепты могут стартовать только если &9«EU для запуска»&f накоплены внутри — и будут &cизрасходованы&f. С этой энергией реактор продолжает гонять рецепты, пока не простаивает. Тогда EU нужно снова подать для нового запуска."
 				"{@pagebreak}"
-				"&oShadow of Greg's &3Fusion Reactor&f (which is now GTCEu's Fusion Reactor) comes with an added mechanic called &4Heat&f."
+				"&o&3Термоядерный синтез&f Shadow of Greg (ныне термоядерный синтез GTCEu) добавил механику &4нагрева&f."
 				""
-				"&oWhen the reactor is running, the &9EU to start&f is converted to &4Heat&f. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down."
+				"&oКогда реактор работает, &9EU для запуска&f конвертируются в &4нагрев&f. Нагрев сохраняется, пока реактор не простаивает — тогда медленно падает."
 				""
-				"&oNext time a recipe is found, it will use all possible Heat and deduct it from the &9EU to start&f, allowing you to save Energy for short pauses."
+				"&oПри следующем рецепте используется весь возможный нагрев, вычитая его из &9EU для запуска&f — так можно экономить энергию при коротких паузах."
 				""
-				"&oThe &3Fusion Reactor I&f can only run recipes up to a required EU of 160 MEU to start. It will also overclock up to &dLuV&f at best, even if you upgrade to ZPM Hatches, so don't stress over attempting this."
+				"&o&3Термоядерный синтез I&f может гонять рецепты с требованием до 160 MEU для запуска. Также оверклокает максимум до &dLuV&f, даже если поставишь ZPM-люки — так что не заморачивайся с этим."
 			]
 			id: "546CC03435E763CF"
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Stellar power"
+			subtitle: "Звёздная мощность"
 			tasks: [{
 				id: "48A4D39ED0E11EBC"
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor I"
+			title: "Термоядерный синтез I"
 			x: 5.625d
 			y: 2.25d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&aEuropium&r is the first major Fusion Material. You'll be using this quite a lot going forwards."
+				"&aЕвропий&r — первый крупный материал термоядерного синтеза. Будешь использовать его очень много."
 				""
-				"&eNote&r: The temperature of liquid Europium is very hot, but the fluid isn't a plasma. Plan your piping accordingly!"
+				"&eЗаметка:&r Температура жидкого европия очень высокая, но это не плазма. Планируй трубопроводы соответственно!"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, Europium was replaced with Rutherfordium as the first fusion material, because Europium is actually found in Rare Earth and isn't fused in real life."
+				"&l&3Лор:&r&o В Gregicality Legacy европий заменили на рутерфордий как первый материал синтеза — потому что европий реально встречается в редкоземах и не синтезируется в природе."
 			]
 			id: "7A74F692F14F0FF8"
 			shape: "gear"
 			size: 1.1d
-			subtitle: "Fusing Europium... whaaat?!"
+			subtitle: "Синтезировать европий... что?!"
 			tasks: [{
 				id: "220305C9DA0F512B"
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			title: "Europium"
+			title: "Европий"
 			x: 6.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["7A74F692F14F0FF8"]
 			description: [
-				"&aCrystal CPUs&r are used to produce &9Crystal Circuits&r - who would have thought?"
+				"&aКристальные CPU&r используются для &9кристальных схем&r — кто бы мог подумать?"
 				""
-				"Producing these is quite a bit different from the previous circuit components. Instead of standard silicon wafers, these rely on &9Emerald&r or &9Olivine&r."
+				"Их производство сильно отличается от предыдущих компонентов схем. Вместо обычных кремниевых пластин здесь нужны &9изумруд&r или &9оливин&r."
 				""
-				"Getting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier Autoclave. If you use a &6HV&r Autoclave... well, we didn't take you for the gambling sort."
+				"Первые кристальные чипы будут сложными — возможно, стоит вложиться в автоклав высокого тира. Если используешь &6HV&r автоклав... мы не думали, что ты из азартных."
 				""
-				"After you get your first Chip, you can duplicate them with &9Europium&r. Don't worry about those other recipes yet, they're for later on in &cZPM&r."
+				"После первого чипа их можно дублировать с &9европием&r. Не переживай из-за других рецептов — они для более позднего &cZPM&r."
 				"{@pagebreak}"
-				"&eNote&r: An &9Advanced Item Detector&r cover will be useful for automating these. They work just like the Advanced Energy Detector."
+				"&eЗаметка:&r Крышка &9«Продвинутый детектор предметов»&r пригодится для автоматизации. Работает так же, как продвинутый детектор энергии."
 				""
-				"&l&3Lore:&r&o In GT5u modpacks, making your first Crystal Chips required the autoclave to be in Low Gravity, which meant doing this process on a Galacticraft Space Station, or on the moon!"
+				"&l&3Лор:&r&o В модпаках GT5u первые кристальные чипы требовали автоклав в условиях низкой гравитации — то есть на космической станции Galacticraft или на Луне!"
 			]
 			icon: "gtceu:crystal_cpu"
 			id: "764091A111FB4DA6"
 			size: 0.75d
-			subtitle: "These don't even make any sense!"
+			subtitle: "Это же вообще не имеет смысла!"
 			tasks: [
 				{
 					id: "3B9666A5C3CBDCD6"
@@ -558,7 +558,7 @@
 					type: "item"
 				}
 			]
-			title: "Crystal CPU"
+			title: "Кристальный CPU"
 			x: 7.875d
 			y: 2.25d
 		}
@@ -568,11 +568,11 @@
 				"4F6E351C5F676618"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r an &3LuV Energy Hatch&r&r... or an &3LuV Dynamo Hatch&r for your Multiblock Generators."
+				"Квест засчитается с &eлюбым&r &3LuV энерголюком&r... или &3LuV динамо-люком&r для мультиблок-генераторов."
 				""
-				"Starting at &dLuV&r, you'll start upgrading more multiblocks, which means more energy hatches! Both the &9EBF&r and the &9Assembly Line&r will need power upgrades."
+				"Начиная с &dLuV&r, придётся апгрейдить больше мультиблоков — а значит, больше энерголюков! И &9ЭПП&r (электроплавильная печь), и &9сборочная линия&r потребуют апгрейда питания."
 				""
-				"Don't forget that &d4 Amp&r variants exist!"
+				"Не забывай про варианты на &d4A&r!"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:luv_energy_input_hatch"
@@ -591,7 +591,7 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line"
+			title: "Апгрейд сборочной линии"
 			x: 2.25d
 			y: 2.25d
 		}
@@ -600,26 +600,26 @@
 				"77B7B1EDD19831E0"
 				"46C7E1D5E37B1ED2"
 			]
-			description: ["The &aWireless Connector&r will help with logistics, giving &9Wireless Transfer&r for your ME Network with unlimited range. The energy cost scales exponentially with transfer distance."]
+			description: ["&aБеспроводной соединитель&r поможет с логистикой, давая &9беспроводную передачу&r для ME-сети с неограниченной дальностью. Стоимость энергии растёт экспоненциально с расстоянием."]
 			id: "7E2076D45F83D9C3"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "To infinity, and beyond!"
+			subtitle: "В бесконечность — и дальше!"
 			tasks: [{
 				id: "3AC7E29D373750F8"
 				item: "expatternprovider:wireless_connect"
 				type: "item"
 			}]
-			title: "The Power of Wireless"
+			title: "Сила беспроводной связи"
 			x: 3.96d
 			y: 5.94d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"If recipe sizes are starting to worry you, don't worry - &2AE2&r now allows you to place an unlimited amount of items into a processing pattern."
+				"Если размеры рецептов начинают пугать — не переживай: &2AE2&r теперь позволяет помещать неограниченное количество предметов в шаблон обработки."
 				""
-				"Thanks to this innovation, you can automate all the &3Assembly Line&r recipes."
+				"Благодаря этому можно автоматизировать все рецепты &3сборочной линии&r."
 			]
 			icon: "expatternprovider:ex_interface"
 			id: "79192BA29BE69170"
@@ -627,44 +627,44 @@
 			size: 0.66d
 			tasks: [{
 				id: "3DFCDF1B24506A8A"
-				title: "Wahey!"
+				title: "Ура!"
 				type: "checkmark"
 			}]
-			title: "PackagedWho?"
+			title: "УпакованКто?"
 			x: 3.3d
 			y: 4.62d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"At the cost of 16x the drilling Power, the &3Advanced Fluid Drilling Rig II&r will be gaining &664x the output&r in Fluid."
-				"The depletion of veins is also slashed to an eighth of what it was before. This means you will get a total of &6128x&r as much Oil (or whatever fluid) as the regular rig from a bedrock fluid vein until depletion!"
+				"Ценой 16-кратного энергопотребления бурения &3продвинутая жидкостная буровая II&r даёт &664-кратный выход&r жидкости."
+				"Истощение жил сокращается в восемь раз. Итого из скальной жилы ты получишь &6128×&r больше нефти (или любой другой жидкости), чем от обычной буровой, до полного истощения!"
 				""
-				"Even when depleted, you can safely use this and be very much power positive."
+				"Даже после истощения можно спокойно пользоваться ей и оставаться в большом плюсе по энергии."
 				""
-				"One single &3Advanced Fluid Drilling Rig II&r should be enough to last you until the end of the game, for whatever fluid you drill."
+				"Одной &3продвинутой жидкостной буровой II&r хватит до конца игры — для любой жидкости, которую бурить."
 			]
 			id: "4AEAC79007790BD8"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "This thing is completely ludicrous!"
+			subtitle: "Эта штука просто абсурдна!"
 			tasks: [{
 				id: "5904009DC40731D6"
 				item: "gtceu:ev_fluid_drilling_rig"
 				type: "item"
 			}]
-			title: "Ludicrous Fluid Drilling"
+			title: "Абсурдное бурение жидкостей"
 			x: 5.61d
 			y: 4.62d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"This Large Miner is nearly identical to the regular one, except it has a wider range and uses more drilling fluid."
+				"Этот большой майнер почти идентичен обычному, но с большим радиусом и большим расходом буровой жидкости."
 				""
-				"It's an optional sidegrade - one you might not even want."
+				"Это опциональный сайдгрейд — возможно, он тебе даже не понадобится."
 				""
-				"&l&3Lore:&r&o There may be a rebalance for these in the future. See the Multiblock Miner quest for details."
+				"&l&3Лор:&r&o В будущем может быть ребаланс. Подробности — в квесте о мультиблок-майнере."
 			]
 			id: "1BE779AF4487E3EB"
 			shape: "rsquare"
@@ -674,7 +674,7 @@
 				item: "gtceu:luv_large_miner"
 				type: "item"
 			}]
-			title: "Ludicrous Ore Drilling"
+			title: "Абсурдное бурение руд"
 			x: 5.28d
 			y: 5.28d
 		}
@@ -685,14 +685,14 @@
 				"5B07279B08BF8DDE"
 			]
 			description: [
-				"The &aLuV Lapotronic Orb&r is even better than the &1IV&r one! Of course, such power comes at a steep cost..."
+				"&aLuV лапотронная энергосфера&r ещё лучше, чем &1IV&r! Конечно, такая мощь стоит недёшево..."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past."
+				"&l&3Лор:&r&o В старых версиях GT, например GTNH или GCYL, эти сферы были безумно дорогими! Нужно было 8 сфер предыдущего тира! К счастью, те дни давно прошли."
 			]
 			icon: "gtceu:lapotronic_energy_orb_cluster"
 			id: "0D7C978F9CDF771B"
 			size: 0.75d
-			subtitle: "Even more power!"
+			subtitle: "Ещё больше мощности!"
 			tasks: [
 				{
 					id: "6D1376BF3CEA87A7"
@@ -706,41 +706,41 @@
 					type: "item"
 				}
 			]
-			title: "Ludicrous Batteries"
+			title: "Абсурдные батареи"
 			x: 6.75d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42CD789B8C40E424"]
-			description: ["Cheaper &dLuV&r circuits! These'll take some of the edge out of those brutal Robot Arm recipes."]
+			description: ["LuV-схемы подешевле! Они немного смягчат боль от жестоких рецептов роборук."]
 			id: "47087361D6DE7DCF"
 			size: 0.75d
-			subtitle: "Yup... another circuit upgrade"
+			subtitle: "Ага... ещё один апгрейд схем"
 			tasks: [{
 				id: "3CF7F369F390A3E5"
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			title: "Even more LuV Circuits"
+			title: "Ещё LuV-схемы"
 			x: 7.875d
 			y: 4.5d
 		}
 		{
 			dependencies: ["47087361D6DE7DCF"]
 			description: [
-				"&cZPM&r Circuits that aren't mainframes!"
+				"&cZPM&r-схемы, которые не мейнфреймы!"
 				""
-				"Don't lie - &bCrystal Supercomputers&r sound really cool, right?"
+				"Не ври — &bкристальные суперкомпьютеры&r звучат очень круто, правда?"
 			]
 			id: "7AE681E2AB31EA0D"
 			size: 0.75d
-			subtitle: "...wait, why'd things end here?"
+			subtitle: "...стоп, почему тут всё оборвалось?"
 			tasks: [{
 				id: "0E274B445A95250A"
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			title: "More ZPM Circuits"
+			title: "Ещё ZPM-схемы"
 			x: 7.875d
 			y: 5.625d
 		}
@@ -749,17 +749,17 @@
 				"77B7B1EDD19831E0"
 				"7CFC112B8F460549"
 			]
-			description: ["The &aLuV Electric Prospector&r is a major upgrade from the &eHV&r one. With its huge range, it'll make finding Fluid and Ore veins very easy."]
+			description: ["&aLuV электрический разведчик&r — серьёзный апгрейд по сравнению с &eHV&r. С огромным радиусом найти жидкостные и рудные жилы будет очень легко."]
 			id: "7033A24F37F9B9B9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "If you're yet to strike gold, you will now"
+			subtitle: "Если ты ещё не нашёл золото — найдёшь"
 			tasks: [{
 				id: "718BA09242A22550"
 				item: "gtceu:prospector.luv"
 				type: "item"
 			}]
-			title: "LuV Prospector"
+			title: "LuV разведчик"
 			x: 4.5d
 			y: 3.375d
 		}
@@ -770,40 +770,40 @@
 				"764091A111FB4DA6"
 			]
 			description: [
-				"The first circuit of the &9Crystal&r line."
+				"Первая схема &9кристальной&r линии."
 				""
-				"&l&3Lore:&r&o The concept of a Crystal Circuit has existed since the very early versions of GregTech. We're still not entirely sure if they exist in real life."
+				"&l&3Лор:&r&o Концепция кристальных схем существует с самых ранних версий GregTech. Мы до сих пор не уверены, существуют ли они в реальности."
 			]
 			id: "42CD789B8C40E424"
 			size: 0.75d
-			subtitle: "I know where this is going!"
+			subtitle: "Я знаю, к чему это ведёт!"
 			tasks: [{
 				id: "6357389871CE70C2"
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			title: "Best IV Circuits!"
+			title: "Лучшие IV-схемы!"
 			x: 7.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["0338C9219DC2F819"]
 			description: [
-				"If you say the name 3 times in front of a mirror, you summon a CEu dev."
+				"Если произнести название три раза перед зеркалом — призовёшь разработчика CEu."
 				""
-				"&aMulti-Layer Fiber-Reinforced Printed Circuit Boards&r are the next step in your circuit journey. They're not particularly interesting compared to the previous boards: just two of the previous stuck together."
+				"&aМногослойные волоконно-армированные печатные платы&r — следующий шаг в пути схем. Особо не интереснее предыдущих: просто две предыдущие платы склеены вместе."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, these circuit boards were much more complicated. They required Kapton, a dual polymer material. It was a challenge to say the least. In the future, the GTCEu team might make these boards somewhat more involved to produce."
+				"&l&3Лор:&r&o В Gregicality Legacy эти платы были гораздо сложнее. Нужен был каптон — двойной полимерный материал. Настоящий вызов. В будущем команда GTCEu, возможно, усложнит их производство."
 			]
 			id: "6C241455C5434C2E"
 			size: 0.75d
-			subtitle: "M-L F-R PCB"
+			subtitle: "МС ВА ПП"
 			tasks: [{
 				id: "5B8C1C15E5413CEC"
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			title: "Multi-Layer Fiber-Reinforced Printed Circuit Boards"
+			title: "Многослойные волоконно-армированные печатные платы"
 			x: 9.0d
 			y: 3.375d
 		}
@@ -818,17 +818,17 @@
 				"3A7491323AC5C70C"
 			]
 			description: [
-				"&dLuV&r Components are significantly more difficult to produce than their predecessors. They require an &9Assembly Line&r, many different forms of materials, and lots of fluids too!"
+				"&dLuV&r-компоненты значительно сложнее предшественников. Нужна &9сборочная линия&r, множество материалов в разных формах и куча жидкостей!"
 				""
-				"You will notice that &9Samarium&r is required for &aLuV+ Motors&r. Samarium by itself isn't very difficult to obtain, but smelting it is slightly more involved. It requires &9Liquid Helium&r in the Freezer. If you made &9IV Superconductors&r, you've likely seen this already."
+				"Заметишь, что для &aLuV+ моторов&r нужен &9самарий&r. Сам по себе самарий не так сложен, но его плавка чуть сложнее — нужен &9жидкий гелий&r в морозилке. Если делал &9IV сверхпроводники&r, ты это уже видел."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In the original GregTech 5, these components were unobtainable! You'd be free from GT if you were at this point! How times change."
+				"&l&3Лор:&r&o В оригинальном GregTech 5 эти компоненты были недостижимы! На этом этапе ты был бы свободен от GT! Как меняются времена."
 			]
 			icon: "gtceu:luv_electric_motor"
 			id: "11D3B21A177B0E14"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Fun levels - critical"
+			subtitle: "Уровень веселья — критический"
 			tasks: [
 				{
 					id: "0BA1015B5C7A0BD5"
@@ -866,115 +866,115 @@
 					type: "item"
 				}
 			]
-			title: "Pure Joy"
+			title: "Чистая радость"
 			x: 1.125d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0425179329ED1B72"]
-			description: ["A requirement for &dLuV&r+ cables."]
+			description: ["Нужен для &dLuV&r+ кабелей."]
 			id: "12FEE0A47E4658D5"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Cables need better coating now"
+			subtitle: "Кабелям теперь нужна лучшая изоляция"
 			tasks: [{
 				id: "4CAD2BE5558D7501"
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			title: "Polyphenylene Sulfide"
+			title: "Полифениленсульфид"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"The chances you are having TPS issues playing this modpack are slim - this Quest is more suited for late game bases with GregTech and AE2."
+				"Вероятность TPS-проблем в этом модпаке невелика — этот квест больше для поздних баз с GregTech и AE2."
 				""
-				"If you run the command &9/forge tps&r, you will be given the current &4TPS&r and the &4tick time&r in milliseconds."
+				"Команда &9/forge tps&r покажет текущий &4TPS&r и &4время тика&r в миллисекундах."
 				""
-				"If the tick time exceeds 50ms, the server is under too much load, and won't be able to keep up with a steady 20 TPS."
+				"Если время тика превышает 50 мс, сервер перегружен и не сможет держать стабильные 20 TPS."
 				""
-				"Any machine will add up to the tick time, but don't be too scared of adding machines. Most of the lag usually comes from things that are unoptimized."
+				"Любая машина добавляет нагрузку, но не бойся ставить их. Большая часть лагов обычно от неоптимизированных вещей."
 				"{@pagebreak}"
-				"Things to &cavoid&r in general:"
+				"Чего &cизбегать&r в целом:"
 				""
-				"&9-&r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully, this shouldn't be an issue in this modpack."
+				"&9-&r Сущности — плохо. Предметы на земле и мобы должны быть минимальны. В этом модпаке это обычно не проблема."
 				""
-				"&9-&r Building everything packed together in a small space. Note that this does &onot&r affect TPS, but you will suffer FPS drops instead."
+				"&9-&r Строить всё тесно в одном месте. Это &oне&r влияет на TPS, но FPS упадёт."
 				""
-				"&9-&r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing."
+				"&9-&r Огромные стены ящиков — перебор каждого при вставке и извлечении очень нагружает систему."
 				"{@pagebreak}"
-				"Things to&c avoid&r with AE2:"
+				"Чего &cизбегать&r с AE2:"
 				""
-				"&9-&r ME Import and Export Buses on large networks. Use ME Interfaces instead."
+				"&9-&r ME-шины импорта и экспорта на больших сетях. Используй ME-интерфейсы."
 				""
-				"&9-&r Crafting Cards to passively do large requests."
+				"&9-&r Карты крафта для пассивных больших заказов."
 				""
-				"&9-&r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network."
+				"&9-&r Рекурсивная вставка/извлечение через подсети. Если используешь подсети — пусть делают одну конкретную задачу, а не взаимодействуют с другой AE2-сетью."
 				"{@pagebreak}"
-				"Things to &cavoid&r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy your TPS, as with any mod):"
+				"Чего &cизбегать&r с GregTech (GTCEu сильно улучшили по сравнению с GTCE, но TPS всё равно можно убить, как и в любом моде):"
 				""
-				"&9-&r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines."
+				"&9-&r Много EU-производителей, подключённых к множеству EU-потребителей в одной линии. Разделяй линию генераторов и машин диодом или буфером батарей."
 				""
-				"&9-&r Large amounts of Fluid Pipes. They are &onot&r laggy individually, but they can add up if you have thousands of them."
+				"&9-&r Огромное количество жидкостных труб. По отдельности они &oне&r лагают, но тысячи накапливаются."
 				""
-				"&9-&r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories."
+				"&9-&r Большие сети предметных труб. Меньшие сети лучше — меньше итераций по инвентарям."
 			]
 			icon: "minecraft:mud"
 			id: "63F9531F391040B2"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "They call me 007 - 0 Naquadah, 0 EU/t, 7 TPS"
-			title: "Combatting Lag"
+			subtitle: "Меня зовут 007 — 0 наквады, 0 EU/t, 7 TPS"
+			title: "Борьба с лагами"
 			x: 2.25d
 			y: 3.375d
 		}
 		{
 			dependencies: ["5CA86A333670A55C"]
 			description: [
-				"&aMagnetic Samarium&r (which you'll need for your &dLuV&r components) requires an &3IV Polarizer&r."
+				"&aМагнитный самарий&r (нужен для &dLuV&r-компонентов) требует &3IV поляризатор&r."
 				""
-				"Even so, we hope you weren't running all the polarization off a single &6HV&r Polarizer. Were you?"
+				"Надеемся, ты не гонял всю поляризацию с одного &6HV&r поляризатора. Или гонял?"
 			]
 			id: "35D4F93EFB6EACB6"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Feeling attracted yet?"
+			subtitle: "Уже чувствуешь притяжение?"
 			tasks: [{
 				id: "1CAACC2FAABE68A1"
 				item: "gtceu:iv_polarizer"
 				type: "item"
 			}]
-			title: "IV Magnetism"
+			title: "IV магнетизм"
 			x: 0.375d
 			y: 3.75d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
-			description: ["The &aQuantum Bridge Card&r is an upgrade to the &9Quantum Link Tunnel&r, which gives &9Wireless Terminals&r access to your AE system with unlimited range, and from any dimension."]
+			description: ["&aКарта квантового моста&r — апгрейд &9квантового туннеля связи&r, дающий &9беспроводным терминалам&r доступ к AE-системе с неограниченной дальностью из любого измерения."]
 			icon: "ae2wtlib:quantum_bridge_card"
 			id: "602DA4B4820E9088"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Bridge over Troubled Water"
+			subtitle: "Мост через бурную реку"
 			tasks: [{
 				id: "280DF4E4A7E5FC2A"
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			title: "Infinite Wireless Range"
+			title: "Бесконечная беспроводная дальность"
 			x: 3.63d
 			y: 5.28d
 		}
 		{
 			dependencies: ["0D7C978F9CDF771B"]
 			description: [
-				"The Advanced Quantum Chestplate combines protection, a personal battery and an &6ultimate Jetpack&r into a single powerful piece of gear."
+				"Продвинутый квантовый нагрудник объединяет защиту, личную батарею и &6ультимативный реактивный ранец&r в одном мощном предмете экипировки."
 				""
-				"Note that this stores &oa lot&r of energy. You may want to invest in an &3LuV Turbo Charger&r."
+				"Заметь: он хранит &oочень много&r энергии. Возможно, стоит вложиться в &3LuV турбо-зарядник&r."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate."
+				"&l&3Лор:&r&o Эта броня вдохновлена аддоном IndustrialCraft Gravisuite, который добавил Gravitation Suit — аналог этого нагрудника."
 			]
 			icon: {
 				Count: 1
@@ -986,7 +986,7 @@
 			id: "0A884622985A7417"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I'll be seeing you in the skies!"
+			subtitle: "Увидимся в небе!"
 			tasks: [{
 				id: "23AF5E66858C1950"
 				item: {
@@ -998,22 +998,22 @@
 				}
 				type: "item"
 			}]
-			title: "Best Flight!"
+			title: "Лучший полёт!"
 			x: 6.758503401360549d
 			y: 5.621173469387756d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"New in the &a1.4 update&r, Dual Hatches will greatly help with automation with Multiblocks."
+				"Новинка &aобновления 1.4&r — двойные люки сильно упрощают автоматизацию мультиблоков."
 				""
-				"They can contain both &6Fluids and Items simultaneously&r, meaning you can simply connect a &bPattern Provider&r and be off to the races. No more faffing around with P2P or Buffers!"
+				"Они содержат &6жидкости и предметы одновременно&r — просто подключи &bпоставщик шаблонов&r и вперёд. Больше никаких P2P и буферов!"
 			]
 			icon: "gtceu:luv_dual_input_hatch"
 			id: "0960C894446A786C"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "Compact and Useful"
+			subtitle: "Компактно и полезно"
 			tasks: [{
 				id: "0089B7D781622D68"
 				item: {
@@ -1052,39 +1052,39 @@
 						]
 					}
 				}
-				title: "Dual I/O Hatch"
+				title: "Двойной I/O-люк"
 				type: "item"
 			}]
-			title: "Two Hatches for the Price of One"
+			title: "Два люка по цене одного"
 			x: 2.2414965986394577d
 			y: 5.631377551020407d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"Let's go over some uses!"
+				"Разберём применения!"
 				""
-				"&2Blank Pattern Storage:&r"
+				"&2Хранение пустых шаблонов:&r"
 				""
-				"Right-clicking with the tool in your hand will open a GUI where you can insert &9Blank Patterns&r. There's a considerable amount of storage space for transport of Patterns!"
+				"ПКМ инструментом в руке откроет интерфейс, куда можно вставить &9пустые шаблоны&r. Достаточно места для перевозки шаблонов!"
 				"{@pagebreak}"
-				"&2Bulk Pattern Modification:&r"
+				"&2Массовое изменение шаблонов:&r"
 				""
-				"Inserting &9Encoded Patterns&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery."
+				"Вставка &9закодированных шаблонов&r вместо пустых позволяет умножать/делить их все сразу. Особенно полезно при масштабировании шаблонов для параллельных машин по запросу."
 				""
-				"Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution."
+				"Шаблоны также можно массово очистить кнопкой «Очистить». Подтверждения нет — используй осторожно."
 				"{@pagebreak}"
-				"&2Item Search and Replace:&r"
+				"&2Поиск и замена предметов:&r"
 				""
-				"Right-clicking the tool and clicking the &aChange Mode button&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &9Encoded Patterns&r stored within the tool."
+				"ПКМ по инструменту и кнопка &a«Сменить режим»&r откроют новый интерфейс. В нём можно заменить все вхождения одного предмета на другой для &9закодированных шаблонов&r внутри инструмента."
 				""
-				"This is particularly useful for &eupgrading GT circuits&r, such as transitioning from Nano to Quantum &5EV&r circuits."
+				"Особенно полезно для &eапгрейда GT-схем&r — например, переход с Nano на Quantum &5EV&r-схемы."
 				"{@pagebreak}"
-				"&2Easy Pattern Transfer:&r"
+				"&2Простой перенос шаблонов:&r"
 				""
-				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Pattern Providers and Terminals without clogging your inventory."
+				"Shift+ЛКМ по шаблонам перемещает их между инвентарём игрока и модификатором. Можно легко переносить шаблоны между поставщиками шаблонов и терминалами, не забивая инвентарь."
 				"{@pagebreak}"
-				"&bLore&r: Neeve, the author of the NAE2 mod which this originated from, suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
+				"&bЛор&r: Neeve, автор мода NAE2, откуда это пришло, предлагал ставить этот предмет на &eUXV&r-тир, потому что он «даёт игроку слишком много власти». Для справки: &eUXV&r — на 4 тира выше &3UV&r, за два до &c&lMAX&r-напряжения."
 			]
 			icon: "expatternprovider:pattern_modifier"
 			id: "5CE0B928479D8535"
@@ -1096,17 +1096,17 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The &aPattern Modifier&r does A LOT!"
+			subtitle: "&aМодификатор шаблонов&r умеет ОЧЕНЬ много!"
 			tasks: [{
 				id: "77D0C17BBE681C85"
 				item: "expatternprovider:pattern_modifier"
 				type: "item"
 			}]
-			title: "Pattern Modifier"
+			title: "Модификатор шаблонов"
 			x: 4.95d
 			y: 5.94d
 		}
 	]
-	subtitle: ["Investigate the scientific and fuse elements"]
-	title: "&dLuV&r - Ludicrous Voltage"
+	subtitle: ["Исследуй науку и синтезируй элементы"]
+	title: "&dLuV&r — Абсурдное напряжение"
 }

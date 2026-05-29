@@ -11,22 +11,22 @@
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"You may be wondering how to obtain &6large quantities&r of common resources used in &bGregTech&r. This might be old news to seasoned players, but it's actually possible to set up &dpassive processes&r to make various materials and chemicals &2fully renewable&r."
+				"Тебе, наверное, интересно, как добывать &6большие количества&r обычных ресурсов для &bGregTech&r. Опытным игрокам это может быть известно, но на самом деле можно настроить &dпассивные процессы&r, чтобы разные материалы и химикаты стали &2полностью возобновляемыми&r."
 				""
-				"We've added this chapter to lead you towards some setups that you &7&omight&r desire. Obviously, there's no need to do all of these, but who doesn't love &2\"free\" resources&r."
+				"Мы добавили эту главу, чтобы направить тебя к установкам, которые ты &7&oможешь&r захотеть. Разумеется, не обязательно делать всё — но кто не любит &2«бесплатные»&r ресурсы?"
 				""
-				"&9&lA footnote:&r There's no way we could document all of the renewable routes in &bGregTech&r. This quest page merely serves as a primer to lead &6newer players&r through their options. Not every option listed in this quest book is optimal, so we urge you to experiment!"
+				"&9&lПримечание:&r мы не можем описать все пути возобновления в &bGregTech&r. Эта страница — лишь вводный обзор для &6новых игроков&r. Не каждый вариант в квестбуке оптимален — экспериментируй!"
 			]
 			icon: "minecraft:big_dripleaf"
 			id: "4D7A771B67DAFC6F"
 			size: 1.2d
-			subtitle: "Very conscious of you!"
+			subtitle: "Очень сознательно с твоей стороны!"
 			tasks: [{
 				id: "10D096D6F4770F24"
-				title: "I love renewable resources!"
+				title: "Обожаю возобновляемые ресурсы!"
 				type: "checkmark"
 			}]
-			title: "Promoting a Sustainable Playthrough"
+			title: "За экологичное прохождение"
 			x: 1.2d
 			y: -0.6d
 		}
@@ -36,17 +36,17 @@
 				"1F2359106FC95603"
 			]
 			description: [
-				"Ah, the Rock Crusher - such an unassuming machine that initially appears to only really be a builder's best friend. Who could look past infinite Cobblestone, Deepslate, or Obsidian?"
+				"Ах, дробитель камня — такая неприметная машина, которая поначалу кажется лучшим другом строителя. Кто устоит перед бесконечным булыжником, глубинным сланцем или обсидианом?"
 				""
-				"Don't be fooled, though, as this little machine might just shock you with the array of materials it makes renewable when you macerate its rocks down to dust form. The surrounding quests will clue you in."
+				"Но не обманывайся: эта машинка может удивить тем, сколько материалов становится возобновляемыми, если измельчить её камни в пыль. Соседние квесты всё объяснят."
 			]
 			icon: "gtceu:lv_rock_crusher"
 			id: "55D8E30978CBBC0D"
 			shape: "circle"
-			subtitle: "More like game breaking, am I right?"
+			subtitle: "Скорее game-breaking, как по мне?"
 			tasks: [{
 				id: "21A653703F408934"
-				title: "Rock Breaking"
+				title: "Дробление камня"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -54,40 +54,40 @@
 		}
 		{
 			dependencies: ["55D8E30978CBBC0D"]
-			description: ["Cobblestone is just the start of things. Let's make a Cobbleworks!"]
+			description: ["Булыжник — только начало. Давай построим булыжную фабрику!"]
 			id: "54D73D049F8CD9FE"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Oh, we're only just getting started."
+			subtitle: "Мы только начинаем."
 			tasks: [{
 				consume_items: false
 				count: 64L
 				id: "72A52930F1754ABF"
 				item: "minecraft:cobblestone"
-				title: "Cobblestone"
+				title: "Булыжник"
 				type: "item"
 			}]
-			title: "The Joy of Cobblestone"
+			title: "Радость булыжника"
 			x: 0.33d
 			y: -1.65d
 		}
 		{
 			dependencies: ["54D73D049F8CD9FE"]
 			description: [
-				"&6Stone Dust&r can be centrifuged in &bMV&r for a wide range of miscellaneous materials. It's a slow and expensive process, but you may wish to check it out."
+				"&6Каменную пыль&r можно центрифугировать на &bMV&r и получить кучу разных материалов. Медленно и дорого, но заглянуть стоит."
 				""
-				"Obviously, Quartzite is Quartzite. Did you know that you could extract any excess Quartzite into &eLiquid Glass&r?"
+				"Кварцит — кварцит. Знал ли ты, что лишний кварцит можно переработать в &eжидкое стекло&r?"
 				""
-				"&aPotassium Feldspar&r electrolyses into some incredibly useful resources."
+				"&aКалиевый полевой шпат&r при электролизе даёт невероятно полезные ресурсы."
 				""
-				"You also have a (low) chance for &dBiotite&r, which notably electrolyses for a very slow source of &bFluorine&r."
+				"Есть ещё (небольшой) шанс на &dбиотит&r — он электролизуется в очень медленный источник &bфтора&r."
 				""
-				"Finally, &aMetal Mixture dust&r is useless until you can centrifuge it at &5EV&r. Pretty much all of its outputs when centrifuged are very useful."
+				"Наконец, &aпыль металлической смеси&r бесполезна, пока не сможешь центрифугировать её на &5EV&r. Почти все её выходы после центрифугирования очень полезны."
 			]
 			id: "668A8BDDEE17865E"
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Small Stone, Big Byproducts"
+			subtitle: "Маленький камень — большие побочники"
 			tasks: [{
 				id: "3C1B921715553377"
 				item: "gtceu:stone_dust"
@@ -99,16 +99,16 @@
 		{
 			dependencies: ["54D73D049F8CD9FE"]
 			description: [
-				"Just Forge Hammer that Cobblestone and you'll get some &dGravel&r."
+				"Просто прокуй булыжник кузнечным молотом — получишь &dгравий&r."
 				""
-				"Gravel macerates into &6Stone Dust&r, but with a low chance of Flint when the recipe is performed in a &6HV Macerator&r or above. You probably want to sift for Flint, anyway!"
+				"Гравий измельчается в &6каменную пыль&r, но в &6HV-дробилке&r и выше есть небольшой шанс на кремень. Впрочем, кремень лучше просеивать!"
 				""
-				"Flint Dust centrifuges into &aSilicon Dioxide&r, which is then electrolysed for Silicon and Oxygen."
+				"Пыль кремня центрифугируется в &aдиоксид кремния&r, который затем электролизуется на кремний и кислород."
 			]
 			id: "52868F643F0A1007"
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "cp_gravelpit"
+			subtitle: "Гравийная яма"
 			tasks: [{
 				id: "3850F80F95B8E520"
 				item: "minecraft:gravel"
@@ -120,14 +120,14 @@
 		{
 			dependencies: ["52868F643F0A1007"]
 			description: [
-				"Yet another &bForge Hammer&r step, but you'll be making &dSand&r renewably. With renewable Sand comes renewable Glass (remember to try using an &9Arc Furnace&r for that sweet &adoubled&r yield!)."
+				"Ещё один шаг с &bкузнечным молотом&r — но теперь ты делаешь &dпесок&r возобновляемым. С возобновляемым песком приходит возобновляемое стекло (попробуй &9дуговую печь&r — сладкий &aудвоенный&r выход!)."
 				""
-				"Quartz Sand Dust centrifuges into a chanced output of &3Certus Quartz&r Dust."
+				"Кварцевый песок центрифугируется с шансом получить пыль &3кристалла истинного кварца&r."
 			]
 			id: "10FD7C65FC83ADD6"
 			shape: "rsquare"
 			size: 0.55d
-			subtitle: "Two vast and trunkless legs of stone..."
+			subtitle: "Две огромные безликие ноги из камня..."
 			tasks: [{
 				id: "6724DCD56A7592FF"
 				item: "minecraft:sand"
@@ -139,14 +139,14 @@
 		{
 			dependencies: ["10FD7C65FC83ADD6"]
 			description: [
-				"Yup - &brenewable&r Glass."
+				"Да — &bвозобновляемое&r стекло."
 				""
-				"Glass'll always be useful throughout your playthrough in a variety of recipes."
+				"Стекло пригодится на протяжении всего прохождения во множестве рецептов."
 			]
 			id: "471B85B964C578A7"
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Glass Hurts, doesn't it..."
+			subtitle: "Стекло режет, правда..."
 			tasks: [{
 				id: "71A450692F1DC98D"
 				item: "minecraft:glass"
@@ -162,14 +162,14 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Pulverise your Diorite into Dust, then centrifuge for Mirabilite Dust and Clay Dust."
+				"Измельчи диорит в пыль, затем центрифуги — получишь пыль мирабилита и глиняную пыль."
 				""
-				"Mirabilite yields minimal Sulfur, but Clay Dust is the real treasure here. When electrolysed, you'll get some Aluminium for your troubles. Not bad!"
+				"Мирабилит даёт немного серы, но глиняная пыль — настоящее сокровище. При электролизе получишь алюминий. Неплохо!"
 			]
 			id: "43D5A5F95EEB339C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Mirabilite, Clay..."
+			subtitle: "Мирабилит, глина..."
 			tasks: [{
 				id: "6358C3084C675965"
 				item: "minecraft:diorite"
@@ -185,14 +185,14 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Granite Dust centrifuges into Redrock Dust and the familiar Silicon Dioxide Dust."
+				"Гранитная пыль центрифугируется в красную скальную пыль и знакомый диоксид кремния."
 				""
-				"Silicon Dioxide is generally just great to have, and Redrock centrifuges into Calcite (that's renewable Calcium) and Flint."
+				"Диоксид кремния сам по себе очень полезен, а красная скала центрифугируется в кальцит (возобновляемый кальций) и кремень."
 			]
 			id: "0089AA3A92C02334"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Redrock, Silicon Dioxide..."
+			subtitle: "Красная скала, диоксид кремния..."
 			tasks: [{
 				id: "7D054563301323A4"
 				item: "minecraft:granite"
@@ -208,14 +208,14 @@
 				"7FA0ACB7F161F378"
 			]
 			description: [
-				"Deepslate centrifuges into... you guessed it... Silicon Dioxide! You may want to set this up for the guaranteed Biotite output, as Biotite electrolyses into Fluorine."
+				"Глубинный сланец центрифугируется в... угадал... диоксид кремния! Можешь настроить это ради гарантированного биотита — он электролизуется в фтор."
 				""
-				"This is obviously a far better source of Biotite than Stone Dust. Hopefully, you didn't waste your time setting that up!"
+				"Это явно лучший источник биотита, чем каменная пыль. Надеюсь, ты не потратил время на ту установку!"
 			]
 			id: "3B436487305AEE38"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Silicon Dioxide, Fluorine..."
+			subtitle: "Диоксид кремния, фтор..."
 			tasks: [{
 				id: "64EF28C6902C7083"
 				item: "minecraft:deepslate"
@@ -231,14 +231,14 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Andesite Dust will get you some delicious Asbestos Dust, and some Saltpeter Dust to boot."
+				"Андезитовая пыль даст тебе вкусную асбестовую пыль и немного селитры."
 				""
-				"Asbestos is a slow source of Magnesium, and Saltpeter has a variety of uses in chemistry."
+				"Асбест — медленный источник магния, а селитра пригодится в химии."
 			]
 			id: "3BCA8923DF575D5D"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Asbestos, Saltpeter... (No Create)"
+			subtitle: "Асбест, селитра... (без Create)"
 			tasks: [{
 				id: "74AEE715BE76C0CF"
 				item: "minecraft:andesite"
@@ -254,14 +254,14 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"By placing some Redstone Dust into your Rock Breaker, you'll find yourself making some Obsidian."
+				"Положи немного редстоуновой пыли в дробитель камня — и получишь обсидиан."
 				""
-				"Obsidian Dust is quite useful, as it electrolyses into Iron."
+				"Пыль обсидиана довольно полезна: при электролизе даёт железо."
 			]
 			id: "71972471AFB97BB2"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Fallout: New Vegas, Iron..."
+			subtitle: "Fallout: New Vegas, железо..."
 			tasks: [{
 				id: "3C423DE1EB48AFF5"
 				item: "minecraft:obsidian"
@@ -277,14 +277,14 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"Basalt Dust centrifuges into Olivine, a material which can be used to substitute Emerald in a small handful of recipes - for example, when making Engraved Crystal Chips."
+				"Базальтовая пыль центрифугируется в оливин — материал, который может заменить изумруд в нескольких рецептах, например при изготовлении гравированных кристаллических чипов."
 				""
-				"You also get a pittance of Dark Ash."
+				"Ещё получишь крохи тёмной золы."
 			]
 			id: "1937057C27596942"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Olivine, Dark Ashes..."
+			subtitle: "Оливин, тёмная зола..."
 			tasks: [{
 				id: "6F2F8349BF8AF29C"
 				item: "minecraft:basalt"
@@ -302,14 +302,14 @@
 				"7FA0ACB7F161F378"
 			]
 			description: [
-				"Not to be confused with regular Granite, Red Granite has some useful utility when the dust is processed. "
+				"Не путай с обычным гранитом — красный гранит полезен, когда его пыль переработана."
 				""
-				"Electrolysing it yields Aluminium for slightly fewer steps than the renewable Clay electrolysis."
+				"Электролиз даёт алюминий за чуть меньше шагов, чем возобновляемый электролиз глины."
 			]
 			id: "789E2DC829DD1828"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Aluminium..."
+			subtitle: "Алюминий..."
 			tasks: [{
 				id: "10A533EC38D279DA"
 				item: "gtceu:red_granite"
@@ -324,11 +324,11 @@
 				"26394C1290D70AB6"
 				"16A6AE5C770DB83A"
 			]
-			description: ["Marble Dust isn't anything to write home about, yielding Calcite and Magnesium."]
+			description: ["Мраморная пыль — ничего особенного: кальцит и магний."]
 			id: "3E3EB69F34F50A9C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Calcite, Magnesium..."
+			subtitle: "Кальцит, магний..."
 			tasks: [{
 				id: "0DED39C9E1966F0B"
 				item: "gtceu:marble"
@@ -343,20 +343,20 @@
 				"48141DBA683F6B5A"
 			]
 			description: [
-				"By collecting Air with a &6Gas Collector&r and cooling it to Liquid state with a &3Vacuum Freezer&r, you can then distill the liquid Air for a plethora of valuable resources."
+				"Собирая воздух &6газовым коллектором&r и охлаждая его до жидкого состояния в &3вакуумной морозилке&r, ты можешь перегнать жидкий воздух в перегонной колонне и получить кучу ценных ресурсов."
 				""
-				"You thought that was all? Air collection isn't limited to the &2Overworld&r - whilst you'll require a higher-tier Distillation Tower to distill the \"higher\" tiers of liquid Air, you can also process air from the &4Nether&r and the &5End&r. This process is mostly optional, but you'll definitely find it to be a rewarding one."
+				"Думал, на этом всё? Сбор воздуха не ограничен &2Верхним миром&r — для перегонки «высших» tier'ов жидкого воздуха нужна перегонная колонна выше, но можно обрабатывать воздух и из &4Нижнего мира&r, и из &5Края&r. Процесс в основном опционален, но определённо стоит того."
 			]
 			icon: "gtceu:distillation_tower"
 			id: "24A90D07C3A35370"
 			shape: "circle"
-			subtitle: "Things are up in the air right now..."
+			subtitle: "Всё пока в воздухе..."
 			tasks: [{
 				id: "2DE291473F207BF8"
-				title: "Air truly is wonderful."
+				title: "Воздух — это прекрасно."
 				type: "checkmark"
 			}]
-			title: "All Kinds Of Air (Distillation)"
+			title: "Всякие виды воздуха (перегонка)"
 			x: -0.1499999999999999d
 			y: -0.7d
 		}
@@ -366,27 +366,27 @@
 				"7820DF52516344F4"
 			]
 			description: [
-				"&5Ender Air&r is probably the most interesting of the three airs to distill. Requiring an &9IV Distillation Tower&r and distilling in batches of 200,000L, you'll need to outfit your DT with at least an &9IV&r Input Hatch (or an &5ME Hatch&r if you're inclined)."
+				"&5Эндер-воздух&r, пожалуй, самый интересный из трёх видов для перегонки. Нужна &9IV-перегонная колонна&r и перегонка партиями по 200 000 л — понадобится как минимум &9IV&r люк ввода (или &5ME-люк&r, если хочешь)."
 				""
-				"You're getting a ton of Nitrogen, Oxygen, Helium, and Deuterium - the latter of which is commonly used in &aFusion&r. Tritium is used to make &6Helium Plasma&r, which is commonly agreed to be the best plasma for &2power generation&r."
+				"Получишь тонны азота, кислорода, гелия и дейтерия — последний часто используют в &aсинтезе&r. Тритий нужен для &6гелиевой плазмы&r — её считают лучшей плазмой для &2генерации энергии&r."
 				"{@pagebreak}"
-				"Krypton and Xenon are your run-of-the-mill &aEBF-boosting&r Noble gases. At this point, you should consider running most (if not all) of your EBF recipes on &bCircuit 2&r to benefit from the faster durations."
+				"Криптон и ксенон — обычные благородные газы для &aускорения ЭПП&r (электроплавильной печи). На этом этапе стоит гонять большинство (если не все) рецептов ЭПП на &bсхеме 2&r — быстрее и приятнее."
 				""
-				"Would you look at that - you get &dRadon&r as well! It's a slow process, especially when you consider that your old setup (did you set it up?) already loops on itself, but &dmore Radon&r is nice."
+				"Смотри-ка — ещё и &dрадон&r! Медленный процесс, особенно если старая установка (ты её уже сделал?) и так замкнута в цикл, но &dещё радона&r — приятно."
 				""
-				"Last but not least, you're getting a low chance of &3Ender Pearl Dust&r. The chances are low enough that you shouldn't give up on the Mixer recipe just yet... but once again, more &3Ender Pearls&r are nice!"
+				"И напоследок — небольшой шанс на &3пыль эндер-жемчуга&r. Шансы низкие, так что рецепт в смесителе пока не бросай... но лишние &3эндер-жемчуги&r тоже радуют!"
 			]
 			icon: "gtceu:liquid_ender_air_bucket"
 			id: "77BBAB9CA586BB36"
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Nitrogen, Oxygen, Helium, Krypton, Xenon, Radon, Ender Pearls..."
+			subtitle: "Азот, кислород, гелий, криптон, ксенон, радон, эндер-жемчуги..."
 			tasks: [{
 				id: "37E57DD2AD97DD10"
-				title: "I'm surprised I can breathe in the End."
+				title: "Удивительно, что в Крае можно дышать."
 				type: "checkmark"
 			}]
-			title: "Liquid Ender Air"
+			title: "Жидкий эндер-воздух"
 			x: -3.15d
 			y: -0.7d
 		}
@@ -397,25 +397,25 @@
 				"6958029B5514D4EC"
 			]
 			description: [
-				"This was touched upon in the &5EV&r chapter, but we'll focus on what this distillation gets you here."
+				"Об этом уже говорили в главе &5EV&r, но здесь — что даёт эта перегонка."
 				""
-				"The Nitrogen output is &bsubstantial&r, and can help you keep any &ePyrolyse Ovens&r running. You should buffer some of the Nitrogen so you can &aboost your EBFs&r - faster recipe times save your sanity and energy in equal measures."
+				"Выход азота &bзначительный&r — поможет держать &eпечи пиролиза&r в работе. Буферизуй часть азота, чтобы &aускорять ЭПП&r — быстрее рецепты, меньше нервов и энергии."
 				"{@pagebreak}"
-				"Helium and Argon yields are low, but ideally you can run the Air Distillation as a &dpassive process&r every so often to keep your supplies topped up. Both are used to &aboost EBF speeds&r."
+				"Гелий и аргон даются понемногу, но перегонку воздуха можно крутить как &dпассивный процесс&r время от времени — запасы не иссякнут. Оба ускоряют ЭПП."
 				""
-				"&bCrushed Ice&r is... well, &bCrushed Ice&r. Maybe you could open a cocktail bar?"
+				"&bДроблёный лёд&r — ну... &bдроблёный лёд&r. Может, открыть коктейль-бар?"
 			]
 			icon: "gtceu:liquid_air_bucket"
 			id: "213211A0BC475C32"
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "Nitrogen, Helium, Argon...."
+			subtitle: "Азот, гелий, аргон..."
 			tasks: [{
 				id: "3964A8A27402A11B"
-				title: "I promise I won't sell my air as a commodity!"
+				title: "Обещаю, не буду продавать воздух как товар!"
 				type: "checkmark"
 			}]
-			title: "Liquid Air"
+			title: "Жидкий воздух"
 			x: -1.15d
 			y: -0.7d
 		}
@@ -426,49 +426,49 @@
 				"6958029B5514D4EC"
 			]
 			description: [
-				"Carbon Monoxide is useful when making &6Butyraldehyde&r for your Laminated Glass in &9late IV&r."
+				"Угарный газ полезен при производстве &6бутиральдегида&r для ламинированного стекла на &9позднем IV&r."
 				""
-				"&6Coal Gas&r can be processed in a Distillation Tower for a variety of useful outputs."
+				"&6Угольный газ&r можно перегнать в перегонной колонне — куча полезных выходов."
 				""
-				"Helium-3 is only used in &bFusion&r, and Neon is used to boost a single &aBlast Furnace&r recipe - &4UHV&r superconductors!"
+				"Гелий-3 нужен только в &bсинтезе&r, а неон ускоряет один рецепт &aэлектроплавильной печи&r — &4UHV&r-сверхпроводники!"
 				""
-				"Ashes are always useful for the handful of resources they grant."
+				"Зола всегда полезна за те немногие ресурсы, что даёт."
 			]
 			icon: "gtceu:liquid_nether_air_bucket"
 			id: "38E5B595C33A071C"
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Carbon, Coal Gas, Helium-3..."
+			subtitle: "Углерод, угольный газ, гелий-3..."
 			tasks: [{
 				id: "074BDDF3F1AE08AA"
-				title: "It's not all hellish in the Nether."
+				title: "В Нижнем мире не всё так адски."
 				type: "checkmark"
 			}]
-			title: "Liquid Nether Air"
+			title: "Жидкий воздух Нижнего мира"
 			x: -2.15d
 			y: -0.7d
 		}
 		{
 			dependencies: ["4D7A771B67DAFC6F"]
 			description: [
-				"Just so you're aware - vanilla farms such as &7Iron Golems&r or &ePiglins&r have been &4disabled&r in this pack. There are obviously ways to cheese the pack (such as some good old Minecraft &acapitalism&r, &mif you catch our drift&r), but we encourage you to try to play without taking advantage of some notorious vanilla \"&ocheese&r\"."
+				"На всякий случай: ванильные фермы вроде &7железных големов&r или &eпиглинов&r в этом паке &4отключены&r. Конечно, есть способы «читить» (старый добрый Minecraft-&aкапитализм&r, &mесли понимаешь, о чём мы&r), но мы советуем играть без печально известных ванильных «&oчизов&r»."
 				""
-				"It's possible that in the future, we'll just make a core-mod for the pack, so players can re-enable the disabled mob drops. For now, the drops are disabled via &5KubeJS script&r, so if you're script-savvy, the file can be removed at &o&7server_scripts/vanilla/loot_drops.js&r."
+				"Возможно, в будущем сделаем coremod, чтобы игроки могли снова включить дроп с мобов. Пока дроп отключён через &5KubeJS-скрипт&r — если разбираешься в скриптах, файл можно удалить: &o&7server_scripts/vanilla/loot_drops.js&r."
 			]
 			icon: "minecraft:iron_golem_spawn_egg"
 			id: "7ECD974215E77432"
 			shape: "circle"
-			subtitle: "Is it safe? Is it alright?"
+			subtitle: "Это безопасно? Всё в порядке?"
 			tasks: [{
 				id: "19F0161CE47673EE"
-				title: "Oh, darn. That kinda sucks."
+				title: "Ох, чёрт. Обидно."
 				type: "checkmark"
 			}]
-			title: "What about my mob farm?"
+			title: "А как же моя ферма мобов?"
 			x: 1.0d
 			y: 0.5d
 		}
 	]
-	subtitle: ["We'll be rich, soon enough!"]
-	title: "Renewability and You"
+	subtitle: ["Скоро разбогатеем!"]
+	title: "Возобновляемость и ты"
 }

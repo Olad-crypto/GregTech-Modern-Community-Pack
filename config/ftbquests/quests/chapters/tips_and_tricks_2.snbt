@@ -11,76 +11,76 @@
 		{
 			dependencies: ["03DBF1961AE21C76"]
 			description: [
-				"You might already be familiar with EU as the Energy Unit for Electric machines - but what about Steam?"
+				"Ты, наверное, уже знаком с EU как единицей энергии для электрических машин — а как насчёт пара?"
 				""
-				"Steam machines will run using a proportional amount of steam at a 1:1 ratio of EU to Steam as listed in your recipe viewer of choice."
+				"Паровые машины потребляют пропорциональное количество пара в соотношении 1:1 EU к пару, как указано в твоём просмотрщике рецептов."
 				"{@pagebreak}"
-				"After each recipe, the Steam machines will vent cooler steam (with snazzy particles) from the side with the square. This is the exhaust port."
+				"После каждого рецепта паровые машины выпускают более холодный пар (с эффектными частицами) со стороны с квадратом. Это выхлопной порт."
 				""
-				"Important: Keep the exhaust port unblocked - this is neither an input nor an output slot! If the machine fails to vent steam, it will stop working."
+				"Важно: не блокируй выхлопной порт — это ни вход, ни выход! Если машине не удаётся выпустить пар, она перестанет работать."
 				""
-				"Reminder: Use your Wrench to change which side the exhaust port is facing (right-click)."
+				"Напоминание: используй гаечный ключ, чтобы сменить сторону выхлопного порта (ПКМ)."
 				"{@pagebreak}"
-				"Regular Steam Machines are twice as slow to complete recipes as is listed in EMI. To bring your machines up to speed, you may want to pursue High Pressure Steam machinery."
+				"Обычные паровые машины выполняют рецепты в два раза медленнее, чем указано в EMI. Чтобы довести машины до нормальной скорости, стоит освоить паровые машины высокого давления."
 				""
-				"High Pressure Steam Machines are the same speed as indicated by EMI, but with adjusted steam consumption. You will unlock them once you obtain Steel."
+				"Паровые машины высокого давления работают с той скоростью, что указана в EMI, но с другим расходом пара. Ты откроешь их, как только получишь сталь."
 				"{@pagebreak}"
-				"Psst! If you're not in a Hardcore world, we invite you to stand on top of pipes transporting steam, or stand right in front of the vent as the machines are running recipes."
+				"Псс! Если ты не в хардкорном мире, мы приглашаем тебя встать на трубы с паром или прямо перед выхлопом, пока машины гоняют рецепты."
 			]
 			icon: "gtceu:steam_machine_casing"
 			id: "7FB2D6C9A3763A47"
 			size: 0.75d
-			subtitle: "https://store.steampowered.com/"
+			subtitle: "https://store.steampowered.com/ — пар, не магазин"
 			tasks: [{
 				id: "488F188E55E06B11"
 				type: "checkmark"
 			}]
-			title: "Steam Power"
+			title: "Паровая сила"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E186F9C57155BFA"]
 			description: [
-				"You have likely realised by now that the Energy system in &2GregTech&r is &cnowhere near as simple&r as the &1RF&r you may be used to using in modded Minecraft."
+				"Ты, наверное, уже понял, что энергосистема в &2GregTech&r &cдалеко не такая простая&r, как &1RF&r, к которому ты привык в модифицированном Minecraft."
 				""
-				"The energy unit of GregTech is the EU."
+				"Единица энергии GregTech — EU."
 				""
-				"&1EU&r mechanics have a certain flair to them, and are not dissimilar to real-world electricity. They can also be &4dangerous and punishing&r if mishandled. However, the power system gives GregTech players a lot of &6satisfaction&r when harnessed well."
+				"Механика &1EU&r имеет свой характер и не сильно отличается от реальной электрики. При неправильном обращении она &4опасна и карает&r. Но при грамотном использовании энергосистема GregTech приносит игрокам много &6удовлетворения&r."
 				""
-				"&l&3Lore:&r&o The Amperage bug, exploit or feature (call it whatever you want!) from 1.12.2 GTCE has been &lfixed&r&o in GTCEu. The Energy network now works as intended."
+				"&l&3Лор:&r&o Баг с амперажом, эксплойт или фича (называй как хочешь!) из GTCE 1.12.2 &lисправлен&r&o в GTCEu. Энергосеть теперь работает как задумано."
 				"{@pagebreak}"
-				"Let's go over some basic physics:"
+				"Разберём базовую физику:"
 				""
-				"° &9Power&r = &2Voltage&r * &dAmperage&r"
-				"° &1Energy&r = &9Power&r * &6Time&r"
+				"° &9Мощность&r = &2Напряжение&r * &dАмпераж&r"
+				"° &1Энергия&r = &9Мощность&r * &6Время&r"
 				""
-				"&8Resistance&r is an excluded concept in GregTech, instead being partially simulated as cable loss."
+				"&8Сопротивление&r в GregTech не учитывается — вместо этого оно частично имитируется потерями в кабелях."
 				""
-				"The units are defined as such:"
+				"Единицы определены так:"
 				""
-				"- &1EU&r is the unit of &1Energy&r."
-				"- &9EU/t&r is the &9Power&r."
-				"- &dA&r or &dAmp&r is the &dAmperage&r."
-				"- &2V&r &owould&r be the &2Voltage&r, but we prefer referring to it as &7LV&r, &bMV&r, &6HV&r... as those are the relevant values for gameplay (technically: &7LV&r = 32V = 32EU/t/A)."
+				"- &1EU&r — единица &1энергии&r."
+				"- &9EU/t&r — &9мощность&r."
+				"- &dA&r или &dAmp&r — &dампераж&r."
+				"- &2V&r &oтеоретически&r было бы &2напряжением&r, но мы предпочитаем &7LV&r, &bMV&r, &6HV&r... — это важные значения для геймплея (технически: &7LV&r = 32V = 32EU/t/A)."
 				"{@pagebreak}"
-				"Electricity in GregTech travels in \"packets\". The size of each packet is equivalent to the voltage of its tier."
+				"Электричество в GregTech передаётся «пакетами». Размер каждого пакета равен напряжению его тира."
 				""
-				"Taking an LV packet as an example, this \"packet\" would carry 32EU. Multiple blocks are capable of producing these EU packets, and packets are only produced if they are able to access a destination."
+				"Возьмём пакет LV: этот «пакет» несёт 32EU. Многие блоки могут создавать такие EU-пакеты, и пакеты создаются только если есть куда передаться."
 				"{@pagebreak}"
-				"Every &6tick&r, &1EU&r &apackets&r attempt to transfer themselves from Energy Producers to Consumers. These &apackets&r have two parameters: a &2Voltage&r tier determined by the tier of the Producer, and &dAmperage&r. This determines how much &9Power&r can actually be transferred. "
+				"Каждый &6тик&r &1EU&r-&aпакеты&r пытаются перейти от производителей энергии к потребителям. У &aпакетов&r два параметра: &2напряжение&r тира производителя и &dампераж&r. От этого зависит, сколько &9мощности&r реально передаётся."
 				""
-				"There are no partial Amps, meaning Energy is transferred only if the full Amp &apacket&r can be received. You might notice this from your machines sitting just below full EU capacity - they will only accept EU when they are missing at least 1A of their input voltage."
+				"Дробных ампер нет — энергия передаётся только если потребитель может принять полный ампер &aпакета&r. Ты мог замечать, что машины чуть не добирают EU — они принимают энергию только когда не хватает хотя бы 1A входного напряжения."
 				"{@pagebreak}"
-				"If a &3Machine&r receives a &2higher Voltage&r than its Tier, it'll &cexplode&r. Kaboom! Any excess &dAmperage&r won't have an adverse affect, as machines only consume as they need."
+				"Если &3машина&r получает &2напряжение выше&r своего тира — &cвзрыв&r. Бабах! Лишний &dампераж&r не навредит: машины потребляют только сколько нужно."
 				""
-				"The machine explosion would usually also damage terrain, but we have disabled that feature in this pack."
+				"Взрыв обычно ещё и портит местность, но в этом паке мы отключили это."
 				"{@pagebreak}"
-				"In summary, Energy is transported in &apackets&r of &132EU&r for &7LV&r, &1128EU&r for &bMV&r... so on and so forth. The amount of energy that is actually received by a machine can end up being lower than energy sent, due to cable loss."
+				"Итого: энергия передаётся &aпакетами&r по &132EU&r для &7LV&r, &1128EU&r для &bMV&r и так далее. Фактически полученная машиной энергия может быть меньше отправленной из‑за потерь в кабеле."
 				""
-				"Machine Energy Input is limited by &2Voltage&r (too high and, well, &6boom&r!), and by &dAmperage&r. Thus, a &bMV&r Machine with &d2A&r Input connected to a &7LV&r line will never accept more than &964EU/t&r."
+				"Ввод энергии машины ограничен &2напряжением&r (слишком высокое — ну, &6бум&r!) и &dамперажом&r. Так, &bMV&r-машина с &d2A&r на &7LV&r линии никогда не примет больше &964EU/t&r."
 				""
-				"It is still possible to run &bMV&r Machines on &7LV&r lines, but only if the recipes are low enough &9Power&r, or if you have a &3MV Battery&r in the charging slot. The machine will only accept &d1A&r when idle, and so the &3Battery&r will recharge at a maximum rate of &932EU/t&r."
+				"&bMV&r-машины всё же можно питать от &7LV&r, если рецепты требуют меньше &9мощности&r или в слоте зарядки стоит &3MV-батарея&r. В простое машина берёт только &d1A&r, и &3батарея&r заряжается максимум &932EU/t&r."
 			]
 			icon: "gtceu:lv_battery_hull"
 			id: "61FED75EFA6555EC"
@@ -89,37 +89,37 @@
 				id: "10F1D268436EA85C"
 				type: "checkmark"
 			}]
-			title: "Electricity"
+			title: "Электричество"
 			x: 0.99d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E186F9C57155BFA"]
 			description: [
-				"Transporting EU is done via direct connection, using &aWires&r or &aCables&r."
+				"EU передаётся прямым подключением через &aпровода&r или &aкабели&r."
 				""
-				"Wires are the inferior option as they will &celectrocute&r you and &close more energy&r as the electricity travels through the wire, so you want to use insulated Cables. Keep in mind that you can't combine cables into thicker variants, so make sure you insulate the right thickness to avoid any headaches."
+				"Провода хуже: они &cбьют током&r и &cтеряют больше энергии&r по пути, поэтому нужны изолированные кабели. Помни: кабели нельзя объединять в более толстые варианты — изолируй нужную толщину сразу, чтобы не мучиться."
 				""
-				"&cCable loss&r means you will have to stick your Machines close to your Generators, but that will only be a problem in earlygame. If you peek through the quest book, you will eventually be able to obtain &6Superconductors&r, sidestepping this issue!"
+				"&cПотери в кабеле&r заставляют держать машины рядом с генераторами, но это проблема только ранней игры. Загляни в книгу квестов — в итоге ты получишь &6сверхпроводники&r и обойдёшь это!"
 				"{@pagebreak}"
-				"Keep in mind that GregTech cables suffer from \"cable loss\". Every block of cable that an EU packet travels will decrease its stored EU."
+				"У кабелей GregTech есть «потери в кабеле». Каждый блок кабеля, через который проходит EU-пакет, уменьшает запас EU."
 				""
-				"For instance, transferring &7LV&r current along 6 cables each with a loss of 5 EU/t will result in the packets arriving at their destination with a meagre 2 EU/t (32 - [6*5]). For this reason, you will want to keep your cables short until you can start to consider better alternatives."
+				"Например, &7LV&r по 6 кабелям с потерей 5 EU/t на блок даст на выходе жалкие 2 EU/t (32 - [6*5]). Поэтому кабели лучше держать короткими, пока не появятся альтернативы."
 				"{@pagebreak}"
-				"&6Superconductors&r are special Wires available for each Voltage tier. They don't have any Cable counterpart, but that isn't necessary, as they have absolutely &6zero cable loss&r! They also don't damage you when you touch them. "
+				"&6Сверхпроводники&r — особые провода для каждого тира напряжения. У них нет кабельного аналога, но это и не нужно: &6нулевые потери&r! И не бьют током при касании."
 				""
-				"They are the best choice for wiring at any tier, if not a little expensive in comparison to the other wires."
+				"Лучший выбор проводки на любом тире, хоть и подороже обычных проводов."
 				"{@pagebreak}"
-				"GT6-style Cables are &denabled&r. It means that placing Cables will only connect them to the block they were placed against. To open more connections, use your &5Wire Cutter&r on the grid."
+				"Кабели в стиле GT6 &dвключены&r: при установке кабель соединяется только с блоком, на который ты его поставил. Чтобы открыть другие соединения, используй &5кусачки для проводов&r по сетке."
 				"{@pagebreak}"
-				"&2GTCEu&r Cables now have &6native RF support&r! You can plug any RF appliance into an EU source and it will automatically convert. The ratio is &a4 : 1&r (RF : EU). Not that you can produce RF in this pack - but it's a thought if you wanted to make your own!"
+				"Кабели &2GTCEu&r теперь с &6нативной поддержкой RF&r! Любой RF-прибор можно подключить к EU-источнику — конвертация автоматическая. Соотношение &a4 : 1&r (RF : EU). В этом паке RF не производится — но если захочешь свой модпак, имей в виду!"
 			]
 			icon: "gtceu:copper_double_cable"
 			id: "0F2A7F519B3C67FB"
 			size: 0.75d
 			tasks: [{
 				id: "41F15814196EECFC"
-				title: "Cables"
+				title: "Кабели"
 				type: "checkmark"
 			}]
 			x: 1.98d
@@ -128,28 +128,28 @@
 		{
 			dependencies: ["7B0FF43022F6C2EC"]
 			description: [
-				"The quantity of 1 packet per tick is known as an Amp (1A for short)."
+				"Количество 1 пакета за тик называется ампером (кратко 1A)."
 				""
-				"Each single-block Generator in GregTech is configured to produce &91A&r of its voltage tier. For &7LV&r, that results in &232EU/t&r."
+				"Каждый одноблочный генератор GregTech настроен на &91A&r своего тира. Для &7LV&r это &232EU/t&r."
 				""
-				"If a machine requires 16EU/t, one \"packet\" of 32EU is sent &6every other tick&r (assuming no cable loss) - no more, no less."
+				"Если машине нужно 16EU/t, один «пакет» 32EU уходит &6через тик&r (без потерь в кабеле) — не больше и не меньше."
 				""
-				"A Battery Buffer with &94&r Batteries can produce up to &94 Amps&r for &2128EU/t&r as &7LV&r power, which is important for the &3Electric Blast Furnace&r - or to run multiple machines simultaneously."
+				"Буфер батарей с &94&r батареями даёт до &94 ампер&r и &2128EU/t&r как &7LV&r — важно для &3ЭПП (электроплавильной печи)&r или для нескольких машин сразу."
 				""
-				"Generic machines are configured to draw up to &92 Amps&r to account for cable loss. Other machines have specific &9Amps IN&r, which is described in their tooltip."
+				"Обычные машины тянут до &92A&r с учётом потерь в кабеле. У других указан свой &9Amps IN&r в подсказке."
 				"{@pagebreak}"
-				"The most critical thing to know is that &acables&r have an &9Amperage &climit&r. Attempting to transport more Amps than this limit will &4burn your cable up&r."
+				"Главное: у &aкабелей&r есть &9лимит ампеража&r. Превышение — &4кабель сгорит&r."
 				""
-				"&9Amps&r are drawn &oonly&r through the &aCables&r connecting the Producers and Consumers directly, and only drawn if the Consumers are active."
+				"&9Амперы&r идут &oтолько&r по &aкабелям&r между производителем и потребителем напрямую и только если потребитель активен."
 				""
-				"This means you can safely step down your Cables in certain places - feel free to experiment!"
+				"Значит, в некоторых местах можно смело утоньшать кабели — экспериментируй!"
 			]
 			icon: "gtceu:ulv_transformer_2a"
 			id: "2BE355672E638CF2"
 			size: 0.66d
 			tasks: [{
 				id: "7D5CFA20478CB9C8"
-				title: "Amperage"
+				title: "Амперы"
 				type: "checkmark"
 			}]
 			x: 2.97d
@@ -158,30 +158,30 @@
 		{
 			dependencies: ["1BE0349B8F3890D3"]
 			description: [
-				"Why does every machine have a million variants across each tier? We'll let you in on an industry secret - overclocking is one of the main reasons."
+				"Почему у каждой машины миллион вариантов на тир? Откроем промышленный секрет — из‑за оверклока это одна из главных причин."
 				""
-				"Overclocking is a mechanic that happens when you try to run a recipe in a machine &dthat is higher tier than the recipe itself.&r The recipe will use an increased amount of energy, but the recipe time will be cut based on how many tiers you're overclocking by."
+				"Оверклок срабатывает, когда ты гоняешь рецепт в машине &dтира выше, чем рецепт.&r Рецепт жрёт больше энергии, но время режется в зависимости от числа тиров оверклока."
 				""
-				"&l&3Lore:&r&o GTCE overclocking was extremely awkward. If the recipe consumed 16EU/t or below, it would do a classic 2.0x overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster! GTCEu has a config to select the Overclock speed bonus."
+				"&l&3Лор:&r&o Оверклок в GTCE был кривым: при ≤16EU/t классический 2.0x, при >16EU/t каждый оверклок давал 2.8x! В GTCEu бонус скорости оверклока настраивается в конфиге."
 				"{@pagebreak}"
-				"A pro tip - for automated setups, overclock as little as possible!"
+				"Совет для автоматизации — оверклокь как можно меньше!"
 				""
-				"Machines have a side menu to set the maximum voltage tier it will overclock to. Click on it to cycle through all the available Voltages and choose a limit."
+				"В боковом меню машины можно задать максимальный тир для оверклока. Кликай, чтобы переключать напряжения и выбрать лимит."
 				"{@pagebreak}"
-				"Each tier above the recipe tier allows one overclock. Each overclock implies:"
+				"Каждый тир выше тира рецепта = один оверклок. Каждый оверклок означает:"
 				""
-				"&9-&r &a2x&r recipe speed"
-				"&9-&r &a4x&r power consumption"
-				"&9->&r &c2x&r total energy cost"
+				"&9-&r &a2x&r скорость рецепта"
+				"&9-&r &a4x&r потребление мощности"
+				"&9->&r &c2x&r суммарная стоимость энергии"
 				""
-				"As you can see, there are upsides and downsides. It is a game of balance: ask yourself if you want faster recipes at the cost of greater power consumption."
+				"Плюсы и минусы. Баланс: хочешь ли быстрее ценой большего расхода энергии?"
 			]
 			icon: "minecraft:clock"
 			id: "54DE75E97153E455"
 			size: 0.75d
 			tasks: [{
 				id: "5E35ABFDCB703A38"
-				title: "Overclocking"
+				title: "Оверклок"
 				type: "checkmark"
 			}]
 			x: 3.96d
@@ -190,29 +190,29 @@
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"There are two really important factors to know when building Multiblocks."
+				"Два важнейших фактора при сборке мультиблоков."
 				""
-				"Check EMI, and remember to keep things versatile."
+				"Смотри EMI и помни про гибкость."
 				"{@pagebreak}"
-				"Rule number one - check EMI!"
+				"Правило первое — смотри EMI!"
 				""
-				"This one was probably obvious, but EMI is so much more than just a cute picture of how the Multiblock looks when built! Use your mouse to &drotate&r the preview, and &9hover over the blocks used&r to view any extra information."
+				"Очевидно, но EMI — не только милая картинка готового мультиблока! Крути превью мышью (&dповорот&r) и &9наводи на блоки&r за доп. информацией."
 				""
-				"The EMI page also contains an ingredient list of required blocks. You can also &dright-click&r a block in the preview to get a display of all blocks that work in that specific position."
+				"На странице EMI есть список нужных блоков. Можно &dПКМ&r по блоку в превью — покажет все блоки для этой позиции."
 				"{@pagebreak}"
-				"Rule number two - multiblocks are versatile!"
+				"Правило второе — мультиблоки гибкие!"
 				""
-				"There is no \"definite\" way to form the Multiblock. Most of the time, you have complete freedom over the &9tier of Buses/Hatches&r used - and you also have the ability to&d choose where you want your inputs/outputs&r."
+				"Нет «единственно верной» схемы. Часто свободен в &9тире шин/люков&r и можешь &dвыбирать, где входы и выходы&r."
 				""
-				"Taking the EBF as an example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere in place of a casing. Fluid Hatches are also optional, though you probably want them if you need to handle recipes involving fluid."
+				"На примере ЭПП (электроплавильной печи): любой тир Energy/Bus/Hatch, в любом месте вместо корпуса. Fluid Hatch опционален, но для жидкостных рецептов он тебе понадобится."
 			]
 			icon: "gtceu:heatproof_machine_casing"
 			id: "1647E0C649E2131C"
 			size: 0.66d
-			subtitle: "Multiblock University"
+			subtitle: "Университет мультиблоков"
 			tasks: [{
 				id: "4C9F42B0E4A2E0DB"
-				title: "Forming Multiblocks"
+				title: "Сборка мультиблоков"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -221,45 +221,45 @@
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"&9-&r If the recipe isn't happening, check if the Multiblock is properly plugged in (we all make these mistakes!)."
+				"&9-&r Рецепт не идёт — проверь, подключён ли мультиблок (все так делают!)."
 				""
-				"&9-&r Remember to always perform the initial Maintenance \"routine\" at the appropriate hatch."
+				"&9-&r Не забывай начальное обслуживание в нужном люке."
 				""
-				"&9-&r Verify the recipe's EU/t usage - the max EU/t provided to the multiblock has to be greater than that of the recipe."
+				"&9-&r Сверь EU/t рецепта — максимум EU/t мультиблока должен быть выше."
 				"{@pagebreak}"
-				"&9- &rCheck the special requirements the recipe may have (EMI always has some kind of indication if this is the case). Do you need to be in a Cleanroom, for example?"
+				"&9- &rПроверь особые требования рецепта (EMI обычно это показывает). Нужна чистая комната?"
 				""
-				"&9-&r Make sure the correct items are input into the buses/hatches. This is less obvious than in a regular machine, because you have to juggle between the Input Bus and Input Hatch."
+				"&9-&r Правильные предметы в шинах/люках. Сложнее обычной машины: Input Bus и Input Hatch."
 				""
-				"&9-&r Make sure there is space for an output. Maybe the multiblock formed, but you forgot a Hatch. The other biggest offender is the Output Hatches being too low tier and thus having too little capacity - this trips people up with the Greenhouse!"
+				"&9-&r Место под выход. Мультиблок собрался, а люка забыли. Частая ловушка — Output Hatch слишком низкого тира и мало ёмкости; с этим валятся на теплице!"
 			]
 			icon: "gtceu:robust_machine_casing"
 			id: "331F2C12C652D268"
 			size: 0.75d
-			subtitle: "It's not forming? We've all been there before."
+			subtitle: "Не собирается? Бывало у всех."
 			tasks: [{
 				id: "1E55AB139D9E3539"
-				title: "Checkmark"
+				title: "Галочка"
 				type: "checkmark"
 			}]
-			title: "Troubleshooting Multiblocks"
+			title: "Поиск неисправностей мультиблоков"
 			x: 0.99d
 			y: 0.99d
 		}
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"Maintenance in GregTech is not as bad as you think (promise!), and adding a Maintenance Hatch to your multiblocks makes them look pretty industrial!"
+				"Обслуживание в GregTech не так страшно (честно!), а Maintenance Hatch делает мультиблоки по-заводски!"
 				"{@pagebreak}"
-				"Most Multiblocks require a &3Maintenance Hatch&r. You will need to perform Maintenance for the Multiblock to begin operating."
+				"Большинству мультиблоков нужен &3Maintenance Hatch&r. Без обслуживания мультиблок не заработает."
 				""
-				"This is done by having a &9Wrench&r, a &9Screwdriver&r, a &9Soft Mallet&r, a &9Hammer&r, a &9Wire Cutter&r, and a &9Crowbar&r in your inventory, opening the Maintenance Hatch and &eclicking the center spot once&r. &cThere's no need to move tools individually&r."
+				"Нужны &9гаечный ключ&r, &9отвёртка&r, &9мягкий молоток&r, &9молоток&r, &9кусачки&r и &9монтировка&r в инвентаре; открой люк и &eодин раз кликни в центр&r. &cПерекладывать инструменты по слотам не нужно&r."
 				"{@pagebreak}"
-				"Alternatively, you can circumvent these problems by placing a &9Tape&r in the Maintenance Hatch, but a lot of people would jump at the chance to tell you that Tape is &o\"unethical\"&r - plus, tape is gated behind some polymers starting from &bMV&r."
+				"Или обойди это, положив &9ленту&r в Maintenance Hatch — многие скажут, что лента &o«неэтична»&r, плюс она с полимеров с &bMV&r."
 				"{@pagebreak}"
-				"Maintenance problems have a &d5%&r chance of occuring every &dhour of multiblock activity&r. Needless to say, they are &6very&r rare. Each maintenance problem increases the recipe duration by &c10%&r. Fixing these problems is done the same way as above."
+				"Поломки с шансом &d5%&r каждый &dчас работы мультиблока&r. Редко. Каждая поломка +&c10%&r к длительности рецепта. Чинится так же, как выше."
 				""
-				"At &6HV&r, you'll unlock other Maintenance Hatches that do not require manual repairs."
+				"На &6HV&r откроются люки обслуживания без ручного ремонта."
 			]
 			id: "6644AAD403127EFB"
 			size: 0.66d
@@ -268,44 +268,44 @@
 				item: "gtceu:maintenance_hatch"
 				type: "item"
 			}]
-			title: "Maintenance Hatches"
+			title: "Люки обслуживания"
 			x: 1.98d
 			y: 0.99d
 		}
 		{
 			dependencies: ["1646BF9194100E57"]
 			description: [
-				"The &3Electric Blast Furnace&r, &3Pyrolyse Oven, &b&aMulti Smelter&r, and &3Cracking Unit&r all require Heating Coils. But why should you bother upgrading to higher tiers of Coil?"
+				"&3ЭПП (электроплавильная печь)&r, &3пиролизная печь&r, &b&aмульти-плавильня&r и &3крекер&r требуют нагревательные катушки. Зачем апгрейдить катушки?"
 				""
-				"Coil progression can be viewed in the Milestones tab."
+				"Прогресс катушек смотри во вкладке Milestones."
 				"{@pagebreak}"
-				"For the EBF, things get slightly complicated. The EBF smelts items at a certain &dtemperature&r. This is mainly determined by the tier of heating coil used - &r&6Cupronickel&r smelts at &d1800K&r, &bKanthal&r at &d2700K&r, etc. Additionally, starting from &6HV&r, each tier of energy adds &d100K&r to the temperature."
+				"Для ЭПП чуть сложнее. ЭПП плавит при заданной &dтемпературе&r — в основном от катушки: &r&6Cupronickel&r — &d1800K&r, &bKanthal&r — &d2700K&r и т.д. С &6HV&r каждый тир энергии даёт +&d100K&r."
 				"{@pagebreak}"
-				"How does this affect you? Each EBF recipe has a certain base temperature. For example, &bAluminium&r is smelted at &d1700K&r. If the EBF temperature is not high enough, the recipe won't happen. If the EBF temperature is high enough, 2 different bonuses are applied:"
+				"Как это влияет на тебя? У каждого рецепта ЭПП базовая температура. Например, &bалюминий&r — &d1700K&r. Недостаточно — рецепт не пойдёт. Достаточно — два бонуса:"
 				""
-				"&9-&r For every &d900K&r above the recipe temperature, the amount of energy required is multiplied by &a0.95x&r - which stacks."
-				"&9-&r For every &d1800K&r above the recipe temperature, a single additional overclock will be &6100% efficient&r; in other words, it will &5quadruple the recipe speed&r, instead of doubling it."
+				"&9-&r За каждые &d900K&r выше температуры рецепта энергия ×&a0.95&r — стакается."
+				"&9-&r За каждые &d1800K&r выше — один оверклок &6100% эффективен&r: &5скорость ×4&r вместо ×2."
 				"{@pagebreak}"
-				"The Pyrolyse Oven is much more simple in comparison to the EBF."
+				"Пиролизная печь проще ЭПП."
 				""
-				"Cupronickel coils apply a &c+25% penalty&r to recipe duration - effectively, recipes are slower than listed if one uses Cupronickel coils."
+				"Катушки Cupronickel дают &c+25%&r к длительности — рецепты медленнее, чем в EMI."
 				""
-				"Kanthal coils restore recipe duration to a regular length of time."
+				"Kanthal возвращает обычное время."
 				""
-				"However, coils above Kanthal apply an &aadditive -50% bonus&r to recipe duration!"
+				"Выше Kanthal — &a−50%&r к длительности!"
 				"{@pagebreak}"
-				"The Cracker is much more simple."
+				"Крекер ещё проще."
 				""
-				"Every coil tier post-Cupronickel will reduce its energy usage by 10%."
+				"Каждый тир катушки после Cupronickel −10% к энергии."
 				""
-				"Coils in the Multi Smelter reduce the amount of energy per operation whilst also increasing the number of items that can be processed in parallel."
+				"В мульти-плавильне катушки снижают энергию за операцию и увеличивают параллельную обработку."
 			]
 			icon: "gtceu:tritanium_coil_block"
 			id: "6C8789A7B8946CFF"
 			size: 0.75d
 			tasks: [{
 				id: "3434AF20FA598211"
-				title: "Coil Behaviour"
+				title: "Поведение катушек"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -314,17 +314,17 @@
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"The &3Electric Blast Furnace&r requires a &3Muffler Hatch&r to run. This hatch must be &cunobstructed&r so it can output its beautiful smoke particles."
+				"&3ЭПП (электроплавильная печь)&r требует &3Muffler Hatch&r. Люк должен быть &cне заблокирован&r — иначе не выйдет красивый дым."
 				""
-				"&l&3Lore:&r&o In GregTech 5, polluting multiblocks had Muffler Hatches. The higher tier the hatch, the lower the Pollution output."
+				"&l&3Лор:&r&o В GregTech 5 загрязняющие мультиблоки имели Muffler Hatch. Чем выше тир люка, тем меньше загрязнение."
 				""
-				"&oPollution had... interesting... effects, such as turning grass and dirt into sand."
+				"&oЗагрязнение давало... интересные... эффекты — трава и земля превращались в песок."
 				"{@pagebreak}"
-				"When a recipe is performed, there is a small chance for the &3Muffler Hatch&r to give bonus items - typically tiny Dusts of Ash. These items can be processed for some helpful resources."
+				"При рецепте есть шанс, что &3Muffler Hatch&r выдаст бонусные предметы — обычно крошечную пыль золы. Их можно переработать."
 				"{@pagebreak}"
-				"Do &onot&r try to automate the extraction of items from the &3Muffler Hatch&r! It's not intended to be an automation challenge, as it voids excess contents when full, so don't worry about it stopping machines from running."
+				"&oНе&r пытайся автоматизировать выгрузку из &3Muffler Hatch&r! Это не челлендж: при переполнении содержимое удаляется, машины из‑за этого не останавливаются."
 				""
-				"Muffler Hatches in GTCEu are more about pure aesthetic (c'mon, you can't deny that those particles look good!) and small rewards, rather than punishing game mechanics."
+				"Muffler Hatch в GTCEu — эстетика (согласись, частицы классные!) и мелкие награды, а не наказание."
 			]
 			id: "20B98506962B8B17"
 			size: 0.66d
@@ -333,18 +333,18 @@
 				item: "gtceu:lv_muffler_hatch"
 				type: "item"
 			}]
-			title: "Muffler Hatches"
+			title: "Дымовые люки"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"Multiblocks do not look at the voltage of recipes when trying to craft. Instead, they simply check if they are being provided with enough Power."
+				"Мультиблоки не смотрят на напряжение рецепта — только хватает ли &9мощности&r."
 				""
-				"&9Note:&r Be wary of Cable &closses&r bringing the actual power input below the recipe requirement! We &lhighly&r recommend either placing your &3Battery Buffer&r next to the &3Energy Hatches&r for the minimum cable length, or looking around this questbook to see if there are better alternatives to Cables."
+				"&9Заметка:&r &cПотери в кабеле&r могут опустить ввод ниже требования рецепта! &lНастоятельно&r советуем &3буфер батарей&r вплотную к &3Energy Hatch&r или поищи в книге квестов альтернативы кабелям."
 				"{@pagebreak}"
-				"The EBF needs a minimum of &4120EU/t&r power input to run its recipes. This can be achieved with &3two LV Energy Hatches&r. Each one takes 2 Amps of LV, so that's 4 Amps of LV for 128EU/t maximum power."
+				"ЭПП (электроплавильной печи) нужно минимум &4120EU/t&r. Это &3два LV Energy Hatch&r. Каждый берёт 2A LV — итого 4A LV, максимум 128EU/t."
 			]
 			id: "5F320AFEF6F41AAF"
 			size: 0.75d
@@ -354,18 +354,18 @@
 				item: "gtceu:lv_energy_input_hatch"
 				type: "item"
 			}]
-			title: "Powering Multiblocks"
+			title: "Питание мультиблоков"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2FC7B1E867E4194E"]
 			description: [
-				"Similarly to the Steam Multiblocks - hopefully, you made these! - you're going to need some &3Buses&r if you want to move items in and out."
+				"Как у паровых мультиблоков — надеюсь, ты их сделал! — для предметов нужны &3Bus&r."
 				""
-				"For fluids, you'll instead need &3Hatches&r. Higher tiers of &3Hatches/Buses&r have more slots."
+				"Для жидкостей — &3Hatch&r. Старшие тиры &3Hatch/Bus&r — больше слотов."
 				""
-				"&9Tip:&r You can Sneak + Right Click a placed &3Hatch&r or &3Bus&r while holding a &2Screwdriver&r (and an empty offhand) to swap its I/O Direction"
+				"&9Совет:&r Shift + ПКМ по установленному &3Hatch&r или &3Bus&r с &2отвёрткой&r (пустая вторая рука) меняет направление ввода-вывода"
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "0C09F89291D29EF8"
@@ -382,75 +382,75 @@
 					type: "item"
 				}
 			]
-			title: "Multiblock I/O"
+			title: "Ввод-вывод мультиблоков"
 			x: 6.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3568BC9742092FC5"]
 			description: [
-				"First off, be sure to check the &9tooltip&r - there's a lot of information in there!"
+				"Сначала глянь &9подсказку&r — там куча информации!"
 				""
-				"Don't forget the &3Maintenance Hatch&r. If the structure refuses to form, rotate or replace the Controller, it can be a bit finicky. Don't worry - it doesn't have to be cube-shaped."
+				"Не забудь &3Maintenance Hatch&r. Если не собирается — поверни или замени контроллер, он капризный. Не обязана быть кубом."
 				""
-				"The Controller always has to be in the center. The rest of the top layer has to be &dFilter Casings&r."
+				"Контроллер всегда в центре. Верхний слой — &dFilter Casings&r."
 				""
-				"All edges have to be &dPlascrete&r, and the sides can be &dCleanroom Glass&r."
+				"Все рёбра — &dPlascrete&r, бока могут быть &dCleanroom Glass&r."
 				""
-				"Placing &3Generators&r or &3Mufflers&r inside is &cnot allowed&r. They're too dirty, so the Cleanroom will unform."
+				"&3Генераторы&r или &3Muffler&r внутри &cнельзя&r — слишком грязно, чистая комната развалится."
 				"{@pagebreak}"
-				"Upon assembly, the Cleanroom starts &4contaminated&r. While contamined, contained machines will not be able to operate."
+				"После сборки чистая комната &4загрязнена&r. Пока загрязнена, машины внутри не работают."
 				""
-				"The Cleanroom will drain 30 EU/t and slowly increase the cleanliness until its cleanliness is at 100%."
+				"Она жрёт 30 EU/t и медленно поднимает чистоту до 100%."
 				""
-				"Once &9Clean&r, recipes can run. At that point it will only draw 4EU/t. Keep it powered at all times or it will get dirty again!"
+				"Когда &9чистая&r — рецепты идут. Тогда только 4EU/t. Держи питание, иначе снова загрязнится!"
 				""
-				"The bigger the Cleanroom, the longer it takes to become Clean."
+				"Чем больше комната, тем дольше очистка."
 				""
-				"&9Note&r: When the time comes, Multiblocks must also be put into Cleanrooms in order to run cleanroom recipes!"
+				"&9Заметка&r: позже мультиблоки тоже нужно ставить в чистые комнаты для соответствующих рецептов!"
 				"{@pagebreak}"
-				"Need to transfer EU? Try using &3Hulls&r or &3Diodes&r."
+				"Нужно провести EU? Попробуй &3Hull&r или &3Diode&r."
 				""
-				"Item and Fluid transfer can be done using &3Passthrough Hatches&r."
+				"Предметы и жидкости — &3Passthrough Hatch&r."
 				""
-				"&3Machine Hulls&r can also \"double\" as &6ME Cables&r to extend your ME Network inside your Cleanroom."
+				"&3Machine Hull&r может служить &6ME-кабелем&r, чтобы протянуть ME-сеть внутрь."
 				""
-				"If you used any &dDoor(s)&r in the structure, they can remain open. Not very realistic, but convenient!"
+				"&dДвери&r в структуре можно оставить открытыми. Нереалистично, но удобно!"
 				"{@pagebreak}"
-				"&9&eConfigs:&r If you dislike the Cleanroom mechanics, it can be toggled off in the config file with &5\"B:enableCleanroom\"&r. Multiblocks can be made to ignore cleanroom requirements with &5\"B:cleanMultiblocks\"&r. We encourage you to try it out before deciding."
+				"&9&eКонфиги:&r Не нравится механика — выключи &5\"B:enableCleanroom\"&r. Мультиблоки могут игнорировать требование чистой комнаты через &5\"B:cleanMultiblocks\"&r. Попробуй, прежде чем отключать."
 				"{@pagebreak}"
-				"In the real world, a Cleanroom is a well-isolated room which maintains a very low concentration of dust and airborne particles. They're normally used for scientific research, and in real-life semiconductor manufacturing. Clean rooms are specifically designed to keep out as many airborne particulates as can be. "
+				"В реальности чистая комната — изолированное помещение с очень низкой концентрацией пыли и частиц. Их используют в науке и производстве полупроводников. Их проектируют, чтобы держать снаружи как можно больше взвешенных частиц."
 				""
-				"Clean rooms are also sometimes used with the purpose of preventing materials from escaping! This is often the primary aim in fields such as pharmaceutics, nuclear work, and hazardous biology."
+				"Иногда чистые комнаты нужны, чтобы материалы не выходили наружу — фармацевтика, ядерщина, опасная биология."
 				""
-				"The more you know!"
+				"Теперь ты знаешь!"
 			]
 			icon: "gtceu:cleanroom"
 			id: "1E5EFC5880605DD4"
 			size: 0.75d
 			tasks: [{
 				id: "315F143FB070D17F"
-				title: "The Cleanroom"
+				title: "Чистая комната"
 				type: "checkmark"
 			}]
-			title: "All About the Cleanroom"
+			title: "Всё о чистой комнате"
 			x: 0.0d
 			y: 1.98d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"There are many ways to automate Ordered Items: GT item pipes, Redstone, other mods, you name it! This quest will attempt to guide you through a setup using &3AE2&r."
+				"Автоматизировать упорядоченные предметы можно множеством способов: трубы GT, редстоун, другие моды — что угодно! Этот квест проведёт через схему на &3AE2&r."
 				""
-				"Have the Pattern Provider face an &3Item P2P&r. Set two output P2Ps: one into the first &3Input Bus&r, and the other into &3Item Pipes&r. Make your Item Pipes connect to all Input Buses including the first. Don't forget &dBlocking Mode&r! "
+				"Pattern Provider смотрит в &3Item P2P&r. Два выходных P2P: в первый &3Input Bus&r и в &3Item Pipes&r. Трубы ко всем Input Bus, включая первый. Не забудь &dBlocking Mode&r!"
 				""
-				"With this setup, assembly items should be fully automated!"
+				"С такой схемой сборка должна быть полностью автоматизирована!"
 				"{@pagebreak}"
-				"Whilst item automation was relatively simple, fluid automation is slightly harder."
+				"С предметами было просто, с жидкостями чуть сложнее."
 				""
-				"Fluid Pipes behave differently compared to Item Pipes, so you &4won't&r be able to use the same solution as above. "
+				"Fluid Pipes ведут себя иначе, чем Item Pipes, поэтому &4ту же&r схему не применишь."
 				""
-				"This quest won't explain how to do this entirely &7(due to it being off by default)&r, so the full solution is left as an exercise to the reader."
+				"Этот квест не распишет всё &7(функция по умолчанию выключена)&r — полное решение оставляем тебе."
 			]
 			icon: "gtceu:assembly_line"
 			id: "2C70E297DBE3BDF2"
@@ -459,30 +459,30 @@
 				id: "0CC1BD3E61E14F18"
 				type: "checkmark"
 			}]
-			title: "Understanding the Assembly Line"
+			title: "Сборочная линия: основы"
 			x: 0.99d
 			y: 1.98d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"Scanning is the first step for research. Take the item shown in EMI and put it with a &3Data Stick&r to scan it. This will &4consume&r the item and put Data on the Data Stick. Pretty straightforward, right?"
+				"Сканирование — первый шаг исследования. Возьми предмет из EMI и положи с &3Data Stick&r — &4предмет сожрётся&r, данные попадут на стик. Просто, да?"
 				""
-				"You will need at least an &6HV Scanner&r to progress to &dLuV&r, an &5EV Scanner&r for &aLuV Energy Hatches&r, and an &1IV Scanner&r for &aFusion Reactors&r."
+				"Для прогресса к &dLuV&r нужен &6HV Scanner&r, для &aLuV Energy Hatch&r — &5EV Scanner&r, для &aFusion Reactors&r — &1IV Scanner&r."
 				"{@pagebreak}"
-				"Later on, recipes will require different &aData Storage Items&r for research, such as the &3Data Orb&r. This process will remain the same, but will use different Data Storage Items instead. They can also be copied the same way, but you cannot copy between different types of storage items."
+				"Позже рецепты потребуют другие &aносители данных&r, например &3Data Orb&r. Процесс тот же, но другой носитель. Копировать можно так же, но между разными типами носителей копирование не работает."
 				"{@pagebreak}"
-				"Eventually, you'll want multiple Assembly Lines, but you won't want to re-scan for every Research. This is why you can also use the &3Scanner&r to &dCopy Data&r. Place the data stick you want to copy in one slot, and a blank one in the other. This will copy the contents of the first stick into the second!"
+				"Понадобится несколько сборочных линий, но пересканировать каждое исследование не хочется. Поэтому &3Scanner&r умеет &dкопировать данные&r: стик с данными в один слот, пустой — в другой. Содержимое первого скопируется во второй!"
 				""
-				"&4Important&r: Using two different data sticks with data on them will cause one to &4overwrite&r the other. Be careful!"
+				"&4Важно&r: два заполненных стика — один &4перезапишет&r другой. Будь осторожен!"
 			]
 			icon: "gtceu:data_orb"
 			id: "6DA28F169CED9C7D"
 			size: 0.75d
-			subtitle: "Implemented At Last"
+			subtitle: "Наконец-то внедрили"
 			tasks: [{
 				id: "5626378FBFA6241A"
-				title: "Research"
+				title: "Исследования"
 				type: "checkmark"
 			}]
 			x: 1.98d
@@ -491,65 +491,65 @@
 		{
 			dependencies: ["188A8C3DD38C2762"]
 			description: [
-				"&aRotors&r have a &9Power&r, &dEfficiency&r and &4Durability&r that are based on tool stats."
+				"У &aроторов&r есть &9мощность&r, &dКПД&r и &4прочность&r по характеристикам инструмента."
 				""
-				"&9Power&r is a multiplier applied to the production of the &3Turbine&r. This stacks multiplicatively with the &3Rotor Holder&r."
+				"&9Мощность&r — множитель выработки &3турбины&r. Стакается мультипликативно с &3Rotor Holder&r."
 				""
-				"&dEfficiency&r reduces its fuel consumption. This again stacks multiplicatively with the &3Rotor Holder&r."
+				"&dКПД&r снижает расход топлива. Тоже мультипликативно с &3Rotor Holder&r."
 				""
-				"&4Durability&r is the lifetime of the &aRotor&r in seconds, when the &3Turbine&r&r is active."
+				"&4Прочность&r — время жизни &aротора&r в секундах при работе &3турбины&r."
 				"{@pagebreak}"
-				"&3Rotor Holders&r above the tier of the &3Large Turbine&r will multiplicatively &6double&r the production for every tier, whilst additively increasing the efficiency by 10% every tier."
+				"&3Rotor Holder&r выше тира &3большой турбины&r мультипликативно &6удваивает&r выработку за каждый тир и аддитивно +10% к КПД за тир."
 				"{@pagebreak}"
-				"&lSome pros of Large Turbines:"
+				"&lПлюсы больших турбин:"
 				""
-				"&9-&r Turbines can scale &9Power&r production far, far higher than their base output, thanks to tiered &3Rotor Holders&r."
+				"&9-&r Масштабируют &9мощность&r намного выше базовой за счёт тировых &3Rotor Holder&r."
 				""
-				"&9-&r The &aRotor&r can give a huge boost to &dFuel efficiency&r and &9Power&r production."
+				"&9-&r &aРотор&r сильно бустит &dКПД топлива&r и &9мощность&r."
 				""
-				"&9-&r You get a lot of satisfaction for setting them up properly (yay!)"
+				"&9-&r Огромное удовлетворение от правильной настройки (ура!)"
 				"{@pagebreak}"
-				"&l...and some cons of Large Turbines:"
+				"&l...и минусы:"
 				""
-				"&9-&r Turbines work off &eInertia&r, which requires them to continuously run to achieve maximum Power."
+				"&9-&r Работают от &eинерции&r — нужен непрерывный прогон для максимума."
 				""
-				"&9-&r Any excess Energy produced will be &cvoided&r. You will &lneed&r to use large Energy Buffers and an &3Advanced Energy Detector&r if you wish to stay efficient."
+				"&9-&r Лишняя энергия &cудаляется&r. Для эффективности нужны большие буферы и &3Advanced Energy Detector&r."
 				""
-				"&9-&r They require a &aRotor&r, which will lose durability over time and eventually &cbreak&r."
+				"&9-&r Нужен &aротор&r, который &cломается&r со временем."
 				""
-				"&9-&r A little bit of Math is required to get the expected results."
+				"&9-&r Немного математики для ожидаемого результата."
 				"{@pagebreak}"
-				"A Turbine's &9Power&r output affects both the fuel consumption and the EU/t generation. It is calculated with the following formula:"
+				"&9Мощность&r турбины влияет на расход топлива и EU/t. Формула:"
 				""
 				"&eproduction = baseEUt x rotorPower x 2^(rotorHolderTier - turbineTier)&r"
 				""
-				"The &dEfficiency&r reduces fuel consumption, but does not alter the EU/t generation. It is calculated with the following formula:"
+				"&dКПД&r снижает расход топлива, но не меняет EU/t. Формула:"
 				""
 				"&eefficiency = rotorEfficiency x (1 + 0.1 x (rotorHolderTier - turbineTier))&r"
 				"{@pagebreak}"
-				"Let's simulate a Large Steam Turbine, with an Ultimet Rotor and an &5EV&r Rotor Holder:"
+				"Симуляция: большая паровая турбина, ротор Ultimet, &5EV&r Rotor Holder:"
 				""
 				"Production = 1024 x 1.60 x 2 = 3276 EU/t"
 				""
 				"Efficiency = 1.30 x 1.10 = 143%"
 				""
-				"(Therefore, steam consumption would be 4582 L/t - this is above a Titanium Boiler, or a Tungstensteel Boiler with ~70% throttle)"
+				"(Значит, расход пара 4582 L/t — выше титанового котла или вольфрамового с ~70% дросселем)"
 				"{@pagebreak}"
-				"Next, we'll analyse the Gas Turbine, with a Chrome Rotor and an &5EV&r Rotor Holder:"
+				"Газовая турбина, ротор Chrome, &5EV&r Rotor Holder:"
 				""
 				"Production = 4096 x 1.70 x 1 = 5325 EU/t"
 				""
 				"Efficiency = 1.55 x 1.00 = 155%"
 				""
-				"(The same fuel consumption would produce 3435 EU/t using 6.7 Turbo Gas Turbines!)"
+				"(Тот же расход топлива дал бы 3435 EU/t на 6.7 турбо газовых турбинах!)"
 				"{@pagebreak}"
-				"Finally, how about we check out the Plasma Turbine, with a HSS-S Rotor and a &cZPM&r Rotor Holder:"
+				"Плазменная турбина, ротор HSS-S, &cZPM&r Rotor Holder:"
 				""
 				"Production = 16834 x 2.50 x 4 = 168340 EU/t"
 				""
 				"Efficiency = 1.80 x 1.20 = 216%"
 				""
-				"(This is more than a ZPM Amp!)"
+				"(Больше, чем один амп ZPM!)"
 			]
 			icon: {
 				Count: 1
@@ -564,7 +564,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "2E9A0EE7DBA81C4D"
-				title: "Large Turbine Mechanics"
+				title: "Механика больших турбин"
 				type: "checkmark"
 			}]
 			x: 3.97d
@@ -573,21 +573,21 @@
 		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
 			description: [
-				"Simply put, Gregicality Multiblocks are larger versions of the GregTech machines you might be familiar with. The obvious increase in resource cost is worth your time, as they can be upgraded to gain the ability to process recipes in parallel."
+				"Проще говоря, Gregicality Multiblocks — увеличенные версии привычных машин GregTech. Ресурсов больше, но оно того стоит: их можно апгрейдить для параллельной обработки рецептов."
 				"{@pagebreak}"
-				"They also introduce Machine Modes - depending on the configured machine mode, the Multiblock will use a different recipe type when processing materials. You can change this from the machine GUI by clicking on the Robot Arm button."
+				"Они вводят режимы машины — в зависимости от режима мультиблок использует другой тип рецепта. Меняется в интерфейсе машины кнопкой Robot Arm."
 				"{@pagebreak}"
-				"By including Parallel Control Hatches in your Gregicality Multiblocks, you can grant them parallel processing capability. There are 4 tiers of hatch, each further increasing parallel capability by an factor of 4."
+				"С Parallel Control Hatch в Gregicality Multiblocks появляется параллель. 4 тира люка, каждый умножает параллельность в 4 раза."
 				"{@pagebreak}"
-				"Batch mode can be enabled on a multiblock to merge together an amount of one recipe together into one recipe up to 5 seconds. This does not change the overall speed of one recipe like overclocking, but is useful to stop machine flickering."
-				"This is not strictly gated by Gregicality Multiblocks, but is extremely useful with them. "
+				"Пакетный режим объединяет несколько одинаковых рецептов в один до 5 секунд. Общая скорость одного рецепта как при оверклоке не меняется, но мерцание машины прекращается."
+				"Это не строго привязано к Gregicality Multiblocks, но с ними особенно полезно."
 			]
 			icon: "gtceu:mega_blast_furnace"
 			id: "57DE7059D524FAE9"
 			size: 0.66d
 			tasks: [{
 				id: "7E9FB8A674944C72"
-				title: "Gregicality Multiblocks"
+				title: "Мультиблоки Gregicality"
 				type: "checkmark"
 			}]
 			x: 4.95d
@@ -596,13 +596,13 @@
 		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
 			description: [
-				"&lWhy go parallel?"
+				"&lЗачем параллель?"
 				""
-				"&9-&r &4Parallelization is superior&r to overclocking! Take advantage of this for your passive setups such as Ore Processing or Oil Distilling."
+				"&9-&r &4Параллель лучше&r оверклока! Используй в пассивных линиях — переработка руды, нефтеперегонка."
 				""
-				"&9-&r &6Distinct buses&r: &3GCYM Machinery&r can accept multiple &3Input Buses&r. Use it for your pattern automation with &3Extruder&r, &3Engraver&r, and many other."
+				"&9-&r &6Раздельные шины&r: &3машины GCYM&r принимают несколько &3Input Bus&r. Удобно для паттернов с &3Extruder&r, &3Engraver&r и др."
 				""
-				"Power cost is based on the current recipe being run, times the number of &4parallel&r being performed."
+				"Расход энергии = текущий рецепт × число &4параллельных&r операций."
 			]
 			icon: "gtceu:zpm_parallel_hatch"
 			id: "255929EB845E200D"
@@ -611,40 +611,40 @@
 				id: "71990F9CE8E29F73"
 				type: "checkmark"
 			}]
-			title: "Parallelisation"
+			title: "Параллелизация"
 			x: 5.94d
 			y: 1.98d
 		}
 		{
 			dependencies: ["7813F183681E0342"]
 			description: [
-				"&lWhy process ore?"
+				"&lЗачем перерабатывать руду?"
 				""
-				"The main purpose of GregTech Ore Processing is to provide &abyproducts&r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable, but this will become relevant soon."
+				"Главная цель переработки руды GregTech — &aпобочные продукты&r сверх основного результата. В паровую эру побочки недоступны, но скоро это станет важно."
 				"{@pagebreak}"
-				"&lHow should I start?"
+				"&lС чего начать?"
 				""
-				"The steps available in the Steam Age go as follows:"
+				"В паровую эру доступно:"
 				""
-				"One Ore (block) &9->&r Two Crushed Ores (Macerator)"
+				"Одна руда (блок) &9->&r два дроблёных (Macerator)"
 				""
-				"One Crushed Ore &9->&r One Impure Dust (Hammer)"
+				"Одна дроблёная &9->&r одна грязная пыль (Hammer)"
 				""
-				"One Impure Dust &9->&r One Dust (In world crafting)"
+				"Одна грязная пыль &9->&r одна пыль (крафт в мире)"
 				""
-				"One Dust &9->&r One Ingot (Furnace, you should know this one)"
+				"Одна пыль &9->&r один слиток (печь, ты это знаешь)"
 				"{@pagebreak}"
-				"A pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly, gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio."
+				"Кирка или mining hammer с Hammering, или молоток GregTech, даёт дроблёную руду с блока, но только 1:1."
 				""
-				"Silk Touch is essential to obtain an ore block - this pack includes a recipe for the book."
+				"Silk Touch нужен для блока руды — в паке есть рецепт книги."
 				"{@pagebreak}"
-				"The rule bends for ores giving more than two dusts (such as &cRedstone&r), and for dusts that cannot be smelted (&cRedstone&r... again!)."
+				"Правило гнётся для руд с >2 пылей (например &cRedstone&r) и пылей, которые нельзя переплавить (&cRedstone&r... снова!)."
 				""
-				"However, you can still smelt the ore directly to get &9half the amount&r you would from the full processing."
+				"Но руду всё ещё можно переплавить напрямую и получить &9половину&r от полной переработки."
 				"{@pagebreak}"
-				"&dEMI does not indicate Impure Dust to Clean Dust conversion&r, so keep that in mind that you can &athrow them into filled cauldrons&r."
+				"&dEMI не показывает грязную пыль -> чистую&r — помни, что &aможно бросить в заполненный котёл&r."
 				"{@pagebreak}"
-				"Take this reward for listening to us waffle on WITHOUT nodding off!"
+				"Награда за то, что ты дослушал всё это, не засыпая!"
 			]
 			icon: "gtceu:crushed_redstone_ore"
 			id: "189612F2C7C60E81"
@@ -675,71 +675,71 @@
 					type: "item"
 				}
 			]
-			title: "Beginner Ore Processing"
+			title: "Переработка руды для новичков"
 			x: 4.95d
 			y: 0.0d
 		}
 		{
 			dependencies: ["724FB950CC472BB4"]
 			description: [
-				"A shopping list for anyone looking to automate &6Ore Processing&r on a large scale:"
+				"Список покупок для крупномасштабной автоматизации &6переработки руды&r:"
 				""
-				"&9-&r One or more &3IV Macerators&r."
-				"&9-&r The &3Large Centrifuge&r. Set it to work as a Thermal Centrifuge, and you're off to the races."
-				"&9-&r One or more &3MV Electrolyzers&r - you could possibly make the large version if there's enough demand."
-				"&9-&r A &3Multi Smelter&r."
-				"&9-&r A &3Packager&r of any tier for those pesky Small/Tiny Dusts (think Rare Earth!)"
-				"&9-&r Inventories acting as a large buffer, such as &3Tungstensteel Crates&r."
-				"&9-&r &3ME Storage Buses&r, or a lot of &3Item Pipes&r + &aFilter covers&r, or &aItem Tag Filters&r."
+				"&9-&r Один или несколько &3IV Macerator&r."
+				"&9-&r &3Large Centrifuge&r в режиме Thermal Centrifuge — и вперёд."
+				"&9-&r Один или несколько &3MV Electrolyzer&r — при желании большая версия."
+				"&9-&r &3Multi Smelter&r."
+				"&9-&r &3Packager&r любого тира для Small/Tiny Dust (Rare Earth!)"
+				"&9-&r Буферы вроде &3Tungstensteel Crates&r."
+				"&9-&r &3ME Storage Bus&r или куча &3Item Pipes&r + &aфильтрующие крышки&r, или &aItem Tag Filters&r."
 				"{@pagebreak}"
-				"What you may &ealso want to&r add:"
+				"Что ты &eещё можешь&r добавить:"
 				""
-				"&9-&r A few &3LV Ore Washers&r for quick washing purposes."
-				"&9-&r Alternately, a &3Large Ore Washer&r, accompanied with a set of &3Distilleries&r for &dDistilled Water&r."
-				"&9-&r A second &3Large Centrifuge&r... this time set to Centrifuge mode for impure/purified dusts."
-				"&9-&r &3Chemical Baths&r for the special Byproducts that require &dMercury&r or &dSodium Persulfate&r to obtain."
-				"&9-&r &3Sifters&r of any tier for gem ores."
-				"&9-&r &3Electromagnetic Separators&r."
+				"&9-&r Несколько &3LV Ore Washer&r для быстрой промывки."
+				"&9-&r Или &3Large Ore Washer&r с &3Distilleries&r для &dDistilled Water&r."
+				"&9-&r Второй &3Large Centrifuge&r... в режиме Centrifuge для грязной/очищенной пыли."
+				"&9-&r &3Chemical Bath&r для особых побочек с &dMercury&r или &dSodium Persulfate&r."
+				"&9-&r &3Sifter&r любого тира для самоцветов."
+				"&9-&r &3Electromagnetic Separator&r."
 				"{@pagebreak}"
-				"If the Large Machines aren't your thing, you could always try using tons of &7LV&r machinery, and route with some clever piping."
+				"Если большие машины не твоё — куча &7LV&r-машин и умная разводка труб."
 				""
-				"Overclocking is &cnot&r energy efficient, which is why it is generally better to go for &6low-tier machines&r in &3passive setups&r. One could also argue they are cheaper."
+				"Оверклок &cне&r энергоэффективен — в &3пассивных&r линиях лучше &6низкие тиры&r. И дешевле."
 				""
-				"In previous versions of GregTech, you could just use &3Processing Arrays&r, as they could condense many low-tier machines down into a &asingle speedy multiblock&r. Players desiring &esimilar processing speeds&r nowadays should really look to the &bGCYM machinery&r - it's quick, easy to upgrade when you tier up (&dEnergy Hatches&r are usually cheaper than 16 low-tier machines!), and c'mon now... they just look really cool."
+				"В старых версиях GregTech были &3Processing Arrays&r — много низкотировых машин в &aодном быстром мультиблоке&r. Кто хочет &eпохожую скорость&r — смотри &bмашины GCYM&r: быстро, легко апгрейд при тире (&dEnergy Hatch&r обычно дешевле 16 низкотировых машин!), и выглядят круто."
 				"{@pagebreak}"
-				"&o&7\"Should I go for the optional byproducts?\""
+				"&o&7«Стоит ли гнаться за опциональными побочками?»"
 				""
-				"Yes."
+				"Да."
 				""
-				"However, the \"routes\" you take your ores through processing is up to you. Want to macerate twice because you prefer the other byproducts? Go ahead!"
+				"Но маршрут переработки — твой выбор. Хочешь дважды дробить ради других побочек? Дерзай!"
 				""
-				"Note that &3Thermal Centrifuging&r is usually a good idea, as doing so unlocks a &6unique Byproduct&r from the maceration step."
+				"&3Thermal Centrifuging&r обычно стоит того — открывает &6уникальную побочку&r на этапе дробления."
 				"{@pagebreak}"
-				"Chalcopyrite, Chalcocite, Bornite, Tetrahedrite, Pentlandite and Sheldonite ores should all be turned into their &dPurified Crushed&r variants and sent to your &6Platinum Group Metal&r chain."
+				"Chalcopyrite, Chalcocite, Bornite, Tetrahedrite, Pentlandite и шелдонит — в &dPurified Crushed&r и в цепочку &6платиновой группы&r."
 				""
-				"Purified Crushed Galena/Sphalerite should be reserved for Indium until you set up the Naquadah line. At that point, you'll have more Indium than you'll ever need."
+				"Purified Crushed Galena/Sphalerite — под индий до линии Naquadah. Потом индия будет больше, чем нужно."
 				""
-				"&aGallium&r, &aChrome&r, &aNiobium&r, &aRare Earths&r, and &aGlowstone&r are all &6Byproducts&r you might want to prioritise. "
+				"&aGallium&r, &aChrome&r, &aNiobium&r, &aRare Earths&r и &aGlowstone&r — побочки, которые стоит приоритизировать."
 				""
-				"If you think we're missing any pertinent products, hit us up on Discord, and we'll be sure to add your favourites to this list."
+				"Чего-то не хватает в списке — напиши в Discord, добавим."
 				"{@pagebreak}"
-				"As you've probably realised, Applied Energistics 2 will be very, very helpful when automating all of this."
+				"Ты уже понял: Applied Energistics 2 очень поможет в автоматизации."
 				""
-				"&3ME Storage Buses&r are very powerful for routing items when they enter your ME network. They also have a huge whitelist or blacklist configuration. Attach them to some &3Tungstensteel Crates&r to buffer intermediate items, or use a dedicated AE2 subnet."
+				"&3ME Storage Bus&r мощны для маршрутизации при входе в ME-сеть. Огромный белый/чёрный список. Вешай на &3Tungstensteel Crates&r как буфер или отдельную подсеть AE2."
 				""
-				"To combine &aSmall Dusts&r into full &aDusts&r, you'll want a &3Storage Bus&r on high priority paired with an &dItem Tag&r filter set to &e&ldusts/small&r. Note that Small Dusts may be used for Boules, and a few Tiny Dusts are needed for the PBI chain, so you can blacklist them from the filter if you desire."
+				"Чтобы собрать &aSmall Dusts&r в &aDusts&r — &3Storage Bus&r с высоким приоритетом и фильтр &dItem Tag&r &e&ldusts/small&r. Small Dust нужны для Boules, часть Tiny — для PBI, их можно внести в чёрный список."
 				"{@pagebreak}"
-				"For ores that you want to process quickly but don't care for the Byproducts as the full \"route\" would take too long in the machines, prioritize filtering them for quick washing."
+				"Для руд «быстро, без побочек», когда полный маршрут слишком долгий — фильтруй на быструю промывку."
 				""
-				"The typically \"best\" path is: Macerator -> Ore Washing -> Thermal Centrifuge -> Macerator. If you deviate from it for various reasons, you're gonna have to set filters &emanually&r. Gasp!"
+				"Типичный «лучший» путь: Macerator -> Ore Washing -> Thermal Centrifuge -> Macerator. Отклонился — фильтры &eвручную&r. Ужас!"
 			]
 			icon: "gtceu:crushed_diamond_ore"
 			id: "7FCFE4C40837CF5E"
 			size: 0.75d
-			subtitle: "Extracting an ore's full potential... at last!"
+			subtitle: "Полный потенциал руды... наконец!"
 			tasks: [{
 				id: "36276D923D83323C"
-				title: "\"Expert\" Ore Processing"
+				title: "«Экспертная» переработка руды"
 				type: "checkmark"
 			}]
 			x: 5.94d
@@ -747,21 +747,21 @@
 		}
 		{
 			dependencies: ["5AD9884E7BFB2510"]
-			description: ["Spraying &3Input Buses&r and &3Hatches&r the same color will treat them as one &3Hatch&r in the &5Multiblock&r. With distinct mode enabled on the &3Buses/Hatches&r, the &5Multiblock&r will only search for a recipe using ingredients from one color group. With this enabled the &5Multiblock&r will try to match the color of the &3Output Hatch&r to the color group used for the inputs."]
+			description: ["Покраска &3Input Bus&r и &3Hatch&r в один цвет объединяет их в один &3Hatch&r для &5мультиблока&r. С distinct mode на &3Bus/Hatch&r мультиблок ищет рецепт только по ингредиентам одной цветовой группы. Тогда &5мультиблок&r старается подобрать цвет &3Output Hatch&r к группе входа."]
 			icon: "gtceu:cyan_dye_spray_can"
 			id: "57EC19AF87A32930"
 			size: 0.66d
-			subtitle: "Color by number multiblocks"
+			subtitle: "Мультиблоки по цветам"
 			tasks: [{
 				id: "5F4FB0D81F0772F9"
-				title: "Colored Buses"
+				title: "Цветные шины"
 				type: "checkmark"
 			}]
-			title: "Colored Buses"
+			title: "Цветные шины"
 			x: 3.0d
 			y: 1.98d
 		}
 	]
-	subtitle: ["For the Modern Minecrafter"]
-	title: "Tips and Tricks"
+	subtitle: ["Для современного майнкрафтера"]
+	title: "Советы и хитрости"
 }

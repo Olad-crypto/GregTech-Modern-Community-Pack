@@ -95,14 +95,14 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"Gotta say, Cupronickel ingots look pretty tasty."
+				"Признаюсь, слитки медно-никелевого сплава выглядят аппетитно."
 				""
-				"&l&3Lore:&r&o IRL, Cupronickel usually contains additional elements such as Iron or Manganese to improve its strength. The Cupronickel in GregTech is probably more like Constantan (55:45 Copper:Nickel)."
+				"&l&3Лор:&r&o В реальности медно-никелевый сплав обычно содержит добавки вроде железа или марганца для прочности. В GregTech он, скорее всего, ближе к константану (55:45 медь:никель)."
 			]
 			id: "70432F650591353C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Legally distinct Constantan"
+			subtitle: "Юридически отличный константан"
 			tasks: [{
 				id: "77875BBDC0A937A9"
 				item: "gtceu:cupronickel_ingot"
@@ -117,14 +117,14 @@
 				"4A92AFD2532EED26"
 			]
 			description: [
-				"&l&3Lore:&r&o You might find Kanthal around the home. Due to its excellent thermal conductivity and intermediate electric resistance, Kanthal is usually found in toasters and heaters!"
+				"&l&3Лор:&r&o Кантал можно встретить дома. Благодаря отличной теплопроводности и среднему электросопротивлению его ставят в тостеры и обогреватели!"
 				""
-				"&oBet you didn't expect your toaster to be at &bMV&f before you!"
+				"&oНе думал, что тостер обгонит тебя до &bMV&r?"
 			]
 			id: "66805BB78A828C00"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "That's just how I FeAlCr"
+			subtitle: "FeAlCr — и точка"
 			tasks: [{
 				id: "76206DC9E7ABD07A"
 				item: "gtceu:kanthal_ingot"
@@ -135,17 +135,17 @@
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
-			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6EV&r, with &bKanthal&r coils to boot."]
+			description: ["Для нихрома нужна &aЭПП&r (электроплавильная печь) минимум &6EV&r — и катушки из &bкантала&r."]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Operation Nichrome Dome"
+			subtitle: "Операция «Нихромовый купол»"
 			tasks: [{
 				id: "1104AC52E0A0A472"
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			title: "Nichrome"
+			title: "Нихром"
 			x: 0.5d
 			y: -6.5d
 		}
@@ -154,11 +154,11 @@
 				"2F9D9AAB27E6534D"
 				"0B25A282F677744B"
 			]
-			description: ["You're gonna need to start on your &dPlatinum&r processing, or \"&bPlatline&r\", if you want to get your hands on these."]
+			description: ["Чтобы достать этот сплав, придётся заняться переработкой &dплатины&r — или «&bPlatline&r»."]
 			id: "3856DBCCAA6D2A58"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Tungstensteel is dead, long live RTM"
+			subtitle: "Да здравствует RTM — долой вольфрамовую сталь"
 			tasks: [{
 				id: "76DE4924186D83C2"
 				item: "gtceu:rtm_alloy_ingot"
@@ -168,6 +168,6 @@
 			y: -6.5d
 		}
 	]
-	subtitle: ["Coil Headed"]
-	title: "Heating Coils"
+	subtitle: ["Катушечная голова"]
+	title: "Нагревательные катушки"
 }
