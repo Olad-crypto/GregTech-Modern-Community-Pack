@@ -5,9 +5,9 @@ ServerEvents.recipes((event) => {
 
   greg
     .laser_engraver("gtceu:megacells_accumulation_processor_press")
-    .itemInputs("ae2:engineering_processor_press")
+    .itemInputs("#forge:plates/steel")
     .notConsumable("gtceu:black_glass_lens")
     .itemOutputs("megacells:accumulation_processor_press")
-    .duration(1000)
-    .EUt(1920);
+    .duration(500)
+    .EUt(30);
 });
