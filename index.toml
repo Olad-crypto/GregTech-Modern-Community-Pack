@@ -1058,6 +1058,11 @@ hash = "e8ffbf5788712fac841e1bb0bff8969697f99be47d6f1c3f41ebe9ac965016d3"
 metafile = true
 
 [[files]]
+file = "mods/mega-cells.pw.toml"
+hash = "10f1b6b632db719ee2da37deb6899ed42e78251a3aba52e75446c74096779e65"
+metafile = true
+
+[[files]]
 file = "mods/model-gap-fix.pw.toml"
 hash = "0bb674b857580f12bd2c422af10506d98948b65838992fa7fc53c2e597cdbc56"
 metafile = true
