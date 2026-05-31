@@ -5,9 +5,4 @@ side = "client"
 [download]
 hash-format = "sha1"
 hash = "6a443c16a679f33d91f1b9a104dc15d1896f77dc"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 5932570
-project-id = 682363
+url = "https://mediafilez.forgecdn.net/files/5932/570/Better%20Tags-1.20.1-1.4.jar"
