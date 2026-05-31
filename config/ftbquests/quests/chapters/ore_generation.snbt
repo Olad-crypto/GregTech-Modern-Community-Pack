@@ -692,14 +692,14 @@
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: ["Самый стабильный источник свинца и серебра."]
-			icon: "gtceu:галена_ore"
+			icon: "gtceu:galena_ore"
 			id: "14587AE142D84E12"
 			size: 0.9d
 			subtitle: "Источник свинца, серебра"
 			tasks: [
 				{
 					id: "4E3A072619DD0ADD"
-					item: "gtceu:raw_галена"
+					item: "gtceu:raw_galena"
 					type: "item"
 				}
 				{
@@ -1125,7 +1125,7 @@
 				}
 				{
 					id: "61F9BD58FBB8804F"
-					item: "gtceu:raw_сфалерит"
+					item: "gtceu:raw_sphalerite"
 					type: "item"
 				}
 			]
@@ -1203,7 +1203,7 @@
 				""
 				"Накваду перерабатывают на &dLuV&r в титан, триний, барий, галлий, индий, фосфор, обогащённую накваду и наквадрию. Универсал!"
 				""
-				"Вторая руда — &cPlutonium&r — запускает петлю радона, нужную на &9IV&r."
+				"Вторая руда — &cплутоний&r — запускает петлю радона, нужную на &9IV&r."
 			]
 			icon: "gtceu:endstone_naquadah_ore"
 			id: "143B1AE1F3CF53EF"

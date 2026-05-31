@@ -818,7 +818,7 @@
 						}
 					}
 					optional_task: true
-					title: "Plascrete или стекло чистой комнаты"
+					title: "Пластбетон или стекло чистой комнаты"
 					type: "item"
 				}
 			]
