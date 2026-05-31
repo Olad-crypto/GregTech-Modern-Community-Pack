@@ -692,14 +692,14 @@
 		{
 			dependencies: ["41730E340B3D8EDA"]
 			description: ["Самый стабильный источник свинца и серебра."]
-			icon: "gtceu:galena_ore"
+			icon: "gtceu:галена_ore"
 			id: "14587AE142D84E12"
 			size: 0.9d
 			subtitle: "Источник свинца, серебра"
 			tasks: [
 				{
 					id: "4E3A072619DD0ADD"
-					item: "gtceu:raw_galena"
+					item: "gtceu:raw_галена"
 					type: "item"
 				}
 				{
@@ -864,7 +864,7 @@
 		}
 		{
 			dependencies: ["7CAD6FF241A827F7"]
-			description: ["Полезна здесь изумрудная руда — немного нужна на &bMV&r и входит в кристаллическую линию для Crystal- и Wetware-схем намного позже."]
+			description: ["Полезна здесь изумрудная руда — немного нужна на &bMV&r и входит в кристаллическую линию для кристаллических и органических схем намного позже."]
 			icon: "gtceu:netherrack_emerald_ore"
 			id: "594D84730913698A"
 			size: 0.9d
@@ -934,7 +934,7 @@
 			description: [
 				"Билет в &bApplied Energistics 2&r спрятан глубоко в жиле кристалла истинного кварца."
 				""
-				"Барит при электролизе даёт барий — он понадобится для сверхпроводников высших tier'ов."
+				"Барит при электролизе даёт барий — он понадобится для сверхпроводников высших тиров."
 			]
 			icon: "gtceu:netherrack_certus_quartz_ore"
 			id: "517D50E748A129AB"
@@ -1125,7 +1125,7 @@
 				}
 				{
 					id: "61F9BD58FBB8804F"
-					item: "gtceu:raw_sphalerite"
+					item: "gtceu:raw_сфалерит"
 					type: "item"
 				}
 			]

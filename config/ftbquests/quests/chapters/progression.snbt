@@ -261,17 +261,17 @@
 				"26394C1290D70AB6"
 			]
 			description: [
-				"Линия &9Integrated&r-схем не всегда выгоднее по стоимости, но поможет перейти на следующий tier."
+				"Линия &9интегральных&r схем не всегда выгоднее по стоимости, но поможет перейти на следующий тир."
 				""
 				"Понадобятся MV &3лазерный гравёр&r и MV &3режущая машина&r."
 				"{@pagebreak}"
-				"&l&3Лор:&r&o В Omnifactory и старом Gregicality эта линия называлась &9Refined&f и была стандартизирована, как более поздние tier'ы."
+				"&l&3Лор:&r&o В Omnifactory и старом Gregicality эта линия называлась &9Refined&f и была стандартизирована, как более поздние тиры."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:mv_machine_hull"
 			id: "5E4FBB2287D9E635"
 			size: 0.85d
-			subtitle: "Integrated Dynamics"
+			subtitle: "Интегральная динамика"
 			title: "Создаётся на &bMV&r"
 			x: 1.0d
 			y: -2.0d
@@ -307,14 +307,14 @@
 				"58BBD540D7D4FF01"
 			]
 			description: [
-				"Это линия &9Nano&r-схем."
+				"Это линия &9нанопроцессор&r-схем."
 				""
 				"Отсюда прогрессия схем идёт по шаблону:"
 				""
-				"&9-&r Processor"
-				"&9-&r Assembly"
-				"&9-&r Supercomputer"
-				"&9-&r Mainframe"
+				"&9—&r процессор"
+				"&9—&r вычислительный блок"
+				"&9—&r суперкомпьютер"
+				"&9—&r мейнфрейм"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:ev_machine_hull"
@@ -333,9 +333,9 @@
 				"145F71A817C5996E"
 			]
 			description: [
-				"Добро пожаловать в линию &9Quantum&r-схем."
+				"Добро пожаловать в линию &9квантовых&r схем."
 				""
-				"На этом этапе стоит вложиться в &aPBI&r — &dAdvanced SMD&r резко ускорят производство схем."
+				"На этом этапе стоит вложиться в &aPBI&r — &dпродвинутые SMD&r резко ускорят производство схем."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:iv_machine_hull"
@@ -354,7 +354,7 @@
 				"7AE681E2AB31EA0D"
 			]
 			description: [
-				"Это линия &9Crystal&r-схем."
+				"Это линия &9кристаллических&r схем."
 				""
 				"Заблокирована за &3термоядерным синтезом&r."
 			]
@@ -383,7 +383,7 @@
 			icon: "gtceu:zpm_machine_hull"
 			id: "629E023752317A31"
 			size: 0.85d
-			subtitle: "Soft и Wetware"
+			subtitle: "Soft и органических"
 			title: "Создаётся на &cZPM&r"
 			x: 6.0d
 			y: -2.0d
@@ -411,11 +411,11 @@
 			description: [
 				"Схемы на этой линии — &7LV&r, в рецептах взаимозаменяемы."
 				""
-				"&cElectronic Circuits&r — «худший» вариант по стоимости и усилиям, но с чего-то надо начинать."
+				"&cэлектронные микросхемы&r — «худший» вариант по стоимости и усилиям, но с чего-то надо начинать."
 				""
-				"&eBasic Integrated Processors&r — промежуточный слой между &cElectronic Circuits&r и &2Microchip Processors.&r"
+				"&eобычные интегральные схемы&r — промежуточный слой между &cэлектронные микросхемы&r и &2микропроцессоры.&r"
 				""
-				"&2Microchip Processors&r — лучший выбор на оставшуюся игру."
+				"&2микропроцессоры&r — лучший выбор на оставшуюся игру."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_machine_casing"
@@ -560,7 +560,7 @@
 			description: [
 				"Поздравляю! Ты дошёл до конца прогрессии схем."
 				""
-				"Единственная схема &4UHV&r — &6Wetware Mainframe&r, нужна для крафта эндгейм-вещей."
+				"Единственная схема &4UHV&r — &6органический мейнфрейм&r, нужна для крафта эндгейм-вещей."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:uhv_machine_casing"
