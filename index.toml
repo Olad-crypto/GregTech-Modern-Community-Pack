@@ -813,8 +813,18 @@ hash = "d5d14d7bc5015e8d176dea928108876af06b90cd6cab328682fb5ca43fdb7f5b"
 metafile = true
 
 [[files]]
+file = "mods/blood-magic.pw.toml"
+hash = "da90ba69961be5d47855862fe8ec24a55a0551d3f009c5881ce3ace4c4ca4783"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
+metafile = true
+
+[[files]]
+file = "mods/botania.pw.toml"
+hash = "c47a42eafc2ef00089200ae6db856b538e613b25e029a20cb034b965b14bce7a"
 metafile = true
 
 [[files]]
@@ -1095,6 +1105,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "b2cb681aaf3e6085148392a06d40899239dc299aaf5ce0adf168fc225d922c97"
 metafile = true
 
 [[files]]
