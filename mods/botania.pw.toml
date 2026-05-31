@@ -5,9 +5,9 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "38e2edbf0fa91c573cbbbf3f8bb88a07e220aa8d"
-mode = "metadata:modrinth"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "botania"
-version = "1.20.1-453-forge"
+[update.curseforge]
+file-id = 8138523
+project-id = 225643
