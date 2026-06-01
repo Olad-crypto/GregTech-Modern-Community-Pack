@@ -146,7 +146,7 @@ hash = "3c48f3ae80ad5400c89cf88fc6ed9a14e9e96a367292bfb1f3ce0ada541ddba1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "4bd405d15421be314c2ba94921a49c815f2793ed19774c0f8280c19fab5fd0f7"
+hash = "e5e31da299f72b84ffb88c777a8071e39549afd5b9e6c7da4d093d5a7c446be1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
@@ -437,6 +437,10 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "16064257078b72734d0d52c8c85333f06d9f017bbaf6646c366f3803a510962d"
 
 [[files]]
+file = "kubejs/assets/ae2/lang/ru_ru.json"
+hash = "a88a0aaa05934d4933e0af6e11accdc863068594c17aaa5158af933ac7b67a5c"
+
+[[files]]
 file = "kubejs/assets/emi/category/properties/categories.json"
 hash = "1fec36a6d21f1141d244bb229e94879a34c648b49deb0d6458cb77f64078dc2b"
 
@@ -494,7 +498,7 @@ hash = "6f50f194fdacf3297b259459fbc81e5e4defc9cf7a14666a8fefc22cb176b4dc"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/ru_ru.json"
-hash = "292a2169e08329f084670e2036258e8612c3e869c7689625fbafa9c0beff0fcf"
+hash = "035571e9c440f2820b2ae423d5d9f919b0ed9867bf04c3a96b23df5ca13ad816"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/greg_icon.png"
@@ -667,6 +671,18 @@ hash = "95e582854cad11a56825a4f5adce8f1944c247e41c6265b3acc69ab21b9d53f3"
 [[files]]
 file = "kubejs/server_scripts/gregtech/wood_unification.js"
 hash = "4b4b92765b4150ace7c1aad90b3f718e2ebbce41d6b64dc59cb37d4c5adeddb0"
+
+[[files]]
+file = "kubejs/server_scripts/megacells/inscriber.js"
+hash = "345cebd8671db0a756b584b72e885b785f1f16417a736ea25fc2c2a5eb109d5f"
+
+[[files]]
+file = "kubejs/server_scripts/megacells/pressing.js"
+hash = "42fcd72a40039140e91ab51b64c13da8e446e3a68df8ecea1f07d6e730c03b77"
+
+[[files]]
+file = "kubejs/server_scripts/megacells/processors.js"
+hash = "9021c5d6301967a9eff9c5a0686fc3cb597b0eb79473700c00a80f25ba34dde6"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"
