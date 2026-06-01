@@ -4,5 +4,6 @@
     "block.gtceu.construction_core":"Ядро строителя", 
     "gtceu.construction_core":"Ядро строителя",
   
-    "material.gtceu.fluix":"Флюикс"
+    "material.gtceu.fluix":"Изменчивый",
+    "item.gtceu.fluix_dust":"Изменчивая пыль"
   }
