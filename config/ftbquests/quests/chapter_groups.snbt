@@ -1,6 +1,6 @@
 {
 	chapter_groups: [
-		{ id: "693226878D58638A", title: "Эпохи" }
+		{ id: "693226878D58638A", title: "Уровни Напряжения" }
 		{ id: "288DA1F92F7C0A7A", title: "Подсказки" }
 		{ id: "1C1C4FB2AFCF489D", title: "Прогрессия" }
 	]
